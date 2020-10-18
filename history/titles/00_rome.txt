@@ -1,0 +1,264 @@
+e_italy = {
+	20.1.1 = {
+		change_development_level = 6
+	}
+	
+	1000.1.1 = {
+		change_development_level = 9
+	}
+	
+	1100.1.1 = {
+		change_development_level = 17
+	}
+
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+k_aquitaine = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+
+k_navarra = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+
+k_valencia = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_andalusia = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_badajoz = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_castille = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_leon = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_spanish_galicia = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_croatia = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_portugal = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_wales = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_england = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+k_burgundy = {
+	395.1.1 = {
+		holder = 145227
+	}	
+}
+k_sicily = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+k_france = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_aragon = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_brittany = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_latium = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_lower_lorraine = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+d_upper_lorraine = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+d_luxembourg = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_brabant = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_tyrol = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_istria = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_krain = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_carinthia = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_steyermark = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_somogy = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_gyor = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_alsace = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_salzburg = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_africa = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+
+k_tahert = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+k_maghreb = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+d_latium = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+c_roma = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+c_viterbo = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+c_tivoli = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+c_cleves = {
+	395.1.1 = {
+		holder = 145227
+	}
+}
+c_aachen = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+c_maastricht = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+
+d_bavaria = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+d_currezia = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+
+d_augsburg = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+
+c_amstetten = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+
+c_sankt_polten = {
+	395.1.1 = {
+		holder = 145227
+}
+}
+
+c_vienna = {
+	395.1.1 = {
+		holder = 145227
+}

@@ -1,0 +1,59 @@
+bm_395_empire = {
+	start_date = 395.1.17
+	is_playable = yes
+
+	# Emperor Honorius (Western Rome) ID: 145227
+		character = {
+			name = "bookmark_empire_honorius"
+			dynasty = 1022191
+			dynasty_splendor_level = 4
+			type = male
+			birth = 384.9.9
+			title = e_italy
+			government = feudal_government
+			religion = "catholic"
+			culture = "roman"
+			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+			history_id = 145227
+			position = { 300 430 }
+
+			animation = personality_coward
+	}
+	# Emperor Arcadius (Eastern Rome) ID: 975497641
+		character = {
+			name = "bookmark_empire_arcadius"
+			dynasty = 1022191
+			dynasty_splendor_level = 4
+			type = male
+			birth = 377.1.1
+			title = e_byzantium
+			government = feudal_government
+			religion = "orthodox"
+			culture = "greek"
+			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+			history_id = 975497641
+			position = { 900 600 }
+
+			animation = personality_coward
+	}
+}
+
+bm_476_ravenna = {
+	start_date = 476.1.1
+	is_playable = no
+}
+
+bm_532_reconquest = {
+	start_date = 532.1.1
+	is_playable = no
+}
+
+bm_632_islam = {
+	start_date = 632.1.1
+	is_playable = no
+}
+
+bm_768_charlemagne = {
+	start_date = 768.1.1
+	is_playable = no
+}

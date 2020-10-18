@@ -1,0 +1,15 @@
+main_theme_track = {
+	music = "file:/music/Thrones_of_Britannia.ogg"
+	can_be_interrupted = yes
+}
+mx_cue_war_declared = {
+	music = "file:/music/Sieging_the_Keep.ogg"
+	weight = 35
+	# play every time
+}
+mx_mood_call_01 = {
+	music = "file:/music/The_North_Remembers.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}

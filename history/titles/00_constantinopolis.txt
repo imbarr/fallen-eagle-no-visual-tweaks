@@ -1,0 +1,41 @@
+e_byzantium = {
+	20.1.1 = {
+		change_development_level = 6
+	}
+	
+	1000.1.1 = {
+		change_development_level = 10
+	}
+	
+	1100.1.1 = {
+		change_development_level = 18
+	}
+
+	395.1.1 = {
+		holder = 975497641
+	}
+}
+
+k_syria = {
+    395.1.1 = {
+	    holder = 975497641
+    }   
+    }
+
+k_jerusalem = {
+	395.1.1 = {
+		holder = 975497641
+	}
+	}
+
+k_egypt = {
+	395.1.1 = {
+		holder = 975497641
+	}
+	}
+
+k_jazira = {
+	395.1.1 = {
+		holder = 975497641
+	}
+	}
