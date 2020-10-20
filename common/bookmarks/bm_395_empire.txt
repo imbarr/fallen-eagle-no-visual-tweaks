@@ -11,7 +11,7 @@ bm_395_empire = {
 			birth = 384.9.9
 			title = e_italy
 			government = feudal_government
-			religion = "catholic"
+			religion = "chalcedonian"
 			culture = "roman"
 			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 			history_id = 145227
@@ -28,13 +28,34 @@ bm_395_empire = {
 			birth = 377.12.1
 			title = e_byzantium
 			government = feudal_government
-			religion = "orthodox"
+			religion = "chalcedonian"
 			culture = "greek"
 			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 			history_id = 975497641
 			position = { 900 600 }
 
-			animation = coward
+			animation = personality_coward
+	}
+
+bm_395_barbarian = {
+	start_date = 395.1.17
+	is_playable = yes
+
+	# Emperor Honorius (Western Rome) ID: 1349568407
+		character = {
+			name = "bookmark_barbarian_alaric"
+			dynasty = 
+			dynasty_splendor_level = 2
+			type = male
+			birth = 384.9.9
+			title = k_croatia
+			government = feudal_government
+			religion = "arian"
+			culture = "visigothic"
+			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+			history_id = 1349568407
+			position = { 350 430 }
+			animation = personality_vengeful
 	}
 }
 
@@ -56,4 +77,21 @@ bm_632_islam = {
 bm_768_charlemagne = {
 	start_date = 768.1.1
 	is_playable = no
+
+	# King Charlemagne (Frankish Kingdom) ID: 0
+		character = {
+			name = "bookmark_charlemagne_charlemagne"
+			dynasty = 25061
+			dynasty_splendor_level = 2
+			type = male
+			birth = 748.1.2
+			title = k_france
+			government = feudal_government
+			religion = "catholic"
+			culture = "frankish"
+			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+			history_id = 0
+			position = { 350 430 }
+			animation = personality_honorable
+	}
 }

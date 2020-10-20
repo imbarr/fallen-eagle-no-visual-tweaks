@@ -30,7 +30,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = "orthodox"
+	religion = "chalcedonian"
 	culture = "roman"
 	trait = humble
 	trait = shy
@@ -290,7 +290,7 @@
 	name = "Honorius"
 	# Flavius Honorius Augustus
 	dynasty = 1022191
-	religion = "catholic"
+	religion = "chalcedonian"
 	culture = "roman"
 	trait = arbitrary
 	trait = lazy

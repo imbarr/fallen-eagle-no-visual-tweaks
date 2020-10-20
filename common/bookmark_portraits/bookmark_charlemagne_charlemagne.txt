@@ -1,7 +1,7 @@
 bookmark_charlemagne_charlemagne ={
 	type=male
 	id=0
-	age=0.250000
+	age=0.205000
 	genes={ 		hair_color={ 186 203 193 203 }
  		skin_color={ 43 80 43 80 }
  		eye_color={ 233 177 232 185 }
@@ -93,10 +93,10 @@ bookmark_charlemagne_charlemagne ={
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 22 "forehead_wrinkles_01" 22 }
  		expression_other={ "cheek_wrinkles_left_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_5" 120 "complexion_5" 120 }
- 		gene_height={ "normal_height" 96 "normal_height" 133 }
- 		gene_bs_body_type={ "body_average" 2 "body_fat_head_fat_medium" 119 }
- 		gene_bs_body_shape={ "body_shape_average_clothed" 255 "body_shape_pear_half" 11 }
- 		gene_bs_bust={ "bust_shape_3_half" 82 "bust_shape_3_half" 82 }
+ 		gene_height={ "full_height" 136 "normal_height" 133 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 107 "body_fat_head_fat_medium" 119 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 108 "body_shape_pear_half" 11 }
+ 		gene_bs_bust={ "bust_shape_3_half" 145 "bust_shape_3_half" 82 }
  		gene_age={ "old_4" 132 "old_4" 132 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 250 "far_spacing_low_thickness" 250 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 133 "layer_2_avg_thickness" 133 }
@@ -106,8 +106,10 @@ bookmark_charlemagne_charlemagne ={
  		eye_accessory={ "normal_eyes" 122 "normal_eyes" 122 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 241 "normal_eyelashes" 241 }
- 		clothes={ "western_imperial_clothes" 200 "most_clothes" 0 }
- 		cloaks={ "western_royalty" 156 "no_cloak" 0 }
+ 		clothes={ "western_imperial_clothes" 211 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 65 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 0 "no_cloak" 0 }
  }
 	entity={ 0 0 }
 }
+
