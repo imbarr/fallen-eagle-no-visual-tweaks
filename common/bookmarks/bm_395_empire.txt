@@ -36,27 +36,6 @@ bm_395_empire = {
 
 			animation = personality_coward
 	}
-
-bm_395_barbarian = {
-	start_date = 395.1.17
-	is_playable = yes
-
-	# Emperor Honorius (Western Rome) ID: 1349568407
-		character = {
-			name = "bookmark_barbarian_alaric"
-			dynasty = 
-			dynasty_splendor_level = 2
-			type = male
-			birth = 384.9.9
-			title = k_croatia
-			government = feudal_government
-			religion = "arian"
-			culture = "visigothic"
-			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-			history_id = 1349568407
-			position = { 350 430 }
-			animation = personality_vengeful
-	}
 }
 
 bm_476_ravenna = {
@@ -79,7 +58,7 @@ bm_768_charlemagne = {
 	is_playable = no
 
 	# King Charlemagne (Frankish Kingdom) ID: 0
-		character = {
+		#character = {
 			name = "bookmark_charlemagne_charlemagne"
 			dynasty = 25061
 			dynasty_splendor_level = 2
@@ -94,4 +73,4 @@ bm_768_charlemagne = {
 			position = { 350 430 }
 			animation = personality_honorable
 	}
-}
+

@@ -1,6 +1,6 @@
 ﻿l_english:
  bm_395_empire:0 "A Divided Empire"
- bm_395_empire_desc:1 "Emperor Theodosius has died, and as he slumbers beneath the earth, the Roman world above him burns under chaos, corruption, and self-destruction. Upon his death, the Roman Empire was divided, with his two sons inheriting the two halves of the empire, Honorius in the West, and Arcadius in the East. Both are unable to stop the Germanic and Hunnic invaders, and the Western Empire seems on the verge of total collapse. Can the brothers prevent the downfall of their empires, or will they let Roman civilization be snuffed out?#!"
+ bm_395_empire_desc:1 "Emperor Theodosius has died, and as he slumbers beneath the earth, the Roman world above him burns under chaos, corruption, and self-destruction. Upon his death, the Roman Empire was divided, with his two sons inheriting the two halves of the empire, Honorius in the West, and Arcadius in the East. Both are unable to stop the Germanic and Hunnic invaders, and the Western Empire seems on the verge of total collapse. \n\n#bold Can the brothers prevent the downfall of their empires, or will they let Roman civilization be snuffed out?#!"
 
  #Emperor Honorius
  bookmark_empire_honorius:0 "Emperor Honorius I"
@@ -9,8 +9,4 @@
  #Emperor Arcadius
  bookmark_empire_arcadius:0 "Emperor Arcadius I"
  bookmark_empire_arcadius_desc:0 "Following the death of Theodosius I, his eldest son, Arcadius inherited the eastern territories of the Roman Empire, with his capital in Constantinople. Although he is 18 years of age, he is ineffectual in ruling over an empire, so the administration is handled by his advisors and courtiers. Can Arcadius take up his responsibilites as emperor and lead the Eastern Roman Empire into a golden age, or let it rot under corruption and the threat of the Hunnic and Sassanid Empires?#!"
- 
- #King Alaric
- bookmark_empire_alaric:0 "King Alaric I"
- bookmark_empire_alaric_desc:0 "Fleeing from the ravaging Hunnic Empire, the Visigoths under Alaric seek a new homeland within the borders of the Roman Empire. However, Alaric's people are brutally persecuted and mistreated by Roman thugs, forcing Alaric to rise up in rebellion against the Western and Eastern Roman Empires. Can Alaric avenge the deaths of his kin, and find his people a new homeland, or will his journey into Rome's borders end in the lands of Illyria?#!"
- ##EVENTS##
+

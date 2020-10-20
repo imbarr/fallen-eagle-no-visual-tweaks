@@ -9,3 +9,21 @@
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
 	}	
 }
+
+25061 = { # Karling
+	pattern = "pattern_vertical_split_01"
+	color1 = "yellow"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		mask = { 1 }
+
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.75 0.75 } scale = {0.5 0.5 } }
+		instance = { position = { 0.75 0.75 } scale = {0.5 0.5 } }
+	}
+}

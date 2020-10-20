@@ -17,7 +17,7 @@ bm_395_empire = {
 			history_id = 145227
 			position = { 350 430 }
 
-			animation = coward
+			animation = personality_coward
 	}
 	# Emperor Arcadius (Eastern Rome) ID: 975497641
 		character = {
@@ -34,30 +34,7 @@ bm_395_empire = {
 			history_id = 975497641
 			position = { 900 600 }
 
-			animation = coward
-	}
-}
-
-bm_395_barbarian = {
-	start_date = 395.1.17
-	is_playable = yes
-
-	# King Alaric I (Visigoths) ID: 1349568407
-		character = {
-			name = "bookmark_barbarian_alaric"
-			dynasty = 1022191
-			dynasty_splendor_level = 2
-			type = male
-			birth = 384.9.9
-			title = 
-			government = feudal_government
-			religion = "arian"
-			culture = "visigothic"
-			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-			history_id = 1349568407
-			position = { 350 430 }
-
-			animation = coward
+			animation = personality_coward
 	}
 }
 
@@ -81,7 +58,7 @@ bm_768_charlemagne = {
 	is_playable = no
 
 	# King Charlemagne (Frankish Kingdom) ID: 0
-		character = {
+		#character = {
 			name = "bookmark_charlemagne_charlemagne"
 			dynasty = 25061
 			dynasty_splendor_level = 2
@@ -95,6 +72,5 @@ bm_768_charlemagne = {
 			history_id = 0
 			position = { 250 340 }
 
-			animation = honorable
+			animation = personality_honorable
 	}
-}
