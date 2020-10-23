@@ -212,7 +212,7 @@
 	trait = lazy
 	trait = arrogant
 	trait = education_intrigue_3
-	father = 70519
+	father = 975497641
 	399.1.19 = {
 		birth = "399.1.19"
 	}
@@ -234,7 +234,7 @@
 	trait = honest
 	trait = gregarious
 	trait = education_stewardship_1
-	father = 70519
+	father = 975497641
 	
 	401.4.10 = {
 		birth = "401.4.10"
