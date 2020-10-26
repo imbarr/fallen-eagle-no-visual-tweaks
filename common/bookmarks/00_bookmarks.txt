@@ -3,38 +3,38 @@ bm_395_empire = {
 	is_playable = yes
 
 	# Emperor Honorius (Western Rome) ID: 145227
-		character = {
-			name = "bookmark_empire_honorius"
-			dynasty = 1022191
-			dynasty_splendor_level = 5
-			type = male
-			birth = 384.9.9
-			title = e_italy
-			government = feudal_government
-			religion = "chalcedonian"
-			culture = "roman"
-			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-			history_id = 145227
-			position = { 350 430 }
+	character = {
+		name = "bookmark_empire_honorius"
+		dynasty = 1022191
+		dynasty_splendor_level = 5
+		type = male
+		birth = 384.9.9
+		title = e_italy
+		government = feudal_government
+		religion = "chalcedonian"
+		culture = "roman"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 145227
+		position = { 350 430 }
 
-			animation = personality_coward
+		animation = personality_coward
 	}
 	# Emperor Arcadius (Eastern Rome) ID: 975497641
-		character = {
-			name = "bookmark_empire_arcadius"
-			dynasty = 1022191
-			dynasty_splendor_level = 5
-			type = male
-			birth = 377.12.1
-			title = e_byzantium
-			government = feudal_government
-			religion = "chalcedonian"
-			culture = "greek"
-			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-			history_id = 975497641
-			position = { 900 600 }
+	character = {
+		name = "bookmark_empire_arcadius"
+		dynasty = 1022191
+		dynasty_splendor_level = 5
+		type = male
+		birth = 377.12.1
+		title = e_byzantium
+		government = feudal_government
+		religion = "chalcedonian"
+		culture = "greek"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 975497641
+		position = { 900 600 }
 
-			animation = personality_coward
+		animation = personality_coward
 	}
 }
 
