@@ -1,5 +1,5 @@
 main_theme_track = {
-	music = "file:/music/Legacy_of_Roma.ogg"
+	music = "file:/music/The_Fallen_Eagle.ogg"
 	can_be_interrupted = yes
 }
 mx_cue_war_declared = {
