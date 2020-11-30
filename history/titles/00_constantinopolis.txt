@@ -30,7 +30,8 @@ k_jerusalem = {
 
 k_egypt = {
 	395.1.1 = {
-		holder = 975497641
+		holder = 302794422
+		liege = "e_byzantium"
 	}
 }
 

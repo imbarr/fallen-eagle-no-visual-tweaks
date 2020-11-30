@@ -25,3 +25,14 @@ e_byzantium = {
 		color2 = "yellow"
 	}
 }
+
+k_egypt = {
+	pattern = "pattern_solid.dds"
+		color1 = "purple"
+		color2 = "purple"
+	colored_emblem = {
+		texture = "ce_falcon.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}

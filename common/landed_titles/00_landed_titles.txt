@@ -56652,10 +56652,10 @@ e_arabia = {
 	
 	
 	k_egypt = {
-		color = { 10 255 80 }
+		color = { 124 34 137 }
 		color2 = { 255 255 255 }
 		
-		capital	= c_cairo
+		capital	= c_alexandria
 		
 		ai_primary_priority = {
 			if = {
