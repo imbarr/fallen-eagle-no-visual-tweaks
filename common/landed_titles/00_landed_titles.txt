@@ -57622,10 +57622,10 @@ e_arabia = {
 	}
 	
 	k_syria = {
-		color = { 145 130 88 }
+		color = { 135 71 125 }
 		color2 = { 255 255 255 }
 		
-		capital = c_damascus
+		capital = c_antioch
 		
 		d_aleppo = {
 			color = { 85 232 20 }

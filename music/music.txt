@@ -3,7 +3,7 @@ main_theme_track = {
 	can_be_interrupted = yes
 }
 mx_cue_war_declared = {
-	music = "file:/music/Sieging_the_Keep.ogg"
+	music = "file:/music/War.ogg"
 	weight = 35
 	# play every time
 }

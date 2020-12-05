@@ -17,9 +17,10 @@ e_byzantium = {
 }
 
 k_syria = {
-    395.1.1 = {
-	    holder = 975497641
-    }   
+    	395.1.1 = {
+	    	holder = 0
+		liege = "e_byzantium"
+    	}   
 }
 
 k_jerusalem = {

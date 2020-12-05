@@ -36,3 +36,14 @@ k_egypt = {
 		color2 = "yellow"
 	}
 }
+
+k_syria = {
+	pattern = "pattern_solid.dds"
+		color1 = "purple"
+		color2 = "purple"
+	colored_emblem = {
+		texture = "ce_cross_08.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
