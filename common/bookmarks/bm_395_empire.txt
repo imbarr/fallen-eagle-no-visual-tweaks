@@ -17,7 +17,7 @@ bm_395_empire = {
 		history_id = 145227
 		position = { 350 430 }
 
-		animation = coward
+		animation = personality_coward
 	}
 	# Emperor Arcadius (Eastern Rome) ID: 975497641
 	character = {

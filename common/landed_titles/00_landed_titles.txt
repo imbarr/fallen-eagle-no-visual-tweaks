@@ -180,6 +180,14 @@ d_masmudi = {
 	can_be_named_after_dynasty = no
 }
 
+e_hunnic_empire = {
+	color = { 58 49 42 }
+
+	definite_form = yes
+
+	capital = c_zvolen
+}
+
 e_golden_horde = {
 	color = { 243 180 17 }
 
