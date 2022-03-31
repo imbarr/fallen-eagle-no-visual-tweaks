@@ -1,0 +1,280 @@
+daciae_01 = {
+	name = "Philip"
+	religion = arianism
+	culture = dacio_roman
+	340.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+daciae_02 = {
+	name = "Rigozus"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	338.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+daciae_05 = {
+	name = "Urbanus"
+	religion = arianism
+	culture = dacio_roman
+	334.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+daciae_06 = {
+	name = "Honorius"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	334.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+daciae_07 = {
+	name = "Liberius"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	340.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+daciae_08 = {
+	name = "Anthimus"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	341.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+#476 Dacia
+daciae_13 = {
+	name = "Tertellus"
+	religion = chalcedonian
+	culture = dacio_roman
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_14 = {
+	name = "Petronius"
+	religion = chalcedonian
+	culture = dacio_roman
+	442.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_15 = {
+	name = "Theodoros"
+	religion = chalcedonian
+	culture = dacio_roman
+	430.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_16 = {
+	name = "Andronicus"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	438.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_17 = {
+	name = "Dion"
+	religion = chalcedonian
+	culture = dacio_roman
+	445.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_18 = {
+	name = "Diophantus"
+	religion = chalcedonian
+	culture = dacio_roman
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_19 = {
+	name = "Abibus"
+	religion = hellenic_pagan
+	culture = dacio_roman
+	441.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+#532
+daciae_24 = {
+	name = "Qintus"
+	religion = chalcedonian
+	culture = dacio_roman
+	502.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_25 = {
+	name = "Heraclius"
+	religion = chalcedonian
+	culture = dacio_roman
+	504.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_26 = {
+	name = "Decimus"
+	religion = chalcedonian
+	culture = dacio_roman
+	498.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_27 = {
+	name = "Gratianus"
+	religion = chalcedonian
+	culture = dacio_roman
+	498.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_28 = {
+	name = "Sabianus"
+	religion = chalcedonian
+	culture = dacio_roman
+	499.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_29 = {
+	name = "Dario"
+	religion = chalcedonian
+	culture = dacio_roman
+	502.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_30 = {
+	name = "Phillipicus"
+	religion = chalcedonian
+	culture = dacio_roman
+	501.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+daciae_31 = {
+	name = "Secundus"
+	religion = chalcedonian
+	culture = dacio_roman
+	489.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+epirus_05 = { #Remus
+	name= "Alexandros"
+	religion="hellenic_pagan"
+	culture="dacio_roman"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+epirus_06 = { #Remus
+	name= "Sergios"
+	religion="hellenic_pagan"
+	culture="dacio_roman"
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+epirus_07 = { #Remus
+	name= "Anthimus"
+	religion="hellenic_pagan"
+	culture="dacio_roman"
+	401.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+epirus_08 = { #Remus
+	name= "Ioannes"
+	religion="nicene"
+	culture="dacio_roman"
+	457.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

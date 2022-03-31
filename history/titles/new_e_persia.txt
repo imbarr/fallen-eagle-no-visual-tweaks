@@ -1,0 +1,339 @@
+c_baghdad = {
+	394.1.1 = {
+		holder = 180618 # Bahram IV
+	}
+}
+d_baghdad = {
+	395.1.1 = {
+		holder = 180618 # Bahram IV
+	}
+}
+c_batiha = {
+	395.1.1 = {
+		holder = 900718
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_karbala = {
+	395.1.1 = {
+		holder = 900045 
+	}
+}
+d_basra = {
+	395.1.1 = {
+		holder = 900719
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_khuzestan = {
+	395.1.1 = {
+		holder = 900720
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_kermanshah = {
+	395.1.1 = {
+		holder = 900721
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_isfahan = {
+	395.1.1 = {
+		holder = 900722
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_shapur_khwarrah = {
+	395.1.1 = {
+		holder = 900723
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_adrashir_khwarrah = {
+	395.1.1 = {
+		holder = 900724
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_hormuz = {
+	395.1.1 = {
+		holder = 900725
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_fars = {
+	395.1.1 = {
+		holder = 900726
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_jabal_kufs = {
+	395.1.1 = {
+		holder = 900727
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_makran = {
+	395.1.1 = {
+		holder = 900728
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_turan = {
+	395.1.1 = {
+		holder = 900729
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_debul = {
+	395.1.1 = {
+		holder = 900729
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_ranikot = {
+	395.1.1 = {
+		holder = 900729
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_kirman = {
+	395.1.1 = {
+		holder = 900730
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_yazd = {
+	395.1.1 = {
+		holder = 900731
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_herat = {
+	395.1.1 = {
+		holder = 900732
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_ghur = {
+	395.1.1 = {
+		holder = 900733
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+# d_zabulistan = {
+# 	395.1.1 = {
+# 		holder = 900734
+# 		liege = e_persia
+# 		government = eranshar_government
+# 	}
+# }
+# d_kabul = {
+# 	395.1.1 = {
+# 		holder = 900735
+# 		liege = e_persia
+# 		government = eranshar_government
+# 	}
+# }
+# d_balkh = {
+# 	395.1.1 = {
+# 		holder = 900736
+# 		liege = e_persia
+# 		government = eranshar_government
+# 	}
+# }
+d_merv = {
+	395.1.1 = {
+		holder = 900737
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_nishapur = {
+	395.1.1 = {
+		holder = 900738
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_nasa = {
+	395.1.1 = {
+		holder = 900739
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_debul = {
+	395.1.1 = {
+		holder = 900729
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_kohestan = {
+	395.1.1 = {
+		holder = 900703
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+k_persia = {
+	395.1.1 = {
+		change_development_level = 6
+	}
+}
+c_nihawand = {
+	395.1.1 = {
+		holder = 160307
+		change_development_level = 7
+		government = eranshar_government
+	}
+}
+d_hamadan = {
+	395.1.1 = {
+		holder = 160307
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_rayy = {
+	395.1.1 = {
+		holder = 900707
+		liege = e_persia
+	}
+}
+c_khuwar = {
+	395.1.1 = {
+		holder = 900708
+		liege = d_rayy
+	}
+}
+d_kurdistan = {
+	395.1.1 = {
+		holder = 900714
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_diyarrabia = {
+	395.1.1 = {
+		holder = 900715
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_euphrates = {
+	395.1.1 = {
+		holder = 900716
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+d_samarra = {
+	395.1.1 = {
+		holder = 900717
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_maragha = {
+	395.1.1 = {
+		holder = 900710
+		liege = d_azerbaijan
+		government = eranshar_government
+	}
+}
+d_sistan = {
+	395.1.1 = {
+		holder = 900711
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_bhakkar = {
+	395.1.1 = {
+		holder = 900745
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_rajanpur = {
+	395.1.1 = {
+		holder = 900745
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_sibi = {
+	395.1.1 = {
+		holder = 900745
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_kalat = {
+	395.1.1 = {
+		holder = 900746
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+c_kafirkot = {
+	395.1.1 = {
+		holder = 900746
+		liege = e_persia
+		government = eranshar_government
+	}
+}
+# c_urgun = {
+# 	395.1.1 = {
+# 		holder = 900747
+# 		liege = e_persia
+# 		government = eranshar_government
+# 	}
+# }
+# c_bannu = {
+# 	395.1.1 = {
+# 		holder = 900747
+# 		liege = e_persia
+# 		government = eranshar_government
+# 	}
+# }
+
+k_transoxiana = {
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+
+d_mazdayasna = {
+	395.1.1 = {
+		holder = persian_priest_01
+		liege = e_persia
+		government = theocracy_government
+	}
+}
+
+b_salmas = {
+	395.1.1 = {
+		holder = persian_priest_01
+	}
+}

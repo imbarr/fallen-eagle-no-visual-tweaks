@@ -3,14 +3,14 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -19,14 +19,14 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -35,14 +35,14 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -51,14 +51,14 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -67,14 +67,14 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -82,15 +82,15 @@
 4899 = {	# 4899 - Duluk-Teluch
 	
 	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -98,15 +98,15 @@
 5900 = {	# 5900 - Aintab
 	
 	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -114,15 +114,15 @@
 5902 = {	# 5902 - Jarabulus
 	
 	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
-	1320.1.1 = { culture = levantine }
+	1320.1.1 = { culture = bedouin }
 
 }
 
@@ -131,11 +131,11 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -144,11 +144,11 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -157,11 +157,11 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -169,8 +169,8 @@
 5906 = {	# 5906 - Tall Afrin
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -180,8 +180,8 @@
 5907 = {	# 5907 - Azaz
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -191,8 +191,8 @@
 5908 = {	# 5908 - Manbij
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -202,12 +202,12 @@
 5909 = {	# 5909 - As-Suwaydiya
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -215,12 +215,24 @@
 5910 = {	# 5910 - Antioch
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
-	
+	culture = syrian
+	religion = nicene
+	holding = castle_holding
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	867.1.1 = {
+		buildings = {
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			watchtowers_01
+			military_camps_01
+			hunting_grounds_01
+		}
+	}
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -228,12 +240,12 @@
 5911 = {	# 5911 - Jabala
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -241,12 +253,12 @@
 5912 = {	# 5912 - Latakia
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1268.1.1 = { culture = levantine }
-	1268.1.1 = { religion = chalcedonian }
+	1268.1.1 = { culture = bedouin }
+	1268.1.1 = { religion = sunni }
 
 }
 
@@ -254,11 +266,11 @@
 5914 = {	# 5914 - Masyaf
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	1271.1.1 = { religion = chalcedonian }
+	1271.1.1 = { religion = sunni }
 
 }
 
@@ -266,11 +278,11 @@
 5915 = {	# 5915 - Shaizar
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1271.1.1 = { religion = chalcedonian }
+	1271.1.1 = { religion = sunni }
 
 }
 
@@ -278,11 +290,11 @@
 5916 = {	# 5916 - Antartus
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1295.1.1 = { religion = chalcedonian }
+	1295.1.1 = { religion = sunni }
 
 }
 
@@ -290,11 +302,11 @@
 5917 = {	# 5917 - Rafaniya-Krak
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -302,11 +314,24 @@
 5918 = {	# 5918 - Tripoli
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
-	
+	culture = syrian
+	religion = hellenic_pagan
+	holding = castle_holding
 	# History
-	1295.1.1 = { religion = chalcedonian }
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			military_camps_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			military_camps_01
+			watchtowers_01
+		}
+	}
+	1295.1.1 = { religion = sunni }
 
 }
 
@@ -314,8 +339,8 @@
 5919 = {	# 5919 - Beirut
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = syrian
+	religion = nicene
 	
 	# History
 
@@ -325,8 +350,8 @@
 5920 = {	# 5920 - Saida
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -336,8 +361,8 @@
 5923 = {	# 5923 - Nawa
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -347,8 +372,8 @@
 5924 = {	# 5924 - Damascus
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 
@@ -358,11 +383,11 @@
 5925 = {	# 5925 - Az-Zabadani
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1016.1.1 = { religion = druze }
 
 }
@@ -371,11 +396,11 @@
 5926 = {	# 5926 - Baalbak
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1016.1.1 = { religion = druze }
 
 }
@@ -384,8 +409,8 @@
 5927 = {	# 5927 - Al-Qastal
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -395,11 +420,11 @@
 5928 = {	# 5928 - Jusiya
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -407,23 +432,29 @@
 5929 = {	# 5929 - Hims
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
-	
+	culture = aramean
+	religion = hellenic_pagan
+	holding = castle_holding
 	# History
-	867.1.1 = { religion = chalcedonian }
-
+	867.1.1 = { religion = sunni }
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			plantations_01
+			watchtowers_01
+		}
+	}
 }
 
 # 5930 - HAMA
 5930 = {	# 5930 - Hama
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -431,11 +462,11 @@
 5931 = {	# 5931 - Salamiya
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -443,11 +474,11 @@
 5932 = {	# 5932 - Kafartab
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -455,11 +486,11 @@
 5933 = {	# 5933 - Qinnasrin
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	1271.1.1 = { religion = chalcedonian }
+	1271.1.1 = { religion = sunni }
 
 }
 
@@ -467,13 +498,20 @@
 5934 = {	# 5934 - Halab
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 	769.1.1 = {
 		holding = castle_holding
 		special_building = citadel_of_aleppo_01
+	}
+	1066.1.1 = {
+		buildings = {
+			pastures_01
+			plantations_02
+			military_camps_01
+		}
 	}
 }
 
@@ -481,11 +519,11 @@
 5935 = {	# 5935 - Artah
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1271.1.1 = { religion = chalcedonian }
+	1271.1.1 = { religion = sunni }
 
 }
 
@@ -493,11 +531,11 @@
 5936 = {	# 5936 - Ar-Rikha
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	1271.1.1 = { religion = chalcedonian }
+	1271.1.1 = { religion = sunni }
 
 }
 
@@ -505,11 +543,11 @@
 5937 = {	# 5937 - Anjar
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1016.1.1 = { religion = druze }
 
 }
@@ -518,8 +556,8 @@
 5938 = {	# 5938 - Buzaa
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -529,8 +567,8 @@
 5939 = {	# 5939 - Siffin
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -540,8 +578,8 @@
 5940 = {	# 5940 - Ar-Rusafa
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
 
@@ -551,8 +589,8 @@
 5941 = {	# 5941 - Khunasira
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -562,8 +600,8 @@
 5942 = {	# 5942 - Suriya
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
 
@@ -573,8 +611,8 @@
 5944 = {	# 5944 - Dair_Ar-Ruman
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -584,8 +622,8 @@
 5945 = {	# 5945 - As-Sukhna
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
 
@@ -595,8 +633,8 @@
 5946 = {	# 5946 - Urd
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -606,11 +644,11 @@
 5947 = {	# 5947 - Arak
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -618,11 +656,11 @@
 5948 = {	# 5948 - Tadmur
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -630,11 +668,11 @@
 5949 = {	# 5949 - Judr
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -642,11 +680,11 @@
 5950 = {	# 5950 - Al-Qaryatan
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -654,8 +692,8 @@
 5951 = {	# 5951 - Juwair
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -665,8 +703,8 @@
 5952 = {	# 5952 - Marj-Rahit
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -676,8 +714,8 @@
 5953 = {	# 5953 - Darayya
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -687,8 +725,8 @@
 5954 = {	# 5954 - Zurra
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -698,8 +736,8 @@
 5955 = {	# 5955 - Busra
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 
@@ -709,8 +747,8 @@
 5956 = {	# 5956 - Sarkhad
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 
@@ -720,8 +758,8 @@
 5957 = {	# 5957 - As-Suwaida-Hauran
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = hellenic_pagan
 	
 	# History
 

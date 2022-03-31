@@ -1,0 +1,182 @@
+999800 = {
+	name = "Dervan"
+	dynasty = 99998000
+	religion = "slavic_pagan"
+	culture = "wendish"
+	320.1.1 = {
+		birth = yes
+	}
+	385.1.1 = {
+		death = yes
+	}
+}
+999801 = {
+	name = "Darko"
+	dynasty = 99998000
+	religion = "slavic_pagan"
+	culture = "wendish"
+	father = 999800
+	355.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+venedian_01 = {
+	name = "Valuk"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	600.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+venedian_02 = {
+	name = "Stanislav"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	604.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+venedian_03 = {
+	name = "Pribslav"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	598.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+venedian_04 = {
+	name = "Slavomir"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	604.1.1 = {
+		birth = yes
+	}
+	672.1.1 = {
+		death = yes
+	}
+}
+venedian_05 = {
+	name = "Nicklot"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	606.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+czechs_01 = {
+	name = "Czech"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	dynasty = czech_dynasty
+	trait = adventurer
+	606.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+czechs_02 = {
+	name = "Slavomir"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	602.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+czechs_03 = {
+	name = "Rostislav"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	601.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+czechs_04 = {
+	name = "Vojnomir"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	598.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+moravian_01 = {
+	name = "Vyshata"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	609.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+sorbs_01 = {
+	name = "Vyshata"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	trait = adventurer
+	dynasty = sorb_dynasty
+	509.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+polony_01 = {
+	name = "Vyshata"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+polony_02 = {
+	name = "Vojnomir"
+	religion = "slavic_pagan"
+	culture = "wendish"
+	360.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

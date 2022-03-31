@@ -1,0 +1,196 @@
+quadi_01 = {
+	name = "Gumarius"
+	culture = "old_suebi"
+	religion = central_pagan
+	340.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		dearg = yes
+	}
+}
+quadi_02 = {
+	name = "Wangius"
+	culture = "old_suebi"
+	religion = central_pagan
+	dynasty = quadi_dynasty
+	308.1.1 = {
+		birth = yes
+	}
+	374.1.1 = {
+		death = yes
+	}
+}
+quadi_03 = {
+	name = "Gabinus"
+	culture = "old_suebi"
+	religion = central_pagan
+	father = quadi_02 #Wangius
+	dynasty = quadi_dynasty
+	339.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+quadi_07 = {
+	name = "Sagatus"
+	culture = "old_suebi"
+	religion = central_pagan
+	father = quadi_03 #Gabinus
+	dynasty = quadi_dynasty
+	389.1.1 = {
+		birth = yes
+	}
+	443.1.1 = {
+		death = yes
+	}
+}
+quadi_05 = {
+	name = "Leoderigus"
+	culture = "old_suebi"
+	religion = central_pagan
+	father = quadi_07 #Sagatus
+	dynasty = quadi_dynasty
+	415.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+quadi_06 = {
+	name = "Hildemir"
+	culture = "old_suebi"
+	religion = central_pagan
+	father = quadi_05 #Leoderigus
+	dynasty = quadi_dynasty
+	439.1.1 = {
+		birth = yes
+	}
+	490.1.1 = {
+		death = yes
+	}
+}
+quadi_04 = { #Hermeric
+	name= "Hermeric"
+	dynasty = hermericing_dynasty
+	religion="central_pagan"
+	culture="old_suebi"
+	362.1.1 = {
+		birth = yes
+	}
+	441.1.1 = {
+		death = yes
+	}
+}
+old_marcomanni_02 = {
+	name = "Quedulfus"
+	culture = "old_suebi"
+	religion = central_pagan
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+old_marcomanni_01 = {
+	name = "Reirigus"
+	dynasty = marcomanni_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	332.1.1 = {
+		birth = yes
+	}
+	361.1.1 = {
+		add_spouse = bauvari_04 #Fritigil
+	}
+	390.1.1 = {
+		religion = arianism
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+bauvari_04 = {
+	name = "Fritigil"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = arianism
+	female = yes
+	346.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+bauvari_03 = {
+	name = "Reinhold"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	342.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+bauvari_02 = {
+	name = "Priarius"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	father = bauvari_03 #Reinhold
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+bauvari_01 = {
+	name = "Vithergius"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	father = bauvari_02 #Ermaric
+	409.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+bavari_01 = {
+	name = "Ermaric"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	father = bauvari_01 #Vithergius
+	trait = adventurer
+	441.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+bavari_07 = {
+	name = "Espallo"
+	dynasty = bavari_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	485.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		culture = "bavarian"
+	}
+	564.1.1 = {
+		death = yes
+	}
+}

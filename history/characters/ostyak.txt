@@ -1,0 +1,132 @@
+khanty_01 = {
+	name = "Burmort"
+	religion = siberian_pagan
+	culture = khanty
+	333.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+khanty_02 = {
+	name = "Tikshayka"
+	religion = siberian_pagan
+	culture = khanty
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+khanty_03 = {
+	name = "Sugr"
+	religion = siberian_pagan
+	culture = khanty
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+khanty_04 = {
+	name = "Arvo"
+	religion = siberian_pagan
+	culture = khanty
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+khanty_05 = {
+	name = "Arvo"
+	religion = siberian_pagan
+	culture = khanty
+	452.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+khanty_06 = {
+	name = "Biyar"
+	religion = siberian_pagan
+	culture = khanty
+	452.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+khanty_07 = {
+	name = "Malyaka"
+	religion = siberian_pagan
+	culture = khanty
+	510.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+khanty_08 = {
+	name = "Dobrinya"
+	religion = siberian_pagan
+	culture = khanty
+	509.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+khanty_09 = {
+	name = "Mosheg"
+	religion = siberian_pagan
+	culture = khanty
+	610.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+khanty_10 = {
+	name = "Pyera"
+	religion = siberian_pagan
+	culture = khanty
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+khanty_11 = {
+	name = "Sektev"
+	religion = siberian_pagan
+	culture = khanty
+	589.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+khanty_12 = {
+	name = "Malyy"
+	religion = siberian_pagan
+	culture = khanty
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

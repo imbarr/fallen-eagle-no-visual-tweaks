@@ -2,11 +2,17 @@
 5921 = {	# 5921 - Tyre
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
-	
+	culture = aramean
+	religion = nicene
+	holding = city_holding
 	# History
-	1295.1.1 = { religion = ashari }
+	1066.1.1 = {
+		buildings = {
+			guild_halls_02
+			common_tradeport_02
+		}
+	}
+	1295.1.1 = { religion = sunni }
 
 }
 
@@ -14,11 +20,11 @@
 5922 = {	# 5922 - Baniyas
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	1270.1.1 = { religion = ashari }
+	1270.1.1 = { religion = sunni }
 
 }
 
@@ -26,11 +32,11 @@
 5958 = {	# 5958 - Irbid
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = mandeaism
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -38,11 +44,11 @@
 5959 = {	# 5959 - Tiberias
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	1270.1.1 = { religion = ashari }
+	1270.1.1 = { religion = sunni }
 
 }
 
@@ -50,11 +56,25 @@
 5960 = {	# 5960 - Acre
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
-	
+	culture = syrian
+	religion = nicene
+	holding = castle_holding
 	# History
-	1295.1.1 = { religion = ashari }
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+	1295.1.1 = { religion = sunni }
 
 }
 
@@ -62,11 +82,11 @@
 5961 = {	# 5961 - Cesarea
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -74,11 +94,11 @@
 5962 = {	# 5962 - Yaffa
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = syrian
+	religion = nicene
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -86,8 +106,8 @@
 5963 = {	# 5963 - Ar-Ramla
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 
@@ -97,8 +117,8 @@
 5964 = {	# 5964 - Nablus
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 
@@ -108,24 +128,33 @@
 5965 = {	# 5965 - Jerusalem
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 	867.1.1 = {
 		holding = castle_holding
 		special_building_slot = dome_of_the_rock_01
 		special_building = dome_of_the_rock_01
+		buildings = {
+			plantations_01
+		}
 	}
-
+	1066.1.1 = {
+		buildings = {
+			plantations_01
+			cereal_fields_01
+			military_camps_01
+		}
+	}
 }
 
 # 5966 - HEBRON
 5966 = {	# 5966 - Hebron
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 
@@ -135,11 +164,11 @@
 5967 = {	# 5967 - Ascalon
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -147,11 +176,11 @@
 5968 = {	# 5968 - Ghazza
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = syrian
+	religion = nicene
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -159,8 +188,8 @@
 5969 = {	# 5969 - Zughar
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = nabatean
+	religion = nabataean_pagan
 	
 	# History
 
@@ -170,11 +199,16 @@
 5971 = {	# 5971 - Baidha-Petra
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
-	
+	422.1.1 = {
+		religion = nicene # Christian monk Barsauma allegedly converts pagans in Nabatea to Christianity around 419-422
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
 	769.1.1 = {
 		special_building = petra_01
 	}
@@ -185,8 +219,8 @@
 5972 = {	# 5972 - Arandal
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
 
@@ -196,8 +230,8 @@
 5973 = {	# 5973 - Aila
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
 
@@ -207,8 +241,8 @@
 5978 = {	# 5978 - Shawbak
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
 
@@ -218,8 +252,8 @@
 5979 = {	# 5979 At-Tafila
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
 
@@ -229,8 +263,8 @@
 5980 = {	# 5980 - Kerak
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nabataean_pagan
 	
 	# History
 
@@ -240,11 +274,11 @@
 5985 = {	# 5985 - Jarash
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = mandeaism
 	
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { religion = sunni }
 
 }
 

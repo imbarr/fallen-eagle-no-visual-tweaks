@@ -1,0 +1,56 @@
+d_hellespontus = {
+	395.1.1 = {
+		holder = 1000000
+		liege = "k_asiae"
+		de_jure_liege = k_asiae
+		government = imperial_government
+	}
+}
+d_aegean_islands = {
+	395.1.1 = {
+		holder = 1000001
+		liege = "k_asiae"
+		de_jure_liege = k_asiae
+		government = imperial_government
+	}
+}
+d_opsikion = {
+	395.1.1 = {
+		holder = 1000002
+		liege = "k_asiae"
+		de_jure_liege = k_asiae
+		government = imperial_government
+	}
+}
+d_frigia_pacatiana = {
+	395.1.1 = {
+		holder = 1000004
+		liege = "k_asiae"
+		de_jure_liege = k_asiae
+		government = imperial_government
+	}
+}
+d_thracesia = {
+	395.1.1 = {
+		holder = 1000005
+		de_jure_liege = k_asiae
+		liege = "k_asiae"
+		government = imperial_government
+	}
+}
+d_ephese = {
+	395.1.1 = {
+		holder = asiae_04
+		liege = "k_asiae"
+		de_jure_liege = k_asiae
+		government = imperial_government
+	}
+}
+d_charsianon = {
+	361.1.1 = {
+		holder = 1000012
+		liege = "k_nikaea"
+		de_jure_liege = k_nikaea
+		government = imperial_government
+	}
+}

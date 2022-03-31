@@ -1,0 +1,167 @@
+﻿lombard = {
+	color = { 0.8 0.8 0.5 }
+	ethos = ethos_bellicose
+	# These actually represent Italian Lombards, Germanic Lombards are Langobard
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_tribe_unity
+		tradition_migrations
+	}
+	name_list = name_list_lombard
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+langobard = { # Vanilla langobard culture
+	color = { 0.2 0.2 0.2 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_migrations
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_lombard
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+thuringian = {
+	color = { 0.48 0.48 0.48 }
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_tribe_unity
+		tradition_migrations
+	}
+	name_list = name_list_thuringian
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+old_suebi = {
+	color = { 0.35 0.35 0.35 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_parochialism
+		tradition_migrations
+		tradition_hunters
+		tradition_tribe_unity
+		tradition_mountain_homes
+	}
+	
+	name_list = name_list_old_suebi
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx northern_clothing_gfx fp1_norse_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx northern_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+marcomannic = {
+	color = { 0.4 0.4 0.4 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_migrations
+		tradition_battlefield_looters
+		tradition_forest_fighters
+		tradition_hunters
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_old_suebi
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx northern_clothing_gfx fp1_norse_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx northern_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+alamannic = {
+	color = { 0.68 0.68 0.68 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_battlefield_looters
+		tradition_forest_fighters
+		tradition_tribe_unity
+		tradition_warrior_culture
+		tradition_migrations
+	}
+	
+	name_list = name_list_alamannic
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx northern_clothing_gfx fp1_norse_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx northern_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

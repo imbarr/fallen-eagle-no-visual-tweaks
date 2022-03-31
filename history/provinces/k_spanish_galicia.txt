@@ -1,14 +1,14 @@
 ###c_coruna
 1787 = {	# LA CORUNA
 	# Misc
-	culture = galician
-	religion = druidism
+	culture = castran
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1789 = {	# MONDONEDO
@@ -19,7 +19,7 @@
 	}
 }
 1788 = {	# FERROL
-	holding = city_holding
+	holding = none
 }
 1790 = {	# VILALBA
 	holding = none
@@ -28,41 +28,41 @@
 ###c_santiago
 1785 = {	# SANTIAGO DE COMPOSTELA
 	# Misc
-	culture = galician
-	religion = druidism
+	culture = castran
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1786 = {	# BETANZOS
 	holding = city_holding
 }
 1791 = {	# MELIDE
-	holding = church_holding
+	holding = none
 }
 1783 = {	# PADRON
-	holding = none
+	holding = city_holding
 }
 
 ###c_tui
 1784 = {	# MONTE FARO
 	# Misc
-	culture = galician
-	religion = druidism
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1781 = {	# TUI
-	holding = church_holding
+	holding = none
 }
 1782 = {	# VIGO
 	holding = none
@@ -75,57 +75,57 @@
 ###c_astorga
 1821 = {	# ASTORGA
 	# Misc
-	culture = galician
-	religion = druidism
+	culture = hispano_roman
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1792 = {	# LUGO
-	holding = city_holding
+	holding = none
 }
 1799 = {	# OURENSE
-	holding = church_holding
+	holding = city_holding
 }
 1819 = {	# MONFORTE DE LEMOS
 	holding = none
 }
 1820 = {	# PONFERRADA
-	holding = none
+	holding = city_holding
 }
 
 ###c_monterrei
 1818 = {	# MONTERREI
 	# Misc
-	culture = galician
-	religion = druidism
+	culture = hispano_roman
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1800 = {	# LIMIA
-	holding = city_holding
+	holding = none
 }
 
 ###c_porto
 1760 = {	# PORTO
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1761 = {	# BRAGA
@@ -135,24 +135,24 @@
 	holding = church_holding
 }
 1766 = {	# GUIMARAES
-	holding = castle_holding
+	holding = none
 }
 
 ###c_braganza
 1763 = {	# BRAGANCA
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1764 = {	# MIRANDA DO DUORO
-	holding = city_holding
+	holding = none
 }
 1765 = {	# VILLA REAL
 	holding = none
@@ -168,18 +168,18 @@
 ###c_coimbra
 1758 = {	# COIMBRA
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
 	931.1.1 = {
-		culture = galician
+		culture = hispano_roman
 	}
 }
 1757 = {	# LEIRIA
-	holding = church_holding
+	holding = none
 }
 1756 = {	# OBIDOS
 	holding = city_holding
@@ -188,41 +188,41 @@
 ###c_viseu
 1769 = {	# VISEU
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	926.1.1 = { culture = galician }
+	926.1.1 = { culture = hispano_roman }
 }
 1770 = {	# TRANCOSO
-	holding = city_holding
+	holding = none
 }
 
 ###c_aveiro
 1759 = {	# 1759 - AVEIRO
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	931.1.1 = { culture = galician }
+	931.1.1 = { culture = hispano_roman }
 }
 2003 = {	# GRALHEIRA/Cinfaes
 	holding = none
 }
 1768 = {	# 1768 - LAMEGO
-	holding = church_holding
+	holding = none
 }
 
 ###c_castelo_branco
 1773 = {	# CASTELO BRANCO
 	# Misc
-	culture = lusitanian
-	religion = druidism
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -230,8 +230,8 @@
 	926.1.1 = { culture = asturleonese }
 }
 1771 = {	# IDANHA/Beira
-	holding = city_holding
+	holding = none
 }
 1772 = {	# ABRANTES
-	holding = church_holding
+	holding = none
 }

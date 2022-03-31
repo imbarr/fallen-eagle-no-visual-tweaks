@@ -1,0 +1,141 @@
+
+k_zhetysu = {
+	867.1.1 = { change_development_level = 0 }
+	
+}
+
+
+d_zhetysu = {
+	
+}
+
+
+c_qayaliq = {
+	765.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_almaty = {
+	867.1.1 = { change_development_level = 4 }
+	
+	766.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_kopathal = {
+	766.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_kaskelen = {
+	766.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_aksuyek = {
+	766.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_uchkul = {
+	765.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_chuguchak = {
+}
+
+
+c_kokpekty = {
+}
+
+
+c_guzkol = {
+	765.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_lepsink = {
+	765.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+}
+
+
+c_emil = {
+	361.1.1 = {
+		holder = yidie_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = yidie_03
+		liege = e_mongolia
+	}
+}
+
+
+c_jinsko = {
+	361.1.1 = {
+		holder = bolouzhi_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = bolouzhi_03
+		liege = e_mongolia
+	}
+}
+
+
+c_karamay = {
+	361.1.1 = {
+		holder = yidie_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = yidie_03
+		liege = e_mongolia
+	}
+}
+
+
+c_iliq = {
+	#766.1.1 = {
+	#	holder = 188773 # Yagma
+	#}
+	766.1.1 = {
+		holder = 188768
+		government = tribal_government
+	}
+	
+}
+
+
+c_ghulja = {
+}
+
+
+c_kash = {
+}
+

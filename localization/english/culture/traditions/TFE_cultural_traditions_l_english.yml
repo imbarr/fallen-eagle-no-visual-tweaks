@@ -1,0 +1,11 @@
+﻿l_english:
+ tradition_migrations_name:0 "Migrators"
+ tradition_migrations_desc:1 "This culture considers migrating to fertile and lush lands as a part of its core is a very integral part of their lives." 
+ culture_parameter_unlock_germanic_migration_cb:0 "Unlocks the Migration CB"
+
+ tradition_roman_hubris_name:0 "Roman Hubris"
+ tradition_roman_hubris_desc:1 "The Romans consider themselves as the shining beacon of civilisation and other barbaric cultures as inferior when compared to them." 
+
+ tradition_nomadic_migrations_name:0 "Nomadic Migrators"
+ tradition_nomadic_migrations_desc:1 "This culture considers migrating to fertile and lush lands as a part of its core is a very integral part of their lives." 
+ culture_parameter_unlock_nomadic_migration_cb:0 "Unlocks the Nomadic Migration CB"

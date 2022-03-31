@@ -1,0 +1,31 @@
+﻿
+
+
+
+
+
+
+
+#############################################################
+# 
+# MISCELLANEOUS RULERS
+# 
+# Done by Cybrxkhan
+# 
+#############################################################
+
+# Fictitious ruler of Yuhui
+# Yuhui was mentioned very briefly by Faxian as a kingdom in the Pamir mountains c. 400
+# I have decided to place it in Wakhan for now
+hephthalite_misc_001 = {
+	name="Sudhana"
+	dynasty=dynasty_yuhui_1
+	religion="mahayana"
+	culture="hephthalite"
+	342.9.4={
+		birth=yes
+	}
+	415.2.3={
+		death=yes
+	}
+}

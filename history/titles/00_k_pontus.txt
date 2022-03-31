@@ -1,0 +1,71 @@
+k_nikaea = {
+	361.1.1 = {
+		holder = 900083
+		liege = "e_byzantium"
+		government = imperial_government
+	}
+	395.1.1 = {
+		liege = e_byzantium
+	}
+}
+d_optimatoi = {
+	395.1.1 = {
+		holder = 900083
+	}
+}
+d_bucellaria = {
+	395.1.1 = {
+		holder = 120000 
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_paphlagonia = {
+	395.1.1 = {
+		holder = 120001 
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_armeniac = {
+	395.1.1 = {
+		holder = 120002
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_sebasteia = {
+	395.1.1 = {
+		holder = 120003
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_mesopotamia = {
+	395.1.1 = {
+		holder = 120004
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_sophene = {
+	395.1.1 = {
+		holder = 120005
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_melitene = {
+	395.1.1 = {
+		holder = 120006
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}
+d_chaldia = {
+	395.1.1 = {
+		holder = 120007
+		liege = "k_nikaea"
+		government = imperial_government
+	}
+}

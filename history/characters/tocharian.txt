@@ -1,0 +1,1446 @@
+﻿#Aksu
+166702 = {
+	name = "Anktsas"
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	700.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+166703 = {
+	name = "Ksmate"
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166702
+	743.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+166704 = {
+	name = "Tarma"
+	female = yes
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166702
+	745.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		death = yes
+	}
+}
+166705 = {
+	name = "N_atte"
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166703
+	788.1.1 = {
+		birth = yes
+	}
+	852.1.1 = {
+		death = yes
+	}
+}
+166706 = {
+	name = "Dharmadase"
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166705
+	842.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}
+166707 = {
+	name = "Bhadra"
+	female = yes
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166705
+	845.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+#Kuca
+166708 = {
+	name = "Swarnabuspe"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father=kucha_013
+	560.1.1 = {
+		birth = yes
+	}
+	624.1.1 = {
+		death = yes
+	}
+}
+166709 = {
+	name = "Swarnatepe"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166708
+	586.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+166710 = {
+	name = "SwaN_co"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166709
+	620.1.1 = {
+		birth = yes
+	}
+	689.1.1 = {
+		death = yes
+	}
+}
+166711 = {
+	name = "Kunacamttrakau"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166710
+	667.1.1 = {
+		birth = yes
+	}
+	719.1.1 = {
+		death = yes
+	}
+}
+166712 = {
+	name = "Jetavam"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166711
+	703.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+166713 = {
+	name = "Dharmawarme"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166712
+	739.1.1 = {
+		birth = yes
+	}
+	792.1.1 = {
+		death = yes
+	}
+}
+166714 = {
+	name = "RA_knaska"
+	female = yes
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166712
+	750.1.1 = {
+		birth = yes
+	}
+	807.1.1 = {
+		death = yes
+	}
+}
+166715 = {
+	name = "Indratewe"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166713
+	790.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+166716 = {
+	name = "Tenare"
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166715
+	835.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+166717 = {
+	name = "Sundari"
+	female = yes
+	dynasty = 1040052
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166715
+	847.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+#Karashar
+166718 = {
+	name = "Cakuraya"
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	702.1.1 = {
+		birth = yes
+	}
+	763.1.1 = {
+		death = yes
+	}
+}
+166719 = {
+	name = "Buddhatala"
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166718
+	745.1.1 = {
+		birth = yes
+	}
+	802.1.1 = {
+		death = yes
+	}
+}
+166720 = {
+	name = "Argiyotgisaae"
+	female = yes
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166718
+	749.1.1 = {
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+	}
+}
+166721 = {
+	name = "Kanishka"
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166719
+	789.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+166722 = {
+	name = "Angi"
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166721
+	845.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+166723 = {
+	name = "Kuti"
+	female = yes
+	dynasty = 1040051
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166721
+	847.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+#Luntai
+166724 = {
+	name = "Narasaka"
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	715.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+166725 = {
+	name = "Upateyu"
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166724
+	739.1.1 = {
+		birth = yes
+	}
+	798.1.1 = {
+		death = yes
+	}
+}
+166726 = {
+	name = "Camoae"
+	female = yes
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166724
+	746.1.1 = {
+		birth = yes
+	}
+	789.1.1 = {
+		death = yes
+	}
+}
+166727 = {
+	name = "Apgaya"
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166725
+	784.1.1 = {
+		birth = yes
+	}
+	855.1.1 = {
+		death = yes
+	}
+}
+166728 = {
+	name = "Dharmapriya"
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166727
+	843.1.1 = {
+		birth = yes
+	}
+	894.1.1 = {
+		death = yes
+	}
+}
+166729 = {
+	name = "Uppal"
+	female = yes
+	dynasty = 1040053
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166727
+	851.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+#Turpan
+166730 = {
+	name = "Pumnyabala"
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	710.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
+		death = yes
+	}
+}
+166731 = {
+	name = "Saru"
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166730
+	748.1.1 = {
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+166732 = {
+	name = "Tamcina"
+	female = yes
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166730
+	745.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+166733 = {
+	name = "Tsaroka"
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166731
+	780.1.1 = {
+		birth = yes
+	}
+	854.1.1 = {
+		death = yes
+	}
+}
+166734 = {
+	name = "Ramastso"
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166733
+	839.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+166735 = {
+	name = "Sarpina"
+	female = yes
+	dynasty = 1040056
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166733
+	844.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+#Cherchen
+166736 = {
+	name = "Ekasrinke"
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	708.1.1 = {
+		birth = yes
+	}
+	758.1.1 = {
+		death = yes
+	}
+}
+166737 = {
+	name = "Kalodaye"
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166736
+	747.1.1 = {
+		birth = yes
+	}
+	807.1.1 = {
+		death = yes
+	}
+}
+166738 = {
+	name = "TarmawirN_e"
+	female = yes
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166736
+	741.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+166739 = {
+	name = "Tohkem"
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166737
+	775.1.1 = {
+		birth = yes
+	}
+	852.1.1 = {
+		death = yes
+	}
+}
+166740 = {
+	name = "Yugaraje"
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166739
+	839.1.1 = {
+		birth = yes
+	}
+	889.1.1 = {
+		death = yes
+	}
+}
+166741 = {
+	name = "Vitasake"
+	female = yes
+	dynasty = 1040059
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166739
+	846.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+#Charklik
+166742 = {
+	name = "Gayakasyape"
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	707.1.1 = {
+		birth = yes
+	}
+	764.1.1 = {
+		death = yes
+	}
+}
+166743 = {
+	name = "Issapake"
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166742
+	738.1.1 = {
+		birth = yes
+	}
+	796.1.1 = {
+		death = yes
+	}
+}
+166744 = {
+	name = "Cukapae"
+	female = yes
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166742
+	744.1.1 = {
+		birth = yes
+	}
+	794.1.1 = {
+		death = yes
+	}
+}
+166745 = {
+	name = "Ronaprema"
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166743
+	787.1.1 = {
+		birth = yes
+	}
+	853.1.1 = {
+		death = yes
+	}
+}
+166746 = {
+	name = "PuN_akame"
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166745
+	840.1.1 = {
+		birth = yes
+	}
+	891.1.1 = {
+		death = yes
+	}
+}
+166747 = {
+	name = "Revati"
+	female = yes
+	dynasty = 1040060
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166745
+	849.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+#Loulan/Kumul
+166748 = {
+	name = "Sanlyudo" #Shanfutuo
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	612.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+166749 = {
+	name = "Samghatrate"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166748
+	635.1.1 = {
+		birth = yes
+	}
+	698.1.1 = {
+		death = yes
+	}
+}
+166750 = {
+	name = "Ptompile"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166749
+	669.1.1 = {
+		birth = yes
+	}
+	728.1.1 = {
+		death = yes
+	}
+}
+166751 = {
+	name = "Cakravar"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166750
+	701.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+166752 = {
+	name = "Siddharthe"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166751
+	742.1.1 = {
+		birth = yes
+	}
+	805.1.1 = {
+		death = yes
+	}
+}
+166753 = {
+	name = "Maya"
+	female = yes
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166751
+	748.1.1 = {
+		birth = yes
+	}
+	797.1.1 = {
+		death = yes
+	}
+}
+166754 = {
+	name = "Bimbasare"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166752
+	782.1.1 = {
+		birth = yes
+	}
+	849.1.1 = {
+		death = yes
+	}
+}
+166755 = {
+	name = "Silarakite"
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166754
+	841.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+166756 = {
+	name = "Malika"
+	female = yes
+	dynasty = 1040054
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166754
+	848.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+
+#Aksu vassals - fictional placeholders
+tocharian0001 = {
+	name = "Tohkem"
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = 166706
+	860.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+tocharian0002 = {
+	name = "Arunavati"
+	female = yes
+	dynasty = 1040048
+	religion = "vajrayana"
+	culture = "tocharian"
+	father = tocharian0001
+	880.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+
+#############################################################
+# 
+# KINGDOM OF SHANSHAN
+# Some kings' names are in Chinese because original Tocharian is unknown
+# Most here are recorded as father-son, if not specified, will assume father-son
+# 
+# Done by Cybrxkhan
+# 
+#############################################################
+
+shanshan_001 = {
+	name = "Anluojia"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	3.3.3 = { # Unknown
+		birth = yes
+	}
+	74.5.9 = { # known year
+		death = yes
+	}
+}
+
+shanshan_002 = {
+	name = "Guang"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_001
+	42.6.8 = { # Unknown
+		birth = yes
+	}
+	70.1.1 = {
+		add_spouse = shanshan_018
+	}
+	112.4.8 = { # known year
+		death = yes
+	}
+}
+
+shanshan_003 = {
+	name = "Youhuan"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_002
+	mother=shanshan_018
+	72.5.8 = { # Unknown
+		birth = yes
+	}
+	124.7.13 = { # known year
+		death = yes
+	}
+}
+
+# Fictitious king to connect Youhuan with Tomgraka
+# There were probably a couple other kings in between IRL
+shanshan_004 = {
+	name = "Jetavam"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_003
+	118.5.2 = { # Unknown
+		birth = yes
+	}
+	200.5.8 = { # known year???
+		death = yes
+	}
+}
+
+shanshan_005 = { # Tong Geluojia
+	name = "Tomgraka"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_004
+	155.5.5 = { # Unknown
+		birth = yes
+	}
+	236.3.6 = { # known year
+		death = yes
+	}
+}
+
+shanshan_006 = {
+	name = "Tajaka"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_005
+	174.4.17 = { # Unknown
+		birth = yes
+	}
+	244.4.4 = { # known year
+		death = yes
+	}
+}
+
+shanshan_007 = {
+	name = "Pepiya"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_006
+	192.12.16 = { # Unknown
+		birth = yes
+	}
+	252.8.18 = { # known year
+		death = yes
+	}
+}
+
+shanshan_008 = {
+	name = "Amgvaka" # Anguiga
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_007
+	221.9.14 = { # Unknown
+		birth = yes
+	}
+	290.9.9 = { # known year
+		death = yes
+	}
+}
+
+shanshan_009 = {
+	name = "Mahiri" # Mahili
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_008
+	248.8.1 = { # Unknown
+		birth = yes
+	}
+	319.3.4 = { # known year
+		death = yes
+	}
+}
+
+shanshan_010 = {
+	name = "Vasmana"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_009
+	270.2.13 = { # Unknown
+		birth = yes
+	}
+	331.4.2 = { # known year
+		death = yes
+	}
+}
+
+shanshan_011 = {
+	name = "Yuan_Meng"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_010
+	293.7.17 = { # Unknown
+		birth = yes
+	}
+	336.12.14 = { # known year
+		death = yes
+	}
+}
+
+shanshan_012 = {
+	name = "Weilija"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_011
+	311.5.2 = { # Unknown
+		birth = yes
+	}
+	359.11.14 = { # known year
+		death = yes
+	}
+}
+
+shanshan_013 = {
+	name = "Xiumito"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_012
+	333.3.3 = { # Unknown
+		birth = yes
+	}
+	386.4.16 = { # known year
+		death = yes
+	}
+}
+
+shanshan_014 = {
+	name = "Huyuanzha"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_013
+	366.9.3 = { # Unknown
+		birth = yes
+	}
+	422.2.24 = { # known year
+		death = yes
+	}
+}
+
+shanshan_015 = {
+	name = "Bilong"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_014
+	# Refused to surrender or fight - took the third option of fleeing to Qiemo with his people
+	trait=stubborn
+	trait=diligent
+	390.3.6 = { # Unknown
+		birth = yes
+	}
+	460.1.2 = { # Unknown, fled to Qiemo in spring 442 CE after being attacked by Gaochang under the Northern Liang
+		death = yes
+	}
+}
+
+# Last king of Shanshan
+# After father Bilong fled to Qiemo following a Gaochang/Northern Liang attack
+# Zhenda surrendered to Northern Liang, and attacked the Northern Wei
+# However Zhenda could not resist the Northern Wei attack and surrendered to them. He died in China.
+shanshan_016 = {
+	name = "Zhenda"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_015
+	414.7.9 = { # Unknown
+		birth = yes
+	}
+	475.5.7 = { # Unknown
+		death = yes
+	}
+}
+
+# Bilong's younger brother, sent as a hostage to Northern Wei
+shanshan_017 = {
+	name = "Suyanqi"
+	dynasty = dynasty_shanshan_rulers
+	religion = "theravada"
+	culture = "tocharian"
+	father=shanshan_014
+	392.11.27 = { # Unknown
+		birth = yes
+	}
+	459.1.26 = { # Unknown
+		death = yes
+	}
+}
+
+# Originally a palace maid of the Eastern Han
+shanshan_018 = {
+	name = "Qiaoyun" # Unknown
+	female=yes
+	religion = "zhengyi"
+	culture = "han"
+	trait=beauty_good_1
+	50.2.8 = { # Unknown
+		birth = yes
+	}
+	111.11.11 = { # known year
+		death = yes
+	}
+}
+
+# Yuan Meng's daughter
+# Sent to Zhang Jun to be his concubine in 336
+shanshan_019 = {
+	name = "AmrA_tasene" # Unknown
+	female=yes
+	religion = "theravada"
+	culture = "tocharian"
+	trait=beauty_good_1
+	father=shanshan_011
+	315.4.12 = { # Unknown
+		birth = yes
+	}
+	379.6.19 = { # Unknown
+		death = yes
+	}
+}
+
+
+
+#############################################################
+# 
+# KINGDOM OF KUCHA/QIUCI
+# Some kings' names are in Chinese because original Tocharian is unknown
+# Most here are recorded as father-son, if not specified, will assume father-son
+# Interestingly, vanilla CK2 starts with King Swarnabūṣpe of this lineage in the 600s
+# 
+# Done by Cybrxkhan
+# 
+#############################################################
+
+# Appointed by Ban Chao and the Han Dynasty
+# There were rulers before him, but I felt this was a good starting point
+kucha_001 = {
+	name = "Ba"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	55.8.2 = { # Unknown
+		birth = yes
+	}
+	106.4.4 = { # Killed in a revolt against Han protectorate
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+kucha_002 = {
+	name = "Ying"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_001
+	81.7.3 = { # Unknown
+		birth = yes
+	}
+	127.4.6 = { # Known year
+		death = yes
+	}
+}
+
+# Fictitious ruler to connect
+kucha_003 = {
+	name = "Yastare"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_002
+	107.3.5 = { # Unknown
+		birth = yes
+	}
+	187.6.13 = { # Known year
+		death = yes
+	}
+}
+
+# Fictitious ruler to connect
+kucha_004 = {
+	name = "Cowaske"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_003
+	146.9.20 = { # Unknown
+		birth = yes
+	}
+	222.2.2 = { # Known year
+		death = yes
+	}
+}
+
+# Real, but name unknown
+kucha_005 = {
+	name = "ErkA_tsole"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_004
+	200.5.8 = { # Unknown
+		birth = yes
+	}
+	280.8.25 = { # Known year
+		death = yes
+	}
+}
+
+kucha_006 = {
+	name = "Shan"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_005
+	258.9.19 = { # Unknown
+		birth = yes
+	}
+	326.7.11 = { # Killed by the troops of the Kingdom of Karashar/Agni/Yanqi after he insulted their king
+		death = {
+			death_reason = death_murder_known
+			killer = agni_003
+		}
+	}
+}
+
+# Fictitious to connect Shan with Chun
+kucha_007 = {
+	name = "Candravasu"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_005
+	299.1.11 = { # Unknown
+		birth = yes
+	}
+	348.7.14 = { # Unknown
+		death = yes
+	}
+}
+
+kucha_008 = {
+	name = "Chun"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	# Unknown how he is related to the previous rulers other than he is related to them, but made Shan his grandfather
+	# This way the timeline makes a bit of sense, since Chun had an attested younger brother 
+	father=kucha_007 
+	330.1.8 = { # Unknown, but became ruler in 349 after the Agnean overlords were ousted, so he was probably an adult by then
+		birth = yes
+	}
+	390.5.14 = { # Fled the city in 383 after Lu Guang's attack so he probably died after
+		death = yes
+	}
+}
+
+# Bai Chun's younger brother who was installed as (puppet) ruler by Lu Guang
+# He died in 437 CE so he must've been really old if that's the case
+kucha_009 = {
+	name = "Zhen"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_007 
+	345.6.15 = { # Unknown
+		birth = yes
+	}
+	437.10.17 = { # Known year
+		death = yes
+	}
+}
+
+# Name unknown
+kucha_010 = {
+	name = "Caracate"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_009 
+	396.1.12 = { # Unknown
+		birth = yes
+	}
+	475.4.2 = { # Known year
+		death = yes
+	}
+}
+
+# Name unknown
+kucha_011 = {
+	name = "Atakke"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_010 
+	442.7.15 = { # Unknown
+		birth = yes
+	}
+	521.10.8 = { # Known year
+		death = yes
+	}
+}
+
+# Fictitious to connect to next known Bai
+kucha_012 = {
+	name = "Astawi"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_011 
+	480.3.19 = { # Unknown
+		birth = yes
+	}
+	535.3.5 = { # Unknown
+		death = yes
+	}
+}
+
+# Next Bai ruler after Niruimo Zhunashen and possible father of Swarnabūṣpe
+kucha_013 = {
+	name = "Sunixi"
+	dynasty = 1040052
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_012
+	520.5.8 = { # Unknown
+		birth = yes
+	}
+	581.2.20 = { # Known year
+		death = yes
+	}
+}
+
+# Niruimo Zhunashen, guy who ruled Kucha in the mid 500s
+# Dunno what's up with him since he doesn't appear to be related to the Bai family who ruled Kucha
+kucha_014 = {
+	name = "Zhunashen"
+	dynasty = dynasty_niruimo
+	religion = "theravada"
+	culture = "tocharian"
+	father=kucha_015
+	493.7.5 = { # Unknown, but became king around 521
+		birth = yes
+	}
+	562.3.13 = { # Known year
+		death = yes
+	}
+}
+
+#Niruimo Zhunashen's fictitious father
+kucha_015 = {
+	name = "Wamsok"
+	dynasty = dynasty_niruimo
+	religion = "theravada"
+	culture = "tocharian"
+	456.5.4 = { # Unknown
+		birth = yes
+	}
+	501.3.24 = { # Unknown
+		death = yes
+	}
+}
+
+# Luo Yun, native of Qiuci who killed the foreign Agnean king Long Hui and thus helped restore the Bai family to power in Kucha in 348
+kucha_016 = {
+	name = "Yun"
+	dynasty = dynasty_kucha_luo
+	religion = "theravada"
+	culture = "tocharian"
+	trait=brave
+	trait=just
+	329.7.12 = { # Unknown
+		birth = yes
+	}
+	386.4.2 = { # Unknown
+		death = yes
+	}
+}
+
+
+
+#############################################################
+# 
+# KINGDOM OF AGNI/YANQI/KARASHAR
+# Some kings' names are in Chinese because original Tocharian is unknown
+# Most here are recorded as father-son, if not specified, will assume father-son
+# 
+# Done by Cybrxkhan
+# 
+#############################################################
+
+# First ruler of the Long dynasty I could find
+agni_001 = {
+	name = "An"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	trait=vengeful # Was insulted by Shan, the King of Kucha, and asked his son to avenge him on his deathbed
+	241.7.29 = { # Unknown
+		birth = yes
+	}
+	267.1.1 = {
+		add_spouse = agni_002
+	}
+	289.7.11 = { # Known year
+		death = yes
+	}
+}
+
+# Long An married a "Kuaihu" girl, can't find what ethnicity or region Kuaihu refers to other than it being west of Agni
+# So for now I just assume she's Saka
+agni_002 = {
+	name = "Alsamgya"
+	female=yes
+	religion = "mahayana"
+	culture = "saka"
+	249.11.13 = { # Unknown
+		birth = yes
+	}
+	318.1.14 = { # Unknown
+		death = yes
+	}
+}
+
+# Became ruler of Kucha after conquering it to fulfill his father's final wish
+agni_003 = {
+	name = "Hui"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	father=agni_001
+	mother=agni_002
+	trait=brave # Was very brave
+	trait=arrogant # Overestimated his enemies
+	trait=vengeful # Fulfilled his father's wish for revenge against the king of Kucha
+	271.3.17 = { # Unknown
+		birth = yes
+	}
+	349.5.1 = { # Known year - killed by Luo Yun
+		death = {
+			death_reason = death_murder_known
+			killer = kucha_016
+		}
+	}
+}
+
+# Became ruler of Kucha after conquering it to fulfill his father's final wish
+agni_004 = {
+	name = "Xi"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	father=agni_003
+	trait=brave # Was very brave
+	trait=arrogant # Overestimated his enemies
+	trait=vengeful # Fulfilled his father's wish for revenge against the king of Kucha
+	305.2.8 = { # Unknown, but was appointed as King of Agni after his father conquered Kucha in 326, so probably an adult then
+		birth = yes
+	}
+	385.7.28 = { # Known year
+		death = yes
+	}
+}
+
+# Son of Xi, name unknown
+agni_005 = {
+	name = "Nupura"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	father=agni_004
+	339.5.17 = { # Unknown, but sent to Lu Guang as a hostage in the 380s so he was probably an adult by then
+		birth = yes
+	}
+	382.1.6 = { # Unknown
+		death = yes
+	}
+}
+
+# Grandson of Xi, hypothetical
+agni_006 = {
+	name = "Sudas"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	father=agni_005
+	361.9.16 = { # Unknown
+		birth = yes
+	}
+	384.6.19 = { # Unknown
+		death = yes
+	}
+}
+
+# Jiushibeina
+# Listed as a descendant of Long Xi, rather than a son or grandson, so I will assume he's a great-grandson
+# Ruled from 385 to 448 or after (?) which seems like a very long time so I am not sure how reliable this is
+agni_007 = {
+	name = "Jiushibeina"
+	dynasty = dynasty_agni_long
+	religion = "theravada"
+	culture = "tocharian"
+	father=agni_006
+	379.2.14 = { # Unknown
+		birth = yes
+	}
+	448.3.5 = { # ???
+		death = yes
+	}
+}

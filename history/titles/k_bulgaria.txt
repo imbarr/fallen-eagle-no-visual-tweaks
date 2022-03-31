@@ -1,0 +1,1243 @@
+
+k_bulgaria = {
+	361.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	
+	632.1.1 = {
+		holder = 159117
+	}
+	665.1.1 = {
+		holder = 159127
+	}
+	680.1.1 = {
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+d_dacia_mediterrania = {
+	361.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	36.1.1 = {
+		de_jure_liege = k_daciae
+		holder = daciae_07
+		government = imperial_government
+	}
+	
+	395.1.17 = {
+		holder = daciae_12
+		government = imperial_government
+	}
+	460.1.1 = {
+		holder = daciae_17
+	}
+	532.1.1 = {
+		holder = daciae_31
+	}
+	765.1.1 = {
+		holder = 145797
+		liege = e_byzantium
+	}
+}
+d_vidin = {
+	330.1.1 = {
+		liege = "k_daciae"
+		de_jure_liege = k_daciae
+		government = imperial_government
+		name = DACIA_RIPENSIS
+	}
+	360.1.1 = {
+		holder = daciae_02
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_16
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_28
+		liege = k_daciae
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+	765.1.1 = {
+		holder = 145797
+		liege = e_byzantium
+	}
+}
+
+
+c_vidin = {
+	361.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	768.1.1 = { change_development_level = 6 }
+	
+	#Roman Province
+	360.1.1 = {
+		holder = daciae_02
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_16
+	}
+	532.1.1 = {
+		holder = daciae_28
+		liege = k_daciae
+	}
+	630.1.1 = {
+		holder = dacias_01
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_32
+		liege = k_bulgaria
+	}
+	689.1.1 = {
+		holder = dacias_33
+	}
+	730.1.1 = {
+		holder = dacias_34
+	}
+	750.1.1 = {
+		holder = dacias_35
+	}
+}
+
+
+c_branicevo = {
+	#Roman Province
+	330.1.1 = {
+		liege = "d_macva"
+		government = imperial_government
+	}
+	361.1.1 = {
+		holder = daciae_01
+	}
+	395.1.1 = {
+		liege = d_macva
+	}
+	476.1.1 = {
+		holder = daciae_19
+	}
+	532.1.1 = {
+		holder = daciae_29
+	}
+	630.1.1 = {
+		holder = dacias_02
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_28
+		liege = k_bulgaria
+	}
+	689.1.1 = {
+		holder = dacias_29
+	}
+	730.1.1 = {
+		holder = dacias_30
+	}
+	750.1.1 = {
+		holder = dacias_31
+	}
+}
+
+
+d_turnovo = {
+	#Roman Province
+	330.1.1 = {
+		liege = "k_daciae"
+		de_jure_liege = k_daciae
+		government = imperial_government
+		name = MOESIA_SECUNDA
+	}
+	361.1.1 = {
+		holder = daciae_03
+	}
+	381.1.26 = {
+		holder = 999103 #Alaric
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = daciae_14
+		liege = k_daciae
+		government = imperial_government
+	}
+	532.1.1 = {
+		holder = daciae_25
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+	681.1.1 = {
+		liege = "k_bulgaria"
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+
+c_turnovo = {
+	361.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	768.1.1 = { change_development_level = 6 }
+	
+	#Roman Province
+	330.1.1 = {
+		liege = "d_turnovo"
+		government = imperial_government
+	}
+	361.1.1 = {
+		holder = daciae_04
+	}
+	390.1.1 = {
+		holder = 200290 #Atawulf
+		liege = d_turnovo
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = daciae_15
+		liege = d_turnovo
+		government = imperial_government
+	}
+	532.1.1 = {
+		holder = daciae_26
+	}
+	630.1.1 = {
+		holder = dacias_10
+		liege = d_seven_slavic_tribes
+		government = tribal_government
+	}
+	681.1.1 = {
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+
+c_sredets = {
+	361.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	768.1.1 = { change_development_level = 6 }
+	
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_07
+		government = imperial_government
+	}
+	395.1.17 = {
+		holder = daciae_12
+	}
+	460.1.1 = {
+		holder = daciae_17
+	}
+	532.1.1 = {
+		holder = daciae_31
+	}
+	630.1.1 = {
+		holder = dacias_04
+		liege = 0
+		government = tribal_government
+	}
+	681.1.1 = {
+		liege = "e_byzantium"
+	}
+	765.1.1 = {
+		holder = 145797
+	}
+}
+
+
+c_nikopolis = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	532.1.1 = { change_development_level = 6 }
+	632.1.1 = { change_development_level = 7 }
+	768.1.1 = { change_development_level = 8 }
+	
+	#Roman Province
+	330.1.1 = {
+		liege = "d_turnovo"
+	}
+	361.1.1 = {
+		holder = daciae_04
+		government = imperial_government
+	}
+	390.1.1 = {
+		holder = 200290 #Atawulf
+		liege = d_turnovo
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = daciae_15
+		liege = d_turnovo
+		government = imperial_government
+	}
+	532.1.1 = {
+		holder = daciae_26
+	}
+	630.1.1 = {
+		holder = dacias_09
+		liege = d_seven_slavic_tribes
+		government = tribal_government
+	}
+	681.1.1 = {
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+
+c_dorostorum = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	768.1.1 = { change_development_level = 7 }
+	
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_03
+		government = imperial_government
+	}
+	381.1.25 = {
+		holder = 999103 #Alaric
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = daciae_14
+		government = imperial_government
+	}
+	532.1.1 = {
+		holder = daciae_25
+	}
+	630.1.1 = {
+		holder = dacias_10
+		liege = d_seven_slavic_tribes
+		government = tribal_government
+	}
+	681.1.1 = {
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+
+c_vratsa = {
+	
+	#Roman Province
+	360.1.1 = {
+		holder = daciae_02
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_16
+	}
+	532.1.1 = {
+		holder = daciae_28
+		liege = k_daciae
+	}
+	630.1.1 = {
+		holder = dacias_09
+		liege = d_seven_slavic_tribes
+		government = tribal_government
+	}
+	681.1.1 = {
+		holder = 159118
+	}
+	700.1.1 = {
+		holder = 159120
+	}
+	721.1.1 = {
+		holder = 145934
+	}
+	722.1.1 = {
+		holder = 145936
+	}
+	738.1.1 = {
+		holder = 145937
+	}
+	753.1.1 = {
+		holder = 145941
+	}
+	756.1.1 = {
+		holder = 145946
+	}
+	762.1.1 = {
+		holder = 145951
+	}
+	765.1.1 = {
+		holder = 145954
+	}
+	766.1.1 = {
+		holder = 145945
+	}
+	766.2.10 = {
+		holder = 145939
+	}
+	767.1.1 = {
+		holder = 145949
+	}
+	768.1.1 = {
+		holder = 159121
+	}
+}
+
+
+c_aytos = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	768.1.1 = { change_development_level = 7 }
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_03
+		government = imperial_government
+	}
+	381.1.25 = {
+		holder = 999103 #Alaric
+	}
+	476.1.1 = {
+		holder = daciae_14
+	}
+	532.1.1 = {
+		holder = daciae_25
+	}
+	630.1.1 = {
+		holder = dacias_08
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_11
+	}
+	689.1.1 = {
+		holder = dacias_12
+		liege = k_bulgaria
+	}
+	730.1.1 = {
+		holder = dacias_13
+	}
+	750.1.1 = {
+		holder = dacias_14
+	}
+}
+
+
+d_dobrudja = {
+
+
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_05
+		liege = k_daciae
+		de_jure_liege = k_daciae
+		government = imperial_government
+		name = SCYTHIA_MINOR
+	}
+	476.1.1 = {
+		holder = daciae_13
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_24
+		liege = k_daciae
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+	681.1.1 = {
+		liege = "k_bulgaria"
+		holder = 159120
+	}
+	700.1.1 = {
+		holder = 145936
+	}
+	721.1.1 = {
+		holder = 145937
+	}
+	738.1.1 = {
+		holder = 145938
+	}
+	760.1.1 = {
+		holder = 145939
+	}
+	766.1.1 = {
+		holder = 145956
+	}
+	767.1.1 = {
+		holder = 159123
+		government = feudal_government
+	}
+}
+
+
+c_constanta = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	768.1.1 = { change_development_level = 7 }
+	
+	
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_05
+		liege = k_daciae
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_13
+	}
+	532.1.1 = {
+		holder = daciae_24
+	}
+	630.1.1 = {
+		holder = dacias_08
+		liege = 0
+		government = tribal_government
+	}
+	681.1.1 = {
+		holder = 159120
+	}
+	700.1.1 = {
+		holder = 145936
+	}
+	721.1.1 = {
+		holder = 145937
+	}
+	738.1.1 = {
+		holder = 145938
+	}
+	760.1.1 = {
+		holder = 145939
+	}
+	766.1.1 = {
+		holder = 145956
+	}
+	767.1.1 = {
+		holder = 159123
+		government = feudal_government
+	}
+}
+
+
+c_mesembria = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	532.1.1 = { change_development_level = 6 }
+	632.1.1 = { change_development_level = 7 }
+	768.1.1 = { change_development_level = 8 }
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_03
+		government = imperial_government
+	}
+	381.1.25 = {
+		holder = 999103 #Alaric
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = daciae_14
+		government = imperial_government
+	}
+	532.1.1 = {
+		holder = daciae_25
+	}
+	630.1.1 = {
+		holder = dacias_08
+		government = tribal_government
+	}
+	681.1.1 = {
+		liege = "k_bulgaria"
+		holder = 159120
+	}
+	700.1.1 = {
+		holder = 145936
+	}
+	721.1.1 = {
+		holder = 145937
+	}
+	738.1.1 = {
+		holder = 145938
+	}
+	760.1.1 = {
+		holder = 145939
+	}
+	766.1.1 = {
+		holder = 145956
+	}
+	767.1.1 = {
+		holder = 159123
+		government = feudal_government
+	}
+}
+
+
+d_bulgaria = {
+	361.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	361.1.1 = {
+		holder = daciae_06
+		liege = k_daciae
+		de_jure_liege = k_daciae
+		government = imperial_government
+		name = DARDANIA
+	}
+	476.1.1 = {
+		holder = daciae_18
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_30
+		liege = k_daciae
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+}
+
+
+c_naissus = {
+	361.1.1 = { change_development_level = 3 }
+	532.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	768.1.1 = { change_development_level = 6 }
+	
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_06
+		liege = k_daciae
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_18
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_30
+		liege = k_daciae
+	}
+	630.1.1 = {
+		holder = dacias_01
+		liege = 0
+		government = tribal_government
+	}
+	765.1.1 = {
+		holder = 145797
+		liege = e_byzantium
+	}
+}
+
+
+c_pomoravlje = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_06
+		liege = k_daciae
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_18
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_30
+		liege = k_daciae
+	}
+	630.1.1 = {
+		holder = dacias_03
+		liege = 0
+		government = tribal_government
+	}
+	640.1.1 = {
+		liege = "d_rashka"
+	}
+	748.1.1 = {
+		holder = 146011
+	}
+}
+
+
+c_velbazhd = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_08
+		liege = d_bulgaria
+		government = imperial_government
+	}
+	631.1.1 = {
+		holder = dacias_05
+		liege = 0
+		government = tribal_government
+	}
+	640.1.1 = {
+		liege = "d_rashka"
+	}
+	765.1.1 = {
+		holder = 145797
+	}
+}
+
+
+c_pirin = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_07
+		government = imperial_government
+	}
+	395.1.17 = {
+		holder = daciae_12
+	}
+	460.1.1 = {
+		holder = daciae_17
+	}
+	532.1.1 = {
+		holder = daciae_31
+	}
+	630.1.1 = {
+		holder = dacias_06
+		liege = 0
+		government = tribal_government
+	}
+	753.1.1 = {
+		holder = 145818
+		liege = d_dacia_mediterrania
+		government = imperial_government
+	}
+}
+
+
+c_strumica = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_07
+		government = imperial_government
+	}
+	395.1.17 = {
+		holder = daciae_12
+	}
+	460.1.1 = {
+		holder = daciae_17
+	}
+	532.1.1 = {
+		holder = daciae_31
+	}
+	630.1.1 = {
+		holder = dacias_05
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_24
+	}
+	689.1.1 = {
+		holder = dacias_25
+	}
+	730.1.1 = {
+		holder = dacias_26
+	}
+	750.1.1 = {
+		holder = dacias_27
+	}
+}
+
+
+c_skopje = {
+	#Roman Province
+	361.1.1 = {
+		de_jure_liege = d_bulgaria
+		holder = daciae_08
+		liege = d_bulgaria
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_18
+		liege = k_daciae
+	}
+	532.1.1 = {
+		holder = daciae_30
+		liege = k_daciae
+	}
+	630.1.1 = {
+		holder = dacias_03
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_24
+	}
+	689.1.1 = {
+		holder = dacias_25
+	}
+	730.1.1 = {
+		holder = dacias_26
+	}
+	750.1.1 = {
+		holder = dacias_27
+	}
+}
+
+
+c_ohrid = {
+	330.1.1 = {
+		liege = "d_dyrrachion"
+		de_jure_liege = d_dyrrachion
+		government = imperial_government
+	}
+	361.1.1 = {
+		holder = epirus_05
+	}
+	395.1.1 = {
+		holder = epirus_06
+	}
+	423.1.1 = {
+		holder = epirus_07
+	}
+	476.1.1 = {
+		holder = epirus_08
+	}
+	532.1.1 = {
+		holder = daciae_34
+	}
+	629.1.1 = {
+		holder = dacias_03
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_24
+	}
+	689.1.1 = {
+		holder = dacias_25
+	}
+	730.1.1 = {
+		holder = dacias_26
+	}
+	750.1.1 = {
+		holder = dacias_27
+	}
+}
+
+
+d_philippopolis = {
+	361.1.1 = { change_development_level = 3 }
+	632.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_10
+		liege = k_thracia
+		government = imperial_government
+		name = k_thracia
+	}
+	476.1.1 = {
+		holder = daciae_20
+	}
+	532.1.1 = {
+		holder = daciae_32
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+	765.1.1 = {
+		holder = 145798
+		liege = k_bulgaria
+		government = feudal_government
+	}
+}
+
+
+c_philippopolis = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_10
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_20
+	}
+	629.1.1 = {
+		holder = dacias_04
+		liege = 0
+		government = tribal_government
+	}
+	765.1.1 = {
+		holder = 145798
+	}
+}
+
+
+c_kran = {
+	#Roman Province
+	361.1.1 = {
+		holder = daciae_11
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_21
+		liege = d_adrianopolis
+	}
+	532.1.1 = {
+		holder = daciae_33
+	}
+	630.1.1 = {
+		holder = dacias_04
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_11
+	}
+	689.1.1 = {
+		holder = dacias_12
+		liege = k_bulgaria
+	}
+	730.1.1 = {
+		holder = dacias_13
+	}
+	750.1.1 = {
+		holder = dacias_14
+	}
+}
+
+d_adrianopolis = {
+	361.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	361.1.1 = {
+		holder = daciae_11
+		liege = k_thracia
+		government = imperial_government
+		name = HEMIMENTO
+	}
+	476.1.1 = {
+		holder = daciae_22
+	}
+	532.1.1 = {
+		holder = daciae_33
+	}
+	632.1.1 = {
+		holder = daciae_36
+	}
+	620.1.1 = {
+		holder = 0
+		reset_name = yes
+	}
+	745.1.1 = {
+		holder = 145795
+		liege = k_bulgaria
+		government = feudal_government
+	}
+}
+
+c_beroe = {
+	361.1.1 = {
+		holder = daciae_11
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_21
+		liege = d_adrianopolis
+	}
+	532.1.1 = {
+		holder = daciae_33
+	}
+	632.1.1 = {
+		holder = daciae_36
+	}
+	745.1.1 = {
+		holder = 145795
+	}
+}
+
+
+c_burgas = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	768.1.1 = { change_development_level = 7 }
+	
+	361.1.1 = {
+		holder = daciae_11
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_22
+	}
+	532.1.1 = {
+		holder = daciae_33
+	}
+	632.1.1 = {
+		holder = daciae_36
+	}
+	761.1.1 = {
+		holder = 145844
+		liege = d_adrianopolis
+	}
+}
+
+
+c_adrianopolis = {
+	361.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	768.1.1 = { change_development_level = 6 }
+	
+	361.1.1 = {
+		holder = daciae_11
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_22
+	}
+	532.1.1 = {
+		holder = daciae_33
+	}
+	632.1.1 = {
+		holder = daciae_36
+	}
+	745.1.1 = {
+		holder = 145795
+	}
+}
+
+
+c_zherkovo = {
+	361.1.1 = {
+		holder = daciae_10
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_20
+	}
+	532.1.1 = {
+		holder = daciae_32
+	}
+	630.1.1 = {
+		holder = dacias_07
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_rhodopes = {
+	361.1.1 = {
+		holder = daciae_10
+		liege = k_thracia
+		government = imperial_government
+	}
+	476.1.1 = {
+		holder = daciae_20
+	}
+	532.1.1 = {
+		holder = daciae_32
+	}
+	629.1.1 = {
+		holder = dacias_06
+		liege = 0
+		government = tribal_government
+	}
+	650.1.1 = {
+		holder = dacias_20
+	}
+	689.1.1 = {
+		holder = dacias_21
+	}
+	730.1.1 = {
+		holder = dacias_22
+	}
+	750.1.1 = {
+		holder = dacias_23
+	}
+
+}
+

@@ -1,0 +1,12 @@
+gauls_01 = {
+	name = "Alan"
+	religion = "celto_hellenic_syncretism"
+	culture = "gaul"
+	dynasty = osismii
+	320.1.1 = {
+		birth = "320.1.1"
+	}
+	370.1.1 = {
+		death = "370.1.1"
+	}
+}

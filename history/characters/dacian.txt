@@ -1,0 +1,13 @@
+### Dacian Tribes in 361
+cosotoboci_01 = {
+	name = "Charnabon"
+	religion = "dacian_pagan"
+	culture = "dacian"
+	dynasty = dynasty_Costoboci
+	330.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

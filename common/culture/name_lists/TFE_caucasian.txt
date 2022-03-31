@@ -1,0 +1,210 @@
+﻿name_list_kartvelian = {
+	cadet_dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	male_names = {
+		Smbat Khachik Ashot Arsham Zariadres Vardan Artawazd Mzez Eruand Orontes Mithranes Kherkhes Khozrid Kuji Sames Arshames Trdat Tigran Zareh Artashes Arshak Vagharsh Khosrow Varazdat Vasak Ashusha Varazvaghan Hmayeak Vahan Sahak Zarmihr Nikhor
+	}
+	
+	female_names = {
+		Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Satenik 
+	}
+	
+	dynasty_of_location_prefix = "dynnp_ve"
+	
+	patronym_suffix_male = "dynnpat_suf_s_dze"
+	patronym_suffix_female = "dynnpat_suf_shvili"
+	mercenary_names = {
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+		{ name = mercenary_company_veterans_of_chaldia }
+	}
+}
+
+name_list_abkhazian = {
+	cadet_dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	male_names = {
+		Smbat Khachik Ashot Arsham Zariadres Vardan Artawazd Mzez Eruand Orontes Mithranes Kherkhes Khozrid Kuji Sames Arshames Trdat Tigran Zareh Artashes Arshak Vagharsh Khosrow Varazdat Vasak Ashusha Varazvaghan Hmayeak Vahan Sahak Zarmihr Nikhor
+	}
+	
+	female_names = {
+		Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Satenik 
+	}
+	
+	dynasty_of_location_prefix = "dynnp_ve"
+	
+	patronym_suffix_male = "dynnpat_suf_s_dze"
+	patronym_suffix_female = "dynnpat_suf_shvili"
+	mercenary_names = {
+		{ name = mercenary_company_veterans_of_chaldia }
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+}
+
+name_list_caspian = {
+	cadet_dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	male_names = {
+		Smbat Khachik Ashot Arsham Zariadres Vardan Artawazd Mzez Eruand Orontes Mithranes Kherkhes Khozrid Kuji Sames Arshames Trdat Tigran Zareh Artashes Arshak Vagharsh Khosrow Varazdat Vasak Ashusha Varazvaghan Hmayeak Vahan Sahak Zarmihr Nikhor
+	}
+	
+	female_names = {
+		Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Satenik 
+	}
+
+	mercenary_names = {
+		{ name = mercenary_company_veterans_of_chaldia }
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+	
+	dynasty_of_location_prefix = "dynnp_ve"
+	
+	patronym_suffix_male = "dynnpat_suf_s_dze"
+	patronym_suffix_female = "dynnpat_suf_shvili"
+}

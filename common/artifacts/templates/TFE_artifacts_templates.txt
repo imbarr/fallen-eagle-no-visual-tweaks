@@ -1,0 +1,184 @@
+﻿scutum_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		court_grandeur_baseline_add = 2
+	}
+
+	ai_score = {
+		value = 60
+	}
+}
+
+obeliskfull_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		court_grandeur_baseline_add = 3
+	}
+
+	ai_score = {
+		value = 60
+	}
+}
+
+
+obeliskdamaged_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		court_grandeur_baseline_add = 2
+	}
+
+	ai_score = {
+		value = 60
+	}
+}
+
+marcus_bust_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		court_grandeur_baseline_add = 2
+	}
+
+	ai_score = {
+		value = 60
+	}
+}
+
+aurelianhelmet_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		monthly_prestige = 1
+		prowess = 3
+	}
+
+	ai_score = {
+		value = 90
+	}
+
+	unique = yes
+}
+
+centurionhelmet_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		monthly_prestige = 0.15
+		prowess = 2
+	}
+
+	ai_score = {
+		value = 70
+	}
+}
+
+galeahelmet_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		monthly_prestige = 0.1
+		prowess = 1
+	}
+
+	ai_score = {
+		value = 60
+	}
+}
+
+
+spatha_template = {
+	can_equip = {
+		always = yes
+	}
+
+	# can this character benefit from the full modifiers of the artifact?
+	can_benefit = {
+		culture = {
+			has_cultural_tradition = tradition_roman_legacy
+		}
+	}
+
+	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
+	fallback = {
+		prowess = 3
+	}
+
+	ai_score = {
+		value = 90
+	}
+
+	unique = yes
+}

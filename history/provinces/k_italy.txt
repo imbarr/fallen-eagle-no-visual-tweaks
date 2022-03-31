@@ -3,7 +3,7 @@
 ###c_aquileia
 2508 = {	#AQUILEIA
 	culture = roman
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 }
 2514 = {	#TRIESTE
@@ -21,8 +21,8 @@
 
 ###c_friuli
 2512 = {	#CAORLE
-	culture = cisalpine
-	religion = hellenic_pagan
+	culture = roman
+	religion = nicene 
 	holding = castle_holding
 }
 2513 = {	#PORDENONE
@@ -31,8 +31,8 @@
 
 ###c_gorz
 2516 = {	#GORIZIA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2515 = {	#TRIGLAVSKI
@@ -42,8 +42,8 @@
 ##d_verona ###################################
 ###c_verona
 2501 = {	#VERONA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2502 = {	#LESSINIA
@@ -55,7 +55,7 @@
 
 ###c_treviso
 2505 = {	#TREVISO
-	culture = cisalpine
+	culture = roman
 	religion = hellenic_pagan
 	holding = castle_holding
 }
@@ -68,8 +68,8 @@
 
 ###c_padua
 2503 = {	#PADUA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2509 = {	#LONIGO
@@ -81,8 +81,8 @@
 
 ###c_polesine
 2525 = {	#ROVIGO
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2524 = {	#ADRIA
@@ -92,8 +92,8 @@
 ##d_piedmonte ###################################
 ###c_monferrato
 2469 = {	#ASTI
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2467 = {	#ALBA DI MONFERRATO
@@ -105,8 +105,8 @@
 
 ###c_turin
 2041 = {	#TURIN
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2045 = {	#CHIERI
@@ -124,8 +124,8 @@
 
 ###c_novara
 2471 = {	#NOVARA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2473 = {	#BIELLA
@@ -134,8 +134,8 @@
 
 ###c_cuneo
 2043 = {	#CUNEO
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2044 = {	#SALUZZO
@@ -149,10 +149,16 @@
 ###c_lombardia
 2482 = {	#MILAN
 	culture = roman
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
-	1259.1.1 = {
-		holding = castle_holding
+
+	395.1.1 = {
+		buildings = {
+			castle_04
+			farm_estates_03
+			orchards_02
+			barracks_02
+		}
 	}
 }
 2481 = {	#MONZA
@@ -170,7 +176,7 @@
 
 ###c_brescia
 2494 = {	#BRESCIA
-	culture = cisalpine
+	culture = rhaetian
 	religion = hellenic_pagan
 	holding = castle_holding
 }
@@ -180,8 +186,8 @@
 
 ###c_como
 2477 = {	#COMO
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2472 = {	#POMBIA
@@ -193,7 +199,7 @@
 
 ###c_trent
 2499 = {	#TRENTO
-	culture = cisalpine
+	culture = rhaetian
 	religion = hellenic_pagan
 	holding = castle_holding
 }
@@ -206,8 +212,8 @@
 
 ###c_pavia
 2475 = {	#PAVIA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2476 = {	#LODI
@@ -222,8 +228,8 @@
 
 ###c_cremona
 2491 = {	#CREMONA
-	culture = cisalpine
-	religion = hellenic_pagan
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2489 = {	#RONCAGLIA
@@ -235,8 +241,8 @@
 
 ###c_parma
 2532 = {	#PARMA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2490 = {	#FLORENTIOLA
@@ -248,8 +254,8 @@
 
 ###c_tortona
 2483 = {	#TORTONA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 2487 = {	#VOGHERA
@@ -263,7 +269,9 @@
 	religion = hellenic_pagan
 	holding = castle_holding
 	special_building_slot = walls_of_genoa_01
-	special_building = walls_of_genoa_01
+	867.1.1 = {
+		special_building = walls_of_genoa_01
+	}
 	1099.1.1 = {
 		holding = city_holding
 	}
@@ -292,7 +300,7 @@
 ###c_modena
 2540 = {	#MODENA
 	culture = roman
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 }
 2535 = {	#CANOSSA
@@ -310,8 +318,8 @@
 
 ###c_mantua
 2497 = {	#MANTUA
-	culture = cisalpine
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 }
 2530 = {	#GUASTALLA
@@ -325,7 +333,7 @@
 ###c_pisa
 2536 = {	#PISA
 	culture = roman
-	religion = hellenic_pagan
+	religion = nicene
 	holding = city_holding
 }
 2557 = {	#LIVORNO
@@ -342,7 +350,7 @@
 ###c_firenze
 2543 = {	#FIRENZE
 	culture = roman
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 }
 2559 = {	#IMPRUNETA
@@ -359,7 +367,7 @@
 ###c_lucca
 2537 = {	#LUCCA
 	culture = roman
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 }
 2538 = {	#PISTORJA
@@ -375,7 +383,7 @@
 ###c_arezzo
 2554 = {	#AREZZO
 	culture = roman
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 }
 2544 = {	#VALLOMBROSA

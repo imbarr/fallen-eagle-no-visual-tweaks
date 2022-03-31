@@ -1,0 +1,77 @@
+﻿1250007 = { #Rouran Khaganate
+	name= "Qiudoufa"
+	religion="tengri_pagan"
+	culture="mongol"
+	363.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_i = { #Rouran Khaganate
+	name= "Ajinai"
+	religion="tengri_pagan"
+	culture="mongol"
+	323.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_ii = { #Rouran Khaganate
+	name= "Aguchu"
+	religion="tengri_pagan"
+	culture="mongol"
+	375.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_iii = { #Rouran Khaganate
+	name= "Megetu"
+	religion="tengri_pagan"
+	culture="mongol"
+	361.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_v = { #Rouran Khaganate
+	name= "Ajai"
+	religion="tengri_pagan"
+	culture="mongol"
+	348.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_vi = { #Rouran Khaganate
+	name= "Khachigun"
+	religion="tengri_pagan"
+	culture="mongol"
+	352.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+rouran_vassal_vii = { #Rouran Khaganate
+	name= "Dayir"
+	religion="tengri_pagan"
+	culture="mongol"
+	373.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}

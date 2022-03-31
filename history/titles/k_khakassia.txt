@@ -1,0 +1,144 @@
+k_khakassia = {
+	361.1.1 = { change_development_level = 0 }
+}
+
+d_khakass_hollow = {
+	
+}
+
+
+c_abakan = {
+	
+}
+
+
+c_julym = {
+	
+}
+
+
+c_jerjul = {
+	
+}
+
+
+c_kizir = {
+	
+}
+
+
+c_anja = {
+	
+}
+
+
+c_kyzylkul = {
+	
+}
+
+
+c_kuzbas = {
+	
+}
+
+
+c_shor = {
+	
+}
+
+
+c_uul_chors = {
+	
+}
+
+
+d_kargassia = {
+	
+}
+
+c_burugu_aallar = {
+	359.1.1 = { 
+		holder = tiele_12 
+		government = nomadic_government
+	} ##Fictional Yiqijin Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_13 ##Fictional Yiqijin Tribe
+	}
+	455.1.1 = { 
+		holder = tiele_27 ## Yenisei Kyrghiz
+		liege = d_yenisei_kan
+	}
+}
+
+c_chagdy_aallar = {
+	
+}
+
+
+c_songuu_aallar = {
+	
+}
+
+
+c_karauda = {
+	359.1.1 = { holder = tiele_12 
+		government = nomadic_government
+	} ##Fictional Yiqijin Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_13 ##Fictional Yiqijin Tribe
+	}
+	460.1.1 = {
+		holder = huxuae_01 #Fictional
+		liege = k_buryatia
+	}
+}
+
+
+c_shityy = {
+	359.1.1 = { holder = tiele_12 
+		government = nomadic_government
+	} ##Fictional Yiqijin Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_13 ##Fictional Yiqijin Tribe
+	}
+	460.1.1 = {
+		holder = huxuae_01 #Fictional
+		liege = k_buryatia
+	}
+}
+
+
+c_kropot = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { holder = tiele_08
+	government = nomadic_government
+	} ##Fictional Jiepi Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_09 ##Fictional Jiepi Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = fuluo_01 # Fictinal Rouran Vassal
+	}
+}
+
+
+c_monkh_saridag = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { holder = tiele_08
+	government = nomadic_government
+	} ##Fictional Jiepi Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_09 ##Fictional Jiepi Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = fuluo_01 # Fictinal Rouran Vassal
+	}
+}
+

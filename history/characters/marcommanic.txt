@@ -1,0 +1,87 @@
+marcomani_01 = {
+	name = "Berteiro"
+	culture = marcomannic
+	religion = arianism
+	432.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+marcomani_02 = {
+	name = "Hunimund"
+	culture = marcomannic
+	religion = arianism
+	trait = forder
+	trait = brave
+	trait = gregarious
+	trait = humble
+	dynasty = huminudid_dynasty
+	438.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+marcomani_03 = {
+	name = "Fredoaldus"
+	culture = marcomannic
+	religion = arianism
+
+	428.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+marcomani_04 = {
+	name = "Gudestus"
+	culture = marcomannic
+	religion = central_pagan
+
+	436.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+marcomani_05 = {
+	name = "Baldered"
+	culture = marcomannic
+	religion = arianism
+
+	509.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+marcomani_06 = {
+	name = "Ostromirus"
+	culture = marcomannic
+	religion = arianism
+
+	499.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+marcomani_07 = {
+	name = "Francolino"
+	culture = marcomannic
+	religion = arianism
+
+	500.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}

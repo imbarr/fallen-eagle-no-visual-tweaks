@@ -3,11 +3,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -15,57 +21,56 @@
 754 = {	# 754 - Sozopolis
 	
 	# Misc
-	culture = phrygian
-	religion = chalcedonian
+	culture = greek
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
 	}
-}
-
-# 755 - Attaleia
-755 = {	# 755 - Attaleia
-	
-	# Misc
-	culture = greek
-	religion = chalcedonian
-	
-	holding = city_holding
-	
-	# History
-
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 758 - Seleukia
 758 = {	# 758 - Seleukia
 	
 	# Misc
-	culture = cappadocian
-	religion = chalcedonian
+	culture = greek
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 759 - Ikonion
 759 = {	# 759 - Ikonion
 	
 	# Misc
-	culture = cappadocian
-	religion = hellenic_pagan
+	culture = greek
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -74,14 +79,17 @@
 	
 	# Misc
 	culture = cappadocian
-	religion = hellenic_pagan
+	religion = mazdayasna
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -89,13 +97,18 @@
 761 = {	# 761 - Tarsus
 	
 	# Misc
-	culture = cappadocian
-	religion = chalcedonian
+	culture = greek
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 762 - Adana
@@ -103,12 +116,14 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 4895 - AL-HARUNIYA
@@ -116,14 +131,15 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
-	1000.1.1 = {
-		culture = armenian
+	451.1.1 = {
 		religion = chalcedonian
 	}
-
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 4896 - TALL HAMID
@@ -131,12 +147,14 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
-	1000.1.1 = {
-		culture = armenian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -146,12 +164,14 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
-	1000.1.1 = {
-		culture = armenian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -161,11 +181,15 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
-	
-	holding = castle_holding
+	religion = nicene
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -174,11 +198,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -187,11 +217,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = church_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -199,12 +235,18 @@
 5624 = {	# 5624 - Mallus
 	
 	# Misc
-	culture = cappadocian
-	religion = chalcedonian
+	culture = greek
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -213,12 +255,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = church_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5626 - Faustinopolis
@@ -226,12 +273,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5627 - Podandus
@@ -239,11 +291,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -251,15 +309,18 @@
 5628 = {	# 5628 - Cybistra
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -267,15 +328,18 @@
 5629 = {	# 5629 - Comitanassus
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -283,15 +347,18 @@
 5630 = {	# 5630 - Garsaura
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -299,15 +366,18 @@
 5631 = {	# 5631 - Nazianzus
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -316,14 +386,17 @@
 	
 	# Misc
 	culture = cappadocian
-	religion = hellenic_pagan
+	religion = mazdayasna
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -331,15 +404,18 @@
 5633 = {	# 5633 - Aspona
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -347,15 +423,18 @@
 5634 = {	# 5634 - Kinna
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = cappadocian
+	religion = mazdayasna
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	532.1.1 = {
+		culture	 = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = iconoclast
 	}
 }
 
@@ -364,11 +443,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = church_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -377,24 +462,35 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5637 - Adrasos
 5637 = {	# 5637 - Adrasos
 	
 	# Misc
-	culture = cappadocian
-	religion = chalcedonian
+	culture = greek
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -403,11 +499,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -416,12 +518,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5640 - Korakesion
@@ -429,12 +536,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5641 - Side
@@ -442,11 +554,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -455,11 +573,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -468,13 +592,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
 	# History
-	1000.1.1 = {
-		holding = none
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -484,11 +611,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -497,11 +630,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
-	holding = none
+	holding = city_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -510,11 +649,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -523,11 +668,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -536,7 +687,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -549,12 +700,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 }
 
 # 5650 - Aphrodisias
@@ -562,11 +718,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -580,9 +742,12 @@
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -590,15 +755,18 @@
 5652 = {	# 5652 - Nakoleia
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -606,15 +774,18 @@
 5653 = {	# 5653 - Midaeum
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -622,15 +793,20 @@
 5654 = {	# 5654 - Polybotus
 	
 	# Misc
-	culture = cappadocian
-	religion = hellenic_pagan
+	culture = galatian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	467.1.1 = {
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -639,15 +815,20 @@
 5655 = {	# 5655 - Germa
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = galatian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	467.1.1 = {
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -656,15 +837,20 @@
 5656 = {	# 5656 - Tyraion
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = galatian
+	religion = nicene
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	467.1.1 = {
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 
 }
@@ -679,9 +865,12 @@
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -689,15 +878,18 @@
 5658 = {	# 5658 - Amorion
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -705,15 +897,18 @@
 5659 = {	# 5659 - Docimium
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -721,15 +916,18 @@
 5660 = {	# 5660 - Synnada
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -737,15 +935,18 @@
 5661 = {	# 5661 - Antiochia
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -753,15 +954,18 @@
 5662 = {	# 5662 - Neapolis
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		culture = greek
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -770,14 +974,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -785,15 +991,17 @@
 5664 = {	# 5664 - Selge
 	
 	# Misc
-	culture = phrygian
-	religion = chalcedonian
+	culture = greek
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -801,15 +1009,18 @@
 5665 = {	# 5665 - Sagalassus
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -817,15 +1028,18 @@
 5666 = {	# 5666 - Parlais
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -833,15 +1047,18 @@
 5667 = {	# 5667 - Salda
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = phrygian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+		culture = greek
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -850,14 +1067,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -866,14 +1085,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -882,14 +1103,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -898,14 +1121,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -913,15 +1138,18 @@
 5672 = {	# 5672 - Isaura
 	
 	# Misc
-	culture = cappadocian
-	religion = chalcedonian
+	culture = isaurian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 
@@ -929,15 +1157,18 @@
 5673 = {	# 5673 - Laranalia
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = isaurian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 
@@ -945,15 +1176,18 @@
 5674 = {	# 5674 - Soloi
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = isaurian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 
@@ -961,15 +1195,18 @@
 5675 = {	# 5675 - Derbe
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = isaurian
+	religion = hellenic_pagan
 	
-	holding = none
+	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 
@@ -977,15 +1214,18 @@
 5676 = {	# 5676 - Barata
 	
 	# Misc
-	culture = greek
-	religion = chalcedonian
+	culture = isaurian
+	religion = hellenic_pagan
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	467.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 
@@ -994,14 +1234,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }
 
@@ -1010,13 +1252,15 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	730.1.1 = {
+		religion = orthodox
 	}
 }

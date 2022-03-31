@@ -1,0 +1,44 @@
+﻿1250004 = { #Magyar Confederation
+	name= "Csaba"
+	religion="magyar_pagan"
+	culture="mogyer"
+	373.1.1 = {
+		birth = yes
+	}
+	428.1.1 = {
+		death = yes
+	}
+}
+magyar_vassal_i = {
+	name= "Vechkas"
+	religion="magyar_pagan"
+	culture="mogyer"
+	373.1.1 = {
+		birth = yes
+	}
+	428.1.1 = {
+		death = yes
+	}
+}
+magyar_vassal_ii = {
+	name= "Nalka"
+	religion="magyar_pagan"
+	culture="mogyer"
+	373.1.1 = {
+		birth = yes
+	}
+	428.1.1 = {
+		death = yes
+	}
+}
+magyar_vassal_iii = {
+	name= "Nutanza"
+	religion="magyar_pagan"
+	culture="mogyer"
+	373.1.1 = {
+		birth = yes
+	}
+	428.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,88 @@
+﻿afar_01 = {
+	name= "Liban"
+	religion="waaqism_pagan"
+	culture="afar"
+	331.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+afar_02 = {
+	name= "Harire"
+	religion="waaqism_pagan"
+	culture="afar"
+	331.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+afar_03 = {
+	name= "Adeer"
+	religion="waaqism_pagan"
+	culture="afar"
+	447.1.1 = {
+		birth = yes
+	}
+	497.1.1 = {
+		death = yes
+	}
+}
+afar_04 = {
+	name= "Hamar"
+	religion="waaqism_pagan"
+	culture="afar"
+	442.1.1 = {
+		birth = yes
+	}
+	492.1.1 = {
+		death = yes
+	}
+}
+afar_05 = {
+	name= "Salah"
+	religion="waaqism_pagan"
+	culture="afar"
+	500.1.1 = {
+		birth = yes
+	}
+	567.1.1 = {
+		death = yes
+	}
+}
+afar_06 = {
+	name= "Sabraddin"
+	religion="waaqism_pagan"
+	culture="afar"
+	503.1.1 = {
+		birth = yes
+	}
+	567.1.1 = {
+		death = yes
+	}
+}
+afar_07 = {
+	name= "Zuber"
+	religion="waaqism_pagan"
+	culture="afar"
+	608.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+afar_08 = {
+	name= "Hamar"
+	religion="waaqism_pagan"
+	culture="afar"
+	734.1.1 = {
+		birth = yes
+	}
+	789.1.1 = {
+		death = yes
+	}
+}

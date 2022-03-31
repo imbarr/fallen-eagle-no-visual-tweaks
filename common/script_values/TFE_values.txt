@@ -1,0 +1,638 @@
+﻿cal_authority_target = {
+	value = 10
+
+	every_realm_province = {
+		limit = {
+			barony = { is_holy_site_of = faith }
+		}
+		add = 2
+
+	}
+
+	if = {
+		limit = {
+			NOT = { any_realm_province = { barony = { is_holy_site_of = faith } } } 
+		}
+		subtract = 2
+		
+	}
+
+	if = {
+		limit = {
+			piety_level = max_piety_level
+		}
+		add = 10
+		
+	}
+	if = {
+		limit = {
+			piety_level = very_high_piety_level
+		}
+		add = 5
+		
+	}
+	if = {
+		limit = {
+			piety_level = high_piety_level
+		}
+		add = 3
+		
+	}
+	if = {
+		limit = {
+			piety_level = low_piety_level
+		}
+		subtract = 2
+		
+	}
+
+	if = {
+		limit = {
+			has_character_flag = islam_prophet
+			
+		}
+		add = 200
+	}
+
+	if = {
+		limit = {
+			has_title = title:e_rashidun
+			
+		}
+		add = 100
+	}
+
+	max = 100
+	min = 0
+}
+
+trade_node_strength = {
+	value = 2
+
+	kingdom = {
+		every_in_de_jure_hierarchy = {
+			limit = {
+				tier = tier_county
+			}
+			every_county_province = {
+				if = {
+					limit = {
+						OR = {
+							has_building_or_higher = resources_market_01
+							has_building_or_higher = resources_market_03
+							has_building_or_higher = resources_market_04
+							has_building_or_higher = resources_market_05
+							has_building_or_higher = resources_market_14
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+								has_building = resources_market_01
+								has_building = resources_market_03
+								has_building = resources_market_04
+								has_building = resources_market_05
+								has_building = resources_market_14
+							}
+						}
+						add = 2
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus_01
+								has_building = resources_market_plus_03
+								has_building = resources_market_plus_04
+								has_building = resources_market_plus_05
+								has_building = resources_market_plus_14
+							}
+						}
+						add = 4
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus2_01
+								has_building = resources_market_plus2_03
+								has_building = resources_market_plus2_04
+								has_building = resources_market_plus2_05
+								has_building = resources_market_plus2_14
+							}
+						}
+						add = 6
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_building_or_higher = resources_market_02
+							has_building_or_higher = resources_market_10
+							has_building_or_higher = resources_market_11
+							has_building_or_higher = resources_market_12
+							has_building_or_higher = resources_market_13
+							has_building_or_higher = resources_market_15
+							has_building_or_higher = resources_market_16
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+								has_building = resources_market_02
+								has_building = resources_market_10
+								has_building = resources_market_11
+								has_building = resources_market_12
+								has_building = resources_market_13
+								has_building = resources_market_15
+								has_building = resources_market_16
+							}
+						}
+						add = 4
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus_02
+								has_building = resources_market_plus_10
+								has_building = resources_market_plus_11
+								has_building = resources_market_plus_12
+								has_building = resources_market_plus_13
+								has_building = resources_market_plus_15
+								has_building = resources_market_plus_16
+							}
+						}
+						add = 6
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus2_02
+								has_building = resources_market_plus2_10
+								has_building = resources_market_plus2_11
+								has_building = resources_market_plus2_12
+								has_building = resources_market_plus2_13
+								has_building = resources_market_plus2_15
+								has_building = resources_market_plus2_16
+							}
+						}
+						add = 9
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_building_or_higher = resources_market_06
+							has_building_or_higher = resources_market_07
+							has_building_or_higher = resources_market_08
+							has_building_or_higher = resources_market_09
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+								has_building = resources_market_06
+								has_building = resources_market_07
+								has_building = resources_market_08
+								has_building = resources_market_09
+							}
+						}
+						add = 1
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus_06
+								has_building = resources_market_plus_07
+								has_building = resources_market_plus_08
+								has_building = resources_market_plus_09
+							}
+						}
+						add = 2
+					}
+					else_if = {
+						limit = {
+							OR = {
+								has_building = resources_market_plus2_06
+								has_building = resources_market_plus2_07
+								has_building = resources_market_plus2_08
+								has_building = resources_market_plus2_09
+							}
+						}
+						add = 4
+					}
+				}
+				
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_building = trade_center_01
+		}
+		multiply = 1.1
+	}
+	else_if = {
+		limit = {
+			has_building = trade_center_02
+		}
+		multiply = 1.2
+	}
+	else_if = {
+		limit = {
+			has_building = trade_center_03
+		}
+		multiply = 1.3
+	}
+	else_if = {
+		limit = {
+			has_building = trade_center_04
+		}
+		multiply = 1.4
+	}
+
+	max = var:trade_node_cap
+	min = 0
+}
+
+
+mil_competence_net = {
+	value = 0
+
+	every_ally = {
+		add = 10
+	}
+
+	add = {
+		value = mil_competence_empire
+		desc = "MIL_COMP_EMPIRE"
+	}
+	add = {
+		value = mil_competence_legions
+		desc = "MIL_COMP_LEGIONS"
+	}
+	add = {
+		value = mil_competence_sub_value_3
+		desc = "MIL_COMP_ARMYQUALITY"
+	}
+}
+
+mil_competence_empire = {
+	value = 0
+	if = {
+		limit = {
+			OR = {
+				has_title = title:e_byzantium
+				has_title = title:e_western_roman_empire
+				has_title = title:e_roman_empire
+			}
+			max_military_strength < 3000
+		}
+		add = max_military_strength
+		subtract = 3000
+
+		multiply = 50
+	}
+
+}
+
+mil_competence_legions = {
+	value = 0
+	if = {
+		limit = {
+			has_variable_list = legion_counties
+		}
+		every_in_list = {
+			variable = legion_counties
+			add = 15
+		}
+	}
+}
+
+mil_competence_sub_value_2 = {
+	value = max_military_strength
+
+	divide = 1000
+}
+
+mil_competence_sub_value_3 = {
+	value = number_of_maa_regiments
+
+	divide = mil_competence_sub_value_2
+
+	if = {
+		limit = {
+			has_government = autocratic_government
+		}
+		subtract = 0.4
+	}
+	else = {
+		subtract = 0.6
+	}
+
+	if = {
+		limit = {
+			AND = {
+				mil_competence_sub_value_4 < 0
+				number_of_maa_regiments < 5
+			}
+		}
+		multiply = 700
+	}
+	else_if = {
+		limit = {
+			OR = {
+				mil_competence_sub_value_4 > 0
+				number_of_maa_regiments = 5
+			}
+		}
+		multiply = 100
+	}
+	else_if = {
+		limit = {
+			OR = {
+				number_of_maa_regiments > 5
+			}
+		}
+		multiply = 50
+	}
+}
+
+mil_competence_sub_value_4 = {
+	value = number_of_maa_regiments
+
+	divide = mil_competence_sub_value_2
+
+	if = {
+		limit = {
+			has_government = autocratic_government
+		}
+		subtract = 0.4
+	}
+	else = {
+		subtract = 0.6
+	}
+}
+
+civic_competence_net = {
+	value = 0
+
+	add = {
+		value = {
+			every_realm_county = {
+				limit = {
+					development_level > 20
+				}
+				add = 15
+			}
+			every_realm_county = {
+				limit = {
+					development_level <= 5
+				}
+				subtract = 1
+			}
+		}
+		desc = "CIVIC_COMP_DEV"
+	}
+	add = {
+		value = {
+			every_vassal = {
+				limit = {
+					has_realm_law = centeral_law_policy_4
+				}
+				add = 15
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = centeral_law_policy_3
+				}
+				add = 10
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = centeral_law_policy_2
+				}
+				add = 5
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = centeral_law_policy_1
+				}
+				add = 1
+			}
+		
+			every_vassal = {
+				limit = {
+					has_realm_law = de_centeral_law_policy_4
+				}
+				subtract = 20
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = de_centeral_law_policy_3
+				}
+				subtract = 15
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = de_centeral_law_policy_2
+				}
+				subtract = 5
+			}
+			every_vassal = {
+				limit = {
+					has_realm_law = de_centeral_law_policy_1
+				}
+				subtract = 1
+			}
+		}
+
+		desc = "CIVIC_COMP_CENTRAL"
+	}
+
+	add = {
+		value = {
+			every_realm_province = {
+				limit = {
+					exists = var:node
+				}
+				add = 5
+			}
+		}
+		desc = "CIVIC_COMP_TRADE"
+	}
+
+	add = {
+		value = {
+			every_realm_county = {
+				limit = {
+					county_control < 10
+				}
+				subtract = 2
+			}
+		}
+		desc = "CIVIC_COMP_CONTROL"
+	}
+
+	add = {
+		value = {
+			every_realm_province = {
+				limit = {
+					num_buildings >= 3
+				}
+				add = 10
+			}
+		}
+		desc = "CIVIC_COMP_BUILDINGS"
+	}
+}
+
+diplo_competence_net = {
+	value = 0
+
+
+	add = {
+		value = {
+			every_realm_county = {
+				limit = {
+					county_opinion > 70
+				}
+				add = 20
+			}
+			every_realm_county = {
+				limit = {
+					county_opinion <= -30
+				}
+				subtract = 5
+			}
+		}
+		desc = "DIPLO_COMP_OPINION"
+	}
+	add = {
+		value = {
+			every_ally = {
+				add = 10
+			}
+		}
+		desc = "DIPLO_COMP_ALLY"
+	}
+	add = {
+		value = {
+			every_vassal = {
+				limit = {
+					opinion = {
+						target = PREV
+						value > 60
+					}
+				}
+				add = 10
+			}
+			every_vassal = {
+				limit = {
+					opinion = {
+						target = PREV
+						value < -30
+					}
+				}
+				subtract = 5
+			}
+		}
+		desc = "DIPLO_COMP_VASSAL"
+	}
+}
+
+monument_price = {
+	value = 0
+	if = {
+		limit = {
+			exists = var:statue
+		}
+		if = {
+			limit = {
+				var:statue = flag:gold
+			}
+			add = 20000
+		}
+		if = {
+			limit = {
+				var:statue = flag:marble
+			}
+			add = 15000
+		}
+		if = {
+			limit = {
+				var:statue = flag:limestone
+			}
+			add = 10000
+		}
+		if = {
+			limit = {
+				var:statue = flag:stone
+			}
+			add = 5000
+		}
+		if = {
+			limit = {
+				var:statue = flag:copper
+			}
+			add = 15000
+		}
+	}
+}
+
+monument_refund = {
+	value = 0
+	if = {
+		limit = {
+			exists = var:monument_material
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:gold
+			}
+			add = 20000
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:marble
+			}
+			add = 15000
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:limestone
+			}
+			add = 10000
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:stone
+			}
+			add = 5000
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:copper
+			}
+			add = 15000
+		}
+		if = {
+			limit = {
+				var:monument_material = flag:copper_rust
+			}
+			add = 14500
+		}
+	}
+	if = {
+		limit = {
+			exists = var:monument_gardens
+		}
+		add = 300
+	}
+	if = {
+		limit = {
+			exists = var:monument_fences
+		}
+		add = 400
+	}
+	multiply = 0.3
+	divide = 2
+}

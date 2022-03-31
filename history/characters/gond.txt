@@ -1,0 +1,15 @@
+
+#Nagas
+901050 = {
+	name = "Vrishanaga"
+	# Naga founder
+	dynasty = 900036
+	religion = "vaishnavism"
+	culture = "gond"
+	143.1.1 = {
+		birth = yes
+	}
+	210.1.1 = {
+		death = yes
+	}
+}

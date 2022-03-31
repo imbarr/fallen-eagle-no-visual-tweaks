@@ -1,0 +1,82 @@
+tatianus_01 = { #Real people
+	name = "Antonius"
+	culture = syrian
+	religion = nicene
+	dynasty = dynasty_Tatianus
+	300.1.1 = {
+		birth = yes
+	}
+	383.1.1 = {
+		death = yes
+	}
+}
+aegyptus_02 = { #Real people
+	name = "Eutolmius"
+	culture = syrian
+	religion = nicene
+	dynasty = dynasty_Tatianus
+	father = tatianus_01
+	330.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+tatianus_02 = { #Real people
+	name = "Proklus"
+	culture = syrian
+	religion = nicene
+	dynasty = dynasty_Tatianus
+	father = aegyptus_02
+	300.1.1 = {
+		birth = yes
+	}
+	383.1.1 = {
+		death = yes
+	}
+}
+salutaris_01 = { #Real people
+	name = "Eutolmius"
+	culture = syrian
+	religion = nicene
+	330.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+salutaris_02 = { #Real people
+	name = "Rufinus"
+	culture = syrian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+salutaris_03 = { #Real people
+	name = "Petrus"
+	culture = syrian
+	religion = nicene
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+britannia_03 = {
+	name = "Alypius"
+	religion = "hellenic_pagan"
+	culture = "syrian"
+	340.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}

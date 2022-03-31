@@ -1,81 +1,213 @@
-bm_395_empire = {
+﻿bm_395_empire = {
 	start_date = 395.1.17
 	is_playable = yes
+	recommended = yes
+	default = yes
 
-	# Emperor Honorius (Western Rome) ID: 145227
-	character = {
+	character = {# Emperor Honorius (Western Rome) ID: 145227
 		name = "bookmark_empire_honorius"
 		dynasty = 1022191
 		dynasty_splendor_level = 5
 		type = male
 		birth = 384.9.9
-		title = e_italy
-		government = feudal_government
-		religion = "chalcedonian"
+		title = e_western_roman_empire
+		government = imperial_government
+		religion = "nicene"
 		culture = "roman"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 145227
-		position = { 350 430 }
+		position = { 450 430 }
 
-		animation = personality_coward
+		animation = personality_greedy
+
+		character = {
+			name = "bookmark_flavius_stilicho"
+			relation = "BOOKMARK_RELATION_REGENT"
+			dynasty = 410
+			type = male
+			birth = 359.1.1
+			culture = "roman"
+			religion = "nicene"
+			history_id = 13234567532
+			animation = personality_honorable
+		}
 	}
-	# Emperor Arcadius (Eastern Rome) ID: 975497641
-	character = {
+	character = { # Emperor Arcadius (Eastern Rome) ID: 975497641
 		name = "bookmark_empire_arcadius"
 		dynasty = 1022191
 		dynasty_splendor_level = 5
 		type = male
 		birth = 377.12.1
 		title = e_byzantium
-		government = feudal_government
-		religion = "chalcedonian"
-		culture = "greek"
+		government = imperial_government
+		religion = "nicene"
+		culture = "roman"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 975497641
-		position = { 900 600 }
+		position = { 1060 600 }
 
-		animation = personality_coward
+		animation = personality_content
+
+		character = {
+			name = "bookmark_empire_eudoxia"
+			relation = "BOOKMARK_RELATION_WIFE"
+			dynasty = 900063
+			type = female
+			birth = 378.1.1
+			culture = "roman"
+			religion = "nicene"
+			history_id = 930551279
+			animation = personality_forgiving
+		}
 	}
 }
-
-bm_395_barbarian = {
+#bm_xxx_empire = {
+#	start_date = 395.1.17
+#	is_playable = yes
+#	recommended = yes
+#}
+#bm_476_empire = {
+#	start_date = 476.9.4
+#	is_playable = yes
+#	recommended = yes
+#}
+bm_395_pendragon = {
 	start_date = 395.1.17
 	is_playable = yes
-}
 
-bm_476_ravenna = {
-	start_date = 476.1.1
-	is_playable = no
-}
+	character = {# Coel Henn (Britannia Secunda) ID: 145227
+		name = "bookmark_pendragon_henn"
+		dynasty = 99850006
+		dynasty_splendor_level = 2
+		type = male
+		birth = 361.1.1
+		title = d_york
+		government = imperial_government
+		religion = "celto_hellenic_syncretism"
+		culture = "britano_roman"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = guotepauc_02 
+		position = { 720 400 }
 
-bm_532_reconquest = {
-	start_date = 532.1.1
-	is_playable = no
-}
-
-bm_632_islam = {
-	start_date = 632.1.1
-	is_playable = no
-}
-
-bm_768_charlemagne = {
-	start_date = 768.1.1
-	is_playable = no
-
-	# King Charlemagne (Frankish Kingdom) ID: 0
-		#character = {
-			name = "bookmark_charlemagne_charlemagne"
-			dynasty = 25061
-			dynasty_splendor_level = 2
-			type = male
-			birth = 748.1.2
-			title = k_france
-			government = feudal_government
-			religion = "catholic"
-			culture = "frankish"
-			difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-			history_id = 0
-			position = { 250 340 }
-
-			animation = personality_honorable
+		animation = personality_bold
 	}
+
+	character = {# Conan mac Eudaf (Bresta) ID: Meriadoc_001
+		name = "bookmark_pendragon_eudaf"
+		dynasty_house = 99850000
+		dynasty_splendor_level = 2
+		type = male
+		birth = 334.1.1
+		title = c_cornouaille 
+		government = tribal_government
+		religion = "brythonic_druidism"
+		culture = "briton"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Meriadoc_001 
+		position = { 540 800 }
+
+		animation = schadenfreude
+	}
+
+	character = {# Eochaid (Connachta) ID: Connachta_006
+		name = "bookmark_pendragon_connacht"
+		dynasty = 900099 
+		dynasty_splendor_level = 2
+		type = male
+		birth = 361.1.1 
+		title = d_connacht 
+		government = tribal_government
+		religion = "irish_druidism"
+		culture = "gaelic"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = Connachta_006
+		position = { 220 540 }
+
+		animation = personality_forgiving
+	}
+}
+
+#bm_395_germania = {
+#	start_date = 395.1.17
+#	is_playable = yes
+#}
+#
+#bm_395_persia = {
+#	start_date = 395.1.17
+#	is_playable = yes
+#
+#	character = {# Bahram IV (Sassanid Persia) ID: 180618 
+#		name = "bookmark_persia_bahram"
+#		dynasty = 1029100
+#		dynasty_splendor_level = 4
+#		type = male
+#		birth = 339.1.1
+#		title = e_persia
+#		government = feudal_government
+#		religion = "mazdayasna"
+#		culture = "persian"
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+#		history_id = 180618 
+#		position = { 920 500 }
+#
+#		animation = personality_bold
+#	}
+#
+#	character = {# Bahram IV (Sassanid Persia) ID: 180618 
+#		name = "bookmark_persia_lakhmid"
+#		dynasty = lakhmid_dynasty
+#		dynasty_splendor_level = 2
+#		type = male
+#		birth = 370.1.1
+#		title = k_gerrha
+#		government = clan_government
+#		religion = "nicene"
+#		culture = "bedouin"
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+#		history_id = 900045 
+#		position = { 300 550 }
+#
+#		animation = personality_compassionate
+#	}
+#
+#	character = {# Bahram IV (Sassanid Persia) ID: 900712 
+#		name = "bookmark_persia_armenia"
+#		dynasty = 100685
+#		dynasty_splendor_level = 2
+#		type = male
+#		birth = 354.1.1
+#		title = k_armenia
+#		government = feudal_government
+#		religion = "armenian_apostolic"
+#		culture = "armenian"
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+#		history_id = 900712 
+#		position = { 680 250 }
+#
+#		animation = personality_greedy
+#	}
+#}
+
+
+#bm_476_ravenna = {
+#	start_date = 476.9.4
+#	is_playable = yes
+#	recommended = yes
+#}
+
+#bm_532_reconquest = {
+#	start_date = 532.1.1
+#	is_playable = no
+#}
+
+#bm_632_islam = {
+#	start_date = 632.1.1
+#	is_playable = no
+#}
+
+#bm_768_charlemagne = {
+#	start_date = 768.9.24
+#	is_playable = no
+#}
+
+

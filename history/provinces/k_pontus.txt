@@ -3,37 +3,20 @@
 	
 	# Misc
 	culture = pontic
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
 
 # 705 - Cerasus
 705 = {	# 705 - Cerasus
-	
-	# Misc
-	culture = pontic
-	religion = chalcedonian
-	
-	holding = castle_holding
-	
-	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = ashari
-	}
-
-}
-
-# 706 - Colonea
-706 = {	# 706 - Colonea
 	
 	# Misc
 	culture = pontic
@@ -44,7 +27,24 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
+	}
+
+}
+
+# 706 - Colonea
+706 = {	# 706 - Colonea
+	
+	# Misc
+	culture = pontic
+	religion = nicene
+	
+	holding = castle_holding
+	
+	# History
+	1100.1.1 = {
+		culture = turkish
+		religion = sunni
 	}
 
 }
@@ -61,7 +61,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -70,14 +70,14 @@
 	
 	# Misc
 	culture = cappadocian
-	religion = hellenic_pagan
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -99,7 +99,7 @@
 	
 	# Misc
 	culture = pontic
-	religion = hellenic_pagan
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -111,7 +111,7 @@
 	
 	# Misc
 	culture = pontic
-	religion = hellenic_pagan
+	religion = nicene
 	
 	# History
 	#1000.1.1 = {
@@ -126,14 +126,14 @@
 	
 	# Misc
 	culture = pontic
-	religion = hellenic_pagan
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -142,7 +142,7 @@
 	
 	# Misc
 	culture = pontic
-	religion = hellenic_pagan
+	religion = nicene
 	
 	# History
 	#1000.1.1 = {
@@ -397,7 +397,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -426,7 +426,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -442,7 +442,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -458,7 +458,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -474,7 +474,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -490,7 +490,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -506,7 +506,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -522,7 +522,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -538,7 +538,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -554,7 +554,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -570,7 +570,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -586,7 +586,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -602,7 +602,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -618,7 +618,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -634,7 +634,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -650,7 +650,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -666,7 +666,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -682,7 +682,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -698,7 +698,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -714,7 +714,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -723,14 +723,14 @@
 	
 	# Misc
 	culture = cappadocian
-	religion = hellenic_pagan
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 }
 
@@ -746,7 +746,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -763,7 +763,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -783,7 +783,7 @@
 	}
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -800,7 +800,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -817,7 +817,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -834,7 +834,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -851,7 +851,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -868,7 +868,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -885,7 +885,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -902,7 +902,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -919,7 +919,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -936,7 +936,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -953,7 +953,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -970,7 +970,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }
@@ -987,7 +987,7 @@
 	# History
 	1100.1.1 = {
 		culture = turkish
-		religion = ashari
+		religion = sunni
 	}
 
 }

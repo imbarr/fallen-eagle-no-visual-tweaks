@@ -1,0 +1,32 @@
+2000003 = {
+	name = "Abigail"
+	dna = 2000003
+	female = yes
+	religion = "norse_pagan"
+	culture = "sitonian"
+
+	trait = education_learning_1
+	trait = lazy
+	trait = fickle
+	trait = ambitious
+	trait = intellect_good_3
+	trait = physique_bad_3
+	diplomacy = 9
+	martial = 0
+	stewardship = 11
+	intrigue = 16
+	learning = 14
+	prowess = 0
+	health = 7.25
+	disallow_random_traits = yes
+
+	378.10.29 = {
+		birth = yes
+	}
+	395.1.17 = {
+		move_to_pool = yes
+	}
+	432.1.1 = {
+		death = yes
+	}
+}

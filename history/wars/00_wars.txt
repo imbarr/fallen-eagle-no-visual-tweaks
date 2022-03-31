@@ -1,0 +1,174 @@
+# Visigothic Revolt
+war = {
+	name = "war_395_visigothic_rebellion"
+	start_date = 395.1.16
+	end_date = 397.1.1
+	targeted_titles={
+		k_pannonia
+	}
+	casus_belli = visigothic_revolt_cb
+	attackers = { 999103 } #Alaric
+	defenders = { 145227 70519 900062 } #Honorius, Arcadius and Stilicho
+	claimant = 999103 
+
+	999103 = {
+		1066.9.12 = {
+			location = 2174
+		}
+		1066.9.28 = {
+			location = 1509
+		}
+	}
+}
+# Gupta Invasion of the Western Satraps
+war = {
+	name = "Gupta Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		k_malwa
+		k_gujarat
+		k_sindh
+	}
+	casus_belli = invasion_war
+	attackers = { 900964 }
+	defenders = { 900948 }
+	claimant = 900964 
+}
+#Hunnic Ivasion of Heruli
+war = {
+	name = "Hunnic Herulian Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_bugeac
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 990000 }
+	defenders = { 995000 }
+	claimant = 990000 
+}
+#Hunnic Ivasion of Heruli
+war = {
+	name = "Hunnic Scirian Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_moldova
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 990000 }
+	defenders = { 996000 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Bastarian Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_bukovina
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 990000 }
+	defenders = { 1100007 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Rugian Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_ungvar
+		d_transcarpathia
+	}
+	casus_belli = ducal_conquest_cb
+	attackers = { 990000 }
+	defenders = { rugian_01 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Gepidian Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_transylvania
+		d_bihar
+	}
+	casus_belli = ducal_conquest_cb
+	attackers = { 990000 }
+	defenders = { 991000 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Alan Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_muntenia
+	}
+	casus_belli = ducal_conquest_cb
+	attackers = { 990000 }
+	defenders = { alan_01 }
+	claimant = 990000 
+}
+war = {
+	name = "Second Hunnic Alan Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_transylvanian_alps
+		d_oltenia
+	}
+	casus_belli = ducal_conquest_cb
+	attackers = { 990000 }
+	defenders = { alan_12 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Taifal Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_oltenia
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 990000 }
+	defenders = { taifal_02 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Yazige Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		c_keve
+	}
+	casus_belli = county_conquest_cb
+	attackers = { 990000 }
+	defenders = { 1100003 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Roxolan Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		c_csanad
+	}
+	casus_belli = county_conquest_cb
+	attackers = { 990000 }
+	defenders = { 1100002 }
+	claimant = 990000 
+}
+war = {
+	name = "Hunnic Hasding Invasion"
+	start_date = 395.1.16
+	end_date = 396.1.1
+	targeted_titles={
+		d_bacs
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 990000 }
+	defenders = { 900012 }
+	claimant = 990000 
+}

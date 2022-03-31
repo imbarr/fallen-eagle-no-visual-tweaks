@@ -2,105 +2,133 @@
 ##d_valois ###################################
 ###c_ile_de_france
 2333 = {	#PARIS
-	culture = Romano_Gallic
-	religion = hellenic_pagan
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
-	769.1.1 = {
-		special_building_slot = notre_dame_01
+	451.1.1 = {
+		religion = chalcedonian
 	}
 }
 2357 = {	#SAINT DENIS
 	holding = church_holding
 }
 2356 = {	#MONTREUIL
+410.1.1 = {
 	holding = city_holding
+}
 }
 2334 = {	#VERSAILLES
 	holding = none
-	1000.1.1 = {
-		holding = city_holding
-	}
 }
 2335 = {	#MONTLHERY
 	holding = none
-	1015.1.1 = {
-		holding = castle_holding
-	}
 }
 2336 = {	#ETAMPES
+410.1.1 = {
 	holding = castle_holding
+}
 }
 
 ###c_brie_francaise
 2354 = {	#MELUN
-	culture = Romano_Gallic
-	religion = hellenic_pagan
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2353 = {	#BRAY
-	holding = castle_holding
+holding = none
+400.1.1 = {
+	holding = city_holding
+}
 }
 2337 = {	#NEMOURS
 	holding = none
-	1120.1.1 = {
-		holding = city_holding
-	}
 }
 2342 = {	#MONTEREAU
-	holding = church_holding
+holding = none
 }
 
 ###c_vermandois
 2397 = {	#MARLE
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = gallo_roman
+	}
 }
 2400 = {	#ROUCY
 	holding = none
+	400.1.1 = {
 	holding = city_holding
+	}
 }
 2399 = {	#LAON
-	holding = church_holding
+	holding = none
+	400.1.1 = {
+		holding = church_holding
+		}
 }
 
 ###c_valois
 2358 = {	#SENLIS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2360 = {	#CREPY
 	holding = city_holding
 }
 2398 = {	#COUCY
-	holding = none
-	1150.1.1 = {
-		holding = castle_holding
+holding = none
+400.1.1 = {
+	holding = castle_holding
 	}
 }
 
 ###c_amiens
 2184 = {	#AMIENS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2185 = {	#CORBIE
+holding = none
+410.1.1 = {
 	holding = church_holding
 }
+}
 2186 = {	#PERONNE
+holding = none
+410.1.1 = {
 	holding = city_holding
+}
 }
 
 ###c_beaumont
 2190 = {	#BEAUMONT
-	culture = Romano_Gallic
-	religion = hellenic_pagan
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2181 = {	#MANTES
+holding = none
+410.1.1 = {
 	holding = city_holding
+}
 }
 2183 = {	#BEAUVAIS
 	holding = church_holding
@@ -111,36 +139,49 @@
 
 ###c_clermont
 2189 = {	#CLERMONT
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2188 = {	#NOYON
 	holding = church_holding
 }
 2187 = {	#SAINT-QUENTIN
+holding = none
+410.1.1 = {
 	holding = city_holding
+}
 }
 
 ##d_berry ###################################
 ###c_berry
 2280 = {	#DEOLS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2279 = {	#CHATEAUROUX
+410.1.1 = {
 	holding = church_holding
 }
+}
 2276 = {	#LA HAYE, today known as "Descartes" in Indre-et-Loire
+410.1.1 = {
 	holding = city_holding
+}
 }
 
 ###c_tourraine
 2274 = {	#TOURS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2273 = {	#TOURRAINE
 	holding = none
@@ -151,9 +192,13 @@
 
 ###c_blois
 2319 = {	#BLOIS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = alan
+	}
 }
 2318 = {	#CONTRES
 	holding = none
@@ -164,12 +209,12 @@
 
 ###c_issoudun
 2278 = {	#ISSOUDUN
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2277 = {	#VALENCAY
-	holding = city_holding
+	holding = none
 }
 2312 = {	#BOURGES
 	holding = church_holding
@@ -178,9 +223,12 @@
 ##d_anjou ###################################
 ###c_anjou
 2267 = {	#ANGERS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = manichean
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2263 = {	#LUIGNE
 	holding = none
@@ -195,7 +243,10 @@
 	}
 }
 2269 = {	#LE LUDE
+holding = none
+410.1.1 = {
 	holding = church_holding
+}
 }
 2262 = {	#CRAON
 	holding = none
@@ -203,8 +254,8 @@
 
 ###c_saumur
 2261 = {	#SAUMUR
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = manichean
 	holding = castle_holding
 }
 2260 = {	#MELAY
@@ -213,8 +264,8 @@
 
 ###c_maine
 2270 = {	#LE MANS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2272 = {	#COURCILLON	= Dissay-sous-Courcillon
@@ -229,12 +280,15 @@
 
 ###c_sable
 2264 = {	#SABLE
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2266 = {	#MAYENNE
-	holding = castle_holding
+	holding = none
+	400.1.1 = {
+		holding = castle_holding
+	}
 }
 2265 = {	#LAVAL
 	holding = none
@@ -246,29 +300,40 @@
 ##d_normandy ###################################
 ###c_rouen
 2179 = {	#ROUEN
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2180 = {	#GISORS
+holding = none
+410.1.1 = {
 	holding = church_holding
 }
+}
 2175 = {	#HARCOURT
-	holding = city_holding
+holding = none
+	410.1.1 = {
+		holding = city_holding
+	}
 }
 
 ###c_evreux
 2329 = {	#EVREUX
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2330 = {	#VERNON
-	holding = city_holding
+holding = none
+	410.1.1 = {
+		holding = city_holding
+	}
 }
 2328 = {	#VERNEUIL
 	holding = none
@@ -276,14 +341,19 @@
 
 ###c_bayeux
 2170 = {	#BAYEUX
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
+	451.1.1 = {
+		religion = chalcedonian
+		religion = gallo_roman
+	}
 }
 2172 = {	#CAEN
+holding = none
+410.1.1 = {
 	holding = city_holding
+}
 }
 2173 = {	#FALAISE
 	holding = none
@@ -291,59 +361,68 @@
 
 ###c_avranches
 2167 = {	#AVRANCHES
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
+
 }
 2169 = {	#CHERBOURG
-	holding = city_holding
+	holding = none
+	410.1.1 = {
+		holding = city_holding
+	}
 }
 2168 = {	#COUTANCES
-	holding = none
-	1050.1.1 = {
-		holding = church_holding
-	}
+	holding = church_holding
 }
 
 ###c_alencon
 2325 = {	#ALENCON
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
 }
 2171 = {	#MORTAIN
-	holding = church_holding
+holding = none
+	410.1.1 = {
+		holding = church_holding
+	}
 }
 2326 = {	#ARGENTAN
-	holding = city_holding
+holding = none
+	410.1.1 = {
+		holding = city_holding
+	}
 }
 
 ###c_lisieux
 2174 = {	#LISIEUX
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
 }
 2327 = {	#SEES
-	holding = city_holding
+holding = none
+	410.1.1 = {
+		holding = city_holding
+	}
 }
 
 ###c_eu
 2178 = {	#EU
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = nicene
 	holding = castle_holding
-	960.1.1 = {	culture = norman }
-	1100.11.11 = { culture = Romano_Gallic }
+	451.1.1 = {
+		religion = chalcedonian
+		culture = gallo_roman
+	}
 }
 2176 = {	#FECAMP
-	holding = church_holding
+holding = none
+	410.1.1 = {
+		holding = church_holding
+	}
 }
 2177 = {	#DIEPPE
 	holding = none
@@ -361,9 +440,13 @@
 ##d_orleans ###################################
 ###c_orleans
 2338 = {	#ORLEANS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = alan
+	}
 }
 2320 = {	#BEAUGENCY
 	holding = church_holding
@@ -375,27 +458,43 @@
 	}
 }
 2315 = {	#VIERZON
+holding = none
+410.1.1 = {
 	holding = castle_holding
+}
 }
 
 ###c_montargis
 2339 = {	#MONTARGIS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2340 = {	#COURTENAY
+holding = none
+410.1.1 = {
 	holding = city_holding
 }
+}
 2341 = {	#CHATEAU RENARD
+holding = none
+410.1.1 = {
 	holding = castle_holding
+}
 }
 
 ###c_vendome
 2283 = {	#VENODME
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = alan
+	}
 }
 2321 = {	#CHATEAUDUN
 	holding = castle_holding
@@ -403,9 +502,12 @@
 
 ###c_chartres
 2331 = {	#DREUX
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2322 = {	#CHARTRES
 	holding = church_holding
@@ -419,9 +521,14 @@
 
 ###c_sancerre
 2314 = {	#SANCERRE
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	
+	451.1.1 = {
+		religion = chalcedonian
+		culture = alan
+	}
 }
 2463 = {	#SULLY SUR LOIRE
 	holding = none
@@ -436,15 +543,22 @@
 ##d_champagne ###################################
 ###c_reims
 2390 = {	#REIMS
-	culture = Romano_Gallic
-	religion = chalcedonian
-	holding = church_holding
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
+	holding = castle_holding
+	
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2366 = {	#EPERNAY
 	holding = city_holding
 }
 2362 = {	#CHATILLON = Chatillon-sur-Marne
+holding = none
+400.1.1 = {
 	holding = city_holding
+}
 }
 2361 = {	#CHATEAU THIERRY
 	holding = castle_holding
@@ -452,9 +566,12 @@
 
 ###c_troyes
 2371 = {	#TROYES
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2375 = {	#CLAIRVAUX
 	holding = none
@@ -468,8 +585,8 @@
 
 ###c_coulommiers = Provins
 2363 = {	#PROVINS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2364 = {	#COULOMMIERS
@@ -484,18 +601,18 @@
 
 ###c_meaux
 2359 = {	#MEAUX
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2355 = {	#CRECY
-	holding = church_holding
+	holding = none
 }
 
 ###c_chalons
 2392 = {	#CHALONS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2389 = {	#SAINT DIZIER
@@ -507,12 +624,18 @@
 
 ###c_rethel
 2391 = {	#RETHEL
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = gallo_roman
+	}
 }
 2393 = {	#GRANDPRE
 	holding = city_holding
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 }
 2394 = {	#MEZIERES
 	holding = none
@@ -526,9 +649,12 @@
 
 ###c_sens
 2352 = {	#SENS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 2368 = {	#NOGENT
 	holding = castle_holding
@@ -546,9 +672,13 @@
 ##d_burgundy ###################################
 ###c_dijon
 2380 = {	#DIJON
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = gallo_roman
+	}
 }
 2382 = {	#GRAY
 	holding = none
@@ -559,9 +689,12 @@
 
 ###c_chalon
 2348 = {	#CHALON
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = "arianism"
+	}
 }
 2377 = {	#CITEAUX
 	holding = none
@@ -578,8 +711,8 @@
 
 ###c_auxerre
 2346 = {	#AUXERRE
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2345 = {	#DONZY
@@ -591,8 +724,8 @@
 
 ###c_tonnerrois
 2351 = {	#TONNERRE
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2379 = {	#MONTBARD
@@ -601,8 +734,8 @@
 
 ###c_avalois
 2349 = {	#VEZELAY
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = church_holding
 }
 2378 = {	#MORVAN
@@ -611,9 +744,12 @@
 
 ###c_macon
 2302 = {	#MACON
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = "arianism"
+	}
 }
 2304 = {	#CLUNY
 	holding = church_holding
@@ -624,8 +760,8 @@
 
 ###c_nevers
 2343 = {	#NEVERS
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2307 = {	#MOULINS
@@ -640,23 +776,29 @@
 
 ##d_bar ###################################
 ###c_bar
-2388 = {	#BAR
-	culture = Romano_Gallic
-	religion = chalcedonian
+
+2388 = {
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
+
 2395 = {	#VERDUN
-	holding = city_holding
+holding = none
 }
 2081 = {	#b_argonne/SAINT-MIHIEL
-	holding = church_holding
+holding = none
 }
 
 ###c_briey
 2706 = {	#BRIEY
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = gallo_roman
+	}
 }
 2080 = {	#HAYANGE
 	holding = city_holding
@@ -664,46 +806,62 @@
 
 ###c_langres
 2374 = {	#LANGRES
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = gallo_roman
+	}
 }
 2386 = {	#GRAND
 	holding = none
 }
 2385 = {	#CHAMPS
-	holding = church_holding
+	holding = none
 }
 
 ###c_vaucouleurs
 2387 = {	#VAUCOULEURS
-	culture = Romano_Gallic
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2079 = {	#TOUL
 	holding = church_holding
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 }
 
 ##d_flanders ###################################
 ###c_brugge
 2115 = {	#BRUGES
-	culture = belgae
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = frankish
+		religion = "central_pagan"
+	}
 }
 2114 = {	#GENT
 	holding = church_holding
 }
 2124 = {	#ROESELARE
+holding = none
+400.1.1 = {
 	holding = city_holding
+}
 }
 
 ###c_yperen
 2125 = {	#YPRES
-	culture = belgae
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = frankish
+		religion = "central_pagan"
+	}
 }
 2128 = {	#VEURNE
 	holding = none
@@ -720,22 +878,36 @@
 
 ###c_guines
 2130 = {	#CALAIS
-	culture = belgae
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = frankish
+		religion = "central_pagan"
+	}
+	
 }
 2129 = {	#GRAVELINES
+holding = none
+400.1.1 = {
 	holding = church_holding
 }
+}
 2133 = {	#SAINT OMER
+400.1.1 = {
 	holding = city_holding
+}
 }
 
 ###c_lille
 2126 = {	#LILLE
-	culture = belgae
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = frankish
+		religion = "central_pagan"
+	}
 }
 2123 = {	#COURTRAI
 	holding = city_holding
@@ -749,12 +921,19 @@
 
 ###c_boulogne
 2132 = {	#BOULOGNE
-	culture = belgae
-	religion = druidism
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	476.1.1 = {
+		culture = frankish
+		religion = "central_pagan"
+	}
 }
 2136 = {	#MONTREUIL SUR MER
+holding = none
+1059.1.1 = {
 	holding = church_holding
+}
 }
 2137 = {	#ABBEVILLE
 	holding = church_holding

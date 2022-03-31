@@ -1,0 +1,308 @@
+﻿on_game_start = {
+	on_actions = {
+		on_chariot_start
+	}
+}
+
+on_chariot_start = {
+	effect = {
+		set_global_variable = {
+			name = green_score
+			value = 0
+		}
+		set_global_variable = {
+			name = blue_score
+			value = 0
+		}
+		while = {
+			count = 3
+			random_ruler = {
+				limit = {
+					has_government = imperial_government
+					any_courtier = {
+						is_male = yes
+						prowess > 10
+					}
+				}
+				random_courtier = {
+					limit = {
+						is_male = yes
+						prowess > 10
+						NOT = {
+							is_target_in_global_variable_list = {
+								name = green_team
+								target = THIS
+							}
+						}
+						NOT = {
+							is_target_in_global_variable_list = {
+								name = blue_team
+								target = THIS
+							}
+						}
+					}
+					add_trait = blue_support
+					add_to_global_variable_list = {
+						name = blue_team
+						target = THIS
+					}
+				}
+			}
+		}
+		while = {
+			count = 3
+			random_ruler = {
+				limit = {
+					has_government = imperial_government
+					any_courtier = {
+						is_male = yes
+						prowess > 10
+					}
+				}
+				random_courtier = {
+					limit = {
+						is_male = yes
+						prowess > 10
+						NOT = {
+							is_target_in_global_variable_list = {
+								name = green_team
+								target = THIS
+							}
+						}
+						NOT = {
+							is_target_in_global_variable_list = {
+								name = blue_team
+								target = THIS
+							}
+						}
+					}
+					add_trait = green_support
+					add_to_global_variable_list = {
+						name = green_team
+						target = THIS
+					}
+				}
+			}
+		}
+	}
+	on_actions = {
+		delay = { months = 3 }
+		on_chariot_check
+	}
+	on_actions = {
+		delay = { years = 10 }
+		on_chariot_game
+	}
+}
+
+on_chariot_check = {
+	effect = {
+		if = {
+			limit = {
+				any_in_global_list = {
+					variable  = green_team
+					is_alive = no
+				}
+			}
+			every_in_global_list = {
+				variable  = green_team
+				limit = {
+					is_alive = no
+				}
+				remove_list_global_variable = {
+					name = green_team
+					target = THIS
+				}
+			}
+		}
+		if = {
+			limit = {
+				any_in_global_list = {
+					variable  = blue_team
+					is_alive = no
+				}
+			}
+			every_in_global_list = {
+				variable  = blue_team
+				limit = {
+					is_alive = no
+				}
+				remove_list_global_variable = {
+					name = blue_team
+					target = THIS
+				}
+			}
+		}
+		while = {
+			count = 3
+			if = {
+				limit = {
+					OR = {
+						NOT = {has_global_variable_list = green_team}
+						global_variable_list_size = {
+							name = green_team
+							value < 3
+						}
+					}
+				}
+				random_ruler = {
+					limit = {
+						has_government = imperial_government
+						any_courtier = {
+							is_male = yes
+							prowess > 10
+						}
+					}
+					random_courtier = {
+						limit = {
+							is_male = yes
+							prowess > 10
+							NOT = {
+								is_target_in_global_variable_list = {
+									name = green_team
+									target = THIS
+								}
+							}
+							NOT = {
+								is_target_in_global_variable_list = {
+									name = blue_team
+									target = THIS
+								}
+							}
+						}
+						add_trait = green_support
+						add_to_global_variable_list = {
+							name = green_team
+							target = THIS
+						}
+					}
+				}
+			}
+		}
+		while = {
+			count = 3
+			if = {
+				limit = {
+					OR = {
+						NOT = {has_global_variable_list = blue_team}
+						global_variable_list_size = {
+							name = blue_team
+							value < 3
+						}
+					}
+				}
+				random_ruler = {
+					limit = {
+						has_government = imperial_government
+						any_courtier = {
+							is_male = yes
+							prowess > 10
+						}
+					}
+					random_courtier = {
+						limit = {
+							is_male = yes
+							prowess > 10
+							NOT = {
+								is_target_in_global_variable_list = {
+									name = green_team
+									target = THIS
+								}
+							}
+							NOT = {
+								is_target_in_global_variable_list = {
+									name = blue_team
+									target = THIS
+								}
+							}
+						}
+						add_trait = blue_support
+						add_to_global_variable_list = {
+							name = blue_team
+							target = THIS
+						}
+					}
+				}
+			}
+		}
+	}
+	on_actions = {
+		delay = { months = 3 }
+		on_chariot_check
+	}
+}
+
+on_chariot_game = {
+	effect = {
+		random_in_global_list = {
+			variable = blue_team
+			save_temporary_scope_as = blue_racer
+		}
+		random_in_global_list = {
+			variable = green_team
+			save_temporary_scope_as = green_racer
+		}
+		if = {
+			limit = {
+				scope:blue_racer.prowess >= scope:green_racer.prowess
+			}
+			change_global_variable = {
+				name = blue_score
+				add = 1
+			}
+			every_ruler = {
+				limit = {
+					has_government = imperial_government
+				}
+				trigger_event = chariots.0001
+			}
+		}
+		else_if = {
+			limit = {
+				scope:blue_racer.prowess <= scope:green_racer.prowess
+			}
+			change_global_variable = {
+				name = green_score
+				add = 1
+			}
+			every_ruler = {
+				limit = {
+					has_government = imperial_government
+				}
+				trigger_event = chariots.0002
+			}
+		}
+		else = {
+			random_list = {
+				5 = {
+					change_global_variable = {
+						name = green_score
+						add = 1
+					}
+					every_ruler = {
+						limit = {
+							has_government = imperial_government
+						}
+						trigger_event = chariots.0002
+					}
+				}
+				5 = {
+					change_global_variable = {
+						name = blue_score
+						add = 1
+					}
+					every_ruler = {
+						limit = {
+							has_government = imperial_government
+						}
+						trigger_event = chariots.0001
+					}
+				}
+			}
+		}
+	}
+	on_actions = {
+		delay = { years = 10 }
+		on_chariot_game
+	}
+}

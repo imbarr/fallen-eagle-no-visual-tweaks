@@ -1,0 +1,41 @@
+c_poszony = {
+	395.1.1 = {
+		holder = 902007 #Fictional Vassal
+		liege = k_quadi
+	}
+}
+c_nyitra = {
+	395.1.1 = {
+		holder = 902007 #Fictional Vassal
+		liege = k_quadi
+	}
+}
+c_trenscen = {
+	395.1.1 = {
+		holder = 902007 #Fictional Vassal
+		liege = k_quadi
+	}
+}
+c_bars = {
+	395.1.1 = {
+		holder = 902007 #Fictional Vassal
+		liege = k_quadi
+	}
+}
+
+d_nyitra = {
+	395.1.1 = {
+		holder = 902018 #Fictional Bavari
+		liege = k_quadi
+	}
+}
+d_ungvar = {
+	390.1.1 = {
+		holder = rugian_01
+	}
+}
+d_transcarpathia = {
+	390.1.1 = {
+		holder = rugian_01
+	}
+}

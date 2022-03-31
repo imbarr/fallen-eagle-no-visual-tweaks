@@ -1,0 +1,22 @@
+﻿l_english:
+ red_king_modifier:0 "Red King"
+ red_queen_modifier:0 "Red Queen"
+ caliph_auth:0 "Caliphate Authority"
+ statue_gold:0 "Gold Statue"
+ statue_marble:0 "Marble Statue"
+ statue_limestone:0 "Limestone Statue"
+ statue_stone:0 "Stone Statue"
+ statue_char_gold:0 "Gold Statue"
+ statue_char_marble:0 "Marble Statue"
+ statue_char_limestone:0 "Limestone Statue"
+ statue_char_stone:0 "Stone Statue"
+ statue_char_copper:0 "Copper Statue"
+ statue_copper:0 "Copper Statue"
+ monument_gardens:0 "Monument Gardens"
+ monument_gardens_char:0 "Monument Gardens"
+
+ monument_fences:0 "Monument Fences"
+ monument_fences_char:0 "Monument Fences"
+
+ TFE_refused_to_give_up_dunhuang:0 "Refused to Give Up Dunhuang"
+ TFE_refused_to_give_up_dunhuang_desc:0 "This character refused to give up the governorship of Dunhuang, even though everyone agreed there was a much worthier and better candidate for the job. What an arrogant imbecile, indeed!"

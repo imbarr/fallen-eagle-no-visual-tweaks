@@ -1,0 +1,134 @@
+﻿gaul = {
+	color = { 0.4 0.8 0.12 }
+
+	ethos = ethos_communal
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_polygamous
+		tradition_language_scholars
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		25 = caucasian_blond
+		25 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+pictish = {
+		
+	color = hsv { 0.58 1.00 0.72 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_pictish
+	language = language_pictish
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_hill_dwellers
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_pictish
+	
+	coa_gfx = { scottish_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		25 = caucasian_blond
+		25 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+noric = {
+	color = { 0.3 0.6 0.09 }
+
+	ethos = ethos_stoic
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_swords_for_hire
+		tradition_metal_craftsmanship # Cybr: Famous for Noric steel
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		25 = mediterranean
+		5 = caucasian_blond
+		20 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+galatian = {
+	color = { 0.3 0.6 0.09 }
+
+	ethos = ethos_stoic
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_swords_for_hire
+		tradition_hill_dwellers # Cybr: Anatolian highlands
+	}
+
+	dlc_tradition = { # Cybr: Heavily Hellenized by the TFE start date
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		25 = mediterranean
+		5 = caucasian_blond
+		20 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

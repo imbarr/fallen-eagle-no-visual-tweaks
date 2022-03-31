@@ -1,0 +1,555 @@
+﻿900700 = { # Gushnaspid of Daylam
+	name="Keyghobad"
+	dynasty = 900017
+	religion="mazdayasna"
+	culture="daylamite"
+	372.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900701 = { # Kamsarakan of Armenia
+	name="Fath"
+	religion="mazdayasna"
+	culture="daylamite"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900702 = { # Inhdal Vassal
+	name="Ruhollah"
+	dynasty = 900018
+	religion="mazdayasna"
+	culture="tajik"
+	339.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900703 = { # Persian Vassal
+	name="Eskander"
+	dynasty = 900019
+	religion="mazdayasna"
+	culture="persian"
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900704 = { # Mihranian Vassal
+	name="Khurs"
+	dynasty = 1029027
+	religion="mazdayasna"
+	culture="armenian"
+	father = 900705
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900705 = { # Mihranian Vassal
+	name="Peroz"
+	dynasty = 1029027
+	religion="mazdayasna"
+	culture="armenian"
+	315.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+900706 = { # Mihranian Vassal
+	name="Bakur"
+	dynasty = 1029027
+	religion= "mazdayasna"
+	culture= "armenian"
+	father = 900705
+	345.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900707 = { # Mihran Vassal
+	name="Shahrokh"
+	dynasty = 1042070
+	religion="mazdayasna"
+	culture="persian"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900708 = { # Spandiyah Vassal
+	name="Kavoos"
+	dynasty = 900020
+	religion="mazdayasna"
+	culture="persian"
+	361.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900709 = { # Zik Vassal
+	name="Behrouz"
+	dynasty = 900021
+	religion="mazdayasna"
+	culture="persian"
+	354.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900710 = { # Zik Vassal
+	name="Jahangir"
+	religion="mazdayasna"
+	culture="persian"
+	378.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900711 = { # Suren
+	name="Manushihr"
+	dynasty = 1042143
+	religion="mazdayasna"
+	culture="persian"
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900713 = { # Vassal
+	name="Salman"
+	religion="mazdayasna"
+	culture="persian"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900714 = { # Vassal
+	name="Mehrab"
+	religion="messalian"
+	culture="persian"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900715 = { # Vassal
+	name="Khashayar"
+	religion="messalian"
+	culture="assyrian"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900716 = { # Vassal
+	name="Zia"
+	religion="messalian"
+	culture="aramean"
+	354.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900717 = { # Vassal
+	name="Yousef"
+	religion="nicene"
+	culture="persian"
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900718 = { # Vassal
+	name="Shahbaz"
+	religion="mazdayasna"
+	culture="persian"
+	352.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900719 = { # Vassal
+	name="Keykhosrau"
+	religion="mazdayasna"
+	culture="persian"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900720 = { # Vassal
+	name="Hazarasp"
+	religion="mazdayasna"
+	culture="persian"
+	351.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900721 = { # Vassal
+	name="Vishtasb"
+	religion="mazdayasna"
+	culture="persian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900722 = { # Vassal
+	name="Nezam"
+	religion="mazdayasna"
+	culture="persian"
+	339.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900723 = { # Vassal
+	name="Sina"
+	religion="mazdayasna"
+	culture="persian"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900724 = { # Vassal
+	name="Reza"
+	religion="mazdayasna"
+	culture="persian"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900725 = { # Vassal
+	name="Ferdows"
+	religion="mazdayasna"
+	culture="persian"
+	357.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900725 = { # Vassal
+	name="Vahid"
+	religion="mazdayasna"
+	culture="persian"
+	355.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900726 = { # Vassal
+	name="Morteza"
+	religion="mazdayasna"
+	culture="persian"
+	352.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900727 = { # Vassal
+	name="Hazarasp"
+	religion="mazdayasna"
+	culture="persian"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900728 = { # Vassal
+	name="Ruhollah"
+	religion="mazdayasna"
+	culture="persian"
+	351.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900729 = { # Vassal
+	name="Yazdegerd"
+	religion="mazdayasna"
+	culture="persian"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900730 = { # Vassal
+	name="Kharmandar"
+	religion="mazdayasna"
+	culture="persian"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900731 = { # Vassal
+	name="Ardavan"
+	religion="mazdayasna"
+	culture="persian"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900732 = { # Vassal
+	name="Marzuban"
+	religion="mazdayasna"
+	culture="persian"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900733 = { # Vassal
+	name="Fereedun"
+	religion="mazdayasna"
+	culture="persian"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+# 900734 = { # Vassal
+# 	name="Javeed"
+# 	religion="mazdayasna"
+# 	culture="persian"
+# 	352.1.1 = {
+# 		birth = yes
+# 	}
+# 	410.1.1 = {
+# 		death = yes
+# 	}
+# }
+# 900735 = { # Vassal
+# 	name="Hormoz"
+# 	religion="mazdayasna"
+# 	culture="persian"
+# 	361.1.1 = {
+# 		birth = yes
+# 	}
+# 	410.1.1 = {
+# 		death = yes
+# 	}
+# }
+# 900736 = { # Vassal
+# 	name="Shahab"
+# 	religion="mazdayasna"
+# 	culture="persian"
+# 	358.1.1 = {
+# 		birth = yes
+# 	}
+# 	410.1.1 = {
+# 		death = yes
+# 	}
+# }
+900737 = { # Vassal
+	name="Zand"
+	religion="mazdayasna"
+	culture="persian"
+	351.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900738 = { # Vassal
+	name="Morad"
+	religion="mazdayasna"
+	culture="persian"
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900739 = { # Vassal
+	name="Ebrahim"
+	religion="mazdayasna"
+	culture="persian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900740 = { # Vassal
+	name="Ferdows"
+	religion="mazdayasna"
+	culture="persian"
+	351.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900741 = { # Vassal
+	name="Shahbaz"
+	religion="mazdayasna"
+	culture="persian"
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900742 = { # Vassal
+	name="Djamasp"
+	religion="mazdayasna"
+	culture="persian"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900743 = { # Vassal
+	name="Behrad"
+	religion="mazdayasna"
+	culture="persian"
+	339.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900744 = { # Vassal
+	name="Tahmasb"
+	religion="mazdayasna"
+	culture="persian"
+	346.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900745 = { # Vassal
+	name="Danush"
+	religion="mazdayasna"
+	culture="persian"
+	357.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900746 = { # Vassal
+	name="Goshtasb"
+	religion="mazdayasna"
+	culture="persian"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+# 900747 = { # Vassal
+# 	name="Jahangir"
+# 	religion="mazdayasna"
+# 	culture="persian"
+# 	358.1.1 = {
+# 		birth = yes
+# 	}
+# 	410.1.1 = {
+# 		death = yes
+# 	}
+# }
+
+persian_priest_01 = {
+	name = "Walagash"
+	religion="mazdayasna"
+	culture="persian"
+
+	328.1.1 = {
+		birth = yes
+	}
+	403.1.1 = {
+		death = yes
+	}
+}
+
+

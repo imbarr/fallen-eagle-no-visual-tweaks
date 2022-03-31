@@ -1,0 +1,398 @@
+### Esthonians
+esthonia_01 = {
+	name = "Reko"
+	culture = fenni
+	religion = finnish_pagan
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+esthonia_02 = {
+	name = "Olavi"
+	culture = fenni
+	religion = finnish_pagan
+	378.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+esthonia_03 = {
+	name = "Petri"
+	culture = fenni
+	religion = finnish_pagan
+	427.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+esthonia_04 = {
+	name = "PA_iviO_"
+	culture = fenni
+	religion = finnish_pagan
+	329.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+esthonia_05 = {
+	name = "Voitto"
+	culture = fenni
+	religion = finnish_pagan
+	389.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+esthonia_06 = {
+	name = "Matti"
+	culture = fenni
+	religion = finnish_pagan
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+esthonia_07 = {
+	name = "Haapa"
+	culture = fenni
+	religion = finnish_pagan
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+esthonia_08 = {
+	name = "Ensio"
+	culture = fenni
+	religion = finnish_pagan
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+esthonia_09 = {
+	name = "Asikko"
+	culture = fenni
+	religion = finnish_pagan
+	443.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+### Finland
+finland_01 = {
+	name = "Matti"
+	culture = fenni
+	religion = finnish_pagan
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_02 = {
+	name = "Peko"
+	culture = fenni
+	religion = finnish_pagan
+	378.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_03 = {
+	name = "Soini"
+	culture = fenni
+	religion = finnish_pagan
+	427.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_04 = {
+	name = "Pentti"
+	culture = fenni
+	religion = finnish_pagan
+	328.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_05 = {
+	name = "Hintsa"
+	culture = fenni
+	religion = finnish_pagan
+	399.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_06 = {
+	name = "Hannu"
+	culture = fenni
+	religion = finnish_pagan
+	445.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_07 = {
+	name = "Taisto"
+	culture = fenni
+	religion = finnish_pagan
+	341.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_08 = {
+	name = "Susi"
+	culture = fenni
+	religion = finnish_pagan
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_09 = {
+	name = "Tapani"
+	culture = fenni
+	religion = finnish_pagan
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_10 = {
+	name = "Olavi"
+	culture = fenni
+	religion = finnish_pagan
+	337.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_11 = {
+	name = "Arvo"
+	culture = fenni
+	religion = finnish_pagan
+	389.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_12 = {
+	name = "Arma"
+	culture = fenni
+	religion = finnish_pagan
+	437.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_13 = {
+	name = "YrjO_"
+	culture = fenni
+	religion = finnish_pagan
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_14 = {
+	name = "Henri"
+	culture = fenni
+	religion = finnish_pagan
+	392.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_15 = {
+	name = "Rieti"
+	culture = fenni
+	religion = finnish_pagan
+	441.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_16 = {
+	name = "Seppo"
+	culture = fenni
+	religion = finnish_pagan
+	341.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_17 = {
+	name = "Kaleva"
+	culture = fenni
+	religion = finnish_pagan
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_18 = {
+	name = "Into"
+	culture = fenni
+	religion = finnish_pagan
+	429.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_19 = {
+	name = "Otso"
+	culture = fenni
+	religion = finnish_pagan
+	333.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_20 = {
+	name = "Miko"
+	culture = fenni
+	religion = finnish_pagan
+	378.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_21 = {
+	name = "Miemo"
+	culture = fenni
+	religion = finnish_pagan
+	445.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_22 = {
+	name = "Aatso"
+	culture = fenni
+	religion = finnish_pagan
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_23 = {
+	name = "Turo"
+	culture = fenni
+	religion = finnish_pagan
+	398.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_24 = {
+	name = "Veli"
+	culture = fenni
+	religion = finnish_pagan
+	446.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+finland_25 = {
+	name = "Valteri"
+	culture = fenni
+	religion = finnish_pagan
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+finland_26 = {
+	name = "Mielitty"
+	culture = fenni
+	religion = finnish_pagan
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+finland_27 = {
+	name = "Atos"
+	culture = fenni
+	religion = finnish_pagan
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

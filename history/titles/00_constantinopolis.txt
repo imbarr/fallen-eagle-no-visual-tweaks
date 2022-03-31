@@ -2,41 +2,89 @@ e_byzantium = {
 	20.1.1 = {
 		change_development_level = 6
 	}
-	
-	1000.1.1 = {
-		change_development_level = 10
+	379.1.19 = {
+		holder = 70534 
+		government = imperial_government
 	}
-	
-	1100.1.1 = {
-		change_development_level = 18
-	}
-
-	395.1.1 = {
-		holder = 975497641
+	395.1.17 = {
+		holder = 70519 
+		government = imperial_government
 	}
 }
-
-k_syria = {
-    	395.1.1 = {
-	    	holder = 975497641
-    	}   
-}
-
-k_jerusalem = {
+k_thessalonika = {
+	20.1.1 = {
+		change_development_level = 6
+	}
+	379.1.19 = {
+		holder = 70534 
+		government = imperial_government
+	}
 	395.1.1 = {
-		holder = 975497641
+		holder = 70519 
+		government = imperial_government
 	}
 }
-
-k_egypt = {
-	395.1.1 = {
-		holder = 302794422
+k_visigoths = {
+	395.1.17 = {
+		holder = 999103
+		liege = "e_byzantium"
+		government = tribal_government
+	}
+}
+k_macedon = {
+	361.1.1 = {
+		holder = 900067 
+		government = imperial_government
+	}
+	395.1.17 = {
 		liege = "e_byzantium"
 	}
 }
-
-k_jazira = {
+d_achaia = {
 	395.1.1 = {
-		holder = 975497641
+		holder = 901903
+		liege = "k_macedon" 
+		government = imperial_government
+	}
+}
+d_thessaly = {
+	395.1.1 = {
+		holder = 901904
+		liege = "k_macedon" 
+		government = imperial_government
+	}
+}
+d_skopje = {
+	395.1.1 = {
+		holder = 901905
+		liege = "k_macedon" 
+		government = imperial_government
+	}
+}
+d_strymon = {
+	365.1.1 = {
+		holder = 901900
+		government = imperial_government
+	}
+	395.1.1 = {
+		liege = "k_thessalonika" 
+	}
+}
+d_adrianopolis = {
+	350.1.1 = {
+		holder = 901901
+		government = imperial_government
+	}
+	395.1.17 = {
+		liege = "k_thessalonika" 
+	}
+}
+d_philippopolis = {
+	355.1.1 = {
+		holder = 901902
+		government = imperial_government
+	}
+	395.1.1 = {
+		liege = "k_thessalonika" 
 	}
 }

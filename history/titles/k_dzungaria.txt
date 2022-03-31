@@ -1,0 +1,1000 @@
+k_dzungaria = {
+	361.1.1 = { change_development_level = 0 }
+}
+
+d_kara_khoja = {
+	361.1.1 = {
+		holder = tujue_01
+	}
+	474.1.1 = {
+		holder = kan_01
+	}
+	480.1.1 = {
+		holder = kan_02
+	}
+	481.1.1 = {
+		holder = mengming_01
+	}
+	501.1.1 = {
+		holder = ru_01
+	}
+	501.5.1 = {
+		holder = qu_01
+		liege = e_mongolia
+	}
+	552.1.1 = {
+		liege = e_tartaria
+	}
+	553.1.1 = {
+		holder = qu_02
+	}
+	600.1.1 = {
+		holder = qu_03
+	}
+	607.1.1 = {
+		holder = qu_04
+	}
+	613.1.1 = {
+		holder = qu_05
+	}
+	629.1.1 = {
+		liege = 0
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	768.1.1 = {
+		holder = xizhou_01
+	}
+}
+
+c_kara_khoja = {
+	361.1.1 = { change_development_level = 6 }
+	476.1.1 = { change_development_level = 7 }
+	768.1.1 = { change_development_level = 8 }
+
+	361.1.1 = {
+		holder = tujue_01
+	}
+	474.1.1 = {
+		holder = kan_01
+	}
+	480.1.1 = {
+		holder = kan_02
+	}
+	481.1.1 = {
+		holder = mengming_01
+	}
+	501.1.1 = {
+		holder = ru_01
+	}
+	501.5.1 = {
+		holder = qu_01
+	}
+	553.1.1 = {
+		holder = qu_02
+	}
+	600.1.1 = {
+		holder = qu_03
+	}
+	607.1.1 = {
+		holder = qu_04
+	}
+	613.1.1 = {
+		holder = qu_05
+	}
+	768.1.1 = {
+		holder = xizhou_01
+	}
+}
+
+c_toksun = {
+	361.1.1 = {
+		holder = tujue_01
+	}
+	474.1.1 = {
+		holder = kan_01
+	}
+	480.1.1 = {
+		holder = kan_02
+	}
+	481.1.1 = {
+		holder = mengming_01
+	}
+	501.1.1 = {
+		holder = ru_01
+	}
+	501.5.1 = {
+		holder = qu_01
+	}
+	553.1.1 = {
+		holder = qu_02
+	}
+	600.1.1 = {
+		holder = qu_03
+	}
+	607.1.1 = {
+		holder = qu_04
+	}
+	613.1.1 = {
+		holder = qu_05
+	}
+	768.1.1 = {
+		holder = xizhou_01
+	}
+}
+
+c_beshbalik = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	768.1.1 = { change_development_level = 5 }
+	361.1.1 = {
+		holder = qibi_01
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = qibi_03
+		liege = d_gurbantunggut
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	552.1.1 = {
+		liege = e_tartaria
+	}
+	629.1.1 = {
+		liege = 0
+	}
+	
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+
+c_yangjibaliq = {
+	361.1.1 = {
+		holder = bolouzhi_01
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = bolouzhi_03
+		liege = d_gurbantunggut
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	552.1.1 = {
+		liege = e_tartaria
+	}
+	629.1.1 = {
+		liege = 0
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+c_barkul = {
+	361.1.1 = {
+		holder = qibi_01
+		government = nomadic_government
+	}
+	441.1.1 = {
+		holder = qibi_03
+		liege = e_mongolia
+	}
+	481.1.1 = {
+		holder = fufuluo_03
+	}
+	533.1.1 = {
+		holder = fufuluo_04
+	}
+	552.1.1 = {
+		liege = e_tartaria
+	}
+	587.1.1 = {
+		holder = fufuluo_05
+	}
+	629.1.1 = {
+		liege = 0
+	}
+	634.1.1 = {
+		holder = fufuluo_06
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	693.1.1 = {
+		holder = fufuluo_07
+	}
+	753.1.1 = {
+		holder = fufuluo_08
+	}
+}
+
+c_chamil = {
+	361.1.1 = {
+		holder = tujue_01
+	}
+	474.1.1 = {
+		holder = kan_01
+	}
+	480.1.1 = {
+		holder = kan_02
+	}
+	481.1.1 = {
+		holder = mengming_01
+	}
+	501.1.1 = {
+		holder = ru_01
+	}
+	501.5.1 = {
+		holder = qu_01
+	}
+	553.1.1 = {
+		holder = qu_02
+	}
+	600.1.1 = {
+		holder = qu_03
+	}
+	607.1.1 = {
+		holder = qu_04
+	}
+	613.1.1 = {
+		holder = qu_05
+	}
+	768.1.1 = {
+		holder = xizhou_01
+	}
+}
+
+d_altay = {
+	476.1.1 = {
+		holder = ashina_01
+		liege = e_mongolia
+		government = nomadic_government
+	}
+	520.1.1 = {
+		holder = ashina_02
+	}
+	530.1.1 = {
+		holder = ashina_03
+	}
+	552.1.1 = {
+		holder = ashina_04
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+c_altay = {
+	361.1.1 = {
+		holder = dzungaria_04
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = ashina_01
+		liege = e_mongolia
+	}
+	520.1.1 = {
+		holder = ashina_02
+	}
+	530.1.1 = {
+		holder = ashina_03
+	}
+	552.1.1 = {
+		holder = ashina_04
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+
+
+c_qinggil = {
+	361.1.1 = {
+		holder = dzungaria_04
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = daqi_02
+		liege = e_mongolia
+	}
+	520.1.1 = {
+		holder = ashina_02
+	}
+	530.1.1 = {
+		holder = ashina_03
+	}
+	552.1.1 = {
+		holder = ashina_04
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+
+
+c_agairik = {
+	361.1.1 = {
+		holder = dzungaria_02
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = dieleer_02
+		liege = d_altay
+	}
+	552.1.1 = {
+		holder = ashina_04
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+
+
+c_narym_DZU = {
+	361.1.1 = {
+		holder = dzungaria_03
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = shipen_02
+		liege = d_altay
+	}
+	552.1.1 = {
+		holder = ashina_04
+		liege = 0
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+
+
+c_torangy_kul = {
+	361.1.1 = {
+		holder = dzungaria_03
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = shipen_02
+		liege = d_altay
+	}
+	553.1.1 = {
+		holder = ashina_05
+	}
+	576.1.1 = {
+		holder = ashina_20
+	}
+	581.1.1 = {
+		holder = ashina_21
+	}
+	587.1.1 = {
+		holder = ashina_22
+	}
+	588.1.1 = {
+		holder = ashina_23
+	}
+	600.1.1 = {
+		holder = ashina_24
+	}
+	603.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_27
+	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	632.1.1 = {
+		holder = ashina_31
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_34
+	}
+	650.1.1 = {
+		holder = ashina_36
+	}
+	658.1.1 = {
+		holder = ashina_46
+	}
+	682.1.1 = {
+		holder = ashina_38
+	}
+	692.1.1 = {
+		holder = ashina_39
+	}
+	716.1.1 = {
+		holder = ashina_40
+	}
+	717.1.1 = {
+		holder = ashina_41
+	}
+	734.1.1 = {
+		holder = ashina_42
+	}
+	739.1.1 = {
+		holder = ashina_43
+	}
+	741.1.1 = {
+		holder = ashina_44
+	}
+	744.1.1 = {
+		holder = ashina_45
+	}
+}
+
+d_gurbantunggut = {
+	500.1.1 = {
+		holder = dzungaria_08
+		government = nomadic_government
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	552.1.1 = {
+		liege = e_tartaria
+	}
+	629.1.1 = {
+		liege = 0
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+c_hoboksar = {
+	361.1.1 = {
+		holder = wuhuan_01
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = wuhuan_03
+		liege = e_mongolia
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+
+c_ulan_chuzir = {
+	361.1.1 = {
+		holder = nahe_01
+		government = nomadic_government
+	}
+	476.1.1 = {
+		holder = nahe_03
+		liege = e_mongolia
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+
+c_jie_DZU = {
+	361.1.1 = {
+		holder = supo_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = supo_03
+		liege = e_mongolia
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+
+d_naiman_gobi = {
+	
+}
+
+
+c_balgun = {
+	361.1.1 = {
+		holder = yunihun_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = yunihun_03
+		liege = d_altay
+	}
+	500.1.1 = {
+		holder = dzungaria_08
+	}
+	550.1.1 = {
+		holder = dzungaria_09
+	}
+	633.1.1 = {
+		holder = dzungaria_10
+	}
+	695.1.1 = {
+		holder = dzungaria_11
+	}
+}
+
+
+c_kara_asirgan = {
+	361.1.1 = {
+		holder = yedie_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = yedie_03
+		liege = e_mongolia
+	}
+	481.1.1 = {
+		holder = fufuluo_03
+	}
+	533.1.1 = {
+		holder = fufuluo_04
+	}
+	587.1.1 = {
+		holder = fufuluo_05
+	}
+	634.1.1 = {
+		holder = fufuluo_06
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	693.1.1 = {
+		holder = fufuluo_07
+	}
+	753.1.1 = {
+		holder = fufuluo_08
+	}
+}
+
+
+c_boro_burgasu = {
+	361.1.1 = {
+		holder = hegu_01
+		government = nomadic_government
+	}
+	470.1.1 = {
+		holder = hegu_03
+		liege = e_mongolia
+	}
+	481.1.1 = {
+		holder = fufuluo_03
+	}
+	533.1.1 = {
+		holder = fufuluo_04
+	}
+	587.1.1 = {
+		holder = fufuluo_05
+	}
+	634.1.1 = {
+		holder = fufuluo_06
+	}
+	682.1.1 = {
+		liege = e_tartaria
+	}
+	693.1.1 = {
+		holder = fufuluo_07
+	}
+	753.1.1 = {
+		holder = fufuluo_08
+	}
+}

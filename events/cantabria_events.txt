@@ -1,0 +1,52 @@
+﻿namespace = cantabria
+
+#event for the cantabria decision
+#Localization could be helped
+
+cantabria.0001 = {
+	title = "The Kingdom of the coast"
+	desc = "After centuries of divide, I finally united the entire Cantabrian coast into one kingdom forever"
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = docks
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = "All of Iberia shall be mine!"
+		custom_tooltip = "You gained the Kingdom of Cantabria and all its new dejure lands"
+		every_player = {
+			limit = {
+				NOT = { this = root }
+			}
+			trigger_event = cantabria.0002
+		}
+	}
+}
+
+cantabria.0002 = {
+	title = "The Kingdom of the coast"
+	desc = "After centuries of divide, the Cantabrian coast was united into one kingdom forever"
+	scope = character
+	theme = diplomacy
+
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = title:k_cantabria.holder
+		animation = personality_honorable
+	}
+
+	option = {
+		name = "We must follow their actions closely"
+	}
+}

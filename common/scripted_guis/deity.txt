@@ -1,0 +1,171 @@
+﻿mars_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:mars
+		}
+		remove_character_modifier = venus_god
+		remove_character_modifier = mercury_god
+		remove_character_modifier = minerva_god
+		remove_character_modifier = laverna_god
+		add_character_modifier = mars_god
+	}
+}
+
+venus_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:venus
+		}
+		remove_character_modifier = mars_god
+		remove_character_modifier = mercury_god
+		remove_character_modifier = minerva_god
+		remove_character_modifier = laverna_god
+		add_character_modifier = venus_god
+	}
+}
+
+mercury_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:mercury
+		}
+		remove_character_modifier = mars_god
+		remove_character_modifier = venus_god
+		remove_character_modifier = minerva_god
+		remove_character_modifier = laverna_god
+		add_character_modifier = mercury_god
+	}
+}
+
+minerva_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:minerva
+		}
+		remove_character_modifier = mars_god
+		remove_character_modifier = venus_god
+		remove_character_modifier = mercury_god
+		remove_character_modifier = laverna_god
+		add_character_modifier = minerva_god
+	}
+}
+
+laverna_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:laverna
+		}
+		remove_character_modifier = mars_god
+		remove_character_modifier = venus_god
+		remove_character_modifier = mercury_god
+		remove_character_modifier = minerva_god
+		add_character_modifier = laverna_god
+	}
+}
+
+high_god = {
+	scope = character 
+
+	is_valid_for_ai = {
+		piety >= 500
+	}
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:high
+		}
+		remove_character_modifier = health_god
+		remove_character_modifier = war_god
+		remove_character_modifier = wealth_god
+		remove_character_modifier = knowledge_god
+		add_character_modifier = high_god
+	}
+}
+
+health_god = {
+	scope = character 
+
+	is_valid_for_ai = {
+		learning >= 10
+	}
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:health
+		}
+		remove_character_modifier = high_god
+		remove_character_modifier = wealth_god
+		remove_character_modifier = war_god
+		remove_character_modifier = knowledge_god
+		add_character_modifier = health_god
+	}
+}
+
+wealth_god = {
+	scope = character 
+
+	is_valid_for_ai = {
+		stewardship >= 10
+	}
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:wealth
+		}
+		remove_character_modifier = high_god
+		remove_character_modifier = health_god
+		remove_character_modifier = knowledge_god
+		remove_character_modifier = war_god
+		add_character_modifier = wealth_god
+	}
+}
+
+knowledge_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:knowledge
+		}
+		remove_character_modifier = high_god
+		remove_character_modifier = health_god
+		remove_character_modifier = war_god
+		remove_character_modifier = wealth_god
+		add_character_modifier = knowledge_god
+	}
+}
+
+war_god = {
+	scope = character 
+
+	effect = {
+		set_variable = {
+			name = deity
+			value = flag:war
+		}
+		remove_character_modifier = high_god
+		remove_character_modifier = health_god
+		remove_character_modifier = knowledge_god
+		remove_character_modifier = wealth_god
+		add_character_modifier = war_god
+	}
+}

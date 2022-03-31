@@ -1,0 +1,295 @@
+k_castille = {
+	
+}
+
+
+d_cantabria = {
+	768.1.1 = { change_development_level = 6 }
+	
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+}
+
+
+c_asturias_de_santillana = {
+	361.1.1 = { change_development_level = 2 }
+	476.1.1 = { change_development_level = 3 }
+	532.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	361.1.1 = {
+		holder = 900341
+		liege = "d_galicia"
+		government = tribal_government
+		de_jure_liege = d_galicia
+	}
+	460.1.1 = {
+		holder = cantabrian_01 #Cantabrian
+	}
+	530.1.1 = {
+		holder = cantabrian_02 #Cantabrian
+		government = feudal_government
+	}
+	630.1.1 = {
+		holder = cantabrian_03 #Cantabrian
+		liege = d_galicia
+	}
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+	768.1.1 = {
+		de_jure_liege = d_cantabria
+	}
+}
+
+
+c_amaya = {
+	361.1.1 = { change_development_level = 1 }
+	476.1.1 = { change_development_level = 3 }
+	532.1.1 = { change_development_level = 4 }
+	632.1.1 = { change_development_level = 5 }
+	361.1.1 = {
+		holder = 900341
+		liege = "d_galicia"
+		government = tribal_government
+		de_jure_liege = d_galicia
+	}
+	460.1.1 = {
+		holder = cantabrian_01 #Cantabrian
+	}
+	530.1.1 = {
+		holder = cantabrian_02 #Cantabrian
+		government = feudal_government
+	}
+	630.1.1 = {
+		holder = cantabrian_03 #Cantabrian
+		liege = d_galicia
+	}
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+	768.1.1 = {
+		de_jure_liege = d_cantabria
+	}
+}
+
+
+d_castilla = {
+}
+
+
+c_burgos = {
+	361.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	768.1.1 = { change_development_level = 7 }
+	
+	351.1.1 = {
+		holder = theodosian_011
+		government = imperial_government
+		liege = d_galicia
+		de_jure_liege = d_galicia
+	}
+	389.1.1 = {
+		holder = theodosian_012
+	}
+	460.1.1 = {
+		holder = galeica_01  #Independent cities
+		government = autocratic_government
+	}
+	531.1.1 = {
+		holder = galeica_07
+	}
+	630.1.1 = {
+		holder = galeica_08 #
+		government = feudal_government
+		liege = d_galicia
+	}
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+		liege = k_asturias
+	}
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
+	}
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	768.1.1 = {
+		de_jure_liege = d_castilla
+	}
+}
+
+
+c_valladolid = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	532.1.1 = { change_development_level = 6 }
+	632.1.1 = { change_development_level = 7 }
+	351.1.1 = {
+		holder = theodosian_011
+		government = imperial_government
+		liege = d_galicia
+		de_jure_liege = d_galicia
+	}
+	389.1.1 = {
+		holder = theodosian_012
+	}
+	460.1.1 = {
+		holder = galeica_02  #Independent cities
+		government = autocratic_government
+	}
+	530.1.1 = {
+		holder = galeica_07
+	}
+	630.1.1 = {
+		holder = galeica_08 #
+		government = feudal_government
+		liege = d_galicia
+	}
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	768.1.1 = {
+		de_jure_liege = d_castilla
+	}
+}
+
+
+c_soria = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	310.1.1 = {
+		government = imperial_government
+		holder = theodosian_009
+		liege = d_galicia
+		de_jure_liege = d_galicia
+	}
+	340.1.1 = {
+		holder = 1143092
+	}
+	382.1.1 = {
+		holder = theodosian_007
+	}
+	460.1.1 = {
+		holder = galeica_02  #Independent cities
+		government = autocratic_government
+	}
+	530.1.1 = {
+		holder = galeica_07
+	}
+	630.1.1 = {
+		holder = galeica_08 #
+		government = feudal_government
+		liege = d_galicia
+	}
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	768.1.1 = {
+		de_jure_liege = d_castilla
+	}
+}
+
+
+c_cuellar = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	310.1.1 = {
+		government = imperial_government
+		holder = theodosian_009
+		liege = d_galicia
+		de_jure_liege = d_galicia
+	}
+	340.1.1 = {
+		holder = 1143092
+	}
+	382.1.1 = {
+		holder = theodosian_007
+	}
+	460.1.1 = {
+		holder = galeica_03  #Independent cities
+		government = autocratic_government
+	}
+	530.1.1 = {
+		holder = galeica_06
+	}
+	630.1.1 = {
+		holder = galeica_09 #
+		government = feudal_government
+		liege = d_galicia
+	}
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	768.1.1 = {
+		de_jure_liege = d_castilla
+	}
+}
+
+
+c_olmedo = {
+	361.1.1 = { change_development_level = 3 }
+	476.1.1 = { change_development_level = 4 }
+	532.1.1 = { change_development_level = 5 }
+	632.1.1 = { change_development_level = 6 }
+	310.1.1 = {
+		government = imperial_government
+		holder = theodosian_009
+		liege = d_galicia
+		de_jure_liege = d_galicia
+	}
+	340.1.1 = {
+		holder = 1143092
+	}
+	382.1.1 = {
+		holder = theodosian_007
+	}
+	460.1.1 = {
+		holder = galeica_04  #Independent cities
+		government = autocratic_government
+	}
+	530.1.1 = {
+		holder = galeica_05
+	}
+	630.1.1 = {
+		holder = galeica_09 #
+		government = feudal_government
+		liege = d_galicia
+	}
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	768.1.1 = {
+		de_jure_liege = d_castilla
+	}
+}
+

@@ -1,0 +1,114 @@
+﻿namespace = TFE_major_decisions
+
+### A New Imperial Faith
+### Reopening the Catechetical School of Alexandria
+
+
+################
+# A New Imperial Faith
+# TFE_major_decisions.0001
+
+# For the one who proclaimed the new Imperial faith...
+TFE_major_decisions.0001 = {
+	type = character_event
+	title = TFE_major_decisions.0001.t
+	desc = {
+		desc = TFE_major_decisions.0001.desc_intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:new_faith = { has_doctrine = doctrine_pluralism_pluralistic } }
+				desc = TFE_major_decisions.0001.desc_pluralistic
+			}
+			triggered_desc = {
+				trigger = { scope:new_faith = { has_doctrine = doctrine_pluralism_righteous } }
+				desc = TFE_major_decisions.0001.desc_righteous
+			}
+			triggered_desc = {
+				trigger = { scope:new_faith = { has_doctrine = doctrine_pluralism_fundamentalist } }
+				desc = TFE_major_decisions.0001.desc_fundamentalist
+			}
+		}
+		desc = TFE_major_decisions.0001.desc_end
+	}
+	
+	theme = faith
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		new_official_imperial_faith_effect = yes
+	}
+
+	option = {
+		name = TFE_major_decisions.0001.a
+	}
+}
+
+# # And everyone else!
+# TFE_major_decisions.0002 = {
+	# type = character_event
+	# title = TFE_major_decisions.0001.t
+	# desc = TFE_major_decisions.0002.desc
+	# theme = faith
+	
+	# left_portrait = {
+		# character = root
+		# animation = personality_zealous
+	# }
+	
+	# immediate = {
+		# show_as_tooltip = { new_official_imperial_faith_effect = yes }
+	# }
+
+	# # Poggerino
+	# option = {
+		# trigger = { faith = scope:new_faith }
+		# name = TFE_major_decisions.0002.a
+	# }
+
+	# # Interesting...
+	# option = {
+		# trigger = {
+			# NOT = { faith = scope:new_faith  }
+			# faith = { faith_hostility_level = { target = scope:new_faith value <= faith_astray_level } }
+		# }
+		# name = TFE_major_decisions.0002.b
+	# }
+
+	# # A worrying development
+	# option = {
+		# trigger = { faith = { faith_hostility_level = { target = scope:new_faith value = faith_hostile_level } } }
+		# name = TFE_major_decisions.0002.c
+	# }
+
+	# # This won't save them!
+	# option = {
+		# trigger = { faith = { faith_hostility_level = { target = scope:new_faith value = faith_evil_level } } }
+		# name = TFE_major_decisions.0002.d
+	# }
+# }
+
+################
+# Reopening the Catechetical School of Alexandria
+# TFE_major_decisions.0010
+TFE_major_decisions.0010 = {
+	type = character_event
+	title = TFE_major_decisions.0010.t
+	desc = TFE_major_decisions.0010.desc
+	
+	theme = faith
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	immediate = { reopen_catechetical_school_alexandria_effect = { MAIN_FAITH = root.faith } }
+
+	option = {
+		name = TFE_major_decisions.0010.a
+	}
+}

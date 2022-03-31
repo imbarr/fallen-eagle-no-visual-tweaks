@@ -1,0 +1,11 @@
+﻿imperial_competence = {
+	default = enabled
+
+	enabled = {
+
+	}
+
+	disabled = {
+
+	}
+}

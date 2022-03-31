@@ -1,0 +1,36 @@
+﻿l_english:
+ ##############################
+ # Procedural court artifacts #
+ ##############################
+ artifact_wall_big_1_scutum_name:1 "Old Legion Scutum"
+ artifact_wall_big_1_scutum_description:0 "The Scutum is an ancient type of shield used by the Italic people and later by the Romans when they shifted their army formation from the Greek Hoplite Phalanx to the Manipuli."
+
+ artifact_obeliskfull_name:1 "Pristine Obelisk"
+ artifact_obeliskfull_description:0 "A tapered monolithic pillar, the obelisk was originally erected in pairs at the entrances of ancient Egyptian religious and political sites, first carved from a single piece of stone by craftsmen."
+
+ artifact_obeliskdamaged_name:1 "Damaged Obelisk"
+ artifact_obeliskdamaged_description:0 "A tapered monolithic pillar, the obelisk was originally erected in pairs at the entrances of ancient Egyptian religious and political sites, first carved from a single piece of stone by craftsmen. Sadly, this beautiful example of craftsmenship has been damaged from the long and violent wars it has witnessed."
+
+ artifact_marcusbust_name:1 "Bust of Marcus Aurelius"
+ artifact_marcusbust_description:0 "Marcus Aurelius Antoninus was a Roman Emperor who reigned from 161 to 180 CE, known for his campaigns against the Germanic peoples and for his philisophical teachings. He was the last of the rulers known as the 'Five Good Emperors,' and the last emperor of who presided over the Pax Romana."
+
+ artifact_aurelianhelmet_name:1 "Aurelian's Helmet"
+ artifact_aurelianhelmet_description:0 "Aurelian was a Roman Emperor who reigned during the Crisis of the Third Century from 270 to 275 CE. As emperor, he won an unprecedented series of military victories which reunited the Roman Empire after it had divided during the crisis."
+
+ artifact_centurionhelmet_name:1 "Centurion Helmet"
+ artifact_centurionhelmet_description:0 "An older iteration of the Roman Legionary helmet"
+
+ artifact_galeahelmet_name:1 "Galea Helmet"
+ artifact_galeahelmet_description:0 "An older iteration of the Roman Legionary helmet"
+
+ artifact_westregalia_name:1 "Regalia of The Western Roman Empire"
+ artifact_westregalia_description:0 "Held by the monarchs of the Western Roman Empire, the regalia is a sign of might, granduer, and status over your vassals"
+
+ artifact_eastregalia_name:1 "Regalia of The Eastern Roman Empire"
+ artifact_eastregalia_description:0 "Held by the monarchs of the Western Roman Empire, the regalia is a sign of might, granduer, and status over your vassals"
+
+ artifact_spatha_name:1 "Roman Spatha"
+ artifact_spatha_description:0 "The Spatha was a type of long sword used in the territory of the Roman Empire during the 1st to 6th centuries CE. The Roman Spatha was used in military conflicts and for gladitorial combat."
+
+ artifact_romanregalia_name:1 "Regalia of The Roman Empire"
+ artifact_romanregalia_description:0 "Held by the Roman Emperors, this Regalia was forged by melting the regalia of the fractured Roman Empires and serves as a symbol of might and granduer over all who bend the knee."

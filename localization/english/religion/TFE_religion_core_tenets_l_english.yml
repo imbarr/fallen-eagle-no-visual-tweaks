@@ -1,0 +1,11 @@
+﻿l_english:
+ tenet_pure_priesthood_name:0 "Pure Priesthood"
+ tenet_pure_priesthood_desc:0 "It is absolute hypocrisy to allow our priests to deviate from the purity and standard we expect our flock to follow. Anyone with religious authority should be cast aside and expelled if they find themselves tainted by sin."
+ doctrine_parameter_sinful_characters_no_priesthood_active:0 "[sinful|E] characters cannot be part of the [clergy|E]"
+ 
+ tenet_sacred_witchcraft_name:0 "Sacred Witchcraft"
+ tenet_sacred_witchcraft_desc:0 "The occult and mystical powers of our wise men and women should not be shunned but celebrated."
+ 
+ tenet_alexandrian_catechism_reformed_name:0 "Reformed $tenet_alexandrian_catechism_name$"
+ tenet_alexandrian_catechism_reformed_desc:0 "With the reconstruction of our Catechetical School and the acceptance of its teachings as equal to those of Rome, the unique focus on scholarship and questioning the status quo in the search for truth has been brought back into our faith."
+ 

@@ -1,0 +1,82 @@
+﻿l_english:
+ new_official_imperial_faith_decision:0 "A New Imperial Faith"
+ # new_official_imperial_faith_decision_desc:0 "While my faith is strong and all the citizens of my Empire eager to convert, some resist, arguing instead that their old convictions are protected under Imperial law.\n\nI, along my councillors, have drafted a new Imperial decree declaring my faith to be the sole and official Faith of the Empire. With this new act, thousands of people will become our new brethren, and the Empire will finally be united in spirit as in body."
+ new_official_imperial_faith_decision_desc:0 "While my faith is strong and all the citizens of my Empire eager to convert, some resist, arguing instead that their old convictions are protected under Imperial law.\n\nIt is time to pass a new Imperial decree, declaring my faith to be the sole and official Faith of the Empire."
+ new_official_imperial_faith_decision_confirm:0 "For the faithful!"
+ new_official_imperial_faith_decision_tooltip:0 "Make [ROOT.Char.GetFaith.GetName] the only [official_faith|E] of the Empire!"
+ 
+ new_official_imperial_faith_decision_effect_old_faith_tt:0 "[old_faith.GetName] loses its status of [official_faith|E] within the [empire.GetName]"
+ new_official_imperial_faith_decision_effect_new_faith_tt:0 "[new_faith.GetName] becomes the new [official_faith|E] of the [empire.GetName]"
+ new_official_imperial_faith_decision_effect_conversion_tt:0 "Every County within the Empire #N not#! sharing the Emperor's [faith|E]"
+ new_official_imperial_faith_decision_effect_conversion_non_religion_tt:0 "Has a #V 10%#! chance of converting to [new_faith.GetName] if they #N do not share#! the Emperor's [religion|E]"
+ new_official_imperial_faith_decision_effect_conversion_religion_tt:0 "Has a #V 40%#! chance of converting to [new_faith.GetName] if they #P share#! the Emperor's [religion|E]"
+ 
+ TFE_major_decisions.0001.t:0 "$new_official_imperial_faith_decision$"
+ TFE_major_decisions.0001.desc_intro:0 "The Imperial decree declaring [new_faith.GetName] the new official faith within the [empire.GetName] is finally finished.\nHundreds of envoys and religious delegations have already been sent throughout the Empire, and news of spontaneous conversions have already reached my ears, and those of my religious councillors."
+ TFE_major_decisions.0001.desc_pluralistic:0 "\n\nEven though our faith was previously known for its relative religious tolerance and acceptation of others, our administration and governance over such a wide territory requires this new degree of centralization."
+ TFE_major_decisions.0001.desc_righteous:0 "\n\nNew temples are already being built in the place of old ones, to the joy and protest of the local people."
+ TFE_major_decisions.0001.desc_fundamentalist:0 "\n\nSome of the more reluctant to convert already protest against what they see as underserved religious persecution, but even them in time will see the light."
+ TFE_major_decisions.0001.desc_end:0 "\n\nThis strengthening of the [new_faith.GetAdjective] spirit is emboldening a new generation of priests, and my religious councillors are assuring me that even those who haven't converted yet will be in a few years time."
+ TFE_major_decisions.0001.a:0 "For the faithful!"
+ 
+ COURT_CHAPLAIN_CONVERSION_OFFICIAL_IMPERIAL_FAITH_EMPIRE:0 "Converting to the [official_imperial_faith|E]"
+ 
+ ### Catechetical school of Alexendria
+ reopen_catechetical_school_alexandria:0 "Reopen the Catechetical School of Alexandria"
+ reopen_catechetical_school_alexandria_desc:0 "Some of our traditions had to be abandoned after the Council of Chalcedonia, and the teachings of Alexendria was supplanted by those of Rome.\nPopular riots led to the destruction of our Catechetical School, but should our hold over Christendom allow it, we should be able to rebuild it, and have the teachings of Alexandria be recognized by the rest of the Council."
+ reopen_catechetical_school_alexandria_confirm:0 "For our faith!"
+ reopen_catechetical_school_alexandria_tooltip:0 "Right the wrongs of the Council of Chalcedonia and strengthen our faith!"
+ fervor_gain_reopen_catechetical_school_alexandria:0 "Reopened the Catechetical School of Alexandria"
+ 
+ TFE_major_decisions.0010.t:0 "The New Catechetical School of Alexandria"
+ TFE_major_decisions.0010.desc:0 "The Catechetical School of Alexandria was destroyed after popular riots due to the Council of Chalcedonia enforcing the supremacy of the Bishop of Rome and their teachings over ours.\n\nOur traditions of scolarship never truly faded away however, and as our power over Christendom is much established now than it was when the Council was called, we were able to call forth a new one to revert some of its decisions, and establish the teachings of Alexandria as equals."
+ TFE_major_decisions.0010.a:0 "For the faithful!"
+ 
+ # new_official_imperial_faith_decision_effect_tt:0 ""
+
+ # culture stuff
+ embrace_visigothic_identity_decision:0 "Embrace Visigothic Identity"
+ embrace_visigothic_identity_decision_effect.tt:0 "All [old_culture.GetName] counties and characters in Hispania and Gallia become [new_culture.GetName]"
+ embrace_visigothic_identity_decision_confirm:0 "It's Time"
+ embrace_visigothic_identity_decision_desc:0 ""
+ visigothic_decision_requirement:0 "At least 8 realm counties in Hispania or Gallia have Gothic culture"
+ embrace_ostrogothic_identity_decision:0 "Embrace Ostrogothic Identity"
+ embrace_ostrogothic_identity_decision_effect.tt:0 "All [old_culture.GetName] counties and characters in Italia and Illyria become [new_culture.GetName]"
+ embrace_ostrogothic_identity_decision_desc:0 ""
+ embrace_ostrogothic_identity_decision_confirm:0 "It's Time"
+ ostrogothic_decision_requirement:0 "At least 8 realm counties in Italia or Illyria have Gothic culture"
+
+ TFE_establish_northern_liang:0 "Establish Northern Liang"
+ TFE_establish_northern_liang_tooltip:0 "It is time we create a new kingdom, Northern Liang!"
+ TFE_establish_northern_liang_desc:0 "The [GetGeographicalRegion('custom_liang').GetName] was once the stalwart gate of the Middle Kingdom. But now, just like China, it is ruled by petty warlords and ruthless barbarians, and it has fallen into chaos. It is time we bring order to this frontier of civilization by proclaiming a new kingdom, Northern Liang. We shall prove ourselves the rightful ruler of Liang!"
+ TFE_establish_northern_liang_confirm:0 "Our dynasty will last for generations!"
+
+ TFE_establish_eastern_liang:0 "Establish Eastern Liang"
+ TFE_establish_eastern_liang_tooltip:0 "It is time we create a new kingdom, Eastern Liang!"
+ TFE_establish_eastern_liang_desc:0 "The [GetGeographicalRegion('custom_liang').GetName] was once the stalwart gate of the Middle Kingdom. But now, just like China, it is ruled by petty warlords and ruthless barbarians, and it has fallen into chaos. It is time we bring order to this frontier of civilization by proclaiming a new kingdom, Eastern Liang. We shall prove ourselves the rightful ruler of Liang!"
+ TFE_establish_eastern_liang_confirm:0 "Our dynasty will last for generations!"
+
+ TFE_establish_southern_liang:0 "Establish Southern Liang"
+ TFE_establish_southern_liang_tooltip:0 "It is time we create a new kingdom, Southern Liang!"
+ TFE_establish_southern_liang_desc:0 "The [GetGeographicalRegion('custom_liang').GetName] was once the stalwart gate of the Middle Kingdom. But now, just like China, it is ruled by petty warlords and ruthless barbarians, and it has fallen into chaos. It is time we bring order to this frontier of civilization by proclaiming a new kingdom, Southern Liang. We shall prove ourselves the rightful ruler of Liang!"
+ TFE_establish_southern_liang_confirm:0 "Our dynasty will last for generations!"
+
+ TFE_establish_western_liang:0 "Establish Western Liang"
+ TFE_establish_western_liang_tooltip:0 "It is time we create a new kingdom, Western Liang!"
+ TFE_establish_western_liang_desc:0 "The [GetGeographicalRegion('custom_liang').GetName] was once the stalwart gate of the Middle Kingdom. But now, just like China, it is ruled by petty warlords and ruthless barbarians, and it has fallen into chaos. It is time we bring order to this frontier of civilization by proclaiming a new kingdom, Western Liang. We shall prove ourselves the rightful ruler of Liang!"
+ TFE_establish_western_liang_confirm:0 "Our dynasty will last for generations!"
+
+ TFE_restore_order_to_liang:0 "Restore Order to Liang Province"
+ TFE_restore_order_to_liang_tooltip:0 "The chaos must end now."
+ TFE_restore_order_to_liang_desc:0 "The [GetGeographicalRegion('custom_liang').GetName], like much of the Middle Kingdom, has been engulfed in seemingly endless strife and conflict for  years. However, if a local ruler with sufficient ambition, wisdom, and virtue can unify Liang under one banner, then it may be possible to end the chaos and restore order to Liang."
+ TFE_restore_order_to_liang_confirm:0 "The Province of Liang shall return to peace!"
+
+ TFE_restore_order_to_liang_effect_tooltip:0 "Other Liang [kingdom|E] [titles|E] held by other [rulers|E] will be destroyed"
+
+ TFE_claim_descent_from_li_ling:0 "Claim Descent from Li Ling"
+ TFE_claim_descent_from_li_ling_tooltip:0 "Li Ling, the tragic Han general, surely is our forefather...."
+ TFE_claim_descent_from_li_ling_desc:0 "Centuries ago, the great Han general Li Ling was defeated by the mighty Xiongnu, and made to serve them. Ashamed of having to betray his homeland, he refused to return home even when he was offered clemency. The Xiongnu ruler, the #italic Chanyu#!, gave Li Ling his daughter's hand in marriage. It is said that he has descendants who still roam the steppes, forever carrying their ancestor's sorrow in their hearts... but who #italic are#! his descendants?"
+ TFE_claim_descent_from_li_ling_confirm:0 "We are Li Ling's descendants!"
+ TFE_li_ling_steppe_requirement:0 "[capital|E] is in the [GetGeographicalRegion('world_steppe_east').GetName] or [GetGeographicalRegion('world_steppe_tarim').GetName]"
+ TFE_li_ling_already_done_requirement:0 "No other [dynasty|E] has tried to claim descent from Li Ling yet"
+ han_opinion:0 "Han Opinion"

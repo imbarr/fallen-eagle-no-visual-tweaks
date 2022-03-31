@@ -1,0 +1,1331 @@
+### Comes of tarraconensis
+euric_01 = {
+	name = "Gauteric"
+	culture = gothic
+	religion = arianism
+	trait = education_martial_4
+	trait = brave
+	trait = blademaster_3
+	trait = trusting
+	430.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+euric_02 = {
+	name = "Edelfred"
+	culture = gothic
+	religion = arianism
+	trait = education_martial_3
+	trait = patient
+	trait = blademaster_3
+	trait = callous
+	443.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+euric_03 = {
+	name = "Ariaric"
+	culture = gothic
+	religion = arianism
+	431.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+euric_04 = {
+	name = "Cassius"
+	culture = gothic
+	religion = arianism
+	436.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+sisenando_01 = {
+	name = "Hildibald"
+	culture = gothic
+	religion = chalcedonian
+	599.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+sisenando_02 = {
+	name = "Winithar"
+	culture = gothic
+	religion = chalcedonian
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+sisenando_03 = {
+	name = "Eutharic"
+	culture = gothic
+	religion = chalcedonian
+	610.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+sisenando_04 = {
+	name = "Nebigast"
+	culture = gothic
+	religion = chalcedonian
+	601.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+theudis_01 = {
+	name = "Segga"
+	culture = gothic
+	religion = arianism
+	500.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+theudis_02 = {
+	name = "Theodomir"
+	culture = gothic
+	religion = arianism
+	500.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+### Dukes of Septimania
+septimania_01 = {
+	name = "Frederic"
+	culture = gothic
+	religion = arianism
+	501.1.1 = {
+		birth = yes
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+septimania_02 = {
+	name = "Baddo"
+	culture = gothic
+	religion = arianism
+	501.1.1 = {
+		birth = yes
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+septimania_03 = {
+	name = "Alatheus"
+	culture = gothic
+	religion = arianism
+	589.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+septimania_04 = {
+	name = "Ilderic"
+	culture = gothic
+	religion = arianism
+	610.1.1 = {
+		birth = yes
+	}
+	687.1.1 = {
+		death = yes
+	}
+}
+septimania_05 = {
+	name = "Argimund"
+	culture = gothic
+	religion = arianism
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+### Counts of Tolosa
+tolosa_01 = {
+	name = "Airmanagild"
+	culture = gothic
+	religion = arianism
+	437.1.1 = {
+		birth = yes
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+tolosa_03 = {
+	name = "Theudigisel"
+	culture = gothic
+	religion = arianism
+	444.1.1 = {
+		birth = yes
+	}
+	523.1.1 = {
+		death = yes
+	}
+}
+tolosa_04 = {
+	name = "Rodulf"
+	culture = gothic
+	religion = arianism
+	449.1.1 = {
+		birth = yes
+	}
+	523.1.1 = {
+		death = yes
+	}
+}
+### Dux of Baetica
+baetica_09 = {
+	name = "Athanaric"
+	culture = gothic
+	religion = chalcedonian
+	600.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+baetica_17 = {
+	name = "Gelimer"
+	culture = gothic
+	religion = chalcedonian
+	607.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+baetica_21 = { #Lusitania vassal 5
+	name= "Adolf"
+	religion="chalcedonian"
+	culture="gothic"
+	612.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_07 = { #Lusitania vassal 5
+	name= "Ernest"
+	religion="chalcedonian"
+	culture="gothic"
+	588.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+#gothic Royal Families
+
+168716 = {
+	name = "Airmanagild"
+	dynasty = 1046033
+
+	father = 200273
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	550.1.1 = {
+		birth = yes
+	}
+	583.1.1 = {
+		add_spouse = 168717
+	}
+	585.4.13 = {
+		death = {
+			death_reason = death_execution
+			killer = 200273
+		}
+	}
+}
+
+168718 = {
+	name = "Athanagild"
+	dynasty = 1046033
+
+	father = 168716
+	mother = 168717
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	583.1.1 = {
+		birth = yes
+	}
+	599.1.1 = {
+		add_spouse = 168715
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+
+168725 = {
+	name = "Baddo"
+	female = yes
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	555.1.1 = {
+		birth = yes
+	}	
+	592.1.1 = {
+		death = yes
+	}
+}
+
+168733 = {
+	name = "Faldrina"
+	female = yes
+	dynasty = 1046032
+
+	father = 200243
+	mother = 200236
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	694.1.1 = {
+		birth = yes
+	}	
+	750.1.1 = {
+		death = yes
+	}
+}
+
+168734 = {
+	name = "Brunechildis"
+	female = yes
+	#dynasty = 1046039
+
+	father = 200276
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	549.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+
+200239 = {
+	name = "Gado"
+	female = yes
+	dynasty = 1046033
+
+	father = 200242
+
+	religion = chalcedonian
+	culture = gothic
+
+	634.1.1 = {
+		birth = yes
+	}
+	688.1.1 = {
+		death = yes
+	}
+}
+
+200240 = {
+	name = "Khindaswinth"
+	dynasty = 1046033
+
+	father = 200241
+
+	religion = chalcedonian
+	culture = gothic
+
+	615.1.1 = {
+		birth = yes
+	}
+	638.1.1 = {
+		add_spouse = 168735
+	}
+	653.9.30 = {
+		death = yes
+	}
+}
+
+200241 = {
+	name = "Geila"
+	dynasty = 1046033
+
+	father = 200272
+	mother = 168726
+
+	religion = chalcedonian
+	culture = gothic
+
+	597.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+iudila = {
+	name = "Iudila"
+
+	religion = chalcedonian
+	culture = gothic
+	dynasty = iudiling
+	dna = iudila_dna
+
+	trait = gregarious
+	trait = ambitious
+	trait = wrathful
+	trait = education_martial_2
+
+	597.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+200242 = {
+	name = "Amalmond"
+	dynasty = 1046033
+
+	father = 200241
+
+	religion = chalcedonian
+	culture = gothic
+
+	617.1.1 = {
+		birth = yes
+	}
+	669.1.1 = {
+		death = yes
+	}
+}
+
+200246 = {
+	name = "Ariberga"
+	female = yes
+	dynasty = 1046032
+
+	father = 200255
+
+	religion = chalcedonian
+	culture = gothic
+
+	627.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+200247 = {
+	name = "Witiza"
+
+	religion = chalcedonian
+	culture = gothic
+
+	620.1.1 = {
+		birth = yes
+	}
+	649.1.1 = {
+		add_spouse = 200246
+	}
+	672.1.1 = {
+		death = yes
+	}
+}
+
+200248 = {
+	name = "Wamba"
+	dynasty = 1046032
+
+	father = 200255
+
+	religion = chalcedonian
+	culture = gothic
+
+	622.1.1 = {
+		birth = yes
+	}
+	688.1.1 = {
+		death = yes
+	}
+}
+
+200249 = {
+	name = "Rekkeswinth"
+	dynasty = 1046033
+
+	father = 200240
+	mother = 168735
+
+	religion = chalcedonian
+	culture = gothic
+
+	640.1.1 = {
+		birth = yes
+	}
+	672.9.1 = {
+		death = yes
+	}
+}
+
+200250 = {
+	name = "Theodefred"
+	dynasty = 1046033
+
+	father = 200240
+	mother = 168735
+
+	religion = chalcedonian
+	culture = gothic
+
+	645.1.1 = {
+		birth = yes
+	}
+	702.1.1 = {
+		death = yes
+	}
+}
+
+200254 = {
+	name = "Khintila"
+	dynasty = 1046032
+
+	religion = chalcedonian
+	culture = gothic
+
+	573.1.1 = {
+		birth = yes
+	}
+	639.12.20 = {
+		death = yes
+	}
+}
+
+200255 = {
+	name = "Tulga"
+	dynasty = 1046032
+
+	father = 200254
+
+	religion = chalcedonian
+	culture = gothic
+	
+	trait = ill
+
+	598.1.1 = {
+		birth = yes
+	}
+	642.4.16 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+200256 = {
+	name = "Suinthila"
+	dynasty = 1046033
+
+	father = 200272
+	mother = 168726
+
+	religion = chalcedonian
+	culture = gothic
+
+	trait = honest
+	trait = ambitious
+	trait = stubborn
+	trait = education_martial_4
+	trait = strategist
+
+	595.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		add_spouse = 200260
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+
+200257 = {
+	name = "Liuvigothona"
+	female = yes
+	dynasty = 1046033
+
+	father = 200256
+	mother = 200260
+
+	religion = chalcedonian
+	culture = gothic
+
+	633.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+168730 = {
+	name = "Ricimero"
+	dynasty = 1046033
+	religion = "chalcedonian"
+	culture = "gothic"
+	father = 200256
+	mother = 200260
+	622.1.1 = {
+		birth = yes
+	}
+	
+	640.1.1 = {
+		death = yes
+	}
+}
+
+168735 = {
+	name = "Riciberga"
+	female = yes
+
+	religion = "chalcedonian"
+	culture = "gothic"
+
+	620.1.1 = {
+		birth = yes
+	}	
+	665.1.1 = {
+		death = yes
+	}
+}
+
+200258 = {
+	name = "Rekkared"
+	dynasty = 1046034
+
+	father = 200259
+
+	religion = chalcedonian
+	culture = gothic
+
+	600.1.1 = {
+		birth = yes
+	}
+	621.3.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+200259 = {
+	name = "Sisebut"
+	dynasty = 1046034
+
+	religion = chalcedonian
+	culture = gothic
+
+	568.1.1 = {
+		birth = yes
+	}
+	621.2.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+200260 = {
+	name = "Theodora"
+	female = yes
+	dynasty = 1046034
+
+	father = 200259
+
+	religion = chalcedonian
+	culture = gothic
+
+	605.1.1 = {
+		birth = yes
+	}
+	666.1.1 = {
+		death = yes
+	}
+}
+
+200269 = {
+	name = "Gundemar"
+
+	religion = chalcedonian
+	culture = gothic
+
+	558.1.1 = {
+		birth = yes
+	}
+	612.2.1 = {
+		death = yes
+	}
+}
+
+200270 = {
+	name = "Witteric"
+
+	religion = chalcedonian
+	culture = gothic
+
+	562.1.1 = {
+		birth = yes
+	}
+	610.4.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 200269
+		}
+	}
+}
+
+200271 = {
+	name = "Liuva"
+	dynasty = 1046033
+
+	father = 200272
+	mother = 168725
+
+	religion = chalcedonian
+	culture = gothic
+
+	583.1.1 = {
+		birth = yes
+	}
+	603.7.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 200270
+		}
+	}
+}
+
+200272 = {
+	name = "Rekkared"
+	dynasty = 1046033
+
+	father = 200273
+
+	religion = chalcedonian
+	culture = gothic
+
+	555.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		add_spouse = 168725
+	}
+	592.1.1 = {
+		add_spouse = 168726
+	}
+	601.12.21 = {
+		death = yes
+	}
+}
+
+
+200273 = {
+	name = "Leovigild"
+	dynasty = 1046033
+
+	father = 200274
+
+	religion = arianism
+	culture = gothic
+
+	525.1.1 = {
+		birth = yes
+	}
+	586.4.1 = {
+		death = yes
+	}
+}
+
+200274 = {
+	name = "Liuverich"
+	dynasty = 1046033
+
+	religion = arianism
+	culture = gothic
+
+	498.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+
+200275 = {
+	name = "Liuva"
+	dynasty = 1046033
+
+	father = 200274
+
+	religion = arianism
+	culture = gothic
+
+	523.1.1 = {
+		birth = yes
+	}
+	572.1.1 = {
+		death = yes
+	}
+}
+
+200276 = {
+	name = "Athanagild"
+	#dynasty = 1046039
+
+	religion = arianism
+	culture = gothic
+
+	520.1.1 = {
+		birth = yes
+	}
+	568.1.1 = {
+		death = yes
+	}
+}
+
+200277 = {
+	name = "Agila"
+
+	religion = arianism
+	culture = gothic
+
+	516.1.1 = {
+		birth = yes
+	}
+	554.3.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 70512
+		}
+	}
+}
+
+200278 = {
+	name = "Sisenand"
+
+	religion = chalcedonian
+	culture = gothic
+	dynasty = sisenanding
+	dna = sisenando_dna
+
+	trait = education_diplomacy_3
+	
+	trait = ambitious
+	trait = arrogant
+	trait = zealous
+	martial = 8
+	diplomacy = 10
+	intrigue = 5
+
+	605.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	636.3.12 = {
+		death = yes
+	}
+}
+
+200279 = {
+	name = "Theudigisl"
+
+	religion = arianism
+	culture = gothic
+
+	500.1.1 = {
+		birth = yes
+	}
+	549.12.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+200280 = {
+	name = "Theudis"
+
+	religion = arianism
+	culture = gothic
+
+	498.1.1 = {
+		birth = yes
+	}
+	548.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+200281 = {
+	name = "Amalaric"
+	dynasty = 99991000
+
+	father = 200283
+
+	religion = arianism
+	culture = gothic
+
+	500.1.1 = {
+		birth = yes
+	}
+	531.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+200282 = {
+	name = "Gesalec"
+
+	father = 200283
+	trait = bastard
+
+	religion = arianism
+	culture = gothic
+
+	489.1.1 = {
+		birth = yes
+	}
+	511.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+200283 = {
+	name = "Alaric"
+	dynasty = 99991000
+
+	father = 200284
+	mother = 994010
+
+	religion = arianism
+	culture = gothic
+
+	463.1.1 = {
+		birth = yes
+	}
+	507.4.1 = {
+		death = yes
+	}
+}
+
+200284 = {
+	name = "Euric"
+	dynasty = 99991000
+	dna = euric_dna
+
+	father = 200287
+	mother = 200293
+
+	martial = 6
+	diplomacy = 8
+	stewardship = 10
+	intrigue = 9
+	learning = 5
+
+	trait = education_diplomacy_4
+	trait = kinslayer_3
+	trait = hunter_2
+	trait = fickle
+	trait = ambitious
+	trait = gregarious
+	religion = arianism
+	culture = gothic
+
+	440.1.1 = {
+		birth = yes
+	}
+	462.1.1 = {
+		add_spouse = 994010
+	}
+	484.1.1 = {
+		death = yes
+	}
+}
+
+200285 = {
+	name = "Theoderic"
+	dynasty = 99991000
+
+	father = 200287
+	mother = 200293
+
+	religion = arianism
+	culture = gothic
+
+	428.1.1 = {
+		birth = yes
+	}
+	466.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 200284
+		}
+	}
+}
+
+200286 = {
+	name = "Thorismund"
+	dynasty = 99991000
+
+	father = 200287
+	mother = 200293
+
+	religion = arianism
+	culture = gothic
+
+	423.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 200285
+		}
+	}
+}
+
+200287 = {
+	name = "Theoderic"
+	dynasty = 99991000
+
+	father = 200297
+
+	religion = arianism
+	culture = gothic
+
+	379.1.1 = {
+		birth = yes
+	}
+	418.1.1 = {
+		add_spouse = 200293
+	}
+	451.6.20 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+200288 = {
+	name = "Wallia"
+	dynasty = 99991000
+
+	father = 200296
+
+	religion = arianism
+	culture = gothic
+
+	374.1.1 = {
+		birth = yes
+	}
+	418.1.1 = {
+		death = yes
+	}
+}
+
+200289 = {
+	name = "Sigeric"
+
+	religion = arianism
+	culture = gothic
+
+	370.1.1 = {
+		birth = yes
+	}
+	415.7.7 = {
+		death = {
+			death_reason = death_murder
+			killer = 200288
+		}
+	}
+}
+
+200290 = {
+	name = "Atawulf"
+	dynasty = 99991000
+
+	father = 200296
+
+	religion = arianism
+	culture = gothic
+
+	372.1.1 = {
+		birth = yes
+	}
+	415.7.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 200289
+		}
+		trait = adventurer
+	}
+}
+
+200292 = {
+	name = "Rocesthes"
+	dynasty = 99991000
+
+	father = 200295
+
+	religion = arianism
+	culture = gothic
+
+	341.1.1 = {
+		birth = yes
+	}
+	387.1.1 = {
+		death = yes
+	}
+}
+
+200293 = {
+	name = "Ingundis"
+	female = yes
+	dynasty = 99991000
+
+	father = 200291
+	mother = 200294
+
+	religion = arianism
+	culture = gothic
+
+	402.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+200294 = {
+	name = "Ermeneberg"
+	female = yes
+	dynasty = 99991000
+
+	father = 200296
+
+	religion = arianism
+	culture = gothic
+
+	372.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+
+200295 = {
+	name = "Aoric"
+	dynasty = 99991000
+
+	religion = arianism
+	culture = gothic
+
+	311.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+200296 = {
+	name = "Athanaric"
+	dynasty = 99991000
+
+	father = 200295
+
+	religion = gothic_pagan
+	culture = gothic
+
+	334.1.1 = {
+		birth = yes
+	}
+	381.1.25 = {
+		death = yes
+	}
+}
+
+200297 = {
+	name = "Alatheus"
+	dynasty = 99991000
+
+	father = 200295
+
+	religion = arianism
+	culture = gothic
+
+	350.1.1 = {
+		birth = yes
+	}
+	391.1.1 = {
+		death = yes
+	}
+}
+999103 = {
+	name = "Alaric"
+	dna = bookmark_barbarian_alaric
+	dynasty = 99991000
+	religion = "arianism"
+	culture = "gothic"
+	father = 200292 #Rothestes
+	martial = 18
+	diplomacy = 10
+	intrigue = 9
+	stewardship = 15
+	trait = brave
+	trait = diligent
+	trait = vengeful
+	sexuality = heterosexual
+	375.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	388.1.1 = {
+		add_spouse = 200294
+	}
+	410.1.1 = {
+		death = yes
+		trait = adventurer
+	}
+}
+
+###gothic vassals
+carthaginensis_02 = { #
+	name= "Roderic"
+	religion="chalcedonian"
+	culture="gothic"
+	610.1.1 = {
+		birth = yes
+	}
+	678.1.1 = {
+		death = yes
+	}
+}
+##Amaling dynasty
+gebicing = {
+	name= "Geberic"
+	religion="gothic_pagan"
+	culture="gothic"
+	325.1.1 = {
+		birth = yes
+	}
+	369.1.1 = {
+		death = yes
+	}
+}
+#Dacian Goths
+gdacia_01 = {
+	name= "Geberic"
+	religion="arianism"
+	culture="gothic"
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+gdacia_02 = {
+	name= "Alatheus"
+	religion="arianism"
+	culture="gothic"
+	447.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+gothones_01 = {
+	name= "Alatheus"
+	religion="gothic_pagan"
+	culture="gothic"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+gothones_02 = {
+	name= "Roderic"
+	religion="gothic_pagan"
+	culture="gothic"
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

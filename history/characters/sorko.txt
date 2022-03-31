@@ -1,0 +1,106 @@
+﻿#sorko characters
+
+#placeholders for c_sorko
+
+sorko_01 = {
+	name = "Tib" #fictional
+	religion = west_african_orisha_pagan
+	culture = sorko
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+sorko_02 = {
+	name = "Medina" #fictional
+	religion = west_african_orisha_pagan
+	culture = sorko
+	female = yes
+	431.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+sorko_03 = {
+	name = "Layla" #fictional
+	religion = west_african_orisha_pagan
+	culture = sorko
+	female = yes
+	507.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+sorko_04 = {
+	name = "Kiray" #fictional
+	religion = west_african_orisha_pagan
+	culture = sorko
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+sorko_05 = {
+	name = "Ikoi" #fictional
+	religion = west_african_orisha_pagan
+	culture = sorko
+	739.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+# Gur
+gur_14 = {
+	name = "Tib" #fictional
+	religion = west_african_bidu_pagan
+	culture = sorko
+	336.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+gur_15 = {
+	name = "Ize" #fictional
+	religion = west_african_bidu_pagan
+	culture = sorko
+	331.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+gur_16 = {
+	name = "Dum" #fictional
+	religion = west_african_bidu_pagan
+	culture = sorko
+	441.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+gur_17 = {
+	name = "Kukura" #fictional
+	religion = west_african_bidu_pagan
+	culture = sorko
+	432.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

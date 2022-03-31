@@ -1,0 +1,47 @@
+#slavic titles
+#Poland
+d_wielkopolska = {
+	395.1.1 = {
+		holder = 900022
+	}
+}
+d_lesser_poland = {
+	395.1.1 = {
+		holder = 900023
+	}
+}
+d_kuyavia = {
+	395.1.1 = {
+		holder = 900024
+	}
+}
+c_dobrzynska = {
+	395.1.1 = {
+		holder = 900024
+	}
+}
+d_mazovia = {
+	395.1.1 = {
+		holder = 900025
+	}
+}
+d_plock = {
+	395.1.1 = {
+		holder = 900028
+	}
+}
+c_stezycka = {
+	395.1.1 = {
+		holder = 900025
+	}
+}
+d_lower_silesia = {
+	395.1.1 = {
+		holder = polony_01
+	}
+}
+d_upper_silesia = {
+	395.1.1 = {
+		holder = polony_02
+	}
+}

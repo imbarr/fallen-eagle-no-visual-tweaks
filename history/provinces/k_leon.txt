@@ -2,7 +2,7 @@
 1816 = {	# LEON
 	# Misc
 	culture = cantabrian
-	religion = druidism
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -13,7 +13,7 @@
 	holding = city_holding
 }
 1824 = {	# VILLABLINO
-	holding = church_holding
+	holding = none
 }
 1825 = {	# GUARDO/Cea
 	holding = none
@@ -29,8 +29,8 @@
 ###c_benavente
 1826 = {	# BENAVENTE
 	# Misc
-	culture = cantabrian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
@@ -44,8 +44,8 @@
 ###c_zamora
 1894 = {	# ZAMORA
 	# Misc
-	culture = cantabrian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
@@ -56,14 +56,14 @@
 	holding = church_holding
 }
 1910 = {	# VILLAFAFILA
-	holding = city_holding
+	holding = none
 }
 
 ###c_salamanca
 1913 = {	# BEJAR
 	# Misc
-	culture = lusitanian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -71,17 +71,17 @@
 	955.1.1 = { culture = asturleonese }
 }
 1828 = {	# SALAMANCA
-	holding = church_holding
+	holding = none
 }
 1829 = {	# CIDUAD RODRIGO/Ciudad Rodrigo
-	holding = city_holding
+	holding = church_holding
 }
 
 ###c_avila
 1912 = {	# AVILA
 	# Misc
-	culture = lusitanian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = priscillianism
 	
 	holding = castle_holding
 	
@@ -95,14 +95,14 @@
 	holding = none
 }
 1916 = {	# SIERRA DE GREDOS
-	holding = church_holding
+	holding = none
 }
 
 ###c_asturias_de_oviedo
 1797 = {	# OVIEDO
 	# Misc
 	culture = cantabrian
-	religion = druidism
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	
@@ -115,7 +115,7 @@
 	holding = church_holding
 }
 1798 = {	# VILLAVICIOSA
-	holding = city_holding
+	holding = none
 }
 1796 = {	# GIJON
 	holding = none
@@ -124,8 +124,8 @@
 ###c_pravia
 1795 = {	# PRAVIA
 	# Misc
-	culture = cantabrian
-	religion = druidism
+	culture = castran
+	religion = celto_hellenic_syncretism
 	
 	holding = castle_holding
 	

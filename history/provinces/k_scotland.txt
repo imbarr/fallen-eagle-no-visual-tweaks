@@ -3,13 +3,13 @@
 ###c_gowrie
 1741 = {	#Perth / b_st_johnston
 	culture = pictish
-	religion = druidism
+	religion = pictish_druidism
 	holding = tribal_holding
 	900.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1742 = {	#Coupar Angus
@@ -26,13 +26,13 @@
 ###c_fife
 1724 = {	#Dunfermline
 	culture = pictish
-	religion = druidism
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	950.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	1130.1.1 = {
 		culture = scottish
@@ -52,14 +52,14 @@
 
 ###c_strathearn
 1734 = {	#Stirling
-	culture = cumbrian
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	900.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	1130.1.1 = {
 		culture = scottish
@@ -75,11 +75,11 @@
 
 ###c_atholl
 1743 = {	#Dunkeld
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1744 = {	#Aberfeldy
@@ -89,13 +89,13 @@
 ###c_angus
 1720 = {	#Dundee
 	culture = pictish
-	religion = druidism
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	950.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	1153.1.1 = {
 		culture = scottish
@@ -112,13 +112,13 @@
 ###c_mearns
 1718 = {	#Aberdeen
 	culture = pictish
-	religion = druidism
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	1000.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	1153.1.1 = {
 		culture = scottish
@@ -134,11 +134,11 @@
 ##d_the_isles ###################################
 ###c_isle_of_man
 1698 = {	#Castletown
-	culture = gaelic
-	religion = druidism
+	culture = briton
+	religion = brythonic_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1699 = {	#Ramsey
@@ -148,18 +148,12 @@
 ##d_galloway ###################################
 ###c_lennox
 1695 = {	#Dumbarton
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding
-	900.1.1 = {
-		culture = gaelic
-	}
-	1222.1.1 = {
-		culture = scottish
-	}
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 }
 1696 = {	#Glasgow
-	holding = church_holding
+	holding = none
 	#Potentially built in the XIth century, around a church
 }
 1697 = {	#Meneith / Menteith
@@ -168,15 +162,15 @@
 
 ###c_galloway
 1682 = {	#Kilcudbrite
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 	900.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 }
 1683 = {	#Sanquhar
-	holding = city_holding
+	holding = none
 	#Unclear, but apparently already popular in ancient times, and received waves of settlers in the XIIIth
 }
 1684 = {	#Wigtown
@@ -185,11 +179,11 @@
 
 ###c_carrick
 1680 = {	#Maybole
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 	900.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 }
 1685 = {	#Girvan
@@ -198,11 +192,11 @@
 
 ###c_ayrshire
 1686 = {	#Kyle
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 	1000.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 }
 1687 = {	#Strathgrythe
@@ -214,9 +208,9 @@
 
 ###c_annandale
 1679 = {	#Annan
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding	
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding	
 	1100.11.11 = {
 		culture = scottish
 	}
@@ -228,14 +222,14 @@
 ##d_western_isles ###################################
 ###c_inner_hebrides
 1689 = {	#Islay
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
-		religion = druidism
+		religion = brythonic_druidism
 	}
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1690 = {	#Arran
@@ -246,19 +240,19 @@
 }
 1691 = {	#Mull
 	holding = church_holding
-	#settled by irish druidisms before CK timeframe
+	#settled by irish brythonic_druidisms before CK timeframe
 }
 
 ###c_outer_hebrides
 1692 = {	#Skye
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	890.1.1 = {	#Presumably went a little earlier than the last holdouts in Iona.
-		religion = druidism
+		religion = brythonic_druidism
 	}
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1693 = {	#Lewis
@@ -274,14 +268,14 @@
 
 ###c_argyll
 1700 = {	#Kilmarten
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	890.1.1 = {	#Presumably went a little earlier than the last holdouts in Iona.
-		religion = druidism
+		religion = brythonic_druidism
 	}
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1701 = {	#Glencoe
@@ -301,9 +295,9 @@
 ##d_lothian ###################################
 ###c_lothian
 1727 = {	#Edinburgh
-	culture = anglo_saxon
-	religion = druidism
-	holding = castle_holding
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 	1000.1.1 = {
 		culture = scottish
 	}
@@ -312,7 +306,7 @@
 	holding = none
 }
 1729 = {	#Galashiels
-	holding = city_holding
+	holding = none
 }
 1730 = {	#Penicuick
 	holding = none
@@ -320,28 +314,22 @@
 
 ###c_dunbar
 1676 = {	#Dunbar
-	culture = anglo_saxon
-	religion = druidism
-	holding = castle_holding
-	1000.1.1 = {
-		culture = scottish
-	}
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 }
 1675 = {	#Berwick
-	holding = city_holding
+	holding = none
 }
 
 ###c_teviotdale
 1677 = {	#Kelso
-	culture = anglo_saxon
-	religion = druidism
-	holding = castle_holding
-	1000.1.1 = {
-		culture = scottish
-	}
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 }
 1678 = {	#Jedburgh
-	holding = church_holding
+	holding = none
 	#Church built in the IXth
 }
 1740 = {	#Selkirk
@@ -350,11 +338,11 @@
 
 ###c_linlithgowshire
 1731 = {	#Linlithgow
-	culture = anglo_saxon
-	religion = druidism
+	culture = briton
+	religion = brythonic_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	1000.1.1 = {
 		culture = scottish
@@ -368,14 +356,14 @@
 	}
 }
 1733 = {	#Falkirk
-	holding = church_holding
+	holding = none
 }
 
 ###c_lanarkshire
 1737 = {	#Lanark
-	culture = cumbrian
-	religion = druidism
-	holding = castle_holding
+	culture = briton
+	religion = brythonic_druidism
+	holding = tribal_holding
 	1000.1.1 = {
 		culture = scottish
 	}
@@ -393,11 +381,11 @@
 ##d_moray ###################################
 ###c_moray
 1715 = {	#Elgin
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	1153.1.1 = {
 		culture = scottish
@@ -413,11 +401,11 @@
 
 ###c_ross
 1703 = {	#Dingwall
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1704 = {	#Gairloch
@@ -427,13 +415,13 @@
 ###c_buchan
 1712 = {	#Banff
 	culture = pictish
-	religion = druidism
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 	950.1.1 = {
-		culture = gaelic
+		culture = pictish
 	}
 	1153.1.1 = {
 		culture = scottish
@@ -449,11 +437,11 @@
 
 ###c_sutherland
 1705 = {	#Dornoch
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1706 = {	#Durness
@@ -462,11 +450,11 @@
 
 ###c_caithness
 1707 = {	#Thurso
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1708 = {	#Wick
@@ -476,11 +464,11 @@
 
 ###c_inverness
 1709 = {	#Inverness
-	culture = gaelic
-	religion = druidism
+	culture = pictish
+	religion = pictish_druidism
 	holding = tribal_holding
 	935.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 	}
 }
 1710 = {	#Badenoch

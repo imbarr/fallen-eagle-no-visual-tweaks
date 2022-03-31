@@ -1,0 +1,42 @@
+k_yemen = {
+	20.1.1 = {
+		change_development_level = 4
+	}
+	395.1.1 = {
+		holder = 982001
+		government = clan_government
+	}  
+	467.1.1 = {
+		change_development_level = 6
+	}
+	532.1.1 = {
+		change_development_level = 7
+	}
+	632.1.1 = {
+		change_development_level = 8
+	}
+	768.1.1 = {
+		change_development_level = 9
+	}
+}
+k_hadramwt = {
+	20.1.1 = {
+		change_development_level = 3
+	}
+	395.1.1 = {
+		holder = 982001
+	government = clan_government
+	} 
+	467.1.1 = {
+		change_development_level = 4
+	}
+	532.1.1 = {
+		change_development_level = 5
+	}
+	632.1.1 = {
+		change_development_level = 6
+	}
+	768.1.1 = {
+		change_development_level = 7
+	} 
+}

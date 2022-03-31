@@ -1,0 +1,48 @@
+k_varini  = {
+	380.1.1 = {
+		holder = 902003 # King of the Varini
+		government = tribal_government
+	}
+}
+d_nordmark  = {
+	380.1.1 = {
+		holder = rugian_11 # King of the Varini
+		government = tribal_government
+	}
+}
+d_ostmark  = {
+	380.1.1 = {
+		holder = 902003 # King of the Varini
+		government = tribal_government
+	}
+}
+d_pommerania = {
+	370.1.1 = {
+		holder = 902009 #Lemovii
+		government = tribal_government
+	}
+}
+c_danzig = {
+    360.1.1 = {
+		holder = gothones_01 #Lemovii
+		government = tribal_government
+	}
+}
+c_berent = {
+    360.1.1 = {
+		holder = gothones_01 #Lemovii
+		government = tribal_government
+	}
+}
+c_slupsk = {
+    360.1.1 = {
+		holder = gothones_02 #Lemovii
+		government = tribal_government
+	}
+}
+c_miastko = {
+    360.1.1 = {
+		holder = gothones_02 #Lemovii
+		government = tribal_government
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_english:
+ trait_green_support:0 "Greens Supporter"
+ trait_green_support_desc:0 "Supports the green chariot team"
+ trait_blue_support:0 "Blues Supporter"
+ trait_blue_support_desc:0 "Supports the blue chariot team"
+ trait_sahabi_trait:0 "Sahabi"
+ trait_sahabi_desc:0 "This Character has been with The Prophet's side and helped in the rise of islam"
+ trait_adopted_trait:0 "Adopted Child"
+ trait_adopted_desc:0 "This person was adopted and forced into the house of their now parents"
+ trait_adopted_roman_desc:0 "Following Roman custom, this person has been declared a child of their adopter, and is equally viable to inherit their titles."

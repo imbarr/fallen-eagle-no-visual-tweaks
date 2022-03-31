@@ -1,0 +1,71 @@
+# Geatia
+k_geatia = {
+	382.1.1 = {
+		holder = geats_leader
+		government = tribal_government
+	}
+}
+d_smaland = {
+	382.1.1 = {
+		holder = geats_leader 
+	}
+}
+d_ostergotland = {
+	382.1.1 = {
+		holder = geats_leader
+	}
+}
+d_vastergotland = {
+	382.1.1 = {
+		holder = geats_leader
+	}
+}
+c_gutland = {
+	382.1.1 = {
+		holder = geats_leader 
+	}
+}
+
+# Suionia
+k_suionia = {
+	382.1.1 = {
+		holder = swedes_leader
+		government = tribal_government
+	}
+}
+d_svealand = {
+	382.1.1 = {
+		holder = swedes_leader
+	}
+}
+d_bergslagen = {
+	382.1.1 = {
+		holder = swedes_leader
+	}
+}
+c_nordmark = {
+	382.1.1 = {
+		holder = swedes_leader
+	}
+}
+c_dal = {
+	382.1.1 = {
+		holder = swedes_leader
+	}
+}
+
+# Sitonia
+k_sitonia = {
+	382.1.1 = {
+		holder = sitones_leader
+		government = tribal_government
+		succession_laws = {
+			female_only_law
+		}
+	}
+}
+d_norrland = {
+	382.1.1 = {
+		holder = sitones_leader
+	}
+}

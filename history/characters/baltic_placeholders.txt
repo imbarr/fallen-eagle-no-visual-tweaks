@@ -1,0 +1,99 @@
+﻿900018 = { #pruthenian placeholder
+	name="Censonis"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+skalvian_leader = {
+	name="Vingoldas"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+curonian_leader = {
+	name="Skalvis"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+semigallian_leader = {
+	name="Milzas"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+galindian_leader = {
+	name="Daugailus"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+sudovian_leader = {
+	name="Minmantas"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+latvian_leader = {
+	name="Genbartas"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+livonian_leader = {
+	name="Azeg"
+	religion="finnish_pagan"
+	culture="fenni"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+lithuanian_leader = {
+	name="Girdbutas"
+	religion="baltic_pagan"
+	culture="aestian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}

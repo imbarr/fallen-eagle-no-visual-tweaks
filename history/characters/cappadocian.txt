@@ -1,0 +1,23 @@
+
+cappadocia_01 = {
+	name = "Perseus"
+	culture = cappadocian
+	religion = mazdayasna
+	324.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+cappadocia_02 = {
+	name = "Macarius"
+	culture = cappadocian
+	religion = nicene
+	372.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+	}
+}

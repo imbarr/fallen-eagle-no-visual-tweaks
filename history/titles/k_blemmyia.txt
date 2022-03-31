@@ -1,0 +1,306 @@
+k_blemmyia = {
+	361.1.1 = {	change_development_level = 1 }
+}
+
+d_naqis = {
+}
+
+
+c_allaqi = {
+	361.1.1 = {	change_development_level = 1 }
+	476.1.1 = {	change_development_level = 2 }
+	532.1.1 = {	change_development_level = 3 }
+	532.1.1 = {	change_development_level = 4 }
+	768.1.1 = {	change_development_level = 5 }
+	360.1.1 = {
+		holder = blemmyes_01
+	}
+	460.1.1 = {
+		holder = blemmyes_06
+	}
+	520.1.1 = {
+		holder = blemmyes_11
+	}
+	620.1.1 = {
+		holder = blemmyes_16
+	}
+	750.1.1 = {
+		holder = blemmyes_21
+	}
+}
+
+
+c_aydhab = {
+	361.1.1 = {	change_development_level = 4 }
+	476.1.1 = {	change_development_level = 5 }
+	532.1.1 = {	change_development_level = 6 }
+	532.1.1 = {	change_development_level = 7 }
+	768.1.1 = {	change_development_level = 8 }
+	360.1.1 = {
+		holder = blemmyes_02
+	}
+	460.1.1 = {
+		holder = blemmyes_07
+	}
+	520.1.1 = {
+		holder = blemmyes_13
+	}
+	620.1.1 = {
+		holder = blemmyes_18
+	}
+	750.1.1 = {
+		holder = blemmyes_21
+	}
+}
+
+
+c_naqis = {
+	360.1.1 = {
+		holder = blemmyes_01
+	}
+	460.1.1 = {
+		holder = blemmyes_06
+	}
+	520.1.1 = {
+		holder = blemmyes_11
+	}
+	620.1.1 = {
+		holder = blemmyes_16
+	}
+	750.1.1 = {
+		holder = blemmyes_22
+	}
+}
+
+
+c_wadi_amur = {
+	360.1.1 = {
+		holder = blemmyes_03
+	}
+	460.1.1 = {
+		holder = blemmyes_08
+	}
+	520.1.1 = {
+		holder = blemmyes_12
+	}
+	620.1.1 = {
+		holder = blemmyes_17
+	}
+	750.1.1 = {
+		holder = blemmyes_22
+	}
+	
+}
+
+
+d_bazin = {
+
+}
+
+c_suakin = {
+	361.1.1 = {	change_development_level = 1 }
+	476.1.1 = {	change_development_level = 2 }
+	532.1.1 = {	change_development_level = 3 }
+	532.1.1 = {	change_development_level = 4 }
+	768.1.1 = {	change_development_level = 5 }
+	
+	360.1.1 = {
+		holder = blemmyes_02
+	}
+	460.1.1 = {
+		holder = blemmyes_07
+	}
+	520.1.1 = {
+		holder = blemmyes_13
+	}
+	620.1.1 = {
+		holder = blemmyes_18
+	}
+	762.1.1 = {
+		holder = 145961
+	}
+	
+}
+
+
+c_bazin = {
+
+	360.1.1 = {
+		holder = blemmyes_02
+	}
+	460.1.1 = {
+		holder = blemmyes_07
+	}
+	520.1.1 = {
+		holder = blemmyes_13
+	}
+	620.1.1 = {
+		holder = blemmyes_18
+	}
+	765.1.1 = {
+		government = tribal_government
+		holder = 145964
+	}
+}
+
+
+c_badi = {
+	361.1.1 = {	change_development_level = 4 }
+	476.1.1 = {	change_development_level = 5 }
+	532.1.1 = {	change_development_level = 6 }
+	532.1.1 = {	change_development_level = 7 }
+	768.1.1 = {	change_development_level = 8 }
+	
+	360.1.1 = {
+		holder = blemmyes_04
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_09
+	}
+	520.1.1 = {
+		holder = blemmyes_14
+	}
+	620.1.1 = {
+		holder = blemmyes_19
+		liege = 0
+	}
+	765.1.1 = {
+		liege = 0
+		holder = 145964
+	}
+}
+
+d_baqlin = {
+}
+
+
+c_baqlin = {
+	360.1.1 = {
+		holder = blemmyes_03
+	}
+	460.1.1 = {
+		holder = blemmyes_08
+	}
+	520.1.1 = {
+		holder = blemmyes_12
+	}
+	620.1.1 = {
+		holder = blemmyes_17
+	}
+	767.1.1 = {
+		holder = 145962
+		government = tribal_government
+	}
+}
+
+c_djarin = {
+	360.1.1 = {
+		holder = blemmyes_04
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_09
+	}
+	520.1.1 = {
+		holder = blemmyes_14
+	}
+	620.1.1 = {
+		holder = blemmyes_19
+	}
+	767.1.1 = {
+		liege = 0
+		holder = 145962
+		government = tribal_government
+	}
+}
+
+
+c_qataa = {
+	360.1.1 = {
+		holder = blemmyes_04
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_09
+	}
+	520.1.1 = {
+		holder = blemmyes_14
+	}
+	620.1.1 = {
+		holder = blemmyes_19
+	}
+	767.1.1 = {
+		liege = 0
+		holder = 145962
+		government = tribal_government
+	}
+}
+
+
+c_kassala = {
+	360.1.1 = {
+		holder = blemmyes_05
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_10
+	}
+	520.1.1 = {
+		holder = blemmyes_15
+	}
+	620.1.1 = {
+		holder = blemmyes_20
+		liege = 0
+	}
+	764.1.1 = {
+		holder = 145963
+		government = tribal_government
+	}
+}
+
+
+c_showak = {
+	360.1.1 = {
+		holder = blemmyes_05
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_10
+	}
+	520.1.1 = {
+		holder = blemmyes_15
+	}
+	620.1.1 = {
+		holder = blemmyes_20
+	}
+	764.1.1 = {
+		liege = 0
+		holder = 145963
+		government = tribal_government
+	}
+	
+}
+
+
+c_wolqayt = {
+	360.1.1 = {
+		holder = blemmyes_05
+		liege = k_abyssinia
+	}
+	460.1.1 = {
+		holder = blemmyes_10
+	}
+	520.1.1 = {
+		holder = blemmyes_15
+	}
+	620.1.1 = {
+		holder = blemmyes_20
+	}
+	764.1.1 = {
+		liege = 0
+		holder = 145963
+		government = tribal_government
+	}
+}
+

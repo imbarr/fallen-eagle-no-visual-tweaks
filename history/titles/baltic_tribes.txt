@@ -1,0 +1,79 @@
+k_prussia = {
+	394.1.1 = {
+		holder = 900018
+		government = tribal_government
+	}
+}
+d_scalovia = {
+	394.1.1 = {
+		holder = skalvian_leader
+		government = tribal_government
+	}
+}
+d_latgalians = {
+	394.1.1 = {
+		holder = latvian_leader
+		government = tribal_government
+	}
+}
+d_courland = {
+	394.1.1 = {
+		holder = curonian_leader
+		government = tribal_government
+	}
+}
+c_palanga = {
+	394.1.1 = {
+		holder = curonian_leader 
+	}
+}
+d_livonia = {
+	394.1.1 = {
+		holder = livonian_leader
+		government = tribal_government
+	}
+}
+d_esthonia = {
+	394.1.1 = {
+		holder = livonian_leader 
+	}
+}
+d_lithuanians = {
+	394.1.1 = {
+		holder = lithuanian_leader
+		government = tribal_government
+	}
+}
+c_siauliai = {
+	394.1.1 = {
+		holder = lithuanian_leader 
+	}
+}
+c_raseiniai = {
+	394.1.1 = {
+		holder = lithuanian_leader 
+	}
+}
+d_sudovia = {
+	394.1.1 = {
+		holder = sudovian_leader
+		government = tribal_government
+	}
+}
+
+e_wendish_empire = {
+	200.1.1 = {
+		name = AESTIAN_EMPIRE
+	}
+}
+
+k_poland = {
+	200.1.1 = {
+		de_jure_liege = e_west_slavia
+	}
+}
+k_galicia-volhynia = {
+	200.1.1 = {
+		de_jure_liege = e_west_slavia
+	}
+}

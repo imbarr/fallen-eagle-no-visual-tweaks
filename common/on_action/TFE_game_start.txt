@@ -1,0 +1,55 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+	on_actions = {
+		TFE_on_game_start
+		TFE_on_game_start_de_jure_capitals
+	}
+}
+
+TFE_on_game_start = {
+	effect = {
+		every_independent_ruler = {
+			limit = {
+				primary_title.tier = tier_empire
+				NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
+			}
+			
+			save_scope_as = current_emperor
+			
+			new_official_imperial_faith_effect_skip_effects = { EMPIRE = scope:current_emperor.primary_title FAITH = scope:current_emperor.faith }
+		}
+		character:2000003 = {
+			make_trait_inactive = intellect_good_3
+		}
+	}
+}
+
+TFE_on_game_start_de_jure_capitals = {
+	effect = {
+		if = {
+			limit = {
+				current_date < 476.9.4
+			}
+			title:e_britannia = {
+				set_capital_county = title:c_gowrie
+			}
+		}
+		if = {
+			limit = {
+				current_date < 476.9.4
+			}
+			title:e_britannia = {
+				set_capital_county = title:c_gowrie
+			}
+		}
+		if = {
+			limit = {
+				current_date < 632.6.8
+			}
+			title:e_arabia = {
+				set_capital_county = title:c_medina
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+﻿995000 = {
+	name = "Eriulf"
+	dynasty = 99950000
+	religion = "gothic_pagan"
+	culture = "herulian"
+	370.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+995001 = {
+	name = "Theodulf"
+	dynasty = 99950000
+	religion = "gothic_pagan"
+	culture = "herulian"
+	father = 995000
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+995002 = {
+	name = "Alaric"
+	dynasty = 99950000
+	religion = "gothic_pagan"
+	culture = "herulian"
+	father = 995001
+	430.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+995003 = {
+	name = "Rodulf"
+	dynasty = 99950000
+	religion = "gothic_pagan"
+	culture = "herulian"
+	father = 995002
+	452.1.1 = {
+		birth = yes
+	}
+	512.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+995004 = {
+	name = "Salinga"
+	female = yes
+	dynasty = 99950000
+	religion = "gothic_pagan"
+	culture = "herulian"
+	father = 995003
+	500.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}

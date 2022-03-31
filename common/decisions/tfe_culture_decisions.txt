@@ -1,0 +1,283 @@
+# Convert to Visigothic culture in Hispania or Gallia
+embrace_visigothic_identity_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = embrace_visigothic_identity_decision_desc
+	selection_tooltip = embrace_visigothic_identity_decision_tooltip
+
+	is_shown = {
+		culture = culture:gothic
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_visigothic_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		culture = culture:gothic
+		capital_province = {
+			geographical_region = custom_visigothic
+		}
+		custom_description = {
+			text = visigothic_decision_requirement
+			any_realm_county = {
+				count >= 8
+				culture = culture:gothic
+			}
+		}
+		NOT = {
+			has_primary_title = title:k_ostrogoths
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_at_war = no
+		is_imprisoned = no
+	}
+
+	effect = {
+		hidden_effect = {
+			every_county = {
+				limit = {
+					culture = culture:gothic
+					title_province = {	
+						geographical_region = custom_visigothic
+					}
+				}
+				add_to_list = gothic_counties
+			}
+
+			# Perform the culture flip
+			every_in_list = {
+				list = gothic_counties
+				convert_county_and_holder_if_in_region_effect = {
+					OLD_CULTURE = culture:gothic
+					NEW_CULTURE = culture:visigothic
+					REGION = custom_visigothic
+				}
+			}
+
+			# Send all players in the game a notification event about the flip.
+			save_scope_as = visigothic_founder
+			culture:gothic = {save_scope_as = old_culture}
+			culture:visigothic = {
+				reset_culture_creation_date = yes
+				get_all_innovations_from = scope:old_culture
+				save_scope_as = new_culture
+			}
+			every_player = {
+				if = {
+					limit = { this = root }
+					trigger_event = tfe_culture.1001
+				}
+				else_if = {
+					limit = {
+						exists = capital_province
+						capital_province = { geographical_region = world_europe }
+					}
+					trigger_event = tfe_culture.1002
+				}
+			}
+
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_visigothic_culture_decision
+			}
+		}
+
+		# Player changes culture
+		set_culture = culture:visigothic
+		add_character_flag = converted_culture_this_lifetime
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties
+				limit = {
+					holder.capital_county = { is_in_list = gothic_counties }
+				}
+				holder = {
+					add_to_list = mass_melting_pot_list
+					every_courtier = { add_to_list = mass_melting_pot_list }
+					every_courtier_away = { add_to_list = mass_melting_pot_list }
+				}
+				every_in_list = {
+					list = mass_melting_pot_list
+					limit = {
+						culture = gothic
+					}
+					set_culture = culture:visigothic
+				}
+			}
+		}
+
+		# Summary of above hidden effects to inform players of the decision's impact.
+		show_as_tooltip = {
+			custom_tooltip = embrace_visigothic_identity_decision_effect.tt
+			culture:visigothic = {
+				get_all_innovations_from = scope:old_culture
+			}
+		}
+	}
+
+	cost = {
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 100
+			sub_realm_size >= 12
+		}
+	}
+}
+
+# Convert to Ostrogothic culture in Italia or Illyria
+embrace_ostrogothic_identity_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = embrace_ostrogothic_identity_decision_desc
+	selection_tooltip = embrace_ostrogothic_identity_decision_tooltip
+
+	is_shown = {
+		culture = culture:gothic
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_ostrogothic_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		culture = culture:gothic
+		capital_province = {
+			geographical_region = custom_ostrogothic
+		}
+		custom_description = {
+			text = ostrogothic_decision_requirement
+			any_realm_county = {
+				count >= 8
+				culture = culture:gothic
+			}
+		}
+		NOT = {
+			has_primary_title = title:k_visigoths
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_at_war = no
+		is_imprisoned = no
+	}
+
+	effect = {
+		hidden_effect = {
+			every_county = {
+				limit = {
+					culture = culture:gothic
+					title_province = {	
+						geographical_region = custom_ostrogothic
+					}
+				}
+				add_to_list = gothic_counties
+			}
+
+			# Perform the culture flip
+			every_in_list = {
+				list = gothic_counties
+				convert_county_and_holder_if_in_region_effect = {
+					OLD_CULTURE = culture:gothic
+					NEW_CULTURE = culture:ostrogothic
+					REGION = custom_ostrogothic
+				}
+			}
+
+			# Send all players in the game a notification event about the flip.
+			save_scope_as = ostrogothic_founder
+			culture:gothic = {save_scope_as = old_culture}
+			culture:ostrogothic = {
+				reset_culture_creation_date = yes
+				get_all_innovations_from = scope:old_culture
+				save_scope_as = new_culture
+			}
+			every_player = {
+				if = {
+					limit = { this = root }
+					trigger_event = tfe_culture.1001
+				}
+				else_if = {
+					limit = {
+						exists = capital_province
+						capital_province = { geographical_region = world_europe }
+					}
+					trigger_event = tfe_culture.1002
+				}
+			}
+
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_ostrogothic_culture_decision
+			}
+		}
+
+		# Player changes culture
+		set_culture = culture:ostrogothic
+		add_character_flag = converted_culture_this_lifetime
+		hidden_effect = {
+			every_in_list = {
+				list = gothic_counties
+				limit = {
+					holder.capital_county = { is_in_list = gothic_counties }
+				}
+				holder = {
+					add_to_list = mass_melting_pot_list
+					every_courtier = { add_to_list = mass_melting_pot_list }
+					every_courtier_away = { add_to_list = mass_melting_pot_list }
+				}
+				every_in_list = {
+					list = mass_melting_pot_list
+					limit = {
+						culture = gothic
+					}
+					set_culture = culture:ostrogothic
+				}
+			}
+		}
+
+		# Summary of above hidden effects to inform players of the decision's impact.
+		show_as_tooltip = {
+			custom_tooltip = embrace_ostrogothic_identity_decision_effect.tt
+			culture:ostrogothic = {
+				get_all_innovations_from = scope:old_culture
+			}
+		}
+	}
+
+	cost = {
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 100
+			sub_realm_size >= 12
+		}
+	}
+}

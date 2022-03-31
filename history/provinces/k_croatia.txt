@@ -2,10 +2,17 @@
 ##d_dalmatia ###################################
 ###c_zadar
 465 = {		#Zadar
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = nicene
 	holding = castle_holding
 	
+	476.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = iconoclast
+		culture = greek
+	}
 }
 3545 = {	#Nin
 	holding = city_holding
@@ -22,9 +29,19 @@
 
 ###c_knin
 3548 = {	#Knin
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	476.1.1 = {
+		religion = "chalcedonian"
+	}
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3549 = {	#Bribir
 	holding = city_holding
@@ -41,12 +58,22 @@
 
 ###c_cetina
 3551 = {	#Sinj / c_sinjcroat
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
-	1066.1.1 = {
-		culture = romano_illyrian
-		religion = hellenic_pagan
+	395.1.1 = {
+		religion = nicene
+	}
+	476.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		religion = orthodox
+		culture = greek
 	}
 }
 467 = {		#Split
@@ -63,9 +90,17 @@
 ##d_croatia ###################################
 ###c_gacka
 464 = {		#Senj
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+
+	532.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = chalcedonian
+		culture = croatian
+	}
 }
 3540 = {	#Brinje
 	holding = none
@@ -77,9 +112,15 @@
 
 ###c_lika
 3543 = {	#Kaseg
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	476.1.1 = {
+		religion = "chalcedonian"
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3542 = {	#Bag
 	holding = none
@@ -93,9 +134,17 @@
 
 ###c_cherso
 2521 = {	#Cherso / Cres
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = greek
+		religion = orthodox
+	}
 }
 459 = {		#Krk / Veglia
 	holding = city_holding
@@ -104,9 +153,15 @@
 
 ###c_modrus
 3539 = {	#Modruš
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	532.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3537 = {	#Okic
 	holding = none
@@ -122,9 +177,16 @@
 ##d_slavonia ###################################
 ###c_zagreb
 461 = {		#Zagreb
-	culture = illyrian
-	religion = druidism
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3533 = {	#Cazma
 	holding = none
@@ -144,9 +206,17 @@
 
 ###c_zagorje
 458 = {		#Istria / Krapina
-	culture = illyrian
-	religion = druidism
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 460 = {		#Varadzin / Garestin
 	holding = none
@@ -166,9 +236,17 @@
 
 ###c_pozega
 3529 = {	#Požega
-	culture = illyrian
-	religion = druidism
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3528 = {	#Kutina
 	holding = none
@@ -180,9 +258,15 @@
 
 ###c_vukovar
 3610 = {	#Vakovo
-	culture = illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3609 = {	#Osijek
 	holding = city_holding
@@ -197,9 +281,22 @@
 ##d_bosna ###################################
 ###c_rama
 3527 = {	#Visoki
-	culture = romano_illyrian
-	religion = hellenic_pagan
+	culture = illyrian
+	religion = "celto_hellenic_syncretism"
 	holding = castle_holding
+
+	532.1.1 = {
+		culture = illyro_roman
+		religion = chalcedonian
+	}
+	
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = serbian
+	}
 }
 504 = {		#Prozor
 	holding = none
@@ -219,9 +316,17 @@
 
 ###c_donjikraji
 3507 = {	#Jajce
-	culture = romano_illyrian
-	religion = hellenic_pagan
+	culture = illyrian
+	religion = "celto_hellenic_syncretism"
 	holding = castle_holding
+
+	532.1.1 = {
+		culture = illyro_roman
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3504 = {	#Kljuc na Sani / b_kljucnasani
 	holding = none
@@ -241,8 +346,20 @@
 ###c_vhrbosna
 3567 = {	#Vhrbosna
 	culture = illyrian
-	religion = hellenic_pagan
+	religion = "celto_hellenic_syncretism"
 	holding = castle_holding
+
+	532.1.1 = {
+		culture = illyro_roman
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = serbian
+	}
 }
 3564 = {	#Olovo
 	holding = none
@@ -262,12 +379,16 @@
 
 ###c_vodica / krajina
 3519 = {	#Vodicevo
-	culture = illyrian
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding = castle_holding
-	950.1.1 = {
-		culture = bosnian
-		#Dating somewhat arbitrary, but basically the proto-form existed for about a generation before the eleventh century.
+	
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
 	}
 }
 3518 = {	#Dubica
@@ -279,12 +400,16 @@
 
 ###c_vrbas
 3516 = {	#Vrbaški Grad / b_banjaluka
-	culture = illyrian
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding = castle_holding
-	950.1.1 = {
-		culture = bosnian
-		#Dating somewhat arbitrary, but basically the proto-form existed for about a generation before the eleventh century.
+	
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
 	}
 }
 3515 = {	#Gradiška
@@ -298,16 +423,18 @@
 ###c_usora
 3513 = {	#Srebrenik
 	culture = illyrian
-	religion = hellenic_pagan
+	religion = "celto_hellenic_syncretism"
 	holding = castle_holding
-	870.1.1 = {
-		religion = orthodox
-		#Serbs convert in 870
+	476.1.1 = {
+		culture = illyro_roman
+		religion = "chalcedonian"
 	}
-	950.1.1 = {
-		culture = bosnian
-		religion = hellenic_pagan
-		#Dating somewhat arbitrary, but basically the proto-form existed for about a generation before the eleventh century.
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = serbian
 	}
 }
 463 = {		#Usora
@@ -326,17 +453,14 @@
 ###c_soli
 3510 = {	#Soli
 	#culture = croatian
-	culture = illyrian
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding = castle_holding
-	870.1.1 = {
-		religion = orthodox
-		#Serbs convert in 870
+	632.1.1 = {
+		religion = chalcedonian
 	}
-	950.1.1 = {
-		culture = bosnian
-		religion = hellenic_pagan
-		#Dating somewhat arbitrary, but basically the proto-form existed for about a generation before the eleventh century.
+	768.1.1 = {
+		culture = serbian
 	}
 }
 3509 = {	#Bijeljina
@@ -351,9 +475,15 @@
 
 ###c_pset
 3522 = {	#Bihac
-	culture = romano_illyrian
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding = castle_holding
+	532.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3521 = {	#Krupa
 	holding = none
@@ -368,24 +498,15 @@
 466 = {		#Zachlumia
 	#culture = bosnian
 	#religion = hellenic_pagan
-	culture = romano_illyrian
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding = castle_holding
-	870.1.1 = {
-		religion = orthodox
-		#Serbs convert in 870
+	395.1.1 = {
+		religion = nicene
 	}
-}
-3557 = {	#Konjic
-	holding = none
-	#1st mention in 1382
-}
-3559 = {	#Obalj
-	holding = none
-}
-3560 = {	#Gacko
-	holding = none
-	#First mention in 1150
+	476.1.1 = {
+		religion = chalcedonian
+	}
 }
 3561 = {	#Nevesinje
 	holding = none
@@ -402,13 +523,42 @@
 	holding = city_holding
 	#Used since roman times
 }
-
-###c_zavrsje
-3501 = {	#Hlivno
-	culture = romano_illyrian
+###c_zelengora 
+3560 = {	#Gacko
+	culture = illyro_roman
 	religion = hellenic_pagan
 	holding =  castle_holding
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = serbian
+	}
+}
+3557 = {	#Konjic
+	holding = none
+	#1st mention in 1382
+}
+3559 = {	#Obalj
+	holding = none
+}
+###c_zavrsje
+3501 = {	#Hlivno
+	culture = illyrian
+	religion = "celto_hellenic_syncretism"
+	holding =  castle_holding
 
+	476.1.1 = {
+		culture = illyro_roman
+		religion = "chalcedonian"
+	}
+	632.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3500 = {	#Glamoc
 	holding = church_holding
@@ -429,17 +579,11 @@
 
 ###c_pagania
 3555 = {	#Mokro
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
-	870.1.1 = {
-		religion = orthodox
-		#Serbs convert in 870
-	}
-	950.1.1 = {
-		#Slower spread out to the culture from the Dinaric Alps.
-		religion = hellenic_pagan
-		culture = bosnian
+	476.1.1 = {
+		religion = "chalcedonian"
 	}
 }
 3553 = {	#Omiš
@@ -452,11 +596,10 @@
 ##d_ragusa ###################################
 ###c_ragusa
 468 = {		#Ragusa
-	culture = romano_illyrian
-	religion = chalcedonian	
-	870.1.1 = {
-		religion = orthodox
-		#Serbs convert in 870
+	culture = illyro_roman
+	religion = nicene	
+	476.1.1 = {
+		religion = chalcedonian
 	}
 }
 3569 = {	#Ston

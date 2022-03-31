@@ -1,0 +1,95 @@
+﻿blue_support = {
+	same_opinion = 10
+	opposite_opinion = -10
+	icon = blue_supporter.dds
+	opposites = {
+		green_support
+	}
+	
+	ruler_designer_cost = 0
+	
+	desc = {
+		first_valid = {
+			desc = trait_blue_support_desc
+		}
+	}
+}
+
+green_support = {
+	same_opinion = 10
+	opposite_opinion = -10
+	icon = green_supporter.dds
+
+	opposites = {
+		blue_support
+	}
+	
+	ruler_designer_cost = 0
+	
+	desc = {
+		first_valid = {
+			desc = trait_green_support_desc
+		}
+	}
+}
+
+restitutor_orbis = {
+	vassal_opinion = 20
+	fame = yes
+	monthly_prestige = 2
+	martial = 2
+	stewardship = 2
+	diplomacy = 2
+	icon = restitutor_orbis.dds
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = restitutor_orbis_desc
+			}
+		}
+	}
+}
+
+sahabi_trait = {
+	vassal_opinion = 50
+	monthly_prestige = 1.5
+	same_faith_opinion = 20
+	icon = sahabi.dds
+
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sahabi_desc
+			}
+			desc = trait_sahabi_desc
+		}
+	}
+}
+
+adopted_trait = {
+	diplomacy = -1
+	same_opinion = 10
+	dynasty_opinion = -20
+	icon = bastard.dds
+
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { culture = { has_cultural_pillar = heritage_latin } }
+				desc = trait_adopted_roman_desc
+			}
+			desc = trait_adopted_desc
+		}
+	}
+}

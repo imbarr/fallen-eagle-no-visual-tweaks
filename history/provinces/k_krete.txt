@@ -59,7 +59,7 @@
 	
 	# Misc
 	culture = greek
-	religion = hellenic_pagan
+	religion = nicene
 	terrain = mountain
 	
 	# History

@@ -1,0 +1,146 @@
+rugian_01 = {
+	name = "Cissa"
+	dynasty = 99993000
+	religion = "gothic_pagan"
+	culture = "rugian"
+	368.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		religion = "arianism"
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+rugian_02 = {
+	name = "Flaccitheus"
+	dynasty = 99993000
+	religion = "gothic_pagan"
+	culture = "rugian"
+	father = rugian_01
+	395.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		religion = "arianism"
+	}
+	475.1.1 = {
+		death = yes
+		trait = adventurer
+	}
+}
+rugian_03 = {
+	name = "Feletheus"
+	dynasty = 99993000
+	religion = "arianism"
+	culture = "rugian"
+	father = rugian_02
+	435.1.1 = {
+		birth = yes
+	}
+	487.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 996002
+		}
+	}
+}
+rugian_04 = {
+	name = "Gisa"
+	female = yes
+	religion = "arianism"
+	culture = "rugian"
+	435.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 996002
+		}
+	}
+}
+rugian_05 = {
+	name = "Frederic"
+	dynasty = 99993000
+	religion = "arianism"
+	culture = "rugian"
+	father = rugian_03
+	mother  = rugian_04
+	455.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+rugian_06 = {
+	name = "Baldric"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	455.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = yes
+	}
+}
+rugian_07 = {
+	name = "Agelmund"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	451.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = yes
+	}
+}
+rugian_08 = {
+	name = "Thela"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	438.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = yes
+	}
+}
+rugian_09 = {
+	name = "Hunulf"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	444.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = yes
+	}
+}
+rugian_10 = {
+	name = "Agenaric"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	438.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = yes
+	}
+}
+rugian_11 = {
+	name = "Agenaric"
+	religion = "gothic_pagan"
+	culture = "rugian"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

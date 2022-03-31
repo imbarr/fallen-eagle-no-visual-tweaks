@@ -1,0 +1,440 @@
+﻿#Techtmar, Ancestors of the Connachta
+Techtmar_01 = { # Tuathal
+	name= "Tuathal"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900098 #Techtmar 
+	127.1.1 = {
+		birth = yes
+	}
+	178.1.1 = {
+		death = yes
+	}
+}
+Techtmar_02 = { # Fedlimid
+	name= "Fedlimid"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900098 #Techtmar 
+    father = Techtmar_01 #Tuathal
+	164.1.1 = {
+		birth = yes
+	}
+	191.1.1 = {
+		death = yes
+	}
+}
+Techtmar_03 = { # Conn
+	name= "Conn"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900098 #Techtmar 
+    father = Techtmar_02 # Fedlimid
+	164.1.1 = {
+		birth = yes
+	}
+	222.1.1 = {
+		death = yes
+	}
+}
+
+#The Connachta
+Connachta_001 = { # Art
+	name= "Art"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta 
+    father = Techtmar_03 #Conn
+	192.1.1 = {
+		birth = yes
+	}
+	252.1.1 = {
+		death = yes
+	}
+}
+Connachta_002 = { # Cormac
+	name= "Cormac"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_001 #Art
+	250.1.1 = {
+		birth = yes
+	}
+	323.1.1 = {
+		death = yes
+	}
+}
+Connachta_003 = { # Coirpre
+	name= "Coirpre"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_002 #Cormac
+	283.1.1 = {
+		birth = yes
+	}
+	352.1.1 = {
+		death = yes
+	}
+}
+Connachta_004 = { # Fiachu
+	name= "Fiachu"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta 
+    father = Connachta_003 # Coirpre
+	315.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+Connachta_005 = { # Muiredach
+	name= "Muiredach"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta 
+    father = Connachta_004 #Fiachu
+	339.1.1 = {
+		birth = yes
+	}
+	387.1.1 = {
+		death = yes
+	}
+}
+Connachta_006 = { # Eochaid
+	name= "Eochaid"
+	religion="irish_druidism"
+	culture="gaelic"
+	dna = Connachta_006
+    	dynasty = 900099 #Connachta
+    	father = Connachta_005 # Muiredach
+	361.1.1 = {
+		birth = yes
+	}
+    	382.1.1 = {
+        	add_spouse = Erainn_03 #Mongfind
+    	}
+	429.1.1 = {
+		death = yes
+	}
+}
+Connachta_007 = { # Brion
+	name= "Brion"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_006 #Eochaid
+    mother = Erainn_03 # Mongfind
+	381.1.1 = {
+		birth = yes
+	}
+	452.1.1 = {
+		death = yes
+	}
+}
+Connachta_008 = { # Fiachrae
+	name= "Fiachrae"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_006 #Eochaid
+    mother = Erainn_03 # Mongfind
+	384.1.1 = {
+		birth = yes
+	}
+	452.1.1 = {
+		death = yes
+	}
+}
+Connachta_009 = { # Ailill
+	name= "Aulill"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_006 #Eochaid
+    mother = Erainn_03 # Mongfind
+	388.1.1 = {
+		birth = yes
+	}
+	452.1.1 = {
+		death = yes
+	}
+}
+Connachta_010 = { # Niall
+	name= "Niall"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900099 #Connachta
+    father = Connachta_006 #Eochaid
+    mother = BVicarius_02 # Carina
+	389.1.1 = {
+		birth = yes
+	}
+    430.1.1 = {
+        give_nickname = nick_of_the_nine_hostages
+    }
+	452.1.1 = {
+		death = yes
+	}
+}
+
+
+#### Érainn
+Erainn_01 = { # Fidach
+	name= "Fidach"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900100 #Érainn 
+	327.1.1 = {
+		birth = yes
+	}
+	368.1.1 = {
+		death = yes
+	}
+}
+Erainn_02 = { # Crimthann
+	name= "Crimthann"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900100 #Érainn 
+    father = Erainn_01 #Fidach
+	354.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+Erainn_03 = { # Mongfind
+	name= "Mongfind"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900100 #Érainn 
+    father = Erainn_01 #Fidach
+    female = yes
+    trait = herbalist
+    trait = deviant
+	365.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+
+#Ulaid dynasty
+Ulaid_01 = { # Lugaid
+	name= "Lugaid"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900101 #Ulaid
+	353.1.1 = {
+		birth = yes
+	}
+	411.1.1 = {
+		death = yes
+	}
+}
+Ulaid_02 = { # Mianach
+	name= "Mianach"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900101 #Ulaid
+    father = Ulaid_01 #Lugaid Ulaid
+	381.1.1 = {
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+
+#Fictional Breagh
+Breagh_01 = { # Dubhglais
+	name= "Dubhglais"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900102 #Breagh
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+#Laigin
+Laigin_001 = { # Cú Corb
+	name= "Cú Corb"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+	253.1.1 = {
+		birth = yes
+	}
+	315.1.1 = {
+		death = yes
+	}
+}
+Laigin_002 = { # Nia Corb
+	name= "Nia Corb"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+    father = Laigin_001 # Cú Corb
+	283.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+Laigin_003 = { # Fedelmid
+	name= "Fedelmid"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+    father = Laigin_002 # Nia Corb
+	309.1.1 = {
+		birth = yes
+	}
+	372.1.1 = {
+		death = yes
+	}
+}
+Laigin_004 = { # Cathaír
+	name= "Cathaír"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+    father = Laigin_003 # Fedelmid
+	332.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+Laigin_005 = { # Fiachu
+	name= "Fiachu"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+    father = Laigin_004 # Cathaír
+	361.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Laigin_006 = { # BRessal
+	name= "Bressal"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900104 #Laigin
+    father = Laigin_005 # Fiachu
+	381.1.1 = {
+		birth = yes
+	}
+	438.1.1 = {
+		death = yes
+	}
+}
+
+#Cénnslach, descendants of the Laigin
+Cennsalach_01 = { # Éndae
+	name= "Éndae"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900103 #Cénnsalach
+    father = Laigin_006 # BRessal
+	415.1.1 = {
+		birth = yes
+	}
+	461.1.1 = {
+		death = yes
+	}
+}
+Cennsalach_02 = { # Crimthann
+	name= "Crimthann"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900103 #Cénnsalach
+    father = Cennsalach_01 # Éndae
+	438.1.1 = {
+		birth = yes
+	}
+	483.1.1 = {
+		death = yes
+	}
+}
+
+#MUnster
+Eoganachta_001 = { # Eogan
+	name= "Eógan"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900105 #Eóganachta
+	281.1.1 = {
+		birth = yes
+	}
+	342.1.1 = {
+		death = yes
+	}
+} 
+Eoganachta_002 = { # Fiachu
+	name= "Fiachu"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900105 #Eóganachta
+    father = Eoganachta_001 #Eógan
+	302.1.1 = {
+		birth = yes
+	}
+	361.1.1 = {
+		death = yes
+	}
+}
+Eoganachta_003 = { # Aillil
+	name= "Aillil"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900105 #Eóganachta
+    father = Eoganachta_002 #Fiachu
+	338.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+Eoganachta_004 = { # Lugaid
+	name= "Lugaid"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900105 #Eóganachta
+    father = Eoganachta_003 #AIllil
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+Eoganachta_005 = { # Crimthann
+	name= "Conall Corc"
+	religion="irish_druidism"
+	culture="gaelic"
+    dynasty = 900105 #Eóganachta
+    father = Eoganachta_004 # Lugaid
+	386.1.1 = {
+		birth = yes
+	}
+	433.1.1 = {
+		death = yes
+	}
+}

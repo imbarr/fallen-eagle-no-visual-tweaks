@@ -1,0 +1,1086 @@
+###Roman Hispania
+hispania_01 = {
+	name = "Marinianus"
+	culture = hispano_roman
+	religion = hellenic_pagan
+	341.1.1 = {
+		birth = yes
+	}
+	381.1.1 = {
+		religion = priscillianism
+	}
+	396.1.1 = {
+		death = yes
+	}
+}
+hispania_02 = {
+	name = "Diogenianus"
+	culture = hispano_roman
+	religion = nicene
+	368.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+	}
+}
+hispania_03 = {
+	name = "Gaius"
+	culture = hispano_roman
+	religion = hellenic_pagan
+	328.1.1 = {
+		birth = yes
+	}
+	385.1.1 = {
+		death = yes
+	}
+}
+baetica_01 = {
+	name = "Celestinus"
+	culture = hispano_roman
+	religion = nicene
+	330.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+baetica_02 = {
+	name = "Castinus"
+	culture = hispano_roman
+	religion = nicene
+	364.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+
+corduba_01 = {
+	name = "Marecellinus"
+	culture = hispano_roman
+	religion = nicene
+	stewardship = 10
+	441.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	490.1.1 = {
+		death = yes
+	}
+}
+corduba_02 = {
+	name = "Petrus"
+	culture = hispano_roman
+	religion = chalcedonian
+	stewardship = 10
+	498.1.1 = {
+		birth = yes
+	}
+	559.1.1 = {
+		death = yes
+	}
+}
+orospeda_01 = {
+	name = "Augustinus"
+	culture = hispano_roman
+	religion = nicene
+	stewardship = 10
+	434.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+orospeda_02 = {
+	name = "Victor"
+	culture = hispano_roman
+	religion = chalcedonian
+	stewardship = 10
+	500.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+
+baetica_04 = { #Biggus Dickus
+	name= "Biggus"
+	dynasty = 900022
+	religion="manichean"
+	culture="hispano_roman"
+	352.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		add_spouse = baetica_05
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+baetica_05 = { #Incontinentia Buttocks
+	name= "Incontinentia"
+	dynasty = 900023
+	religion="manichean"
+	female = yes
+	culture="hispano_roman"
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+baetica_06 = { #Baetica vassal 1
+	name= "Sextus"
+	religion="nicene"
+	culture="hispano_roman"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+baetica_07 = { #Baetica vassal 1
+	name= "Proculus"
+	religion="nicene"
+	culture="hispano_roman"
+	338.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+baetica_08 = { #Baetica vassal 1
+	name= "Liberius"
+	religion="nicene"
+	culture="hispano_roman"
+	332.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+baetica_10 = { #Baetica vassal 1
+	name= "Romulus"
+	religion="nicene"
+	culture="hispano_roman"
+	436.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+baetica_11 = { #Baetica vassal 1
+	name= "Marcus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	502.1.1 = {
+		birth = yes
+	}
+	561.1.1 = {
+		death = yes
+	}
+}
+baetica_12 = { #Baetica vassal 1
+	name= "Rex"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	498.1.1 = {
+		birth = yes
+	}
+	561.1.1 = {
+		death = yes
+	}
+}
+baetica_13 = { #Baetica vassal 1
+	name= "Dexter"
+	religion="nicene"
+	culture="hispano_roman"
+	438.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	502.1.1 = {
+		death = yes
+	}
+}
+baetica_14 = { #Baetica vassal 1
+	name= "Aurelianus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	561.1.1 = {
+		death = yes
+	}
+}
+baetica_15 = { #Baetica vassal 1
+	name= "Leontius"
+	religion="nicene"
+	culture="hispano_roman"
+	423.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	502.1.1 = {
+		death = yes
+	}
+}
+baetica_16 = { #Lusitania vassal 5
+	name= "Crassus"
+	religion="nicene"
+	culture="hispano_roman"
+	374.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+baetica_18 = { #Lusitania vassal 5
+	name= "Julian"
+	religion="nicene"
+	culture="hispano_roman"
+	329.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+baetica_19 = { #Lusitania vassal 5
+	name= "Aemilianus"
+	religion="nicene"
+	culture="hispano_roman"
+	334.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+
+baetica_20 = { #Lusitania vassal 5
+	name= "Lucius"
+	religion="nicene"
+	culture="hispano_roman"
+	365.1.1 = {
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+baetica_22 = { #Igabrum
+	name= "Fabianus"
+	religion="nicene"
+	culture="hispano_roman"
+	430.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	499.1.1 = {
+		death = yes
+	}
+}
+baetica_23 = { #Tucci
+	name= "Hector"
+	religion="nicene"
+	culture="hispano_roman"
+	434.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	499.1.1 = {
+		death = yes
+	}
+}
+baetica_24 = { #Illiberis
+	name= "Victor"
+	religion="nicene"
+	culture="hispano_roman"
+	431.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	499.1.1 = {
+		death = yes
+	}
+}
+baetica_25 = { #Igabrum
+	name= "Polonius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	501.1.1 = {
+		birth = yes
+	}
+	568.1.1 = {
+		death = yes
+	}
+}
+baetica_26 = { #Tucci
+	name= "Demetrius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	487.1.1 = {
+		birth = yes
+	}
+	561.1.1 = {
+		death = yes
+	}
+}
+baetica_27 = { #Illiberis
+	name= "Castor"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	507.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+baetica_28 = { #Segontia
+	name= "Caesar"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	502.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+baetica_29 = { #Segontia
+	name= "Nestor"
+	religion="nicene"
+	culture="hispano_roman"
+	430.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+####Carthaginensis
+
+nebridian_01 = {
+	name= "Gaius"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "oretum"
+	322.1.1 = {
+		birth = yes
+	}
+	368.1.1 = {
+		death = yes
+	}
+}
+nebridian_02 = {
+	name= "Flavia"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "oretum"
+	father = nebridian_01
+	female = yes
+	347.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_01 = { #Carthaginensis Vassal 2
+	name= "Constantinus"
+	religion="nicene"
+	culture="hispano_roman"
+	father = nebridian_01
+	dynasty = "oretum"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_02 = { #Carthaginensis Vassal 4
+	name= "Martinus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	father = sallustian_02
+	323.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_03 = { #Carthaginensis Vassal 4
+	name= "Marcus"
+	religion="nicene"
+	culture="hispano_roman"
+	father = carthaginensis_02 # Martinus
+	356.1.1 = {
+		birth = yes
+	}
+	427.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_04 = { #Carthaginensis Vassal 4
+	name= "Regulus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	father = carthaginensis_02 # Martinus
+	320.1.1 = {
+		birth = yes
+	}
+	379.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_05 = { #Carthaginensis Vassal 4
+	name= "Paulus"
+	religion="nicene"
+	culture="hispano_roman"
+	father = carthaginensis_02 # Martinus
+	323.1.1 = {
+		birth = yes
+	}
+	379.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_06 = { #Carthaginensis Vassal 4
+	name= "Olybrus"
+	religion="nicene"
+	culture="hispano_roman"
+	father = carthaginensis_02 # Martinus
+	354.1.1 = {
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+
+carthaginensis_08 = { #Carthaginensis Vassal 4
+	name= "Fabianus"
+	religion="nicene"
+	culture="hispano_roman"
+	432.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_09 = { #Carthaginensis Vassal 4
+	name= "Hadrianus"
+	religion="nicene"
+	culture="hispano_roman"
+	441.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	522.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_10 = { #Carthaginensis Vassal 4
+	name= "Icarus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	489.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+carthaginensis_11 = { #Carthaginensis Vassal 4
+	name= "Rufinus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	501.1.1 = {
+		birth = yes
+	}
+	567.1.1 = {
+		death = yes
+	}
+}
+####THEODSIANS
+
+theodosian_009 = {
+	name = "Honorius"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	father = theodosian_014
+	287.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+theodosian_014 = {
+	name = "Marcellinus"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	259.1.1 = {
+		birth = yes
+	}
+	298.1.1 = {
+		death = yes
+	}
+}
+theodosian_013 = {
+	name = "Julius"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	father = theodosian_014
+	289.1.1 = {
+		birth = yes
+	}
+	342.1.1 = {
+		death = yes
+	}
+}
+theodosian_010 = {
+	name = "Eucherius"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	father = theodosian_013 #Julius
+	306.1.1 = {
+		birth = yes
+	}
+	351.1.1 = {
+		death = yes
+	}
+}
+theodosian_011 = {
+	name = "Marcellinus"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	father = theodosian_010
+	339.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+theodosian_012 = {
+	name = "Eucherius"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = 1022191
+	father = theodosian_011
+	372.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+1143092 = {
+	name = "Theodosius"
+	# Theodosius'The Elder'
+	dynasty = 1022191
+	martial = 9
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 7
+	religion = "nicene"
+	culture = "hispano_roman"
+	trait = ambitious
+	trait = diligent
+	trait = wrathful
+	trait = education_martial_3
+	father = theodosian_009
+	317.1.11 = {
+		birth = yes
+	}
+	340.1.1 = {
+		add_spouse = theodosian_006
+	}
+	376.1.17 = {
+		death = yes
+	}
+}
+theodosian_006 = {
+	name = "Thermantia"
+	culture = "hispano_roman"
+	religion = "nicene"
+	female = yes 
+	321.1.1 = {
+		birth = yes
+	}
+	382.1.1 = {
+		death = yes
+	}
+}
+theodosian_007 = {
+	name = "Honorius"
+	dynasty = 1022191
+	culture = "hispano_roman"
+	religion = "nicene"
+	father = 1143092 
+	mother = theodosian_006
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+theodosian_008 = {
+	name = "Thermantia"
+	culture = "hispano_roman"
+	religion = "nicene"
+	female = yes
+	dynasty = 1022191
+	father = 1143092 
+	mother = theodosian_006
+	356.1.1 = {
+		birth = yes
+	}
+	416.1.1 = {
+		death = yes
+	}
+}
+
+theodosian_001 = {
+	name = "Aelia Flacila"
+	culture = "hispano_roman"
+	religion = "nicene"
+	dynasty = "oretum"
+	female = yes
+	father = nebridian_01
+	356.1.1 = {
+		birth = yes
+	}
+	386.1.1 = {
+		death = yes
+	}
+}
+
+
+#### Aquitania
+
+sallustian_01 = { ####ATENTION SHOULD BE MADE FRIEND OF EMPEROR JULIAN
+	name = "Sallustius"
+	culture = "hispano_roman"
+	religion = "hellenic_pagan"
+	dynasty = "sallustian"
+	321.1.1 = {
+		birth = yes
+	}
+	386.1.1 = {
+		death = yes
+	}
+}
+sallustian_02 = {
+	name = "Sallustius"
+	culture = "hispano_roman"
+	religion = "hellenic_pagan"
+	dynasty = "sallustian"
+	293.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+
+### Tarraconensis
+
+tarraconensis_01 = { #Tarraconensis V1
+	name= "Fabianus"
+	religion="nicene"
+	culture="hispano_roman"
+	343.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+tarraconensis_02 = { #Tarraconensis V2
+	name= "Urbanus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	343.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+tarraconensis_03 = { #Tarraconensis
+	name= "Junius"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	338.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+tarraconensis_04 = { #Carthaginensis Vassal 3
+	name= "Cassius"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	330.1.1 = {
+		birth = yes
+	}
+	381.1.1 = {
+		religion = nicene
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+tarraconensis_05 = { #Carthaginensis Vassal 5
+	name= "Claudius"
+	religion="nicene"
+	culture="hispano_roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+#Roman Lusitania
+lusitania_01 = { #Lusitania vassal 1
+	name= "Symmachus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	300.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+lusitania_02 = { #Lusitania vassal 2
+	name= "Gallienus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	father = lusitania_01
+	330.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+lusitania_03 = { #Lusitania vassal 3
+	name= "Nerva"
+	religion="nicene"
+	culture="hispano_roman"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+#Independent Lusitania
+lusitania_04 = { #Lusitania vassal 4
+	name= "Lusidius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	445.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+lusitania_05 = { #Lusitania vassal 4
+	name= "Diodorus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	450.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+lusitania_06 = { #Lusitania vassal 4
+	name= "Probus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	437.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+lusitania_07 = { #Lusitania vassal 4
+	name= "Romanianus"
+	religion="manichean"
+	culture="hispano_roman"
+	437.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+lusitania_08 = { #Lusitania vassal 4
+	name= "Ioannes"
+	religion="priscillianism"
+	culture="hispano_roman"
+	439.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+lusitania_09 = { #Lusitania vassal 4
+	name= "Petronius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+lusitania_10 = { #Lusitania vassal 4
+	name= "Epiphanius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+lusitania_11 = { #Lusitania vassal 4
+	name= "Anthimus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+lusitania_12 = { #Lusitania vassal 4
+	name= "Callinicus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+lusitania_13 = { #Lusitania vassal 4
+	name= "Faustus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+lusitania_14 = { #Lusitania vassal 4
+	name= "Celsus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	601.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+lusitania_15 = { #Lusitania vassal 4
+	name= "Victorius"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	603.1.1 = {
+		birth = yes
+	}
+	677.1.1 = {
+		death = yes
+	}
+}
+
+galeica_01 = {
+	name= "Ioannes"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	451.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+galeica_02 = {
+	name= "Auxentius"
+	religion="priscillianism"
+	culture="hispano_roman"
+	451.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+galeica_03 = {
+	name= "Romulus"
+	religion="priscillianism"
+	culture="hispano_roman"
+	449.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+galeica_04 = {
+	name= "Flavia"
+	religion="priscillianism"
+	culture="hispano_roman"
+	female = yes
+	452.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+galeica_05 = {
+	name= "Orentius"
+	religion="priscillianism"
+	culture="hispano_roman"
+	501.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+galeica_06 = {
+	name= "Menas"
+	religion="priscillianism"
+	culture="hispano_roman"
+	498.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+galeica_07 = {
+	name= "Iunius"
+	religion="priscillianism"
+	culture="hispano_roman"
+	490.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+galeica_08 = {
+	name= "Romanus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+galeica_09 = {
+	name= "Adrianus"
+	religion="chalcedonian"
+	culture="hispano_roman"
+	589.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+#Magnus Maximus and his descendants
+Wleding_001 = { #Magnus Maximus
+	name= "Magnus Maximus"
+	dynasty=900064
+	religion="nicene"
+	culture="hispano_roman"
+	father = theodosian_010
+	335.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		add_spouse = Prydain_03 #Helena
+	}
+	388.8.28 = {
+		death = yes
+	}
+}

@@ -1,0 +1,58 @@
+
+faramund_03 = {
+	name="Okter"
+	dynasty= ripuri_dynasty 
+	religion="central_pagan"
+	culture="ripurian"
+	father = faramund_02
+	431.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+faramund_04 = {
+	name="Ragamblad"
+	religion="central_pagan"
+	culture="ripurian"
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+frankish_01 = {
+	name="Trutgard"
+	religion="central_pagan"
+	culture="ripurian"
+	431.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+frankish_02 = {
+	name="Otker"
+	religion="central_pagan"
+	culture="ripurian"
+	437.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+frankish_03 = {
+	name="Ragambald"
+	religion="central_pagan"
+	culture="ripurian"
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

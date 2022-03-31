@@ -118,7 +118,7 @@
 	religion = kushitism_pagan
 	holding = castle_holding
 	#1150.1.1 = {
-	#	religion = ashari
+	#	religion = sunni
 	#}
 }
 6427 = {	#JEBEL_ABU_NEGILA

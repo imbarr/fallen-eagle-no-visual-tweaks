@@ -1,0 +1,144 @@
+﻿#Fortriu, ancient Kings of Pictland
+Fortriu_001 = { #
+	name= "Erp"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900089 #Fortriu
+	362.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+Fortriu_002 = { #
+	name= "Drest"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900089 #Fortriu
+    father = Fortriu_001 # Erp Fortriu
+	389.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+#Pictish Tribes
+Pictland_01 = { # Cait
+	name= "Ganant"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900090 #Cait
+	375.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_02 = { # Fidach
+	name= "Uuen"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900091 #Fidach
+	359.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_03 = { # Fidach
+	name= "Broichan"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900092 #Ce
+	365.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_04 = { # Fidach
+	name= "Lutrin"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900093 #Circcin
+	352.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_05 = { # Fidach
+	name= "Ruatirch"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900094 #Fib
+	359.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_06 = { # Fidach
+	name= "Ciniod"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900095 #Fotla
+	371.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Pictland_07 = { # Fidach
+	name= "Manath"
+	religion="pictish_druidism"
+	culture="pictish"
+    dynasty = 900096 #Epidii
+	363.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Northern_isles_01 = { # Enuidaig
+	name= "Enuidaig"
+	religion="pictish_druidism"
+	culture="pictish"
+	351.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Northern_isles_02 = { # Bridei
+	name= "Bridei"
+	religion="pictish_druidism"
+	culture="pictish"
+	362.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+Northern_isles_03 = { # Pidaroin
+	name= "Pidarnoin"
+	religion="pictish_druidism"
+	culture="pictish"
+	357.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}

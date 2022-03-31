@@ -1,0 +1,9 @@
+﻿l_english:
+ select_preferred_caliph:0 "Select as Preferred Caliph"
+ select_preferred_caliph_desc:0 "Selecting a Preferred Caliph allows you to decide where will your zakah go. It also helps legitimizing this caliph"
+ select_preferred_caliph_notification:0 "Preferred Caliph Selected"
+ 
+ adopt_interaction:0 "Adopt as Child"
+ adopt_interaction_desc:0 "Adopt The Recepient as your child making them a part of your house."
+ adopt_interaction_notification:0 "The Recepient is now your child"
+ 

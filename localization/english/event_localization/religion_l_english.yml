@@ -1,0 +1,20 @@
+﻿l_english:
+ religion.0001.t:0 "The Missionaries"
+ religion.0001.desc:0 "I have gathered a few zealous priests to spread the truth of our faith across all of europe. However, these missons require a significant sum and with the chance of it not ending up as we hope to, it may not be a good investment."
+ religion.0001.option.a:0 "A small sum to find a low noble"
+ religion.0001.option.b:0 "A significant sum to find a high ranking noble!"
+ religion.0001.option.c:0 "Whatever it takes to convince a king!"
+ religion.0001.option.d:0 "Never mind"
+
+ religion.0002.t:0 "The Missionaries"
+ religion.0002.desc:0 "A small group of Arian priests from [misson_sender.GetName]'s realm entered my court demanding an audience with me. After it was granted, they began speaking of their faith and how I must abandon my heresy and convert to the one true arian faith."
+ religion.0002.option.a:0 "Their faith doesn't sound too bad"
+ religion.0002.option.b:0 "Leave me be you and your hoax"
+
+ religion.0003.t:0 "The Missionaries"
+ religion.0003.desc:0 "The small group of priests returned from [misson_recieve.GetName]'s court and without speaking a word, I knew that it was unsuccessful! I couldn't believe that our mission failed and that this nobel dared to ignore the truth."
+ religion.0003.option.a:0 "Damnations!"
+
+ religion.0004.t:0 "The Missionaries"
+ religion.0004.desc:0 "The small group of priests returned from [misson_recieve.GetName]'s court with smiles and glee in their faces! [misson_recieve.GetName] has converted to the one true faith proving our investment to be a resounding success."
+ religion.0004.option.a:0 "Soon everyone shall know about the truth!"

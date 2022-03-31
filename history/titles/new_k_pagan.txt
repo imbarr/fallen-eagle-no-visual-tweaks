@@ -1,0 +1,30 @@
+d_arakan = {
+	380.1.1 = {
+		holder = 9090901
+		government = tribal_government
+	}
+}
+d_tagaung = {
+	380.1.1 = {
+		holder = 9090902
+		government = tribal_government
+	}
+}
+d_pagan = {
+	380.1.1 = {
+		holder = 9090903
+		government = tribal_government
+	}
+}
+d_sriksetra = {
+	380.1.1 = {
+		holder = 9090904
+		government = tribal_government
+	}
+}
+d_ramannadesa = {
+	380.1.1 = {
+		holder = 9090905
+		government = tribal_government
+	}
+}

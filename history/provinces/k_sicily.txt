@@ -3,11 +3,11 @@
 ###c_palermo
 2635 = {	#PALERMO
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	856.9.1 = {
 		culture = baranis
-		religion = ashari
+		religion = sunni
 	}
 	1071.1.1 = {
 		culture = sicilian
@@ -31,11 +31,11 @@
 ###c_messina
 2633 = {	#MESSINA
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	869.1.1 = {
 		culture = baranis
-		religion = ashari
+		religion = sunni
 	}
 	1057.1.1 = {
 		culture = sicilian
@@ -52,11 +52,11 @@
 ###c_siracusa
 2638 = {	#SYRACUSE
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	904.1.1 = {
 		culture = baranis
-		religion = ashari
+		religion = sunni
 	}
 	1116.1.1 = {
 		culture = sicilian
@@ -73,11 +73,11 @@
 ###c_agrigento
 2637 = {	#AGRICENTO
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	874.1.24 = {
 		culture = baranis
-		religion = ashari
+		religion = sunni
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -94,11 +94,11 @@
 ###c_malta
 2646 = {	#MALTA
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	895.1.1 = {
 		culture = baranis
-		religion = ashari
+		religion = sunni
 	}
 	1127.1.1 = {
 		religion = hellenic_pagan
@@ -110,7 +110,7 @@
 ###c_benevento
 2609 = {	#BENEVENTO
 	culture = roman
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	1098.1.1 = { culture = sicilian }
 }
@@ -130,11 +130,11 @@
 ###c_foggia
 2610 = {	#LUCERA
 	culture = roman
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	915.1.1 = {
 		culture = greek
-		religion = chalcedonian
+		religion = hellenic_pagan
 	}
 	1066.1.1 = {
 		culture = sicilian
@@ -149,7 +149,7 @@
 ###c_capua
 2606 = {	#CAPUA
 	culture = roman
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 	1098.1.1 = { culture = sicilian }
 }
@@ -162,8 +162,8 @@
 
 ###c_napoli
 2608 = {	#NAPOLI
-	culture = greek
-	religion = chalcedonian
+	culture = roman
+	religion = nicene
 	holding = castle_holding
 	1139.4.1 = {
 		culture = sicilian
@@ -178,7 +178,7 @@
 ###c_apulia
 2619 = {	#TRANI
 	culture = roman
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	1057.1.1 = { culture = sicilian }
 }
@@ -196,7 +196,7 @@
 ###c_bari
 2623 = {	#BARI
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	1057.1.1 = { culture = sicilian }
 }
@@ -210,7 +210,7 @@
 ###c_lecce
 2622 = {	#BRINDISI
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	1074.1.1 = {
 		culture = sicilian
@@ -238,8 +238,8 @@
 
 ###c_camarda
 2631 = {	#CAMARDA
-	culture = roman
-	religion = chalcedonian
+	culture = greek
+	religion = hellenic_pagan
 	holding = castle_holding
 	1091.1.1 = { culture = sicilian	}
 }
@@ -251,7 +251,7 @@
 ###c_reggio_calabria
 2627 = {
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	1055.1.1 = { culture = sicilian }
 	1074.1.1 = { religion = hellenic_pagan }
@@ -263,7 +263,7 @@
 ###c_cosenza
 2628 = {	#COSENZA
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	holding = castle_holding
 	1074.1.1 = {
 		culture = sicilian
@@ -280,7 +280,7 @@
 ###c_rossano
 2629 = {	#ROSSANO
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
 	1074.1.1 = {
 		culture = sicilian

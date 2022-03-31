@@ -1,0 +1,88 @@
+﻿120000 = { #Bucellaria
+	name="Theodore"
+	religion="nicene"
+	culture="greek"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120001 = { #Paphlagonia
+	name="Georgios"
+	religion="hellenic_pagan"
+	culture="greek"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120002 = { #Armeniac
+	name="Romanos"
+	religion="hellenic_pagan"
+	culture="pontic"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120003 = { #Sebasteia
+	name="Leo"
+	religion="hellenic_pagan"
+	culture="cappadocian"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120004 = { #Mesopotamia
+	name="Michael"
+	religion="nicene"
+	culture="greek"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120005 = { #Sophene
+	name="Anastasius"
+	religion="nicene"
+	culture="armenian"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120006 = { #Melitene
+	name="Maurice"
+	religion="hellenic_pagan"
+	culture="cappadocian"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+120007 = { #Chaldia
+	name="Mithradates"
+	religion="nicene"
+	culture="pontic"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}

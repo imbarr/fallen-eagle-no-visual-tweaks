@@ -1,18 +1,28 @@
 ###c_barcelona
 1862 = {	# BARCELONA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		culture = gothic
+		religion = arianism
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1863 = {	# LOREDO
-	holding = city_holding
+	holding = none
 }
 1861 = {	# SITGES
 	holding = church_holding
@@ -24,18 +34,26 @@
 ###c_urgell
 1878 = {	# 1878 - URGELL
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	# History
+	532.1.1 = {
+		culture = gothic
+		religion = arianism
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1876 = {	# BERGA
-	holding = city_holding
+	holding = none
 }
 1869 = {	# ANDORRA/Seu d'Urgell
 	holding = church_holding
@@ -47,34 +65,49 @@
 ###c_puigcerda
 1868 = {	# PUIGCERDA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	532.1.1 = {
+		culture = gothic
+		religion = arianism
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1867 = {	# OLOT
-	holding = city_holding
+	holding = church_holding
 }
 1875 = {	# VIC
-	holding = church_holding
+	holding = none
 }
 
 ###c_girona
-1866 = {	# PERPIGNAN/Perpinyà
+1866 = {	# PERPIGNAN/Perpinyï¿½
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	# History
+	532.1.1 = {
+		culture = gothic
+		religion = arianism
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1864 = {	# GIRONA
@@ -87,35 +120,45 @@
 ###c_lleida
 1881 = {	# LLEIDA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	632.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1884 = {	# BALAGUER
 	holding = church_holding
 }
 1880 = {	# MAIALS
-	holding = city_holding
+	holding = none
 }
 
 ###c_tarragona
 # 1860 - TARRAGONA
 1860 = {	# TARRAGONA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		culture = gothic
+		religion = arianism
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1859 = {	# TORTOSA
@@ -132,14 +175,17 @@
 ###c_zaragoza
 1887 = {	# ZARAGOZA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = {
-		culture = andalusian
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1888 = {	# EJEA
@@ -149,30 +195,30 @@
 	holding = church_holding
 }
 1885 = {	# SARINENA
-	holding = none
+	holding = city_holding
 }
 
 ###c_albarracin
 1936 = {	# ALBARRACIN
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
-	939.1.1 = { culture = andalusian }
-	1235.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1943 = {	# SIERRA DE SAN JUST/Utrillas
-	holding = city_holding
+	holding = none
 }
 1891 = {	# BELCHITE
-	holding = none
+	holding = city_holding
 	
 	1066.1.1 = {
 		holding = church_holding
@@ -188,16 +234,22 @@
 	holding = castle_holding
 	
 	#History
-	940.1.1 = { culture = aragonese }
+	476.1.1 = {
+		religion = chalcedonian
+		culture = hispano_roman
+	}
+	768.1.1 = {
+		culture = visigothic
+	}
 }
 1873 = {	# HUESCA
 	holding = church_holding
 }
 1872 = {	# AINSA/Sobrarbe
-	holding = city_holding
+	holding = none
 }
 1807 = {	# JACA
-	holding = none
+	holding = castle_holding
 }
 1871 = {	# RIBAGORZA
 	holding = none
@@ -206,14 +258,17 @@
 ###c_calatayud
 1932 = {	# CALATYUD
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = {
-		culture = andalusian
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1934 = {	# DAROCA
@@ -223,13 +278,18 @@
 ###c_fraga
 1882 = {	# FRAGA
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	#History
-	940.1.1 = { culture = aragonese }
+	476.1.1 = {
+		religion =  chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
+	}
 }
 1874 = {	# BARBASTRO
 	holding = city_holding
@@ -238,17 +298,17 @@
 ###c_alcaniz
 1892 = {	# ALCANIZ
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
-	944.1.1 = { culture = andalusian }
-	1259.1.1 = {
-		culture = catalan
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1883 = {	# CASPE

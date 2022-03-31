@@ -1,0 +1,226 @@
+﻿##Gushnasp
+gushnaspid_01 = {
+	name = "Gushnasp"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	200.1.1 = {
+		birth = yes
+	}
+	276.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_02 = {
+	name = "Nastihan"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_01
+	244.1.1 = {
+		birth = yes
+	}
+	305.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_04 = {
+	name = "Siyavash"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_02
+	278.1.1 = {
+		birth = yes
+	}
+	355.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_05 = {
+	name = "Fath"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_04
+	302.1.1 = {
+		birth = yes
+	}
+	378.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_06 = {
+	name = "Nastihan"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_04
+	310.1.1 = {
+		birth = yes
+	}
+	394.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_11 = {
+	name = "Sivayash"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_06
+	345.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_07 = {
+	name = "Marzuban"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_05
+	337.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_08 = {
+	name = "Sasan"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_07
+	382.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_09 = {
+	name = "Afrasiab"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_08
+	410.1.1 = {
+		birth = yes
+	}
+	488.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_10 = {
+	name = "Marzuban"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_09
+	445.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+gushnaspid_03 = {
+	name = "Haftvad"
+	dynasty = 900017
+	religion = "mazdayasna"
+	culture = daylamite
+	father = gushnaspid_01
+	248.1.1 = {
+		birth = yes
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+
+
+#Bavandid
+
+#Justanids
+180750 = {
+	name = "Justan"
+	# Justan I of Gilan
+	dynasty = 7513
+	religion = "mazdayasna"
+	culture = daylamite
+	745.1.1 = {
+		birth = "745.1.1"
+	}
+	805.1.1 = {
+		death = "805.1.1"
+	}
+}
+######################################
+#SWMH Daylamite Characters
+######################################
+#Daylamite characters
+#Dynasties: 1102200 - 1102249
+#Characters: 1231050 - 1231199
+
+######################################
+#Kakúyids
+
+216902 = {
+	name = "Khur-Zad"
+	dynasty = 7332
+	religion = "mazdayasna"
+	culture = daylamite
+	father = 216901
+	660.1.1 = {
+		birth = yes
+	}
+	723.1.1 = {
+		death = yes
+	}
+}
+216903 = {
+	name = "Paduspan"
+	dynasty = 7332
+	religion = "mazdayasna"
+	culture = daylamite
+	father = 216902
+	680.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+216904 = {
+	name = "Shahriyar"
+	dynasty = 7332
+	religion = "mazdayasna"
+	culture = daylamite
+	father = 216903
+	#trait = sympathy_islam
+	722.1.1 = {
+		birth = yes
+	}
+	791.1.1 = {
+		death = yes
+	}
+}
+
+216905 = {
+	name = "Wandad_Umid"
+	dynasty = 7332
+	religion = "mazdayasna"
+	culture = daylamite
+	father = 216904
+	#trait = sympathy_islam
+	750.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}

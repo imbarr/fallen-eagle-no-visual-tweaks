@@ -1,0 +1,99 @@
+﻿982000 = {
+	name = "Hasan"
+	dynasty = 99820000
+	religion = "arabic_pagan"
+	culture = "himyarite"
+	335.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+982001 = {
+	name = "Abu Karib"
+	dynasty = 99820000
+	religion = "arabic_pagan"
+	culture = "himyarite"
+	father = 982000
+	370.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		trait = disfigured
+	}
+	390.1.1 = {
+		religion = "rabbinism"
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+982002 = {
+	name = "Amr"
+	dynasty = 99820000
+	religion = "arabic_pagan"
+	culture = "himyarite"
+	father = 982000
+	371.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		religion = "rabbinism"
+	}
+	395.1.1 = {
+		death = yes
+	}
+}
+982003 = {
+	name = "Hasan"
+	dynasty = 99820000
+	religion = "rabbinism"
+	culture = "himyarite"
+	father = 982001
+	390.1.1 = {
+		birth = yes
+	}
+	445.1.1 = {
+		death = yes
+	}
+}
+982004 = {
+	name = "Amr"
+	dynasty = 99820000
+	religion = "rabbinism"
+	culture = "himyarite"
+	father = 982001
+	393.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+982005 = {
+	name = "Zorah"
+	dynasty = 99820000
+	religion = "rabbinism"
+	culture = "himyarite"
+	father = 982001
+	395.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+982006 = {
+	name = "al-Harith"
+	dynasty = 99820000
+	religion = "rabbinism"
+	culture = "himyarite"
+	father = 982002
+	390.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}

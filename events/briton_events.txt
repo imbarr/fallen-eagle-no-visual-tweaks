@@ -1,0 +1,249 @@
+﻿namespace = briton
+
+#event for the briton decision
+#Localization could be helped
+
+briton.0001 = {
+	title = "The Kingdom of Briton"
+	desc = "This once small batch of immigrants from across the Oceanus Britannicus have in their small time away from Britannia established themselves as a unique cultural group. It was inevitable under these factors that one among the bunch would rise to kingship, on a wave of public appeal and praise or prehaps though political intrigue and unspeakable tyranny. Either way you have become the Rex Britonorum, the king of the Britons. All that remains now is the path for which you will lead your people, to a quick ruin or maybe to unspeakable glory."
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = "All of Briton shall be free!"
+		custom_tooltip = "You gained the Kingdom of Briton and a new casus belli"
+		every_player = {
+			limit = {
+				NOT = { this = root }
+			}
+			trigger_event = briton.0002
+		}
+	}
+}
+
+briton.0002 = {
+	title = "The Kingdom of Briton"
+	desc = "After centuries of Roman control, one briton dares to end this and bring freedom to his people. After countless battles they succeeded in controlling enough land to be called King of Briton."
+	scope = character
+	theme = diplomacy
+
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = title:k_england.holder
+		animation = personality_honorable
+	}
+
+	option = {
+		name = "We must follow their actions closely"
+	}
+}
+
+briton.0003 = {
+	title = "Bending The Swords"
+	desc = "As I stand victorious, standing tall like Celtic hero’s of old my enemy begs for mercy and clemency. for a quick moment I consider it but a lesson must be taught to our future would be foes and that lesson is dishonor and defeat await anyone who meets us on the field of battle. Before my army I Put my enemies sword into a hot fire. Removing it from the smoldering fire I smash it’s edge onto the side of the anvil bending and distorting it in the process. They came for victory but shall receive nothing but dishonor"
+	scope = character
+	theme = battle
+	immediate = {
+		var:recent_foe = {save_scope_as = foe}
+	}
+
+	override_background = {
+		event_background = battlefield
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:foe
+		animation = fear
+	}
+
+	option = {
+		name = "They shall suffer"
+		scope:foe = {
+			add_character_modifier = {
+				modifier = swords_bent_modifier
+				years = 5
+			}
+			trigger_event = {
+				id = briton.0004
+				days = 3
+			}
+			set_variable = {
+				name = sword_benderer
+				value = root
+			}
+		}
+	}
+}
+
+briton.0004 = {
+	title = "Our Swords Bent"
+	desc = "To bend the sword of a foe is akin to breaking their spirit. It is an old tradition as old as the Celts themselves. After our defeat, our enemy's thought it would be fitting to bend our swords and decommission a large portion of our armies"
+	scope = character
+	theme = battle
+	immediate = {
+		var:sword_benderer = {save_scope_as = badman}
+	}
+
+	override_background = {
+		event_background = battlefield
+	}
+	left_portrait = {
+		character = scope:badman
+		animation = anger
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = "We will get our revenge!"
+		custom_tooltip = "You gained a army debuff"
+	}
+}
+
+briton.0005 = {
+	hidden = yes
+	type = empty
+
+	immediate = {
+		set_global_variable = {
+			name = briton_split
+			value = yes
+		}
+		every_county_in_region = {
+			region = custom_welsh
+			limit = {
+				culture = culture:briton
+				religion = religion:christianity_religion
+			}
+			set_county_culture = culture:welsh
+		}
+
+		every_county_in_region = {
+			region = custom_cornish
+			limit = {
+				culture = culture:briton
+				religion = religion:christianity_religion
+			}
+			set_county_culture = culture:cornish
+		}
+
+		every_county_in_region = {
+			region = custom_cumbrian
+			limit = {
+				culture = culture:briton
+				religion = religion:christianity_religion
+			}
+			set_county_culture = culture:cumbrian
+		}
+
+		every_ruler = {
+			limit = {
+				culture = culture:briton
+				has_religion = religion:christianity_religion
+			}
+			if = {
+				limit = {
+					capital_county.culture = culture:cornish
+				}
+				set_culture = culture:cornish	
+			}
+			else_if = {
+				limit = {
+					capital_county.culture = culture:welsh
+				}
+				set_culture = culture:welsh
+			}
+			else_if = {
+				limit = {
+					capital_county.culture = culture:cumbrian
+				}
+				set_culture = culture:cumbrian
+			}
+			trigger_event = {
+				id = briton.0006
+			}
+		}
+		culture:cornish = {
+			get_all_innovations_from = culture:briton
+		}
+		culture:welsh = {
+			get_all_innovations_from = culture:briton
+		}
+		culture:cumbrian = {
+			get_all_innovations_from = culture:briton
+		}
+	}
+}
+
+briton.0006 = {
+	title = "The Briton Fracture"
+	desc = "Over the longmarch of time cultures splinter, weather it be from foreign occupation from a external culture or simple and natural divergence. Whatever the case the Briton have forever fractured into three distinct and incompatible branches."
+	scope = character
+	theme = diplomacy
+
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = "This will echo till eternity"
+		custom_tooltip = "Briton culture has broken down to Welsh, Conrish, and Cumbrian"
+	}
+}
+
+briton.0007 = {
+	title = briton.0007.t
+	desc = briton.0007.desc
+	scope = character
+	theme = martial
+
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = briton.0007.option.a
+		custom_tooltip = briton.0007.option.a.tooltip
+		set_global_variable = {
+			name = germanic_britan
+			value = yes
+		}
+		start_war = {
+			cb = germanic_migration_cb 
+			target = title:d_bedford.holder.top_liege
+			target_title = title:d_bedford
+		}
+		add_prestige = 200
+		ai_chance = { base = 10 }
+	}
+	option = {
+		name = briton.0007.option.b
+		ai_chance = { base = 0.5 }
+	}
+}

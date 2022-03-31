@@ -1,0 +1,185 @@
+tuareg_01 = {
+	name = "Tin Hinan"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	female = yes
+	dynasty = tamenoukalt
+	289.1.1 = {
+		birth = yes
+	}
+	324.1.1 = {
+		death = yes
+	}
+}
+tuareg_02 = {
+	name = "Melek"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	female = yes
+	mother = tuareg_01 #Tin Hinan
+	dynasty = tamenoukalt
+	322.1.1 = {
+		birth = yes
+	}
+	362.1.1 = {
+		death = yes
+	}
+}
+tuareg_03 = {
+	name = "Isalcas"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	mother = tuareg_02 #Melek
+	dynasty = tamenoukalt
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+tuareg_04 = {
+	name = "Thakiya"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	381.1.1 = {
+		birth = yes
+	}
+	448.1.1 = {
+		death = yes
+	}
+}
+tuareg_05 = {
+	name = "Xamida"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_04 #Thakiya
+	415.1.1 = {
+		birth = yes
+	}
+	478.1.1 = {
+		death = yes
+	}
+}
+tuareg_06 = {
+	name = "Iher"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_05 #Xamida
+	444.1.1 = {
+		birth = yes
+	}
+	504.1.1 = {
+		death = yes
+	}
+}
+tuareg_07 = {
+	name = "Misagenes"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_06 #Iher
+	477.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}
+tuareg_08 = {
+	name = "Zayar"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_07 #Misagenes
+	504.1.1 = {
+		birth = yes
+	}
+	577.1.1 = {
+		death = yes
+	}
+}
+tuareg_09 = {
+	name = "Massiva"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_08 #Zayar
+	546.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+tuareg_10 = {
+	name = "Wattas"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_09 #Massiva
+	581.1.1 = {
+		birth = yes
+	}
+	653.1.1 = {
+		death = yes
+	}
+}
+tuareg_11 = {
+	name = "Alyamas"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_10 #Wattas
+	615.1.1 = {
+		birth = yes
+	}
+	677.1.1 = {
+		death = yes
+	}
+}
+tuareg_12 = {
+	name = "Berkan"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_11 #Alyamas
+	649.1.1 = {
+		birth = yes
+	}
+	712.1.1 = {
+		death = yes
+	}
+}
+tuareg_13 = {
+	name = "Afalku"
+	religion = "tuareg_pagan"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_12 #Berkan
+	688.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		religion = ibadi
+	}
+	749.1.1 = {
+		death = yes
+	}
+}
+tuareg_14 = {
+	name = "Tegama"
+	religion = "ibadi"
+	culture = tuareg
+	dynasty = tuareg
+	father = tuareg_13 #Afalku
+	718.1.1 = {
+		birth = yes
+	}
+	779.1.1 = {
+		death = yes
+	}
+}

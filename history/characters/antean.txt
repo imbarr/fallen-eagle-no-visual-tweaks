@@ -1,0 +1,74 @@
+﻿999700 = {
+	name = "Boz"
+	dna = 999700_boz
+	religion = "slavic_pagan"
+	culture = "antean"
+	335.1.1 = {
+		birth = yes
+	}
+	385.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 992010
+		}
+	}
+}
+999701 = {
+	name = "Trpimir"
+	religion = "slavic_pagan"
+	culture = "antean"
+	father = 999700
+	375.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+#Fictionals
+
+1100008 = { #Fictional
+	name = "Igor"
+	religion = "slavic_pagan"
+	culture = "antean"
+	365.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+1100009 = { #Fictional
+	name = "Mojmir"
+	religion = "slavic_pagan"
+	culture = "antean"
+	359.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+1100010 = { #Fictional
+	name = "Pribislav"
+	religion = "slavic_pagan"
+	culture = "antean"
+	361.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+1100011 = { #Fictional
+	name = "Vysheslav"
+	religion = "slavic_pagan"
+	culture = "antean"
+	356.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}

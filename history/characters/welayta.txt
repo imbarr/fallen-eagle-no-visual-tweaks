@@ -1,0 +1,287 @@
+﻿#Welayta characters
+
+#Placeholders
+
+welayta_01 = {
+	name = "Jamal"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	330.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+welayta_02 = {
+	name = "Isman"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+welayta_03 = {
+	name = "Yayyo"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+welayta_04 = {
+	name = "Hamid"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+welayta_05 = {
+	name = "Adeer"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	320.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+welayta_06 = {
+	name = "Sabraddin"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+welayta_07 = {
+	name = "Khalaf"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	443.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+welayta_08 = {
+	name = "Salah"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	433.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+welayta_09 = {
+	name = "Abdale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+welayta_10 = {
+	name = "Zuber"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+welayta_11 = {
+	name = "Amlale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	501.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+welayta_12 = {
+	name = "Irir"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	502.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+welayta_13 = {
+	name = "Hantale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	498.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+welayta_14	 = {
+	name = "Naleye"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	489.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+welayta_15	 = {
+	name = "Aul"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	505.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+welayta_16	 = {
+	name = "Aul"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	601.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+welayta_17	 = {
+	name = "Abdale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	602.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+welayta_18	 = {
+	name = "Adeer"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	599.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+welayta_19	 = {
+	name = "Salah"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	587.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+welayta_20	 = {
+	name = "Amlale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	608.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+welayta_21	 = {
+	name = "Amlale"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+welayta_22	 = {
+	name = "Adeer"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	736.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+welayta_23	 = {
+	name = "Adeer"
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	732.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+#Vanilla Lords
+
+145970 = {
+	name = "Afework"
+	dynasty = 1042636
+	religion = "waaqism_pagan"
+	culture = "welayta"
+
+	743.1.1 = {
+		birth = "743.1.1"
+	}
+	798.1.1 = {
+		death = "798.1.1"
+	}
+}
+
+145971 = {
+	name = "Hackeem"
+	dynasty = 1042636
+	religion = "waaqism_pagan"
+	culture = "welayta"
+	father = 145970
+	760.1.1 = {
+		birth = "760.1.1"
+	}
+	823.1.1 = {
+		death = "823.1.1"
+	}
+}

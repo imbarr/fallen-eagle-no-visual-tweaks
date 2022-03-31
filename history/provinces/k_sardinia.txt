@@ -13,7 +13,7 @@
 ###c_bastia
 2647 = {	#BASTIA
 	culture = sardinian
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 }
 2648 = {	#CORTE
@@ -34,7 +34,7 @@
 ###c_cagliari
 2653 = {	#CAGLIARI
 	culture = sardinian
-	religion = hellenic_pagan
+	religion = nicene
 	1060.1.1 = {
 		religion = hellenic_pagan
 	}

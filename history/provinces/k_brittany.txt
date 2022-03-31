@@ -2,25 +2,36 @@
 ##d_brittany ###################################
 ###c_vannes
 2154 = {	#VANNES
-	culture = breton
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+
+	476.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		culture = briton
+	}
+	632.1.1 = {
+		culture = breton
+	}
 }
 2163 = {	#PORHOET
 	holding = church_holding
 }
 2160 = {	#ROHAN
 	holding = none
-	1104.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_nantes
 2152 = {	#NANTES
-	culture = breton
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+
+	532.1.1 = {
+		religion = chalcedonian
+	}
 }
 2151 = {	#RAIS
 	holding = city_holding
@@ -30,52 +41,87 @@
 }
 2166 = {	#CHATEAUBRIANT
 	holding = none
-	1100.1.1 = {
-		holding = castle_holding
-	}
 }
 
 ###c_cornouaille
 2156 = {	#QUIMPER
-	culture = breton
-	religion = druidism
-	holding = castle_holding
+	culture = gaul
+	religion = celto_hellenic_syncretism
+	holding = tribal_holding
+	395.1.1 = {
+		culture = briton
+		religion = brythonic_druidism
+	}
+	476.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		holding = castle_holding
+	}
+	632.1.1 = {
+		culture = breton
+	}
 }
 2155 = {	#LORIENT
 	holding = none
 }
 2159 = {	#CORNOUAILLES
-	holding = church_holding
+	holding = none
 }
 
 ###c_french_leon
 2157 = {	#BREST
-	culture = breton
-	religion = druidism
-	holding = castle_holding
+	culture = gaul
+	religion = celto_hellenic_syncretism
+	holding = tribal_holding
+	
+	532.1.1 = {
+		holding = castle_holding
+		religion = chalcedonian
+		culture = briton
+	}
+	632.1.1 = {
+		culture = breton
+	}
+
 }
 2158 = {	#StPol de Leon
-	holding = church_holding
+	holding = none
 }
 
 ###c_penthievre
 2162 = {	#SAINT BRIEUC
-	culture = breton
-	religion = druidism
-	holding = castle_holding
+	culture = gaul
+	religion = celto_hellenic_syncretism
+	holding = tribal_holding
+
+	476.1.1 = {
+		religion = chalcedonian
+		culture = briton
+	}
+	532.1.1 = {
+		holding = castle_holding
+	}
+	632.1.1 = {
+		culture = breton
+	}
+	
 }
 2161 = {	#TREGUIER
-	holding = church_holding
+	holding = none
 }
 2164 = {	#SAINT MALO
-	holding = city_holding
+	holding = none
 }
 
 ###c_rennes
 2165 = {	#RENNES
-	culture = breton
-	religion = druidism
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	532.1.1 = {
+		religion = chalcedonian
+	}
 }
 2282 = {	#COMBOURG
 	holding = city_holding

@@ -1,0 +1,55 @@
+﻿###BRITANO-ROMANS
+house_Aurelianus = {
+	name = "dynn_Aurelianus"
+	dynasty = constantinus_dynasty
+}
+house_hashmid = {
+	name = "dynn_hashmid"
+	dynasty = 658742
+}
+## Indians
+gotrika = {
+	name = "dynn_Gotrika"
+	dynasty = ananda
+}
+vengi_chalukya = {
+	name = "dynn_Vengi_Chalukya"
+	dynasty = chalukya
+}
+arshakuni = {
+	name = "dynn_Arshakuni"
+	dynasty = 100685
+}
+99850000 = {
+	name = "Meriadoc"
+	dynasty = 99850008
+}
+99850001 = {
+	name = "Dyfnaint"
+	dynasty = 99850008
+}
+house_british_isles_breizh = {
+	name = "dynn_Breizh"
+	dynasty = 99850008
+}
+utigurid_house = {
+	name = "dynn_Utigurid"
+	dynasty = 99900000
+}
+kuteigurid_house = {
+	name = "dynn_Kutrigurid"
+	dynasty = 99900000
+}
+dabuyid_house = {
+	name = "dynn_Dabuyid"
+	dynasty = 1029100
+}
+# Persian
+house_khosroviani = {
+	name = "dynn_Khosroviani"
+	dynasty = mihran_dynaty
+}
+house_mihranid = {
+	name = "dynn_Mihranid"
+	dynasty = mihran_dynaty
+}

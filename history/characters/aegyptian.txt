@@ -1,0 +1,1035 @@
+augustamnike_01 = {
+	name = "Theognosius"
+	culture = aegyptian
+	religion = arianism
+	332.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+augustamnike_02 = {
+	name = "Probius"
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+augustamnike_03 = {
+	name = "Alexander"
+	culture = aegyptian
+	religion = nicene
+	430.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+thebais_01 = {
+	name = "Philippos"
+	culture = aegyptian
+	religion = arianism
+	332.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+thebais_02 = {
+	name = "Iunius"
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+thebais_03 = {
+	name = "Aneximandros"
+	culture = aegyptian
+	religion = nicene
+	449.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+arcadia_01 = {
+	name = "Petronius"
+	culture = aegyptian
+	religion = arianism
+	338.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+arcadia_02 = {
+	name = "Apollonius"
+	culture = aegyptian
+	religion = nicene
+	363.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+arcadia_03 = {
+	name = "Doros"
+	culture = aegyptian
+	religion = nicene
+	449.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+cyrenaica_01 = {
+	name = "Alexandros"
+	culture = aegyptian
+	religion = arianism
+	330.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+cyrenaica_02 = {
+	name = "Aemilianus"
+	culture = aegyptian
+	religion = nicene
+	368.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+cyrenaica_03 = {
+	name = "Iordanes"
+	culture = aegyptian
+	religion = nicene
+	429.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+marmarica_01 = {
+	name = "Aristarchos"
+	culture = aegyptian
+	religion = nicene
+	332.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+marmarica_02 = {
+	name = "Iordanes"
+	culture = aegyptian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+marmarica_03 = {
+	name = "Flavius"
+	culture = aegyptian
+	religion = nicene
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+###Vicars
+aegyptus_57 = { 
+	name = "Hypatius"
+	culture = aegyptian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_56 = { 
+	name = "Flavius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	dynasty = dynasty_Magnilianus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_55 = { 
+	name = "Aurelius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	dynasty = dynasty_Apion
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_54 = { 
+	name = "Iulius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	dynasty = dynasty_Iulianus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_53 = { 
+	name = "Apollonius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_52 = { 
+	name = "Eustratius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_51 = { 
+	name = "Clodius"
+	culture = aegyptian
+	religion = hellenic_pagan
+	dynasty = dynasty_Culcianus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_50 = { 
+	name = "Sossianus"
+	culture = aegyptian
+	religion = hellenic_pagan
+	dynasty = dynasty_Hieroclus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_49 = { 
+	name = "Valerius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Victorinus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_48 = { 
+	name = "Aelius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Hyginus
+	260.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_47 = { 
+	name = "Titinnius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Clodianus
+	282.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_46 = { 
+	name = "Aurelius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Ammonius
+	282.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_45 = { 
+	name = "Septmius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Zenius
+	282.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_44 = { 
+	name = "Flavius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Hyginus
+	father = aegyptus_48
+	282.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_43 = { 
+	name = "Paterius"
+	culture = aegyptian
+	religion = nicene
+	282.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_42 = { 
+	name = "Antonius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Theodorus
+	280.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_41 = { 
+	name = "Flavius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Philagrius
+	280.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_40 = { 
+	name = "Flavius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Philagrius
+	father = aegyptus_41
+	300.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_39 = { 
+	name = "Longinus"
+	culture = aegyptian
+	religion = nicene
+	300.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_38 = { 
+	name = "Palladius"
+	culture = aegyptian
+	religion = nicene
+	308.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+aegyptus_37 = { 
+	name = "Nestorius"
+	culture = aegyptian
+	religion = nicene
+	308.1.1 = {
+		birth = yes
+	}
+	378.1.1 = {
+		death = yes
+	}
+}
+aegyptus_36 = { 
+	name = "Sebastianus"
+	culture = aegyptian
+	religion = nicene
+	308.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_35 = { 
+	name = "Maximus"
+	culture = aegyptian
+	religion = nicene
+	312.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_34 = { 
+	name = "Cataphronius"
+	culture = aegyptian
+	religion = nicene
+	312.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_33 = { 
+	name = "Parnassius"
+	culture = aegyptian
+	religion = nicene
+	312.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_32 = { 
+	name = "Pomponius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Metrodorus
+	312.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_31 = { 
+	name = "Italicianus"
+	culture = aegyptian
+	religion = nicene
+	312.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_30 = { 
+	name = "Faustinus"
+	culture = aegyptian
+	religion = nicene
+	310.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_29 = { 
+	name = "Ecdicius"
+	culture = aegyptian
+	religion = nicene
+	dynsaty = dynaasty_Olimpus
+	322.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_28 = { 
+	name = "Hierius"
+	culture = aegyptian
+	religion = nicene
+	322.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_27 = { 
+	name = "Maximus"
+	culture = aegyptian
+	religion = nicene
+	322.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_26 = { 
+	name = "Flavianus"
+	culture = aegyptian
+	religion = nicene
+	320.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_25 = { 
+	name = "Proclianus"
+	culture = aegyptian
+	religion = nicene
+	320.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_01 = { 
+	name = "Gerontius"
+	culture = aegyptian
+	religion = nicene
+	320.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_03 = { #Real people
+	name = "Olympius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Palladius
+	320.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+aegyptus_04 = { #Real people
+	name = "Aelius"
+	culture = aegyptian
+	religion = nicene
+	dynasty = dynasty_Paladius
+	father = aegyptus_03
+	341.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_05 = { #Real people
+	name = "Publius"
+	culture = aegyptian
+	religion = nicene
+	342.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_06 = { #Real people
+	name = "Bassianus"
+	culture = aegyptian
+	religion = nicene
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_07 = { #Real people
+	name = "Hadrianus"
+	culture = aegyptian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_08 = { #Real people
+	name = "Iulianus"
+	culture = aegyptian
+	religion = nicene
+	353.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_09 = { #Real people
+	name = "Antoninus"
+	culture = aegyptian
+	religion = nicene
+	351.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_10 = { #Real people
+	name = "Hypatius"
+	culture = aegyptian
+	religion = nicene
+	360.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_11 = { #Real people
+	name = "Optatus"
+	culture = aegyptian
+	religion = nicene
+	363.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_12 = { #Real people
+	name = "Florentius"
+	culture = aegyptian
+	religion = nicene
+	300.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+aegyptus_13 = { #Real people
+	name = "Paulinus"
+	culture = aegyptian
+	religion = nicene
+	368.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_14 = { #Real people
+	name = "Eusebius"
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_15 = { #Real people
+	name = "Ulpius"
+	dynasty = dynasty_Eritrius
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_16 = { #Real people
+	name = "Alexander"
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_17 = { #Real people
+	name = "Evagrius"
+	culture = aegyptian
+	religion = nicene
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_18 = { #Real people
+	name = "Potamius"
+	culture = aegyptian
+	religion = nicene
+	371.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_23 = { #Real people
+	name = "Remigius"
+	culture = aegyptian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_24 = { #Real people
+	name = "Archelaus"
+	culture = aegyptian
+	religion = nicene
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+aegyptus_19 = { #Real people
+	name = "Orestus"
+	culture = aegyptian
+	religion = nicene
+	395.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+aegyptus_20 = { #Real people
+	name = "Theognostios"
+	culture = aegyptian
+	religion = chalcedonian
+	451.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_21 = { #Real people
+	name = "Felix"
+	dynasty = dynasty_Liberios
+	culture = aegyptian
+	religion = chalcedonian
+	512.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+aegyptus_22 = { #Real people
+	name = "Theodoros"
+	dynasty = dynasty_Liberios
+	culture = aegyptian
+	religion = chalcedonian
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_58 = { 
+	name = "Paulacius"
+	culture = aegyptian
+	religion = nicene
+	369.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+aegyptus_59 = { 
+	name = "Pentadius"
+	culture = aegyptian
+	religion = nicene
+	372.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+aegyptus_60 = { 
+	name = "Euthalius"
+	culture = aegyptian
+	religion = nicene
+	361.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+aegyptus_61 = { 
+	name = "Callistus"
+	culture = aegyptian
+	religion = nicene
+	380.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+aegyptus_62 = { 
+	name = "Cleopater"
+	culture = aegyptian
+	religion = nicene
+	381.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+aegyptus_63 = { 
+	name = "Charmosynus"
+	culture = aegyptian
+	religion = nicene
+	384.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+aegyptus_64 = { 
+	name = "Theodorus"
+	culture = aegyptian
+	religion = nicene
+	428.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_65 = { 
+	name = "Florus"
+	culture = aegyptian
+	religion = nicene
+	400.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+aegyptus_66 = { 
+	name = "Nicolaus"
+	culture = aegyptian
+	religion = nicene
+	410.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+aegyptus_67 = { 
+	name = "Alexander"
+	culture = aegyptian
+	religion = nicene
+	420.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+aegyptus_68 = { 
+	name = "Boethius"
+	culture = aegyptian
+	religion = nicene
+	422.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+aegyptus_69 = { 
+	name = "Anthemius"
+	culture = aegyptian
+	religion = nicene
+	422.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+aegyptus_70 = { 
+	name = "Theoctistus"
+	culture = aegyptian
+	religion = nicene
+	427.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_71 = { 
+	name = "Theognostius"
+	culture = aegyptian
+	religion = nicene
+	432.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_72 = { 
+	name = "Pergaminus"
+	culture = aegyptian
+	religion = nicene
+	435.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_73 = { 
+	name = "Entrechius"
+	culture = aegyptian
+	religion = nicene
+	440.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+aegyptus_74 = { 
+	name = "Arsenius"
+	culture = aegyptian
+	religion = nicene
+	458.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

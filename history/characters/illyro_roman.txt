@@ -1,0 +1,479 @@
+
+bavaria_10 = { #Raetia V5
+name= "Adrianus"
+religion="celto_hellenic_syncretism"
+culture="illyro_roman"
+337.1.1 = {
+	birth = yes
+}
+410.1.1 = {
+	death = yes
+}
+}
+bavaria_15 = { #Raetia V5
+name= "Vid"
+religion="hellenic_pagan"
+culture="illyro_roman"
+339.1.1 = {
+	birth = yes
+}
+410.1.1 = {
+	death = yes
+}
+}
+bavaria_19 = { #Raetia V5
+name= "Romulus"
+religion="chalcedonian"
+culture="illyro_roman"
+451.1.1 = {
+	birth = yes
+}
+530.1.1 = {
+	death = yes
+}
+}
+rhaetia_03 = { #Raetia V5
+	name= "Saturnius"
+	religion="chalcedonian"
+	culture="illyro_roman"
+	492.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+rhaetia_05 = { #Raetia V5
+	name= "Timasius"
+	religion="chalcedonian"
+	culture="illyro_roman"
+	488.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+dalmatia_01 = {
+	name= "Tetricus"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_02 = {
+	name= "Nummius"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	342.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_03 = {
+	name= "Narcissus"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_04 = {
+	name= "Gratianus"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	341.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_05 = {
+	name= "Diomedes"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	336.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_06 = {
+	name= "Heraclus"
+	religion= "nicene"
+	culture= "illyro_roman"
+	329.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_07 = {
+	name= "Germanus"
+	religion= "celto_hellenic_syncretism"
+	culture= "illyro_roman"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_08 = {
+	name= "Alypus"
+	religion= "celto_hellenic_syncretism"
+	culture= "illyro_roman"
+	336.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+dalmatia_09 = {
+	name= "Flavius"
+	religion= "nicene"
+	culture= "illyro_roman"
+	440.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_10 = {
+	name= "Arcadius"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	444.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_11 = {
+	name= "Romanus"
+	religion= "nicene"
+	culture= "illyro_roman"
+	437.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_12 = {
+	name= "Aemilianus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	446.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_13 = {
+	name= "Valens"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	442.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_14 = {
+	name= "Marinus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	445.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_15 = {
+	name= "Theodorus"
+	religion= "nicene"
+	culture= "illyro_roman"
+	449.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+dalmatia_16 = {
+	name = "Maximianus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	501.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_17 = {
+	name = "Illyricus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	492.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_18 = {
+	name = "Paulus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	489.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_19 = {
+	name = "Agron"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	503.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_20 = {
+	name = "Marcellus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	505.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_21 = {
+	name = "Taurus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	510.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_22 = {
+	name = "Zoilus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	478.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+dalmatia_24 = {
+	name = "Constantius"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	600.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+dalmatia_25 = {
+	name = "Syagrus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	589.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+dalmatia_26 = {
+	name = "Simplicius"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	599.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+dalmatia_27 = {
+	name = "Theodosius"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+dalmatia_28 = {
+	name = "Gratianus"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	736.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+dalmatia_29 = {
+	name = "Arius"
+	religion= "chalcedonian"
+	culture= "illyro_roman"
+	750.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+#### Julius Nepos Family
+nepos_01 = {
+	name= "Nepotianus"
+	religion= "nicene"
+	culture= "illyro_roman"
+	dynasty = nepos_dynasty
+	418.1.1 = {
+		birth = yes
+	}
+	438.1.1 = {
+		add_spouse = nepos_04
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	465.1.1 = {
+		death = yes
+	}
+}
+nepos_02 = {
+	name= "Iulius"
+	religion= "nicene"
+	culture= "illyro_roman"
+	dynasty = nepos_dynasty
+	439.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	480.5.9 = {
+		death = yes
+	}
+}
+nepos_02 = {
+	name= "Iulius"
+	religion= "nicene"
+	culture= "illyro_roman"
+	dynasty = nepos_dynasty
+	father = nepos_01
+	mother = nepos_04
+	439.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+		add_spouse = leo_04 #NIece of Leo I
+	}
+	480.5.9 = {
+		death = yes
+	}
+}
+nepos_03 = {
+	name= "Marcellinus"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	400.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+nepos_05 = {
+	name= "Marcellinus"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	father = nepos_03
+	420.1.1 = {
+		birth = yes
+	}
+	465.8.1 = {
+		death = yes
+	}
+}
+nepos_04 = {
+	name= "Marcellina"
+	religion= "hellenic_pagan"
+	culture= "illyro_roman"
+	father = nepos_03
+	female = yes
+	422.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+##Leo

@@ -1,0 +1,24 @@
+﻿illyrian = {
+	color = { 0.4 0.2 0.2 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_balkanic
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_agrarian
+		tradition_legalistic
+	}
+	
+	name_list = name_list_illyro_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}

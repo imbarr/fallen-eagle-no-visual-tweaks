@@ -1,0 +1,39 @@
+﻿# Can this character cross water (sea, rivers) while on raid?
+# root: the potential raider
+can_raid_across_water = {
+	OR = {
+		culture = {
+			OR = {
+				has_innovation = innovation_longboats
+				has_innovation = innovation_african_canoes
+				has_innovation = innovation_raiding_vessels
+				has_cultural_parameter = culture_can_raid_at_sea_even_if_feudal
+			}
+		}
+		AND = {
+			exists = dynasty
+			dynasty = { has_dynasty_modifier = fp1_legacy_of_piracy_modifier }
+		}
+	}
+}
+
+is_character_allowed_to_be_player = {
+	trigger_if = {
+		limit = {
+			scope:will_override_government = no
+		}
+		custom_description = {
+			text = "GAME_OVER_CANNOT_PLAY_THEOCRACY"
+			NOT = { has_government = theocracy_government }
+		}
+
+		custom_description = {
+			text = "GAME_OVER_CANNOT_PLAY_REPUBLIC"
+			NOT = { has_government = republic_government }
+		}
+	}
+	custom_description = {
+		text = GAME_OVER_CANNOT_PLAY_PROPHET
+		NOT = { has_character_flag = islam_prophet }
+	}
+}

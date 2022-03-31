@@ -2,24 +2,26 @@
 600 = {	# 600 - Nicopsia
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
-
+	
 }
 
 # 601 - Kutaisi
 601 = {	# 601 - Kutaisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = "urartuism"
 	
 	holding = castle_holding
-	
+	451.1.1 = {
+		religion = mazdayasna
+	}
 	# History
 
 }
@@ -28,8 +30,8 @@
 673 = {	# 673 - Nukhapata
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -41,11 +43,13 @@
 676 = {	# 676 - Telavi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = "urartuism"
 	
 	holding = castle_holding
-	
+	451.1.1 = {
+		religion = chalcedonian
+	}
 	# History
 
 }
@@ -54,21 +58,23 @@
 677 = {	# 677 - Batumi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 679 - Gori
 679 = {	# 679 - Gori
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -80,8 +86,8 @@
 680 = {	# 680 - Oltisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = armenian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -93,22 +99,13 @@
 1013 = {	# 1013 - Lori
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	867.1.1 = {
-		culture = armenian
-		religion = armenian_apostolic
-	}
-	1084.1.1 = {
-		culture = kurdish
-		religion = ashari
-	}
-	1124.1.1 = {
-		culture = georgian
+	451.1.1 = {
 		religion = chalcedonian
 	}
 
@@ -118,21 +115,23 @@
 5696 = {	# 5696 - Archabis
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 5697 - Petra
 5697 = {	# 5697 - Petra
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -144,8 +143,8 @@
 5736 = {	# 5736 - Taoskari
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = armenian
+	religion = nicene
 	
 	holding = none
 	
@@ -157,21 +156,23 @@
 5737 = {	# 5737 - Tortomi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = armenian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 5738 - Tmogvi
 5738 = {	# 5738 - Tmogvi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -183,8 +184,8 @@
 5739 = {	# 5739 - Akhaltsikhe
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -199,21 +200,23 @@
 5740 = {	# 5740 - Arthanuji
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 5741 - Artaani
 5741 = {	# 5741 - Artaani
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = armenian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -225,8 +228,8 @@
 5742 = {	# 5742 - Tskhinvali
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -238,21 +241,23 @@
 5743 = {	# 5743 - Uplistsikhe
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 5744 - Bichvinta
 5744 = {	# 5744 - Bichvinta
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -264,8 +269,8 @@
 5745 = {	# 5745 - Anacopia
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -277,11 +282,13 @@
 5746 = {	# 5746 - Tskhumi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = "urartuism"
 	
 	holding = castle_holding
-	
+	451.1.1 = {
+		religion = chalcedonian
+	}
 	# History
 
 }
@@ -290,8 +297,8 @@
 5747 = {	# 5747 - Gudavka
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -303,8 +310,8 @@
 5748 = {	# 5748 - Seti
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -316,8 +323,8 @@
 5749 = {	# 5749 - Zugdidi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -329,8 +336,8 @@
 5750 = {	# 5750 - Tsageri
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -342,8 +349,8 @@
 5751 = {	# 5751 - Ambrolauri
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -355,11 +362,13 @@
 5752 = {	# 5752 - Kasriskari
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = "urartuism"
 	
 	holding = castle_holding
-	
+	451.1.1 = {
+		religion = mazdayasna
+	}
 	# History
 
 }
@@ -368,8 +377,8 @@
 5753 = {	# 5753 - Kvara
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -381,8 +390,8 @@
 5754 = {	# 5754 - Poti
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -394,8 +403,8 @@
 5756 = {	# 5756 - Vartsikhe
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -407,8 +416,8 @@
 5757 = {	# 5757 - Shorapann
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -420,22 +429,13 @@
 5758 = {	# 5758 - Dmanisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
 	# History
-	867.1.1 = {
-		culture = armenian
-		religion = armenian_apostolic
-	}
-	1084.1.1 = {
-		culture = kurdish
-		religion = ashari
-	}
-	1124.1.1 = {
-		culture = georgian
+	451.1.1 = {
 		religion = chalcedonian
 	}
 
@@ -445,22 +445,13 @@
 5759 = {	# 5759 - Tbilisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	867.1.1 = {
-		culture = armenian
-		religion = armenian_apostolic
-	}
-	1084.1.1 = {
-		culture = kurdish
-		religion = ashari
-	}
-	1124.1.1 = {
-		culture = georgian
+	451.1.1 = {
 		religion = chalcedonian
 	}
 
@@ -470,8 +461,8 @@
 5760 = {	# 5760 - Rustavi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -482,11 +473,11 @@
 	}
 	1084.1.1 = {
 		culture = kurdish
-		religion = ashari
+		religion = sunni
 	}
 	1124.1.1 = {
 		culture = georgian
-		religion = chalcedonian
+		religion = nicene
 	}
 
 }
@@ -495,8 +486,8 @@
 5761 = {	# 5761 - Bolnisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -507,11 +498,11 @@
 	}
 	1084.1.1 = {
 		culture = kurdish
-		religion = ashari
+		religion = sunni
 	}
 	1124.1.1 = {
 		culture = georgian
-		religion = chalcedonian
+		religion = nicene
 	}
 
 }
@@ -520,8 +511,8 @@
 5762 = {	# 5762 - Kayan
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -532,11 +523,11 @@
 	}
 	1084.1.1 = {
 		culture = kurdish
-		religion = ashari
+		religion = sunni
 	}
 	1124.1.1 = {
 		culture = georgian
-		religion = chalcedonian
+		religion = nicene
 	}
 
 }
@@ -545,8 +536,8 @@
 5763 = {	# 5763 - Nektesi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -558,8 +549,8 @@
 5764 = {	# 5764 - Mtskheta
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -571,8 +562,8 @@
 5765 = {	# 5765 - Gavazi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -584,8 +575,8 @@
 5766 = {	# 5766 - Kharnabuji
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = church_holding
 	
@@ -597,8 +588,8 @@
 5767 = {	# 5767 - Ujarma
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = none
 	
@@ -610,21 +601,23 @@
 5768 = {	# 5768 - Zaqatala
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-
+	451.1.1 = {
+		religion = chalcedonian
+	}
 }
 
 # 5769 - Ghisi
 5769 = {	# 5769 - Ghisi
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = city_holding
 	
@@ -636,14 +629,14 @@
 5770 = {	# 5770 - Dedoplitskhara
 	
 	# Misc
-	culture = georgian
-	religion = chalcedonian
+	culture = kartvelian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	1066.1.1 = {
-		holding = castle_holding
-	}
+	451.1.1 = {
+		religion = chalcedonian
+	}c
 }
 

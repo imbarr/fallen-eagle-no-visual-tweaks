@@ -1,0 +1,295 @@
+k_pontic_steppe = {
+	385.1.1 = {
+		holder = 990000 #Uldin
+	}
+}
+k_ruthenia = {
+	385.1.1 = {
+		holder = 990004 #Karaton
+		liege = e_hunnic_empire 
+	}
+}
+d_pereyaslavl = {
+	385.1.1 = {
+		holder = 1100013 #Fictional
+		liege = k_ruthenia
+	}
+}
+d_karachev = {
+	385.1.1 = {
+		holder = 1100014 #Fictional
+		liege = k_ruthenia
+	}
+}
+d_novosil = {
+	385.1.1 = {
+		holder = 1100015 #Fictional
+		liege = k_ruthenia
+	}
+}
+c_iasi = {
+	385.1.1 = {
+		holder = 1100016 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_orhei = {
+	385.1.1 = {
+		holder = 1100016 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_soroca = {
+	385.1.1 = {
+		holder = 1100016 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_ladyzyn = {
+	385.1.1 = {
+		holder = 1100017 #Fictional
+		liege = k_pontic_steppe
+		government = nomadic_government
+	}
+}
+c_uman = {
+	385.1.1 = {
+		holder = 1100017 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_cherkassy = {
+	385.1.1 = {
+		holder = 1100017 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_khortytsia = {
+	385.1.1 = {
+		holder = 1100018 #Fictional
+		liege = k_pontic_steppe
+		government = nomadic_government
+	}
+}
+c_bakhmut = {
+	385.1.1 = {
+		holder = 1100018 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+c_samar = {
+	385.1.1 = {
+		holder = 1100018 #Fictional
+		liege = k_pontic_steppe
+	}
+}
+d_don_valley = {
+	385.1.1 = {
+		holder = 1100019 #Fictional
+		liege = k_pontic_steppe
+		government = nomadic_government
+	}
+}
+#######
+c_sarysyn = {
+	385.1.1 = {
+		holder = 990000 #Uldin
+	}
+}
+c_khopyor = {
+	380.1.1 = {
+		holder = 981001
+		liege = "e_hunnic_empire"
+		government = nomadic_government
+	}
+}
+c_balachev = {
+	380.1.1 = {
+		holder = 981001 
+	}
+}
+c_atkarsk = {
+	380.1.1 = {
+		holder = 981001 
+	}
+}
+c_saratov = {
+	380.1.1 = {
+		holder = 981002
+		liege = "e_hunnic_empire"
+	}
+}
+#######
+c_sacz = {
+	395.1.1 = {
+		holder = 900027
+		liege = "e_hunnic_empire"
+	}
+}
+c_tarnowska = {
+	395.1.1 = {
+		holder = 900027
+	}
+}
+c_lubelska = {
+	395.1.1 = {
+		holder = 900026
+	}
+}
+#Gepids
+k_gepids = {
+	376.1.1 = {
+		holder = 991000 #Evaric
+		government = tribal_government
+	}
+}
+d_transylvania = {
+	376.1.1 = {
+		holder = 991000 #Evaric
+		government = tribal_government
+	}
+}
+d_bihar = {
+	376.1.1 = {
+		holder = 1100000 #Fictional gepid vassal
+		government = tribal_government
+		liege = k_gepids
+	}
+} 
+c_beszterce = {
+    376.1.1 = {
+		holder = 1100001 #Fictional gepid vassal
+		liege = k_gepids
+		government = tribal_government
+	}
+} 
+c_torda = {
+    376.1.1 = {
+		holder = 1100001 #Fictional gepid vassal
+		liege = k_gepids
+		government = tribal_government
+	}
+} 
+
+#Roxolani
+c_csanad = {
+    376.1.1 = {
+		holder = 1100002 #Fictional roxolan
+		government = tribal_government
+	}
+} 
+c_arad = {
+    376.1.1 = {
+		holder = 1100002 #Fictional roxolan
+		government = tribal_government
+	}
+} 
+c_temes = {
+    376.1.1 = {
+		holder = 1100002 #Fictional roxolan
+		government = tribal_government
+	}
+} 
+
+#Yazige
+c_keve = {
+    376.1.1 = {
+		holder = 1100003 #Fictional yazige
+		government = tribal_government
+	}
+} 
+c_krasso = {
+    376.1.1 = {
+		holder = 1100003 #Fictional yazige
+		government = tribal_government
+	}
+} 
+c_severin = {
+    376.1.1 = {
+		holder = 1100003 #Fictional yazige
+		government = tribal_government
+	}
+} 
+#Scirian
+d_moldova = {
+	376.1.1 = {
+		holder = 996000 #Tofol
+		government = tribal_government
+	}
+}
+
+#Herulians 
+d_bugeac = {
+	376.1.1 = {
+		holder = 995000 #Eriul
+		government = tribal_government
+	}
+}
+
+#Bastarnians
+d_bukovina = {
+	376.1.1 = {
+		holder = 1100007 #Fictional
+		government = tribal_government
+	}
+}
+
+#Anteans
+k_antes = {
+	360.1.1 = {
+		holder = 999700 #Boz
+	}
+	385.1.1 = {
+		holder = 999701 #Trpimir
+		liege = "e_hunnic_empire"
+		government = nomadic_government
+	}
+}
+d_kiev = {
+	385.1.1 = {
+		holder = 999701 #Trpimir
+	}
+}
+c_hotin = {
+	385.1.1 = {
+		holder = 1100011 #Fictional
+		liege = k_antes
+	}
+}
+c_dorohoi = {
+	385.1.1 = {
+		holder = 1100011 #Fictional
+		liege = k_antes
+	}
+}
+
+#Ostrogoths
+k_ostrogoths = {
+	350.1.1 = {
+		holder = 992006 #Winithar
+	}
+	385.1.1 = {
+		liege = e_hunnic_empire
+	}
+	475.1.1 = {
+		holder = 992016 
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+d_yedisan = {
+	350.1.1 = {
+		holder = 992006 #Winithar
+	}
+}
+c_oleshye = {
+	350.1.1 = {
+		holder = 992006 #Winithar
+	}
+}
+d_crimea = {
+	390.1.1 = {
+		holder = 992031 #Agalic
+		liege = k_ostrogoths
+	}
+}

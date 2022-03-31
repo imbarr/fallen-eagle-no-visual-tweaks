@@ -1,0 +1,29 @@
+d_northern_isles = {
+	200.1.1 = {
+		de_jure_liege = k_scotland
+	}
+}
+c_orkney = {
+	200.1.1 = {
+		change_development_level = -1
+	}
+	369.1.1 = {
+		holder = Northern_isles_01
+	}
+}
+c_shetland = {
+	200.1.1 = {
+		change_development_level = -1
+	}
+	372.1.1 = {
+		holder = Northern_isles_02
+	}
+}
+c_faereyar = {
+	200.1.1 = {
+		change_development_level = -1
+	}
+	389.1.1 = {
+		holder = Northern_isles_03
+	}
+}

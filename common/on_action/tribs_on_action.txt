@@ -1,0 +1,117 @@
+﻿on_game_start= {
+	on_actions = {
+		on_trib_set_start
+	}
+}
+
+on_trib_set_start = {
+	effect = {
+		set_global_variable = {
+            name = custom_map_mode
+            value = flag:none
+        }
+		###EASTERN ROMAN
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:ghassanid_17
+			SUZERAIN = character:70519 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:judham_11
+			SUZERAIN = character:70519 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:amilah_01
+			SUZERAIN = character:70519 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:lazika_03
+			SUZERAIN = character:70519 
+		}
+		###WESTERN ROMAN
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:Votadini_02
+			SUZERAIN = character:145227
+		}
+		###PERSIAN
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:lakhmid_06
+			SUZERAIN = character:180618 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:arsacid_57
+			SUZERAIN = character:180618 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:159583
+			SUZERAIN = character:180618 
+		}
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:159761
+			SUZERAIN = character:180618 
+		}
+		###GUPTA
+		make_tributary = {
+			TYPE = tributary_permanent
+			TRIBUTARY = character:salankayana_02
+			SUZERAIN = character:2020123
+		}
+		#I'm too lazy to make another file :p
+		character:990000 = {
+			add_prestige = 3000
+			spawn_army = {
+				name = "Hunnic Invaders"
+				levies = 4000
+				men_at_arms = {
+					type = bowmen
+					stacks = 20
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 35
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 15
+				}
+				location = title:b_kherson.title_province
+			}
+		}
+		title:c_rhodos = {
+			set_variable = {
+				name = monument_existing
+				value = yes
+			}
+			set_variable = {
+				name = monument_material
+				value = flag:copper
+			}
+			set_variable = {
+				name = historical_monument 
+				value = yes
+			}
+			set_variable = {
+				name = colossus_monument
+				value = yes
+			}
+			add_county_modifier = statue_copper
+			holder = {
+				add_character_modifier = statue_char_copper
+			}
+		}
+		title:e_western_roman_empire.holder = {
+			add_gold = 1000
+		}
+		title:e_byzantium.holder = {
+			add_gold = 1000
+		}
+	}
+}

@@ -1,0 +1,531 @@
+﻿900347 = { #Narbonensis I Vassal I
+	name= "Probus"
+	religion="nicene"
+	culture="gallo_roman"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900348 = { #Narbonensis I Vassal 2
+	name= "Octavianus"
+	religion="nicene"
+	culture="gallo_roman"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900349 = { #Novempopuliana Vassal 1
+	name= "Piarres"
+	dynasty=900009
+	religion="nicene"
+	culture="aquitanian"
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900350 = { #Novempopuliana Vassal 1
+	name= "Jakue"
+	dynasty=900004
+	religion="nicene"
+	culture="aquitanian"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900351 = { #Novempopuliana Vassal 1
+	name= "Gordian"
+	dynasty=900011
+	religion="hellenic_pagan"
+	culture="aquitanian"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900352 = { #Novempopuliana Vassal 1
+	name= "Egidio"
+	dynasty=900008
+	religion="hellenic_pagan"
+	culture="aquitanian"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900353 = { #Novempopuliana Vassal 1
+	name= "Valerian"
+	dynasty=900005
+	religion="nicene"
+	culture="aquitanian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900354 = { #Novempopuliana Vassal 1
+	name= "Donato"
+	dynasty=900006
+	religion="hellenic_pagan"
+	culture="aquitanian"
+	354.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900355 = { #Novempopuliana Vassal 1
+	name= "Belisarius"
+	dynasty=900010
+	religion="nicene"
+	culture="aquitanian"
+	373.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900356 = { #Novempopuliana Vassal 1
+	name= "Zentulo"
+	dynasty=900007
+	religion="hellenic_pagan"
+	culture="aquitanian"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900357 = { #Aquitanica II Vassal 1
+	name= "Gracchus"
+	religion="nicene"
+	culture="gallo_roman"
+	347.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900358 = { #Aquitanica II Vassal 2
+	name= "Herculius"
+	religion="nicene"
+	culture="gallo_roman"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900359 = { #Viennensis
+	name= "Nepotian"
+	religion="nicene"
+	culture="gallo_roman"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900360 = { #Narbonensis II 
+	name= "Marcus"
+	religion="nicene"
+	culture="gallo_roman"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900361 = { #Alpes Maritimae
+	name= "Septimus"
+	religion="nicene"
+	culture="gallo_roman"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900362 = { #Aquitanica I Vassal 1
+	name= "Venantius"
+	religion="nicene"
+	culture="gallo_roman"
+	371.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900363 = { #Aquitanica II Vassal 3
+	name= "Julian"
+	religion="nicene"
+	culture="gallo_roman"
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900364 = { #Aquitanica I Vassal 2
+	name= "Sextus"
+	religion="nicene"
+	culture="gallo_roman"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900365 = { #Aquitanica I
+	name= "Marcellinus"
+	religion="nicene"
+	culture="roman"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900364 = { #Aquitanica I Vassal 3
+	name= "Titus"
+	religion="nicene"
+	culture="gallo_roman"
+	368.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+# Gaul
+
+
+900200 = { #Armorica
+	name= "Laouenan"
+	religion="celto_hellenic_syncretism"
+	culture="gallo_roman"
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900201 = { #Neustria
+	name= "Severus"
+	religion="nicene"
+	culture="gallo_roman"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900202 = { #Anjou
+	name= "Hadrian"
+	religion="nicene"
+	culture="gallo_roman"
+	368.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900203 = { #Berry
+	name= "Aemilius"
+	religion="nicene"
+	culture="gallo_roman"
+	354.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900204 = { #Orleans
+	name= "Decius"
+	religion="nicene"
+	culture="gallo_roman"
+	358.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900500 = { #Anjou V1
+	name= "Clementius"
+	religion="nicene"
+	culture="gallo_roman"
+	345.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900501 = { #Anjou V2
+	name= "Jovian"
+	religion="nicene"
+	culture="gallo_roman"
+	339.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900502 = { #Normandy V1
+	name= "Trajan"
+	religion="nicene"
+	culture="gallo_roman"
+	372.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900503 = { #Lutetia V1
+	name= "Maximian"
+	religion="nicene"
+	culture="gallo_roman"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900504 = { #Lutetia V2
+	name= "Marcus"
+	religion="nicene"
+	culture="gallo_roman"
+	353.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900505 = { #Lutetia V3
+	name= "Romanus"
+	religion="nicene"
+	culture="gallo_roman"
+	361.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900506 = { #Champain V1
+	name= "Venantius"
+	religion="nicene"
+	culture="gallo_roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900507 = { #Champain V2
+	name= "Marcus"
+	religion="nicene"
+	culture="gallo_roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900508 = { #Champain V3
+	name= "Otho"
+	religion="nicene"
+	culture="gallo_roman"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900509 = { #Champain V4
+	name= "Tacitus"
+	religion="nicene"
+	culture="gallo_roman"
+	358.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900510 = { #Champain V5
+	name= "Carinus"
+	religion="nicene"
+	culture="gallo_roman"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900511 = { #Burgundy V1
+	name= "Faustus"
+	religion="nicene"
+	culture="gallo_roman"
+	347.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900512 = { #Burgundy V1
+	name= "Victor"
+	religion="nicene"
+	culture="gallo_roman"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900513 = { #Helvetica V1
+	name= "Numerian"
+	religion="nicene"
+	culture="gallo_roman"
+	373.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900514 = { 
+	name= "Symmachus"
+	religion="nicene"
+	culture="gallo_roman"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900515 = { #Helvetica V1
+	name= "Saturninus"
+	religion="nicene"
+	culture="gallo_roman"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900516 = { #Helvetica V1
+	name= "Gratian"
+	religion="nicene"
+	culture="gallo_roman"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900517 = { #Helvetica V1
+	name= "Cornelius"
+	religion="nicene"
+	culture="gallo_roman"
+	329.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900518 = { #Helvetica V1
+	name= "Aurelius"
+	religion="nicene"
+	culture="gallo_roman"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+#franks
+900519 = { #Helvetica V1
+	name= "Lucius"
+	religion="nicene"
+	culture="gallo_roman"
+	353.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900520 = { #Helvetica V1
+	name= "Philip"
+	religion="nicene"
+	culture="gallo_roman"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900521 = { #Helvetica V1
+	name= "Domitius"
+	religion="nicene"
+	culture="gallo_roman"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}

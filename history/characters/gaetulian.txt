@@ -1,0 +1,146 @@
+#Mauro Roman Kingdoms
+mauro_roman_02 = {
+	name = "Galussa"
+	religion = "chalcedonian"
+	culture = "gaetulian"
+	501.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+mauro_roman_04 = {
+	name = "Keraja"
+	religion = "donatism"
+	culture = "gaetulian"
+	489.1.1 = {
+		birth = yes
+	}
+	548.1.1 = {
+		death = yes
+	}
+}
+
+
+#Gudalans -- Fake Tribal Holders
+gudala_01 = {
+	name = "Masinissa"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = gudala
+	340.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+gudala_02 = {
+	name = "Afalawas"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = gudala
+	father = gudala_01 #Massinisa
+	385.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+gudala_03 = {
+	name = "Aghecher"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = gudala
+	father = gudala_02 #Afalawas
+	431.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+
+#Messufa -- Fake Tribal Holders
+
+messufa_01 = {
+	name = "Berkan"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = messufa
+	338.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+messufa_02 = {
+	name = "Misagenes"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = messufa
+	father = messufa_01 #Berkan
+	388.1.1 = {
+		birth = yes
+	}
+	456.1.1 = {
+		death = yes
+	}
+}
+messufa_03 = {
+	name = "Mastanabal"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = messufa
+	father = messufa_02 #Misagenes
+	423.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+
+#Lamtuna -- Fake Tribal Holders
+
+lamtuna_01 = {
+	name = "Mennad"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = lamtuna
+	335.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+lamtuna_02 = {
+	name = "Capussa"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = lamtuna
+	father = lamtuna_01 #Mennad
+	389.1.1 = {
+		birth = yes
+	}
+	469.1.1 = {
+		death = yes
+	}
+}
+lamtuna_04 = {
+	name = "Hiba"
+	religion = "amazigh_pagan"
+	culture = gaetulian
+	dynasty = lamtuna
+	father = lamtuna_02 #Capussa
+	429.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

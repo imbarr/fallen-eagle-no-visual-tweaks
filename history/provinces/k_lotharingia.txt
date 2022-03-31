@@ -2,8 +2,8 @@
 ##d_luxembourg ###################################
 ###c_luxembourg
 2082 = {	#LUXEMBOURG
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 	1000.1.1 = {
 		culture = frankish
@@ -24,8 +24,8 @@
 
 ###c_bouillon
 2091 = {	#BOUILLON
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2686 = {	#CHINY
@@ -46,8 +46,8 @@
 
 ###c_liege
 2097 = {	#LIEGE
-	culture = frankish
-	religion = catholic
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2094 = {	#LA ROCHE
@@ -59,22 +59,22 @@
 
 ###c_namur
 2098 = {	#NAMUR
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2116 = {	#CHARLEROI
-	holding = city_holding
+holding = none
 }
 2122 = {	#COUVIN
-	holding = church_holding
+holding = none
 }
 
 ##d_brabant ###################################
 ###c_brabant
 2105 = {	#LEUVEN
-	culture = frankish
-	religion = catholic
+	culture = gallo_roman
+	religion = central_pagan
 	holding = castle_holding
 }
 2107 = {	#BRUSSELS
@@ -86,8 +86,8 @@
 
 ###c_antwerpen
 2106 = {	#ANTWERP
-	culture = frankish
-	religion = catholic
+	culture = gallo_roman
+	religion = central_pagan
 	holding = castle_holding
 }
 2108 = {	#ROSENDAAL
@@ -102,8 +102,8 @@
 
 ###c_hainaut
 2117 = {	#MONS
-	culture = belgae
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2127 = {	#TOURNAI
@@ -118,8 +118,8 @@
 
 ###c_cambray
 2118 = {	#CAMBRAI
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2121 = {	# MALBODEN
@@ -131,12 +131,20 @@
 
 ##d_julich ###################################
 ###c_aachen
-2092 = {	#AACHEN
-	culture = frankish
-	religion = catholic
+2085 = {	#BEDA
 	holding = castle_holding
-	special_building = palace_of_aachen_01
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 }
+2092 = {
+	culture = frankish
+	religion = central_pagan
+	holding = castle_holding
+	768.1.1 = {
+		special_building = palace_of_aachen_01
+	}
+}
+
 2448 = {	#LIMBOURG
 	holding = none
 	1000.1.1 = {
@@ -155,8 +163,8 @@
 
 ###c_cleves
 2104 = {	#KLEVE
-	culture = frankish
-	religion = catholic
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2102 = {	#GLADBACH
@@ -177,8 +185,8 @@
 
 ###c_maastricht
 2099 = {	#MAASTRICHT
-	culture = frankish
-	religion = catholic
+	culture = gallo_roman
+	religion = central_pagan
 	holding = castle_holding
 }
 2100 = {	#EINDHOVEN
@@ -191,13 +199,11 @@
 ##d_upper_lorraine ###################################
 ###c_trier
 2083 = {	#TRIER
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
 }
-2085 = {	#BEDA
-	holding = none
-}
+
 2700 = {	#KONZ
 	holding = none
 }
@@ -207,8 +213,8 @@
 
 ###c_nancy
 2709 = {	#NANCY
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2078 = {	#EPINAL
@@ -227,8 +233,8 @@
 
 ###c_metz
 2708 = {	#METZ
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2698 = {	#SAARBURG
@@ -249,8 +255,8 @@
 
 ###c_saarbrucken
 2704 = {	#SAARBRUCKEN
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2726 = {	#ZWEIBRUCKEN
@@ -265,8 +271,8 @@
 
 ###c_puttlingen
 2710 = {	#PUTTLINGEN
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
 2712 = {	#FINSTIGEN
@@ -274,11 +280,13 @@
 }
 
 ###c_neufchateau
-2384 = {	#NEUFCHATEAU
-	culture = Romano_Gallic
-	religion = chalcedonian
+
+2384 = {
+	culture = gaul
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
 }
+
 2715 = {	#VAUDEMONT
 	holding = city_holding
 }
@@ -288,12 +296,21 @@
 
 ##d_lower_lorraine ###################################
 ###c_cologne
-2088 = {	#COLOGNE
+2086 = {	#ADENAU
+	holding = castle_holding
+	culture = gallo_roman
+	religion = nicene
+	960.1.1 = {
+		holding = castle_holding
+	}
+}
+2088 = {
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 	special_building_slot = holy_site_cologne_cathedral_01
 }
+
 2087 = {	#BONN
 	holding = city_holding
 }
@@ -307,7 +324,7 @@
 ###c_dortmund
 2673 = {	#DORTMUND
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 }
 2677 = {	#ESSEN
@@ -323,7 +340,7 @@
 ###c_arnsberg
 2680 = {	#ARNSBERG
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 }
 2681 = {	#BILSTEIN
@@ -333,7 +350,7 @@
 ###c_mark
 2679 = {	#MARK
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 }
 2678 = {	#HAGEN
@@ -348,16 +365,11 @@
 
 ###c_koblenz
 2084 = {	#KOBLENZ
-	culture = Romano_Gallic
-	religion = chalcedonian
+	culture = gallo_roman
+	religion = nicene
 	holding = castle_holding
 }
-2086 = {	#ADENAU
-	holding = none
-	960.1.1 = {
-		holding = castle_holding
-	}
-}
+
 2697 = {	#COCHEM
 	holding = city_holding
 }
@@ -368,7 +380,7 @@
 ###c_bergh
 2433 = {	#BERGH
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 }
 2688 = {	#SIEGBURG
@@ -378,7 +390,7 @@
 ###c_sayn
 2689 = {	#SAYN
 	culture = frankish
-	religion = catholic
+	religion = central_pagan
 	holding = castle_holding
 }
 2690 = {	#WIED

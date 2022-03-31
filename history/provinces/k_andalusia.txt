@@ -1,17 +1,17 @@
 ###c_moura
 1837 = {	# MOURA
 	# Misc
-	culture = turduli
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	934.1.1 = { culture = andalusian }
-	1245.3.19 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1838 = {	# SERPA
@@ -21,18 +21,18 @@
 ###c_cadiz
 1843 = {	# CADIZ
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	929.1.1 = {
-		culture = andalusian
-	}
-	1263.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
+		religion = ashari
 	}
 }
 1844 = {	# TARIFA
@@ -45,18 +45,17 @@
 ###c_algeciras
 1845 = {	# ALGECIRAS
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	929.1.1 = {
-		culture = andalusian
-	}
-	1263.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1982 = {	# ARCOS
@@ -73,17 +72,25 @@
 ###c_malaga
 1846 = {	# MALAGA
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = manichean
 	
 	holding = castle_holding
 	
 	# History
-	811.1.1 = { religion = chalcedonian }
-	934.1.1 = { culture = andalusian }
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = greek
+	}
+	768.1.1 = {
+		culture = visigothic
+		religion = ashari
+	}
 }
 1847 = {	# NERJA
-	holding = none
+	holding = city_holding
 	
 	1066.1.1 = {
 		holding = city_holding
@@ -96,16 +103,27 @@
 ###c_toledo
 1919 = {	# TOLEDO
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = { culture = castilian }
+	395.1.1 = {
+		religion = priscillianism
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = gothic
+	}
+	768.1.1 = {
+		culture = visigothic
+	}
 }
 1920 = {	# 1920 - MAQUEDA
-	holding = church_holding
+	holding = none
 }
 1918 = {	# 1918 - TALAVERA
 	holding = city_holding
@@ -114,19 +132,27 @@
 ###c_madrid
 1923 = {	# MADRID
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = { culture = castilian }
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = gothic
+	}
+	768.1.1 = {
+		culture = visigothic
+	}
 }
 1927 = {	# GUDALAJARA
-	holding = city_holding
+	holding = ciry_holding
 }
 1928 = {	# ARGANDA
-	holding = church_holding
+	holding = none
 }
 1929 = {	# VILLAREJO DE SALVANES
 	holding = none
@@ -135,19 +161,27 @@
 ###c_molina
 1935 = {	# MOLINA
 	#Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	950.1.1 = { culture = castilian }
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = gothic
+	}
+	768.1.1 = {
+		culture = visigothic
+	}
 }
 1930 = {	# SIGUENZA
-	holding = city_holding
+	holding = none
 }
 1931 = {	# MEDINACELI
-	holding = church_holding
+	holding = city_holding
 }
 1933 = {	# ABLANQUE/Atienza
 	holding = none
@@ -156,24 +190,27 @@
 ###c_cuenca
 1947 = {	# 1947 - CUENCA
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	939.1.1 = { culture = andalusian }
-	1235.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = gothic
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1944 = {	# ZURITA/Zorita
 	holding = none
 }
 1945 = {	# ALTO TAJO/Huélamo
-	holding = city_holding
+	holding = none
 }
 1951 = {	# HUETE
 	holding = none
@@ -182,24 +219,24 @@
 ###c_mora/Ucles/Uclés
 1952 = {	# UCLES
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	939.1.1 = { culture = andalusian }
-	1235.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1953 = {	# MORA
-	holding = church_holding
+	holding = none
 }
 1958 = {	# OCANA
-	holding = city_holding
+	holding = none
 }
 1959 = {	# QUINTANAR
 	holding = none
@@ -208,66 +245,75 @@
 ###c_malagon
 1960 = {	# MALAGON
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	939.1.1 = { culture = andalusian }
-	1235.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = gothic
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1961 = {	# CABANEROS
-	holding = city_holding
+	holding = none
 }
 1957 = {	# LA JARA
 	holding = none
 }
 1962 = {	# LA PUEBLA DE MONTALBAN
-	holding = church_holding
+	holding = none
 }
 
 ###c_calatrava
 1963 = {	# CALATRAVA
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	934.1.1 = { culture = andalusian }
-	1245.3.19 = {
-		culture = castilian
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1965 = {	# TOMELLOSO/Valdepenas
-	holding = city_holding
+	holding = none
 }
 1966 = {	# MENTESA
-	holding = church_holding
+	holding = none
 }
 
 ###c_almeria
 1849 = {	# ALMERIA
 	# Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = manichean
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	939.1.1 = { culture = andalusian }
-	1280.1.1 = {
-		culture = castilian
+	532.1.1 = {
 		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = greek
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1972 = {	# LORCA
@@ -284,22 +330,21 @@
 ###c_granada
 1978 = {	# GRANADA
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	811.1.1 = {
+	451.1.1 = {
 		religion = chalcedonian
-		special_building = alhambra_01
 	}
-	934.1.1 = {
-		culture = andalusian
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1976 = {	# QUESADA/Huescar
-	holding = church_holding
+	holding = none
 }
 1975 = {	# GUADIZ/Guadix
 	holding = city_holding
@@ -308,18 +353,17 @@
 ###c_cabra
 1979 = {	# CABRA
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	929.1.1 = {
-		culture = andalusian
-	}
-	1263.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1984 = {	# ANTEQUERA
@@ -329,29 +373,29 @@
 ###c_sevilla
 1981 = {	# SEVILLE
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	929.1.1 = {
-		culture = andalusian
-	}
-	1263.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
+		religion = ashari
 	}
 }
 1980 = {	# CARMONA
-	holding = none
+	holding = city_holding
 	
 	1066.1.1 = {
 		holding = castle_holding
 	}
 }
 1841 = {	# ALMONTE
-	holding = city_holding
+	holding = none
 }
 1993 = {	# TRIANA/Aznalcóllar
 	holding = church_holding
@@ -360,24 +404,23 @@
 ###c_andujar
 1977 = {	# JAEN
 	#Misc
-	culture = romano_iberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	929.1.1 = {
-		culture = andalusian
-	}
-	1263.1.1 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1986 = {	# ANDUJAR
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = none
 }
@@ -388,41 +431,47 @@
 ###c_almader / Alarcos
 1987 = {	# ALARCOS
 	# Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	934.1.1 = { culture = andalusian }
-	1245.3.19 = {
-		culture = castilian
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1989 = {	# ALMADER/Almadén
-	holding = city_holding
+	holding = none
 }
 
 ###c_niebla
 1991 = {	# NIEBLA
 	# Misc
-	culture = turduli
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	934.1.1 = { culture = andalusian }
-	1245.3.19 = {
-		culture = castilian
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
 	}
 }
 1839 = {	# AYAMONTE
-	holding = church_holding
+	holding = none
 }
 1840 = {	# HUELVA
 	holding = city_holding
@@ -434,25 +483,22 @@
 # 1995 - CORDOBA
 1995 = {	# CORDOBA
 	# Misc
-	culture = turduli
-	religion = chalcedonian
+	culture = hispano_roman
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = chalcedonian }
-	867.1.1 = {
-		special_building_slot = holy_site_great_mosque_of_cordoba_01
-		special_building = holy_site_great_mosque_of_cordoba_01
-	}
-	934.1.1 = { culture = andalusian }
-	1245.3.19 = {
-		culture = castilian
+	451.1.1 = {
 		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = visigothic
+		religion = ashari
 	}
 }
 1994 = {	# CANTILLANA
-	holding = city_holding
+	holding = none
 }
 1999 = {	# GUADIATO
 	holding = church_holding

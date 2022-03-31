@@ -1,0 +1,98 @@
+﻿node_increase = { 
+	scope = character 
+	saved_scopes = {
+		target
+	}
+
+	is_valid = {
+		gold >= 500
+	}
+
+	is_valid_for_ai = {
+		short_term_gold >= 500
+	}
+
+	effect = {
+		scope:target = {
+			change_variable = {
+				name = trade_node_cap
+				add = 5
+			}
+		}
+		remove_short_term_gold = 500
+		trigger_event = {
+			on_action = on_trading_modified
+		}
+	}	 			
+}
+
+node_blockade = { 
+	scope = character 
+	saved_scopes = {
+		target
+	}
+
+	is_valid_for_ai = {
+		is_at_war = no
+		scope:target = {
+			var:blockade = yes
+		}
+	}
+
+	effect = {
+		scope:target = {
+			if = {
+				limit = {
+					OR = {
+						var:blockade = no
+						NOT = {exists = var:blockade}
+					}
+				}
+				set_variable = {
+					name = blockade
+					value = yes
+				}
+			}
+			else_if = {
+				limit = {
+					var:blockade = yes
+				}
+				set_variable = {
+					name = blockade
+					value = no
+				}
+				remove_variable = blockade
+			}
+		}
+		trigger_event = {
+			on_action = on_trading_modified
+		}
+	}	 			
+}
+
+become_trade_center = { 
+	scope = character 
+	saved_scopes = {
+		target
+	}
+
+	is_valid = {
+		gold >= 1000
+	}
+
+	is_valid_for_ai = {
+		short_term_gold >= 1000
+	}
+
+	effect = {
+		scope:target = {
+			set_holding_type = trade_center_holding
+			add_building_slot = 1
+			add_building = trade_center_01
+		}
+		remove_short_term_gold = 500
+		trigger_event = {
+			on_action = on_trading_modified
+		}
+	}	 			
+}

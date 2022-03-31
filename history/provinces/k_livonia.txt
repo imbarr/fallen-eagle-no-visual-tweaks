@@ -1,0 +1,33 @@
+#k_lithuania
+##d_kairouan ###################################
+###c_kairwan
+110 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}
+133 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}
+136 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}
+103 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}
+102 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}
+141 = {
+	holding = castle_holding
+	culture = aestian
+	religion = baltic_pagan
+}

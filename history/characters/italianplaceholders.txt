@@ -1,0 +1,119 @@
+﻿900400 = { #Tuscia et Umbria
+	name= "Valentinian"
+	religion="nicene"
+	culture="roman"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900401 = { #Campania
+	name= "Julius"
+	religion="nicene"
+	culture="roman"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900402 = { #Valeria
+	name= "Valerian"
+	religion="nicene"
+	culture="roman"
+	368.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900403 = { #Corsica
+	name= "Sextus"
+	religion="nicene"
+	culture="roman"
+	353.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900404 = { #Sardinia
+	name= "Quintus"
+	religion="nicene"
+	culture="roman"
+	358.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900405 = { #Sicilia
+	name= "Quintilius"
+	religion="nicene"
+	culture="roman"
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900406 = { #Lucania et Bruttii
+	name= "Brutus"
+	religion="nicene"
+	culture="roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900407 = { #Apulia et Calabria
+	name= "Aurelian"
+	religion="nicene"
+	culture="roman"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900408 = { #Samnium
+	name= "Valerius"
+	religion="nicene"
+	culture="roman"
+	352.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900409 = { #Picenum
+	name= "Antonius"
+	religion="manichean"
+	culture="roman"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}

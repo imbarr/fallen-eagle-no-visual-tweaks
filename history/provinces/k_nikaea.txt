@@ -16,12 +16,15 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
-	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 742 - Prusa
@@ -29,12 +32,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 743 - Kyzikos
@@ -42,7 +49,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -62,8 +69,12 @@
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 746 - Ephesos
@@ -71,12 +82,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
-	holding = none
+	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 747 - Halikarnassos
@@ -84,7 +99,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -97,12 +112,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 749 - Dorylaion
@@ -110,7 +129,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -123,12 +142,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 753 - Ankyra
@@ -136,7 +159,7 @@
 	
 	# Misc
 	culture = galatian
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -147,7 +170,7 @@
 # 3747 - Lopadion
 3747 = {	# 3747 - Lopadion
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 }
 
 # 5529 - Adramytium
@@ -155,7 +178,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -168,12 +191,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5531 - Phocaea
@@ -181,7 +208,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -194,7 +221,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -207,12 +234,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5534 - Iassus
@@ -220,7 +251,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -233,12 +264,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5536 - Hadrianeia
@@ -246,7 +281,7 @@
 	
 	# Misc
 	culture = phrygian
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -259,7 +294,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -272,7 +307,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -285,7 +320,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -298,7 +333,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -311,7 +346,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -324,7 +359,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -337,7 +372,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -350,12 +385,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5545 - Sardes
@@ -363,12 +402,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5546 - Philadelphia
@@ -376,12 +419,16 @@
 	
 	# Misc
 	culture = phrygian
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5547 - Mylasa
@@ -389,7 +436,7 @@
 	
 	# Misc
 	culture = galatian
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -402,12 +449,16 @@
 	
 	# Misc
 	culture = phrygian
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5549 - Apamea
@@ -415,7 +466,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -428,7 +479,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -441,12 +492,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5552 - Miletopolis
@@ -454,12 +509,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5553 - Appollonia
@@ -467,7 +526,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -480,7 +539,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -493,7 +552,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -506,7 +565,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -519,12 +578,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5558 - Katyaion
@@ -532,7 +595,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -545,7 +608,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -558,7 +621,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -571,12 +634,16 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
-	# History
-
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 
 # 5562 - Midaeum_OPSI
@@ -584,7 +651,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -597,7 +664,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -610,7 +677,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -623,7 +690,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -636,7 +703,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -649,7 +716,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -662,7 +729,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -675,7 +742,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
@@ -688,7 +755,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -701,7 +768,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -714,7 +781,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -727,7 +794,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -740,7 +807,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -753,7 +820,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -766,7 +833,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -779,7 +846,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -792,7 +859,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -805,7 +872,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	
@@ -818,7 +885,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = city_holding
 	
@@ -831,7 +898,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = church_holding
 	
@@ -844,7 +911,7 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = none
 	

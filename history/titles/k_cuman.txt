@@ -1,0 +1,461 @@
+
+k_cuman = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+
+
+d_turgay = {
+	460.1.1 = {
+		holder = magyar_03
+	}
+	768.1.1 = {
+		holder = 188817
+	}
+}
+
+
+c_turgay = {
+	361.1.1 = {
+		holder =saragurs_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = magyar_03
+	}
+	530.1.1 = {
+		holder = xionite_09
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = xionite_10
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = 188817
+	}
+}
+
+
+c_tumar = {
+	361.1.1 = {
+		holder = saragurs_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = magyar_03
+	}
+	530.1.1 = {
+		holder = xionite_09
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = xionite_11
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = 188817
+	}
+}
+
+
+c_murun_tomis = {
+	361.1.1 = {
+		holder = saragurs_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = magyar_03
+	}
+	530.1.1 = {
+		holder = xionite_09
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = xionite_11
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = 188817
+	}
+}
+
+
+c_jilali = {
+	361.1.1 = {
+		holder = magyar_02
+		government = nomadic_government
+		liege = k_magyar
+	}
+	460.1.1 = {
+		holder = xionite_02
+		liege = d_saryarka
+	}
+	530.1.1 = {
+		holder = xionite_08
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = xionite_10
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = 188820
+		liege = d_turgay
+	}
+}
+
+
+c_ulu_jitanjik = {
+	361.1.1 = {
+		holder = magyar_02
+		government = nomadic_government
+		liege = k_magyar
+	}
+	460.1.1 = {
+		holder = xionite_02
+		liege = d_saryarka
+	}
+	530.1.1 = {
+		holder = xionite_08
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = xionite_10
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = 188820
+		liege = d_turgay
+	}
+}
+
+d_kurgan = {
+	630.1.1 = {
+		holder = baskir_19
+	}
+	768.1.1 = {
+		holder = baskir_20
+	}
+}
+c_kurgan = {
+	361.1.1 = {
+		holder = khanty_01
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_05
+	}
+	530.1.1 = {
+		holder = baskir_18
+	}
+	630.1.1 = {
+		holder = baskir_19
+	}
+	768.1.1 = {
+		holder = baskir_20
+	}
+}
+
+
+c_sabakyul = {
+	361.1.1 = {
+		holder = khanty_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = baskir_16
+	}
+	530.1.1 = {
+		holder = baskir_17
+	}
+	630.1.1 = {
+		holder = baskir_19
+	}
+	768.1.1 = {
+		holder = baskir_20
+	}
+}
+
+
+c_petropavl = {
+	361.1.1 = {
+		holder = khanty_01
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_05
+	}
+	520.1.1 = {
+		holder = khanty_07
+	}
+	630.1.1 = {
+		holder = khanty_09
+	}
+	768.1.1 = {
+		holder = khanty_10
+	}
+}
+
+
+c_kush-murun = {
+	361.1.1 = {
+		holder = khanty_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = baskir_16
+	}
+	530.1.1 = {
+		holder = baskir_17
+	}
+	630.1.1 = {
+		holder = baskir_19
+	}
+	768.1.1 = {
+		holder = baskir_20
+	}
+}
+
+
+c_vargashi = {
+	361.1.1 = {
+		holder = khanty_01
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_05
+		government = tribal_government
+	}
+	530.1.1 = {
+		holder = baskir_18
+	}
+	630.1.1 = {
+		holder = baskir_19
+	}
+	768.1.1 = {
+		holder = baskir_20
+	}
+}
+
+
+c_karasu = {
+	361.1.1 = {
+		holder = khanty_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = baskir_16
+	}
+	530.1.1 = {
+		holder = baskir_17
+	}
+	630.1.1 = {
+		holder = khanty_09
+	}
+	768.1.1 = {
+		holder = khanty_10
+	}
+}
+
+
+d_saryarka = {
+	361.1.1 = {
+		holder = magyar_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = xionite_01
+		liege = k_zhetysu
+	}
+	500.1.1 = {
+		holder = xionite_03
+	}
+	530.1.1 = {
+		holder = xionite_04
+	}
+	630.1.1 = {
+		holder = kimek_01
+		liege = e_turan
+	}
+	768.1.1 = {
+		holder = kipchak_01
+	}
+}
+
+
+c_teniz = {
+	361.1.1 = {
+		holder = magyar_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = xionite_01
+		liege = k_zhetysu
+	}
+	500.1.1 = {
+		holder = xionite_03
+	}
+	530.1.1 = {
+		holder = xionite_04
+	}
+	630.1.1 = {
+		holder = kimek_01
+	}
+	768.1.1 = {
+		holder = kipchak_01
+	}
+}
+
+
+c_eghiz_kara = {
+	361.1.1 = {
+		holder = magyar_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = xionite_01
+		liege = k_zhetysu
+	}
+	500.1.1 = {
+		holder = xionite_03
+	}
+	530.1.1 = {
+		holder = xionite_04
+	}
+	630.1.1 = {
+		holder = kimek_01
+	}
+	768.1.1 = {
+		holder = kipchak_01
+	}
+}
+
+
+c_ulytau = {
+	361.1.1 = {
+		holder = magyar_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = xionite_02
+		liege = d_saryarka
+	}
+	530.1.1 = {
+		holder = xionite_08
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = kimek_01
+	}
+	768.1.1 = {
+		holder = kipchak_01
+	}
+}
+
+
+c_kaska = {
+	361.1.1 = {
+		holder = magyar_01
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = xionite_02
+		liege = d_saryarka
+	}
+	530.1.1 = {
+		holder = xionite_08
+		liege = d_saryarka
+	}
+	630.1.1 = {
+		holder = kimek_01
+	}
+	768.1.1 = {
+		holder = kipchak_01
+	}
+}
+
+
+c_astana = {
+	361.1.1 = {
+		holder = khanty_02
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = xionite_01
+		liege = k_zhetysu
+	}
+	500.1.1 = {
+		holder = xionite_03
+	}
+	530.1.1 = {
+		holder = xionite_04
+	}
+	630.1.1 = {
+		holder = khanty_11
+	}
+	768.1.1 = {
+		holder = khanty_12
+	}
+}
+
+
+c_atbasar = {
+	361.1.1 = {
+		holder = khanty_02
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_06
+	}
+	520.1.1 = {
+		holder = khanty_07
+	}
+	630.1.1 = {
+		holder = khanty_09
+	}
+	768.1.1 = {
+		holder = khanty_10
+	}
+}
+
+
+c_shchuchinsk = {
+	361.1.1 = {
+		holder = khanty_03
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_06
+	}
+	520.1.1 = {
+		holder = khanty_08
+	}
+	630.1.1 = {
+		holder = khanty_11
+	}
+	768.1.1 = {
+		holder = khanty_12
+	}
+}
+
+
+c_teke = {
+	361.1.1 = {
+		holder = khanty_03
+		government = tribal_government
+	}
+	467.1.1 = {
+		holder = khanty_06
+	}
+	520.1.1 = {
+		holder = khanty_08
+	}
+	630.1.1 = {
+		holder = khanty_11
+	}
+	768.1.1 = {
+		holder = khanty_12
+	}
+}
+

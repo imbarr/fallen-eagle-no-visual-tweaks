@@ -1,0 +1,7 @@
+﻿##### MAINTHEME
+
+main_theme_track = {
+	music = "file:/music/TFE/TFE_Main.ogg"
+	can_be_interrupted = yes
+}
+

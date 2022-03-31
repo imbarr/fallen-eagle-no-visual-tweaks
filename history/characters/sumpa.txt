@@ -1,0 +1,503 @@
+﻿#Last King of Sumpa
+247341 = {
+	name="Drotsen" #Molingzan
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305543
+	718.1.1={
+		birth=yes
+	}
+	755.1.1={
+		death=yes
+	} #Killed by the Tibetans because of submission to Tang Dynasty
+}
+
+247342 = {
+	name="Shenlo" #Xinuoluo, Sumparu Kingdom claimant
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=247341
+	736.1.1={
+		birth=yes
+	}
+	754.1.1={
+		add_spouse = 252027
+	}
+	755.1.1={
+		add_pressed_claim = c_samtho
+		add_pressed_claim = c_nagchu
+		add_pressed_claim = c_amdo
+		add_pressed_claim = c_lhunzhub
+		add_pressed_claim = c_kunggar
+		add_pressed_claim = c_xainza
+		add_pressed_claim = c_qangtang
+		add_pressed_claim = c_arjin
+		add_pressed_claim = c_tanggula
+		add_pressed_claim = d_sumparu
+		add_pressed_claim = d_nagchu
+	} #escapes to Tang China and is made a Huaiyi Prince
+	800.1.1={
+		death=yes
+	}
+}
+242403 = {
+	name="Shimwerro" # Fictional
+	dynasty=1053203
+	
+	culture = sumpa
+	religion=old_bon
+	
+	744.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}
+
+242405 = {
+	# Fictional, but represents a semi-historical/legendary individual that comes from local stories in the
+	# eastern Changtang about a great female warrior(s) who ruled the Sumpa
+	name="Ataklumo"
+	dynasty=105835 #Tong
+	female = yes
+	father=247341
+	culture="sumpa"
+	religion="old_bon"
+	
+	trait="education_martial_3"
+	trait="brave"
+	trait="physique_good_2"
+	
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+#Nakchu vassals - fictional placeholders
+305542 = {
+	name="Gemang"
+	dynasty=2003068 #Nakchu
+	religion="old_bon"
+	culture="sumpa"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305513 = {
+	name="Pude"
+	dynasty=2003068 #Nakchu
+	religion="old_bon"
+	culture="sumpa"
+	father=305542
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Tong Royal Ancestors - fictional placeholders
+305543 = {
+	name="Murkya"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305544
+	695.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+305544 = {
+	name="Rangskya"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305545
+	670.1.1={
+		birth=yes
+	}
+	722.1.1={
+		death=yes
+	}
+}
+
+305545 = {
+	name="Mangpu"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305546
+	645.1.1={
+		birth=yes
+	}
+	696.1.1={
+		death=yes
+	}
+}
+
+305546 = {
+	name="Namrakya"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	590.1.1={
+		birth=yes
+	}
+	648.1.1={
+		death=yes
+	}
+}
+
+#Tong descendants (Pelgon) - fictional placeholders
+305547 = {
+	name="Martaskra"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305545
+	680.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+305548 = {
+	name="Thungni"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305547
+	700.1.1={
+		birth=yes
+	}
+	760.1.1={
+		death=yes
+	}
+}
+
+305549 = {
+	name="Tigrali"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305548
+	720.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+305550 = {
+	name="Rawerni"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305549
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305551 = {
+	name="Pantimatso"
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	father=305550
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Pelgon vassals (Garco) - fictional placeholders
+305580 = {
+	name="Tsakrani"
+	dynasty=2003069 #Pelgon
+	religion="old_bon"
+	culture="sumpa"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305581 = {
+	name="Datserhim"
+	dynasty=2003069 #Pelgon
+	religion="old_bon"
+	culture="sumpa"
+	father=305580
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Tong nomads (Conyi) - fictional placeholders (placeholder female dominated tribe)
+305610 = {
+	name="Sherkya"
+	female=yes
+	dynasty=105835 #Tong
+	religion="old_bon"
+	culture="sumpa"
+	mother=242405
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Sumpa dynasty (Amdo) - fictional placeholders
+sumpa_08  = {
+	name="KU_nzang"
+	religion="old_bon"
+	culture="sumpa"
+	dynasty=2003070 #Sumpa
+	father = sumpa_11
+	female = yes
+	677.1.1={
+		birth=yes
+	}
+	724.1.1={
+		death=yes
+	}
+}
+sumpa_18  = {
+	name="Pelzangpo"
+	religion="old_bon"
+	culture="sumpa"
+	dynasty=2003070 #Sumpa
+	father = sumpa_11
+	673.1.1={
+		birth=yes
+	}
+	732.1.1={
+		death=yes
+	}
+}
+sumpa_19  = {
+	name="Molingzan"
+	religion="old_bon"
+	culture="sumpa"
+	dynasty=2003070 #Sumpa
+	father = sumpa_18
+	701.1.1={
+		birth=yes
+	}
+	753.1.1={
+		death=yes
+	}
+}
+sumpa_20  = {
+	name="Xinuolo"
+	religion="old_bon"
+	culture="sumpa"
+	dynasty=2003070 #Sumpa
+	father = sumpa_19
+	723.1.1={
+		birth=yes
+	}
+	754.1.1={
+		death=yes #Fled to China
+	}
+}
+305639 = {
+	name="ChO_den"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father = sumpa_08
+	700.1.1={
+		birth=yes
+	}
+	760.1.1={
+		death=yes
+	}
+}
+
+305640 = {
+	name="BO_npoche"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305639
+	720.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+305641 = {
+	name="BO_ntok"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305640
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305642 = {
+	name="LhadE_"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305641
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Hohozhili dynasty (Aqenganggyai) - fictional placeholders
+305671 = {
+	name="Rawerni"
+	dynasty=2003071 #Hohozhili
+	religion="old_bon"
+	culture="sumpa"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305672 = {
+	name="Thungni"
+	dynasty=2003071 #Hohozhili
+	religion="old_bon"
+	culture="sumpa"
+	father=305671
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Sumpa dynasty (Zadoi) - fictional placeholders
+305701 = {
+	name="BO_nchung"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305639
+	722.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+305702 = {
+	name="Skyartse"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305701
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305703 = {
+	name="JO_nwa"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305702
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}
+
+#Sumpa dynasty (Baqen) - fictional placeholders
+305732 = {
+	name="LO_po"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305639
+	724.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+305733 = {
+	name="Lutsen"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305732
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+305734 = {
+	name="Thoktse"
+	dynasty=2003070 #Sumpa
+	religion="old_bon"
+	culture="sumpa"
+	father=305733
+	760.1.1={
+		birth=yes
+	}
+	820.1.1={
+		death=yes
+	}
+}

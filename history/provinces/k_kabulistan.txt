@@ -1,0 +1,54 @@
+
+# 4343 - Bamiyan
+4343 = {	# 1185 - Kabul
+	
+	# Misc
+	culture = pactyan
+	religion = mahayana
+	
+	# History
+
+	769.1.1 = {
+		holding = castle_holding
+		special_building = buddhas_of_bamian_01
+	}
+
+}
+# 4500 - Ghazna
+4500 = {	# 4500 - Ghazna
+	
+	# Misc
+	culture = pactyan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = sunni
+	}
+
+}
+
+# 4504 - Kabul
+4504 = {
+	
+	# Misc
+	culture = pactyan
+	religion = mahayana
+
+}
+
+# 4507 - Jaldak (Zabulistan)
+4507 = {
+	
+	# Misc
+	culture = pactyan
+	religion = zun_pagan
+
+}
+
+
+4515 = {	# 4515 - Chitral
+	culture = pactyan
+	religion = mahayana
+}

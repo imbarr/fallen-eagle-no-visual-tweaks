@@ -1,0 +1,424 @@
+d_khorezm = {
+	395.1.1 = {
+		holder = 1250000 
+		government = nomadic_government
+	}
+}
+d_uzboy = {
+	395.1.1 = {
+		holder = 1250001
+		government = nomadic_government
+	}
+}
+d_transcaspiana = {
+	395.1.1 = {
+		holder = 1250002
+		government = nomadic_government
+	}
+}
+k_magyar = {
+	395.1.1 = {
+		holder = 1250004
+		government = nomadic_government
+	}
+}
+d_turgay = {
+	395.1.1 = {
+		holder = magyar_vassal_i 
+		liege = k_magyar
+	}
+}
+d_karabas = {
+	395.1.1 = {
+		holder = magyar_vassal_ii 
+		liege = k_magyar
+	}
+}
+d_karkaraly = {
+	395.1.1 = {
+		holder = magyar_vassal_ii 
+		liege = k_magyar
+	}
+}
+d_saryarka = {
+	395.1.1 = {
+		holder = 1250004
+	}
+}
+d_kazakh = {
+	395.1.1 = {
+		holder = magyar_vassal_iii 
+		liege = k_magyar
+	}
+}
+d_kush-murun = {
+	395.1.1 = {
+		holder = magyar_vassal_iii 
+		liege = k_magyar
+	}
+}
+c_kulan_utmas = {
+	395.1.1 = {
+		holder = 1250004
+	}
+}
+k_sabir = {
+	395.1.1 = {
+		holder = 1250005
+		government = nomadic_government
+	}
+}
+d_atyrau = {
+	395.1.1 = {
+		holder = 1250005
+	}
+}
+d_aqtobe = {
+	395.1.1 = {
+		holder = 1250005
+	}
+}
+d_mugodzhar_hills = {
+	395.1.1 = {
+		holder = 1250005
+	}
+}
+k_yuehban = {
+	395.1.1 = {
+		holder = 1250006
+		government = nomadic_government
+	}
+}
+d_zhetysu = {
+	395.1.1 = {
+		holder = 1250006
+	}
+}
+d_muyunkum = {
+	395.1.1 = {
+		holder = 1250006
+	}
+}
+d_ili-alatau = {
+	395.1.1 = {
+		holder = 1250006
+	}
+}
+c_targyl = {
+	395.1.1 = {
+		holder = 1250006
+	}
+}
+c_betpa = {
+	395.1.1 = {
+		holder = 1250006
+	}
+}
+#### Rouran Empire #####
+e_rouran = {
+	395.1.1 = {
+		holder = 1250007
+		government = nomadic_government
+	}
+}
+k_mongolia = {
+	395.1.1 = {
+		holder = 1250007
+	}
+}
+k_tuva = {
+	395.1.1 = {
+		holder = rouran_vassal_ii
+		liege = "e_rouran"
+		government = nomadic_government
+	}
+}
+k_khakassia = {
+	395.1.1 = {
+		holder = rouran_vassal_iii
+		liege = "e_rouran"
+		government = nomadic_government
+	}
+}
+d_alakol = {
+	395.1.1 = {
+		holder = rouran_vassal_vi
+		government = nomadic_government
+	}
+}
+d_kentarlau = {
+	395.1.1 = {
+		holder = rouran_vassal_vi
+		government = nomadic_government
+	}
+}
+d_tarbagatai = {
+	395.1.1 = {
+		holder = rouran_vassal_vii
+		government = nomadic_government
+	}
+}
+d_semey = {
+	395.1.1 = {
+		holder = rouran_vassal_vii
+		government = nomadic_government
+	}
+}
+# d_khotan = {
+# 	395.1.1 = {
+# 		holder = 1250008
+# 		government = city_state_government
+# 	}
+# }
+
+# d_karashar = {
+# 	395.1.1 = {
+# 		holder = 1250010
+# 		government = city_state_government
+# 	}
+# }
+# d_kashgar = {
+# 	395.1.1 = {
+# 		holder = 1250011
+# 		government = city_state_government
+# 	}
+# }
+
+### Xionite Tribes ###
+k_kangui = {
+	395.1.1 = {
+		holder = 1250012
+		government = nomadic_government 
+	}
+}
+d_barsuki = {
+	395.1.1 = {
+		holder = 1250012 
+	}
+}
+c_raimskoe = {
+	395.1.1 = {
+		holder = 1250012 
+	}
+}
+c_ak-dzulpas = {
+	395.1.1 = {
+		holder = 1250012 
+	}
+}
+c_yangikent = {
+	395.1.1 = {
+		holder = 1250012 
+	}
+}
+d_jemba = {
+	395.1.1 = {
+		holder = 1250013
+		government = nomadic_government 
+	}
+}
+c_aralkizil = {
+	395.1.1 = {
+		holder = 1250013
+	}
+}
+k_kidaria = {
+	361.1.1 = {
+		holder = xionite_001
+		government = nomadic_government 
+	}
+}
+c_balkh = {
+	361.1.1 = {
+		holder = xionite_001
+	}
+}
+d_syr_darya = {
+	361.1.1 = {
+		holder = xionite_009 
+		government = nomadic_government  
+		liege = "k_kidaria"
+	}
+}
+d_khuttal = {
+	361.1.1 = {
+		holder = 1250014
+		government = nomadic_government 
+		liege = "k_kidaria"
+	}
+}
+d_osrushana = {
+	361.1.1 = {
+		holder = xionite_001
+	}
+}
+d_ferghana = {
+	361.1.1 = {
+		holder = xionite_001
+	}
+}
+d_chah = {
+	361.1.1 = {
+		holder = xionite_007
+		government = nomadic_government 		
+		liege = "k_kidaria"
+	}
+}
+c_otrar = {
+	360.1.1 = {
+		holder = xionite_005
+		government = feudal_government
+		liege = "d_chah"
+	}
+	393.1.1 = {
+		holder = xionite_006 
+	}
+}
+c_kishsh = {
+	361.1.1 = {
+		holder = xionite_001
+	}
+}
+# d_soghd = {
+# 	361.1.1 = {
+# 		holder = xionite_001
+# 	}
+# }
+# Petty Sogdian leaders
+c_bukhara = {
+	390.1.1 = {
+		holder = xionite_016
+		government = city_state_government
+		liege = "k_kidaria"
+	}
+}
+c_nakhshab = {
+	390.1.1 = {
+		holder = xionite_016
+	}
+}
+c_firabr = {
+	390.1.1 = {
+		holder = xionite_016
+	}
+}
+c_samarkand = {
+	390.1.1 = {
+		holder = xionite_017
+		government = city_state_government
+		liege = "k_kidaria"
+	}
+}
+c_dabusiya = {
+	390.1.1 = {
+		holder = xionite_017
+	}
+}
+# k_kashmir = {
+# 	395.1.1 = {
+# 		holder = 1250015
+# 		government = feudal_government 
+# 	}
+# }
+d_badakhshan = {
+	380.1.1 = {
+		holder = 1250014
+	}
+}
+c_wakhan = {
+	360.1.1 = {
+		holder = hephthalite_misc_001
+		government = nomadic_government 
+	}
+	395.1.1 = {
+		liege = d_badakhshan
+	}
+}
+d_pamir = {
+	380.1.1 = {
+		holder = xionite_002
+		government = nomadic_government 
+		liege = "k_kidaria"
+	}
+}
+c_chitral = {
+	380.1.1 = {
+		holder = xionite_002
+	}
+}
+d_kasmira = {
+	395.1.1 = {
+		holder = xionite_012
+		government = nomadic_government 
+		liege = "k_kidaria"
+	}
+}
+c_astore = {
+	395.1.1 = {
+		holder = 1250015
+		liege = "d_kasmira"
+	}
+}
+d_gandhara = {
+	395.1.1 = {
+		holder = xionite_011
+		government = nomadic_government 
+		liege = "k_kidaria"
+	}
+}
+c_urgun = {
+	395.1.1 = {
+		holder = xionite_013
+		government = nomadic_government  
+		liege = "d_gandhara"
+	}
+}
+c_bannu = {
+	395.1.1 = {
+		holder = xionite_013
+		government = nomadic_government 
+	}
+}
+d_kabul = {
+	361.1.1 = {
+		holder = xionite_014
+		government = nomadic_government  
+		liege = "k_kidaria"
+	}
+}
+d_balkh = {
+	361.1.1 = {
+		holder = xionite_014
+		liege = "k_kidaria"
+	}
+}
+d_zabulistan = { # Maybe give to Zunist remnants later?
+	361.1.1 = {
+		holder = xionite_014
+		liege = "k_kidaria"
+	}
+}
+c_ghazna = {
+	395.1.1 = {
+		holder = xionite_018  
+		government = nomadic_government 
+		liege = "d_kabul"
+	}
+}
+c_bamian = {
+	395.1.1 = {
+		holder = xionite_015  
+		government = nomadic_government 
+		liege = "d_kabul"
+	}
+}
+c_west-tokharestan = {
+	395.1.1 = {
+		holder = xionite_015
+	}
+}
+c_east-tokharestan = {
+	395.1.1 = {
+		holder = xionite_015 
+	}
+}

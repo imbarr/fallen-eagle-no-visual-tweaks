@@ -1,0 +1,500 @@
+﻿select_preferred_caliph = {
+	category = interaction_category_religion
+	use_diplomatic_range = no
+	is_shown = {
+		scope:actor.faith = scope:recipient.faith
+		scope:actor = {
+			NOT = {
+				has_government = caliphate_government
+			}
+			has_religion = religion:islam_religion
+		}
+		scope:recipient = {
+			has_government = caliphate_government
+		}
+	}
+
+	auto_accept = {
+		always = yes
+	}
+
+	on_accept = {
+		scope:actor = {
+			if = {
+				limit = {
+					any_relation = {
+						type = preferred_caliph
+						count >= 1
+					}
+				}
+				every_relation = {
+					type = preferred_caliph
+					remove_relation_preferred_caliph = THIS
+				}
+			}
+			set_relation_preferred_caliph = scope:recipient
+		}
+	}
+	
+	ai_will_do = {
+		base = 75
+		
+		opinion_modifier = {
+			opinion_target = scope:recipient
+			multiplier = 0.5
+			step = 5
+			max = 25
+		}
+	}
+}
+
+adopt_interaction = {
+	category = interaction_category_vassal
+	desc = adopt_interaction_desc
+	
+	is_shown = {
+		scope:recipient = {
+			is_landed = no
+			OR = {
+				is_courtier_of = scope:actor
+				is_foreign_court_guest = yes
+			}
+			NOR = {
+				trigger_if = {
+					limit = {
+						exists = father
+					}
+					father = scope:actor
+				}
+				trigger_if = {
+					limit = {
+						exists = mother
+					}
+					mother = scope:actor
+				}
+				trigger_if = {
+					limit = {
+						exists = primary_spouse
+					}
+					primary_spouse = scope:actor
+				}
+			}
+		}
+		scope:actor = {
+			is_child = no
+			OR = {
+				AND = {
+					OR = {
+						has_government = imperial_government
+						has_government = autocratic_government
+					}
+					highest_held_title_tier >= tier_kingdom
+				}
+				AND = {
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_chinese
+							has_cultural_pillar = heritage_yeniseian
+							has_cultural_pillar = heritage_qiangic
+						}
+					}
+					any_close_or_extended_family_member = {
+						THIS = scope:recipient
+					}
+				}
+			}
+		}
+		scope:actor.age > scope:recipient.age
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			prestige_level >= 3
+		}
+	}
+
+	on_accept = {
+		scope:actor.dynasty = { add_dynasty_prestige = -150 }
+		scope:recipient = {
+			set_house = scope:actor.house
+			every_child = {
+				set_house = scope:actor.house
+			}
+		}
+		if = {
+			limit = {
+				scope:actor = {
+					is_male = yes
+				}
+			}
+			scope:recipient = {
+				set_father = scope:actor
+				if = {
+					limit = {
+						exists = scope:actor.primary_spouse
+					}
+					set_mother = scope:actor.primary_spouse
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:actor = {
+					is_female = yes
+				}
+			}
+			scope:recipient = {
+				set_mother = scope:actor
+			}
+			if = {
+				limit = {
+					exists = scope:actor.primary_spouse
+				}
+				set_father = scope:actor.primary_spouse
+			}
+		}
+		scope:recipient = {
+			add_trait = adopted_trait
+		}
+		scope:actor = { add_prestige = -200 }
+	}
+
+	ai_accept = {
+ 		base = -75
+
+ 		#Opinions
+ 		opinion_modifier = {
+ 			trigger = {
+ 				exists = liege
+ 				is_courtier_of = liege
+ 			}
+ 			opinion_target = liege
+ 			multiplier = -0.5
+ 			step = 5
+ 			max = 25
+ 		}
+ 		opinion_modifier = {
+ 			opinion_target = scope:actor
+ 			multiplier = 0.5
+ 			step = 5
+ 			max = 25
+ 		}
+
+ 		#Current roles
+ 		modifier = {
+ 			is_knight = yes
+ 			add = -20
+ 			desc = AI_MY_LIEGES_KNIGHT
+ 		}
+ 		modifier = {
+ 			is_commanding_army = yes
+ 			add = -30
+ 			desc = AI_MY_LIEGES_COMMANDER
+ 		}
+ 		modifier = {
+ 			is_councillor = yes
+ 			add = -40
+ 			desc = AI_ON_THE_COUNCIL
+ 		}
+		
+		modifier = {		
+			trigger = { scope:recipient = { has_court_position = court_physician_court_position } }			
+ 			add = -20
+ 			desc = AI_COURT_PHYSICIAN
+ 		}
+
+ 		#Relations & relatives (with actor)
+ 		modifier = {
+ 			has_relation_lover = scope:actor
+ 			add = 100
+ 			desc = AI_YOUR_LOVER
+ 		}
+
+ 		modifier = {
+ 			has_relation_friend = scope:actor
+ 			add = 75
+ 			desc = AI_YOUR_FRIEND
+ 		}
+
+ 		#Relations & relatives (with host)
+ 		modifier = {
+ 			exists = liege
+ 			has_relation_lover = liege
+ 			add = -100
+ 			desc = AI_THEIR_LOVER
+ 		}
+
+ 		modifier = {
+ 			exists = liege
+ 			has_relation_friend = liege
+ 			add = -75
+ 			desc = AI_THEIR_FRIEND
+ 		}
+
+ 		modifier = {
+ 			exists = liege
+ 			is_child_of = liege
+ 			add = -100
+ 			desc = AI_THEIR_CHILD
+ 		}
+
+ 		modifier = {
+ 			exists = liege
+ 			NOT = { is_child_of = liege }
+ 			is_close_family_of = liege
+ 			add = -75
+ 			desc = AI_THEIR_RELATIVE
+ 		}
+
+ 		#Family (at location)
+ 		modifier = {
+ 			exists = location
+ 			any_consort_not_in_traveling_family_trigger = yes
+ 			desc = AI_LEAVING_MY_SPOUSE
+ 			add = -100
+ 		}
+
+ 		modifier = {
+ 			exists = location
+ 			any_child_not_in_traveling_family_trigger = yes
+ 			desc = AI_LEAVING_MY_CHILD
+ 			add = -100
+ 		}
+
+ 		modifier = {
+ 			add = -50
+ 			desc = AI_MARRIED_MATRILINIALLY
+ 			is_married = yes
+ 			is_male = yes
+ 			any_spouse = {
+ 				matrilinear_marriage = yes
+ 				host = scope:recipient.host
+ 			}
+ 		}
+
+ 		modifier = {
+ 			add = -50
+ 			desc = AI_MARRIED_PATRILINIALLY
+ 			is_married = yes
+ 			is_female = yes
+ 			any_spouse = {
+ 				patrilinear_marriage = yes
+ 				host = scope:recipient.host
+ 			}
+ 		}
+
+ 		modifier = {
+ 			add = -50
+ 			desc = AI_INSPIRED
+ 			exists = inspiration
+			inspiration = {
+				NOT = {
+					exists = inspiration_sponsor
+				}
+			}
+ 		}
+
+ 		modifier = {
+ 			add = -500
+ 			desc = AI_SPONSORED_INSPIRATION
+ 			exists = inspiration
+			inspiration = {
+				exists = inspiration_sponsor
+			}
+ 		}
+
+ 		modifier = {
+ 			add = -500
+ 			desc = AI_WANDERLUST
+			is_child_of = scope:actor
+ 			has_character_modifier = lust_for_adventure
+ 		}
+		
+		#Wandering characters (who aren't doing anything else)
+		modifier = {
+ 			add = {
+				value = 10
+				add = scope:actor.diplomacy
+				
+				if = {
+					limit = {
+						faith = scope:actor.faith
+					}
+					add = 10
+				}
+				else_if = {
+					limit = {
+						faith = { #Same religion - But faith should not be considered Hostile or Evil
+							religion = scope:actor.faith.religion
+							faith_hostility_level = {
+								target = scope:actor.faith
+								value < 2
+							}
+						}
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						culture = scope:actor.culture
+					}
+					add = 10
+				}
+				else_if = {
+					limit = {
+						culture = {
+							has_same_culture_heritage = scope:actor.culture
+						}
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						OR = {
+							has_trait = content
+							has_trait = lazy
+							has_trait = trusting
+						}
+					}
+					add = 10
+				}
+			}
+ 			desc = AI_CAN_BE_PERSUADED_TO_STAY
+			
+			is_pool_guest = no
+			location.province_owner = {
+				OR = {
+					any_liege_or_above = { this = scope:actor }
+					this = scope:actor
+				}
+			}
+			NOR = {
+				has_relation_rival = scope:actor
+				exists = liege
+				is_child_of = scope:actor
+				has_character_modifier = lust_for_adventure
+			}
+ 		}
+		
+		modifier = {
+			add = {
+				value = 20
+				if = {
+					limit = {
+						has_trait = greedy
+					}
+					multiply = 1.5
+				}
+				else_if = {
+					limit = {
+						has_trait = generous
+					}
+					multiply = 0.5
+				}
+			}
+			scope:cover_travel_expenses = yes
+			desc = AI_TRAVEL_EXPENSES
+		}
+
+ 		# Amenities impact
+ 		## Actor's amenities increases acceptance
+ 		modifier = {
+ 			add = {
+ 				value = 10
+ 				if = {
+ 					limit = {
+ 						scope:actor = {
+			 				has_royal_court = yes
+			 				amenity_level = { type = court_lodging_standards value >=  high_amenity_level }
+			 			}
+ 					}
+ 			 		add = 10
+ 				}
+ 				if = {
+ 					limit = {
+ 						scope:actor = {
+			 				amenity_level = { type = court_lodging_standards value >=  very_high_amenity_level }
+			 			}
+ 					}
+ 			 		add = 10
+ 				}
+ 				if = {
+ 					limit = {
+ 						scope:actor = {
+			 				amenity_level = { type = court_lodging_standards value >=  max_amenity_level }
+			 			}
+ 					}
+ 			 		add = 20
+ 				}
+ 			}
+ 			desc = AI_COURT_LODGING_STANDARDS_QUALITY
+			scope:actor = {
+			 	has_royal_court = yes
+				amenity_level = { type = court_lodging_standards value >=  medium_amenity_level }
+			}
+ 		}
+		## Target's liege amenities decreases acceptance 
+ 		modifier = {
+ 			add = {
+ 				value = -10
+				if = {
+					limit = {
+						liege = {
+							amenity_level = { type = court_lodging_standards value >=  high_amenity_level } 
+						}
+					}
+					add = -10
+				}
+				if = {
+					limit = {
+						liege = {
+							amenity_level = { type = court_lodging_standards value >=  very_high_amenity_level } 
+						}
+					}
+					add = -10
+				}
+				if = {
+					limit = {
+						liege = {
+							amenity_level = { type = court_lodging_standards value >=  max_amenity_level } 
+						}
+					}
+					add = -20
+				}
+ 			}
+ 			desc = AI_LIEGE_COURT_LODGING_STANDARDS_QUALITY
+			exists = liege
+			is_courtier_of = liege
+			liege = {
+				has_royal_court = yes
+				amenity_level = { type = court_lodging_standards value >=  medium_amenity_level }
+			}
+ 		}
+	}
+
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			scope:hook = yes
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+}

@@ -1,0 +1,120 @@
+﻿900004 = { #Rugian placeholder
+	name="Cissa"
+	dynasty = 900058 #Rugii
+	religion="norse_pagan"
+	culture="old_suebi"
+	368.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+902002 = { #Thuringian Fictional 
+	name="Gardingus"
+	dynasty = 900053 #Thuringian
+	religion="norse_pagan"
+	culture="old_suebi"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+902003 = { #Varini Fictional 
+	name="Agriulfum"
+	dynasty = 900057 #Varini
+	religion="norse_pagan"
+	culture="varinian"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+902009 = { #Lemovii
+	name="Leodegasti"
+	dynasty = 900060
+	religion="norse_pagan"
+	culture="old_suebi"
+	358.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+
+#Vandals
+
+900012 = { #Vandal placeholder
+	name="Godigisel"
+	dynasty=9618 #Hasding
+	religion="arianism"
+	culture="vandal"
+	359.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+902010 = { #Silingi placeholder
+	name="Lothar"
+	dynasty=900061 #Silingi
+	religion="arianism"
+	culture="vandal"
+	365.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+902011 = { #Silingi vassal
+	name="Welf"
+	religion="arianism"
+	culture="vandal"
+	362.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+902012 = { #Silingi vassal
+	name="Dieter"
+	religion="arianism"
+	culture="vandal"
+	352.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+902013 = { #Silingi vassal
+	name="Reinhold"
+	religion="arianism"
+	culture="vandal"
+	358.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+902018 = { #Bavari Placeholder
+	name="Heribert"
+	religion="norse_pagan"
+	culture="old_suebi"
+	356.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}

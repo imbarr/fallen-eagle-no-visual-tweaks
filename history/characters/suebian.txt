@@ -1,0 +1,190 @@
+﻿999600 = {
+	name = "Hermeric"
+	dna = 999600_hermeric
+	dynasty = 99996000
+	religion = "norse_pagan"
+	culture = "swabian"
+	375.1.1 = {
+		birth = yes
+	}
+	441.1.1 = {
+		death = yes
+	}
+}
+999601 = {
+	name = "Rechila"
+	dynasty = 99996000
+	religion = "norse_pagan"
+	culture = "swabian"
+	father = 999600
+	395.1.1 = {
+		birth = yes
+	}
+	448.1.1 = {
+		death = yes
+	}
+}
+999602 = {
+	name = "Hunimund"
+	dynasty = 99996000
+	religion = "norse_pagan"
+	culture = "swabian"
+	father = 999600
+	396.1.1 = {
+		birth = yes
+	}
+	469.1.1 = {
+		death = yes
+	}
+}
+999603 = {
+	name = "Rechiar"
+	dynasty = 99996000
+	religion = "norse_pagan"
+	culture = "swabian"
+	father = 999601
+	416.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		religion = "nicene"
+	}
+	456.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+999604 = {
+	name = "Ricimer"
+	dynasty = 99996000
+	religion = "norse_pagan"
+	culture = "swabian"
+	father = 999601
+	418.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		religion = "arianism"
+	}
+	470.1.1 = {
+		add_spouse = 980044
+	}
+	472.1.1 = {
+		death = yes
+	}
+}
+999605 = {
+	name = "Agilulf"
+	dynasty = 99996001
+	religion = "norse_pagan"
+	culture = "swabian"
+	father = 999602
+	420.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		religion = "nicene"
+	}
+	482.1.1 = {
+		death = yes
+	}
+}
+999606 = {
+	name = "Theobald"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999605
+	465.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+999607 = {
+	name = "Arnulf"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999606
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+999608 = {
+	name = "Garibald"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999607
+	540.1.1 = {
+		birth = yes
+	}
+	556.1.1 = {
+		add_spouse = 993010
+	}
+	591.1.1 = {
+		death = yes
+	}
+}
+999609 = {
+	name = "Tassilo"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999607
+	mother = 993010
+	560.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+999610 = {
+	name = "Theodelinda"
+	female = yes
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999607
+	mother = 993010
+	565.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		death = yes
+	}
+}
+999611 = {
+	name = "Gundebald"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999607
+	mother = 993010
+	570.1.1 = {
+		birth = yes
+	}
+	616.1.1 = {
+		death = yes
+	}
+}
+999612 = {
+	name = "Garibald"
+	dynasty = 99996001
+	religion = "nicene"
+	culture = "swabian"
+	father = 999609
+	585.1.1 = {
+		birth = yes
+	}
+	625.1.1 = {
+		death = yes
+	}
+}

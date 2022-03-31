@@ -1,0 +1,471 @@
+k_angara = {
+	361.1.1 = { change_development_level = 0 }
+}
+
+d_yenisei_kan = {
+	359.1.1 = { 
+		holder = tiele_04 
+		government = nomadic_government
+	} ## Yenisei Kyrghiz
+	399.1.1 = { 
+		holder = tiele_05 ## Yenisei Kyrghiz
+	} ## Rouran Domination
+	420.1.1 = { 
+		holder = tiele_16 ## Yenisei Kyrghiz
+	}
+	455.1.1 = { 
+		holder = tiele_17 ## Yenisei Kyrghiz
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+c_krasnoyarsk = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { 
+		holder = tiele_04 
+		government = nomadic_government
+	} ## Yenisei Kyrghiz
+	399.1.1 = { 
+		holder = tiele_05 ## Yenisei Kyrghiz
+	} ## Rouran Domination
+	420.1.1 = { 
+		holder = tiele_16 ## Yenisei Kyrghiz
+	}
+	455.1.1 = { 
+		holder = tiele_17 ## Yenisei Kyrghiz
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+c_mana = {
+	359.1.1 = { 
+		holder = tiele_04 
+		government = nomadic_government
+	} ## Yenisei Kyrghiz
+	399.1.1 = { 
+		holder = tiele_05 ## Yenisei Kyrghiz
+	} ## Rouran Domination
+	420.1.1 = { 
+		holder = tiele_16 ## Yenisei Kyrghiz
+	}
+	455.1.1 = { 
+		holder = tiele_17 ## Yenisei Kyrghiz
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+
+c_shishina = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { 
+		holder = tiele_04 
+		government = nomadic_government
+	} ## Yenisei Kyrghiz
+	399.1.1 = { 
+		holder = tiele_05 ## Yenisei Kyrghiz
+	} ## Rouran Domination
+	420.1.1 = { 
+		holder = tiele_16 ## Yenisei Kyrghiz
+	}
+	455.1.1 = { 
+		holder = tiele_17 ## Yenisei Kyrghiz
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+
+c_kansk = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { holder = tiele_04 
+	government = nomadic_government
+	} ## Yenisei Kyrghiz
+	399.1.1 = { 
+		holder = tiele_05 ## Yenisei Kyrghiz
+	} ## Rouran Domination
+	420.1.1 = { 
+		holder = tiele_16 ## Yenisei Kyrghiz
+	}
+	455.1.1 = { 
+		holder = tiele_17 ## Yenisei Kyrghiz
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+
+c_tagul = {
+	## Independent Tiele Tribes
+	359.1.1 = { 
+		holder = tiele_18 
+		government = nomadic_government
+	} ## Di Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+	} ## Rouran Domination
+	423 = { 
+		holder = tiele_19 ## Di Tribe
+	}
+	453.1.1 = { 
+		holder = tiele_20 ## Di Tribe
+	}
+	455.1.1 = { 
+		holder = tiele_27 ## Yenisei Kyrghiz
+		liege = d_yenisei_kan
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+
+c_chuna = {
+	## Independent Tiele Tribes
+	359.1.1 = { 
+		holder = tiele_18 
+		government = nomadic_government
+	} ## Di Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+	} ## Rouran Domination
+	423 = { 
+		holder = tiele_19 ## Di Tribe
+	}
+	453.1.1 = { 
+		holder = tiele_20 ## Di Tribe
+	}
+	455.1.1 = { 
+		holder = tiele_27 ## Yenisei Kyrghiz
+		liege = d_yenisei_kan
+	}
+	512.1.1 = { 
+		holder = kyrghiz_01 ## Yenisei Kyrghiz
+		liege = 0
+	}
+	544.1.1 = { 
+		holder = kyrghiz_02 ## Yenisei Kyrghiz
+	}
+	589.1.1 = { 
+		holder = kyrghiz_03 ## Yenisei Kyrghiz
+	}
+	623.1.1 = { 
+		holder = kyrghiz_04 ## Yenisei Kyrghiz
+	}
+	669.1.1 = { 
+		holder = kyrghiz_05 ## Yenisei Kyrghiz
+	}
+	710.1.1 = { 
+		holder = kyrghiz_06 ## Yenisei Kyrghiz
+	}
+	758.1.1 = { 
+		holder = kyrghiz_07 ## Yenisei Kyrghiz
+		liege = e_mongolia
+	}
+}
+
+
+c_bratsk = {
+	## Independent Tiele Tribes
+	359.1.1 = { 
+		holder = tiele_18 
+		government = nomadic_government
+	} ## Di Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+	} ## Rouran Domination
+	423 = { 
+		holder = tiele_19 ## Di Tribe
+	}
+	453.1.1 = { 
+		holder = tiele_20 ## Di Tribe
+	}
+	527.1.1 = { holder = buryat_03 }
+	630.1.1 = { holder = buryat_04 }
+	757.1.1 = { holder = buryat_07 }
+}
+
+
+c_tulun = {
+	## Independent Tiele Tribes
+	
+	## Independent Tiele Tribes
+	359.1.1 = { 
+		holder = tiele_18 
+		government = nomadic_government
+	} ## Di Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+	} ## Rouran Domination
+	423 = { 
+		holder = tiele_19 ## Di Tribe
+	}
+	453.1.1 = { 
+		holder = tiele_20 ## Di Tribe
+	}
+	453.1.1 = { 
+		holder = tiele_20 ## Di Tribe
+	}
+	527.1.1 = { holder = buryat_03 }
+	630.1.1 = { holder = buryat_04 }
+	757.1.1 = { holder = buryat_07 }
+}
+
+
+c_lena = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { 
+		holder = tiele_10 
+		government = nomadic_government
+	} ##Fictional Hugu Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_11 ##Fictional Jiepi Tribe
+	} 
+	## Rouran Domination
+	458.1.1 = {
+		holder = siqit_01 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_02 }
+	631.1.1 = { holder = buryat_05 }
+	760.1.1 = { holder = buryat_09 }
+}
+
+
+c_ilga = {
+	## Independent Tiele Tribes
+	359.1.1 = { holder = tiele_06
+	government = nomadic_government
+	} ##Fictional Yuanhe Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_07 ##Fictional Yuanhe Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = tongluo_1 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_02 }
+	631.1.1 = { holder = buryat_05 }
+	760.1.1 = { holder = buryat_09 }
+}
+
+
+c_gatsuurgazar = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { 
+		holder = tiele_10 
+		government = nomadic_government
+	} ##Fictional Hugu Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_11 ##Fictional Jiepi Tribe
+	} 
+	## Rouran Domination
+	458.1.1 = {
+		holder = siqit_01 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_02 }
+	631.1.1 = { holder = buryat_05 }
+	760.1.1 = { holder = buryat_09 }
+}
+
+
+c_kitoi = {
+	360.1.1 = {
+		holder = bayirku_1 #Fictional
+		government = nomadic_government
+	}
+	460.1.1 = {
+		holder = bayirku_3 #Fictional
+		liege = e_mongolia
+	}
+	527.1.1 = { holder = buryat_01 }
+	623.1.1 = { holder = buryat_06 }
+	760.1.1 = { holder = buryat_08 }
+}
+
+
+c_kymyl_tey = {
+	## Independent Tiele Tribes
+	
+	359.1.1 = { holder = tiele_06
+	government = nomadic_government
+	} ##Fictional Yuanhe Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_07 ##Fictional Yuanhe Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = tongluo_1 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_03 }
+	630.1.1 = { holder = buryat_04 }
+	757.1.1 = { holder = buryat_07 }
+}
+
+
+c_okangara = {
+	## Independent Tiele Tribes
+	359.1.1 = { 
+		holder = tiele_06 
+		government = nomadic_government
+	} ##Fictional Yuanhe Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_07 ##Fictional Yuanhe Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = tongluo_1 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_01 }
+	623.1.1 = { holder = buryat_06 }
+	760.1.1 = { holder = buryat_08 }
+}
+
+
+c_kada = {
+	359.1.1 = { holder = tiele_06
+	government = nomadic_government
+	} ##Fictional Yuanhe Tribe
+	399.1.1 = { 
+		liege = k_buryatia
+		holder = tiele_07 ##Fictional Yuanhe Tribe
+	} ## Rouran Domination
+	458.1.1 = {
+		holder = tongluo_1 # Fictinal Rouran Vassal
+	}
+	527.1.1 = { holder = buryat_01 }
+	623.1.1 = { holder = buryat_06 }
+	760.1.1 = { holder = buryat_08 }
+}
+

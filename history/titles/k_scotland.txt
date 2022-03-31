@@ -1,0 +1,281 @@
+k_scotland = {
+	380.1.1 = {
+		holder = Fortriu_001 #Erp Fortriu
+		government = tribal_government
+	}
+}
+d_albany = {
+	380.1.1 = {
+		holder = Fortriu_001 #Erp Fortriu
+	}
+}
+d_moray = {
+	380.1.1 = {
+		holder = Fortriu_001 #Erp Fortriu
+	}
+}
+c_moray = {
+	200.1.1 = {
+		change_development_level = 3
+	}
+	380.1.1 = {
+		holder = Fortriu_001 #Erp Fortriu
+	}
+}
+c_inverness = {
+	380.1.1 = {
+		holder = Pictland_02 #Fidach
+		liege = k_scotland
+	}
+}
+c_ross = {
+	200.1.1 = {
+		change_development_level = 1
+	}
+	380.1.1 = {
+		holder = Pictland_02 #Fidach
+		liege = k_scotland
+	}
+}
+c_caithness = {
+	200.1.1 = {
+		change_development_level = -1
+	}
+	380.1.1 = {
+		holder = Pictland_01 #Cait
+		liege = k_scotland
+	}
+}
+c_sutherland = {
+	200.1.1 = {
+		change_development_level = -1
+	}
+	380.1.1 = {
+		holder = Pictland_01 #Cait
+		liege = k_scotland
+	}
+}
+c_fife = {
+	200.1.1 = {
+		change_development_level = 3
+	}
+	387.1.1 = {
+		holder = Pictland_05  #Fib
+		liege = k_scotland
+	}
+}
+c_strathearn = {
+	387.1.1 = {
+		holder = Pictland_05  #Fib
+		liege = k_scotland
+	}
+}
+c_atholl = {
+	387.1.1 = {
+		holder = Pictland_06  #Fotla
+		liege = k_scotland
+	}
+}
+c_gowrie = {
+	387.1.1 = {
+		holder = Pictland_06  #Fotla
+		liege = k_scotland
+	}
+}
+c_angus = {
+	387.1.1 = {
+		holder = Pictland_04  #Circcin
+		liege = k_scotland
+	}
+}
+c_mearns = {
+	200.1.1 = {
+		change_development_level = 1
+	}
+	387.1.1 = {
+		holder = Pictland_04  #Circcin
+		liege = k_scotland
+	}
+}
+c_buchan = {
+	387.1.1 = {
+		holder = Pictland_03  #Ce
+		liege = k_scotland
+	}
+}
+
+c_argyll = {
+	387.1.1 = {
+		holder = Pictland_07  #Epidii
+	}
+}
+c_inner_hebrides = {
+	200.1.1 = {
+		change_development_level = 1
+	}
+	387.1.1 = {
+		holder = Pictland_07  #Epidii
+	}
+}
+c_outer_hebrides = {
+	200.1.1 = {
+		change_development_level = 1
+	}
+	387.1.1 = {
+		holder = Pictland_07  #Epidii
+	}
+}
+c_galloway = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	395.1.1 = {
+		holder = Novantae_01
+	}
+}
+
+c_carrick = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	395.1.1 = {
+		holder = Novantae_01
+	}
+}
+
+
+c_ayrshire = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	355.1.1 = {
+		holder = Altclut_001
+	}
+	384.1.1 = {
+		holder = Altclut_002 #Cinhil
+	}
+}
+
+
+c_annandale = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	385.1.1 = {
+		holder = Selgovae_01 #Selgovae
+	}
+	395.1.1 = {
+	}
+}
+
+d_galloway = {
+	355.1.1 = {
+		holder = Altclut_001
+		name = ALT_CLUT
+	}
+	384.1.1 = {
+		holder = Altclut_002 #Cinhil
+	}
+}
+c_lennox = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	355.1.1 = {
+		holder = Altclut_001
+	}
+	384.1.1 = {
+		holder = Altclut_002 #Cinhil
+	}
+}
+
+d_lothian = {
+	0.1.1 = {
+		name = GODDODYN
+	}
+}
+c_lothian = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	362.1.1 = {
+		holder = Votadini_01 # Padarn of the Votadini
+	}
+	380.1.1 = {
+		holder = Votadini_02 #Votadini
+	}
+	395.1.1 = {
+	}
+}
+
+
+c_dunbar = {
+	200.1.1 = { #Diocletian's divison
+		government = imperial_government
+		change_development_level = 4
+	}
+	362.1.1 = {
+		holder = Votadini_01 # Padarn of the Votadini
+	}
+	385.1.1 = {
+		holder = Votadini_02 #Votadini
+	}
+	395.1.1 = {
+	}
+}
+
+
+c_teviotdale = {
+	200.1.1 = { #Diocletian's divison
+		government = imperial_government
+		change_development_level = 4
+	}
+	385.1.1 = {
+		holder = Selgovae_01 #Selgovae
+	}
+	395.1.1 = {
+	}
+}
+
+
+c_linlithgowshire = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	355.1.1 = {
+		holder = Altclut_001
+	}
+	384.1.1 = {
+		holder = Altclut_002 #Cinhil
+	}
+}
+
+
+c_lanarkshire = {
+	200.1.1 = { #Diocletian's divison
+		government = tribal_government
+		change_development_level = 3
+	}
+	355.1.1 = {
+		holder = Altclut_001
+	}
+	384.1.1 = {
+		holder = Altclut_002 #Cinhil
+	}
+}
+
+d_the_isles = {
+	200.1.1 = {
+		de_jure_liege = k_mann_the_isles
+	}
+	390.1.1 = {
+		holder = Wleding_002 #Annwn
+	}
+}

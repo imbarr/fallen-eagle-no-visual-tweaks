@@ -1,0 +1,60 @@
+﻿title_succession_laws = {
+	rashidun_elective_succession_law = {
+		can_have = {
+			has_title = title:e_rashidun
+			has_government = caliphate_government
+		}
+		can_pass = {
+			always = yes
+		}
+		can_title_have = {
+            this = title:e_rashidun
+        }
+		succession = {
+			order_of_succession = election
+			election_type = rashidun_elective
+		}
+		flag = elective_succession_law
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	imperial_elective_succession_law = {
+		can_have = {
+			OR = {
+				has_title = title:e_western_roman_empire
+				has_title = title:e_roman_empire
+				has_title = title:e_byzantium
+			}
+			has_government = imperial_government
+		}
+		can_pass = {
+			always = yes
+		}
+		can_title_have = {
+            OR = {
+                this = title:e_western_roman_empire
+				this = title:e_roman_empire
+				this = title:e_byzantium
+            }
+        }
+		succession = {
+			order_of_succession = election
+			election_type = imperial_elective
+		}
+		flag = elective_succession_law
+		title_allegiance_opinion = 10
+		modifier = {
+			vassal_limit = 20
+		}
+		revoke_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+}

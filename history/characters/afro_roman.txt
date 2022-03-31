@@ -1,0 +1,643 @@
+anicia_03 = {
+	name = "Saturnius"
+	religion = hellenic_pagan
+	culture = afro_roman
+	dynasty = anicii
+	125.1.1 = {
+		birth = yes
+	}
+	189.1.1 = {
+		death = yes
+	}
+}
+anicia_04 = {
+	name = "Faustus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_03 #Saturnius
+	dynasty = anicii
+	163.1.1 = {
+		birth = yes
+	}
+	189.1.1 = {
+		add_spouse = anicia_02 #Paulla
+	}
+	229.1.1 = {
+		death = yes
+	}
+}
+anicia_05 = {
+	name = "Paulinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_04 #Faustus
+	mother = anicia_02 #Paulla
+	dynasty = anicii
+	190.1.1 = {
+		birth = yes
+	}
+	221.1.1 = {
+		add_spouse = anicia_07 #Vibiana
+	}
+	255.1.1 = {
+		death = yes
+	}
+}
+anicia_06 = {
+	name = "Vibianus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	169.1.1 = {
+		birth = yes
+	}
+	230.1.1 = {
+		death = yes
+	}
+}
+anicia_07 = {
+	name = "Vibiana"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_06 #Vibianus
+	female = yes
+	207.1.1 = {
+		birth = yes
+	}
+	262.1.1 = {
+		death = yes
+	}
+}
+anicia_08 = {
+	name = "Flavianus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_05 #Paulinus
+	mother = anicia_07 #Vibiana
+	dynasty = anicii
+	221.1.1 = {
+		birth = yes
+	}
+	276.1.1 = {
+		death = yes
+	}
+}
+anicia_09 = {
+	name = "Paulinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_05 #Paulinus
+	mother = anicia_07 #Vibiana
+	dynasty = anicii
+	224.1.1 = {
+		birth = yes
+	}
+	288.1.1 = {
+		death = yes
+	}
+}
+anicia_10 = {
+	name = "Faustus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_09 #Paulinus
+	dynasty = anicii
+	242.1.1 = {
+		birth = yes
+	}
+	267.1.1 = {
+		add_spouse = anicia_11 #Amnia
+	}
+	301.1.1 = {
+		death = yes
+	}
+}
+anicia_11 = {
+	name = "Amnia"
+	religion = hellenic_pagan
+	culture = afro_roman
+	dynasty = demetrias
+	female = yes
+	246.1.1 = {
+		birth = yes
+	}
+	312.1.1 = {
+		death = yes
+	}
+}
+anicia_12 = {
+	name = "Julianus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_10 #Faustus
+	mother = anicia_11 #Amnia
+	dynasty = anicii
+	273.1.1 = {
+		birth = yes
+	}
+	301.1.1 = {
+		add_spouse = caesonii_06 #Manilia
+	}
+	325.1.1 = {
+		death = yes
+	}
+}
+anicia_13 = {
+	name = "Paulinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_10 #Faustus
+	mother = anicia_11 #Amnia
+	dynasty = anicii
+	269.1.1 = {
+		birth = yes
+	}
+	329.1.1 = {
+		death = yes
+	}
+}
+anicia_14 = {
+	name = "Paulinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = anicia_12 #Julianus
+	mother = caesonii_06 #Manilia
+	dynasty = anicii
+	298.1.1 = {
+		birth = yes
+	}
+	364.1.1 = {
+		death = yes
+	}
+}
+
+#Africae 
+africae_01 = {
+	name = "Anullinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	261.1.1 = {
+		birth = yes
+	}
+	338.1.1 = {
+		death = yes
+	}
+}
+africae_02 = {
+	name = "Volusianus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	dynasty = rufi
+	246.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+africae_03 = {
+	name = "Albinus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	father = africae_02 #Volusianus
+	dynasty = rufi
+	289.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		add_spouse = africae_41 #Albina
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+africae_41 = {
+	name = "Albina"
+	religion = nicene
+	culture = afro_roman
+	female = yes
+	320.1.1 = {
+		birth = yes
+	}
+	379.1.1 = {
+		death = yes
+	}
+}
+africae_42 = {
+	name = "Volusianus"
+	religion = hellenic_pagan
+	culture = afro_roman
+	dynasty = rufi
+	father = africae_03 #Albinus
+	mother = africae_41 #Albina
+	358.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_43 = {
+	name = "Helpidius"
+	religion = nicene
+	culture = afro_roman
+	362.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_44 = {
+	name = "Septiminus"
+	religion = nicene
+	culture = afro_roman
+	362.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_45 = {
+	name = "Diotimus"
+	religion = nicene
+	culture = afro_roman
+	371.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_46 = {
+	name = "Proculus"
+	religion = nicene
+	culture = afro_roman
+	371.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_47 = {
+	name = "Donatus"
+	religion = nicene
+	culture = afro_roman
+	369.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_48 = {
+	name = "Palladius"
+	religion = nicene
+	culture = afro_roman
+	382.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_49 = {
+	name = "Apringius"
+	religion = nicene
+	culture = afro_roman
+	382.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_50 = {
+	name = "Eucharius"
+	religion = nicene
+	culture = afro_roman
+	382.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_51 = {
+	name = "Julianus"
+	religion = nicene
+	culture = afro_roman
+	382.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}
+africae_22 = {
+	name = "Chilo"
+	religion = nicene
+	culture = afro_roman
+	339.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+africae_52 = {
+	name = "Julius"
+	religion = hellenic_pagan
+	culture = afro_roman
+	324.1.1 = {
+		birth = yes
+	}
+	409.1.1 = {
+		death = yes
+	}
+}
+africae_53 = {
+	name = "Bonifatius"
+	religion = nicene
+	culture = afro_roman
+	387.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		add_spouse = africae_54 # Sebastiana
+	}
+	432.1.1 = {
+		death = yes
+	}
+}
+africae_54 = {
+	name = "Sebastiana"
+	religion = nicene
+	culture = afro_roman
+	female = yes
+	394.1.1 = {
+		birth = yes
+	}
+	432.1.1 = {
+		death = yes
+	}
+}
+africae_55 = {
+	name = "Sebastianus"
+	religion = nicene
+	culture = afro_roman
+	father = africae_53 #Bonifatius
+	mother = africae_54 #Sebastiana
+	413.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+#Nuvellans
+
+nuvelan_01 = {
+	name= "Nuvel"
+	religion="nicene"
+	culture="maurian"
+	dynasty = "nuvelan"
+	320.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		add_spouse = nuvelan_02
+	}
+	363.1.1 = {
+		death = yes
+	}
+}
+nuvelan_02 = {
+	name= "Monnica"
+	religion="nicene"
+	culture="afro_roman"
+	female = yes
+	323.1.1 = {
+		birth = yes
+	}
+	372.1.1 = {
+		death = yes
+	}
+}
+nuvelan_03 = {
+	name= "Firmus"
+	religion="donatist"
+	culture="maurian"
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	345.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+nuvelan_04 = {
+	name= "Zammac"
+	religion="nicene"
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	342.1.1 = {
+		birth = yes
+	}
+	369.1.1 = {
+		death = yes
+	}
+}
+nuvelan_11 = { #Africa
+	name= "Gildo"
+	religion="nicene"
+	culture="afro_roman"
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	347.1.1 = {
+		birth = yes
+	}
+	395.1.1 = {
+		set_relation_rival = character:900062 #Stilicho
+		set_relation_rival = character:145227 #Honorius
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+nuvelan_05 = {
+	name= "Severina"
+	religion="nicene"
+	culture="afro_roman"
+	dynasty = "nuvelan"
+	father = nuvelan_11
+	female = yes
+	372.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+nuvelan_06 = {
+	name= "Mascezel"
+	religion="nicene"
+	culture="afro_roman"
+	dynasty = "nuvelan"
+	trait = deceitful
+	father = nuvelan_01
+	mother = nuvelan_02
+	348.1.1 = {
+		birth = yes
+	}
+	395.1.1 = {
+		set_relation_rival = character:nuvelan_11
+	}
+	399.1.1 = {
+		death = yes
+	}
+}
+nuvelan_07 = {
+	name= "Mazuca"
+	religion="nicene"
+	culture = afro_roman
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	349.1.1 = {
+		birth = yes
+	}
+	399.1.1 = {
+		death = yes
+	}
+}
+nuvelan_08 = {
+	name= "Sammac"
+	religion="nicene"
+	culture = afro_roman
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	352.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+nuvelan_09 = {
+	name= "Dius"
+	religion="nicene"
+	culture = afro_roman
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	355.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+nuvelan_10 = {
+	name= "Cyria"
+	religion="nicene"
+	culture = afro_roman
+	dynasty = "nuvelan"
+	father = nuvelan_01
+	mother = nuvelan_02
+	female = yes
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+vandals_017 = {
+	name = "Flavius"
+	religion = "arianism"
+	culture = "afro_roman"
+	423.1.1 = {
+		birth = yes
+	}
+	499.1.1 = {
+		death = yes
+	}
+}
+
+vandals_018 = {
+	name = "Ausonius"
+	religion = "arianism"
+	culture = "afro_roman"
+	499.1.1 = {
+		birth = yes
+	}
+	558.1.1 = {
+		death = yes
+	}
+}
+
+vandals_019 = {
+	name = "Julianus"
+	religion = "arianism"
+	culture = "afro_roman"
+	421.1.1 = {
+		birth = yes
+	}
+	488.1.1 = {
+		death = yes
+	}
+}
+vandals_020 = {
+	name = "Arcadius"
+	religion = "arianism"
+	culture = "afro_roman"
+	499.1.1 = {
+		birth = yes
+	}
+	549.1.1 = {
+		death = yes
+	}
+}
+
+#Mauro Roman Kingdoms
+mauro_roman_01 = {
+	name = "Adum"
+	religion = "chalcedonian"
+	culture = "afro_roman"
+	499.1.1 = {
+		birth = yes
+	}
+	558.1.1 = {
+		death = yes
+	}
+}
+mauro_roman_03 = {
+	name = "Bukkus"
+	religion = "donatism"
+	culture = "afro_roman"
+	504.1.1 = {
+		birth = yes
+	}
+	569.1.1 = {
+		death = yes
+	}
+}
+mauro_roman_04 = {
+	name = "Keraja"
+	religion = "chalcedonian"
+	culture = "afro_roman"
+	489.1.1 = {
+		birth = yes
+	}
+	548.1.1 = {
+		death = yes
+	}
+}

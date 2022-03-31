@@ -1,0 +1,50 @@
+﻿castran = {
+	color = { 0.25 0.5 0.08 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_celtiberian
+	language = language_celtiberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_polygamous
+		tradition_castle_keepers
+	}
+	
+	name_list = name_list_castran
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+cantabrian = {
+	color = { 0.35 0.7 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_celtiberian
+	language = language_celtiberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_mountaineers
+		tradition_ancient_miners
+	}
+	
+	name_list = name_list_cantabrian
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}

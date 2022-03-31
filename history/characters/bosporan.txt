@@ -1,0 +1,399 @@
+﻿999200 = {
+	name = "Aspurgus"
+	dna = 999200_aspurgus
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	1.1.1 = {
+		birth = yes
+	}
+	18.1.1 = {
+		add_spouse = 999201
+	}	
+	38.1.1 = {
+		death = yes
+	}
+}
+999201 = {
+	name = "Gepaepyris"
+	female = yes
+	religion = "hellenic_pagan"
+	culture = "greek"
+	3.1.1 = {
+		birth = yes
+	}
+	45.1.1 = {
+		death = yes
+	}
+}
+999202 = {
+	name = "Mithridates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999200
+	mother = 999201
+	20.1.1 = {
+		birth = yes
+	}
+	69.1.1 = {
+		death = yes
+	}
+}
+999203 = {
+	name = "Cotys"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999200
+	mother = 999201
+	23.1.1 = {
+		birth = yes
+	}
+	40.1.1 = {
+		add_spouse = 999204
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+999204 = {
+	name = "Eunike"
+	female = yes
+	religion = "hellenic_pagan"
+	culture = "greek"
+	23.1.1 = {
+		birth = yes
+	}
+	80.1.1 = {
+		death = yes
+	}
+}
+999205 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999203
+	mother = 999204
+	42.1.1 = {
+		birth = yes
+	}
+	90.1.1 = {
+		death = yes
+	}
+}
+999206 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999205
+	63.1.1 = {
+		birth = yes
+	}
+	123.1.1 = {
+		death = yes
+	}
+}
+999207 = {
+	name = "Cotys"
+	dynasty = 99992000
+	religion = "hellenic"
+	culture = "greek"
+	father = 999206
+	63.1.1 = {
+		birth = yes
+	}
+	123.1.1 = {
+		death = yes
+	}
+}
+999208 = {
+	name = "Rhoemetalces"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999207
+	101.1.1 = {
+		birth = yes
+	}
+	153.1.1 = {
+		death = yes
+	}
+}
+999209 = {
+	name = "Eupator"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999208
+	120.1.1 = {
+		birth = yes
+	}
+	174.1.1 = {
+		death = yes
+	}
+}
+999210 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999209
+	148.1.1 = {
+		birth = yes
+	}
+	210.1.1 = {
+		death = yes
+	}
+}
+999211 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999210
+	173.1.1 = {
+		birth = yes
+	}
+	227.1.1 = {
+		death = yes
+	}
+}
+999212 = {
+	name = "Cotys"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999210
+	177.1.1 = {
+		birth = yes
+	}
+	235.1.1 = {
+		death = yes
+	}
+}
+999213 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999211
+	194.1.1 = {
+		birth = yes
+	}
+	227.1.1 = {
+		death = yes
+	}
+}
+999214 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999212
+	196.1.1 = {
+		birth = yes
+	}
+	232.1.1 = {
+		death = yes
+	}
+}
+999215 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999212
+	199.1.1 = {
+		birth = yes
+	}
+	235.1.1 = {
+		death = yes
+	}
+}
+999216 = {
+	name = "Ininthimeus"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999212
+	202.1.1 = {
+		birth = yes
+	}
+	240.1.1 = {
+		death = yes
+	}
+}
+999217 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999216
+	219.1.1 = {
+		birth = yes
+	}
+	276.1.1 = {
+		death = yes
+	}
+}
+999218 = {
+	name = "Farsanzes"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999217
+	235.1.1 = {
+		birth = yes
+	}
+	254.1.1 = {
+		death = yes
+	}
+}
+999219 = {
+	name = "Synges"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999217
+	239.1.1 = {
+		birth = yes
+	}
+	276.1.1 = {
+		death = yes
+	}
+}
+999220 = {
+	name = "Teiranes"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999217
+	241.1.1 = {
+		birth = yes
+	}
+	279.1.1 = {
+		death = yes
+	}
+}
+999221 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999220
+	260.1.1 = {
+		birth = yes
+	}
+	276.1.1 = {
+		death = yes
+	}
+}
+999222 = {
+	name = "Theothorses"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999220
+	265.1.1 = {
+		birth = yes
+	}
+	309.1.1 = {
+		death = yes
+	}
+}
+999223 = {
+	name = "Rhescuporis"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999222
+	286.1.1 = {
+		birth = yes
+	}
+	342.1.1 = {
+		death = yes
+	}
+}
+999224 = {
+	name = "Rhadamsades"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999222
+	290.1.1 = {
+		birth = yes
+	}
+	323.1.1 = {
+		death = yes
+	}
+}
+999225 = {
+	name = "Laodike"
+	female = yes
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999222
+	292.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		religion = "nicene"
+		name = "Nana"
+	}
+	361.1.1 = {
+		death = yes
+	}
+}
+999226 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999223
+	306.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+999227 = {
+	name = "Sauromates"
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999226
+	332.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		religion = "nicene"
+	}
+	391.1.1 = {
+		death = yes
+	}
+}
+999228 = {
+	name = "Dynamia"
+	female = yes
+	dna = 999200_aspurgus
+	dynasty = 99992000
+	religion = "hellenic_pagan"
+	culture = "greek"
+	father = 999227
+	370.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		religion = "nicene"
+	}
+	425.1.1 = {
+		death = yes
+	}
+}

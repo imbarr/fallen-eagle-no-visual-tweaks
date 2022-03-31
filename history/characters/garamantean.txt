@@ -1,0 +1,90 @@
+#Garamantean Kingdom
+
+garamantian_01 = {
+	name = "Mastan"
+	religion = "amazigh_pagan"
+	culture = "garamantian"
+	323.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+garamantian_02 = {
+	name = "Iken"
+	religion = "amazigh_pagan"
+	culture = "garamantian"
+	341.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+garamantian_03 = { 
+	name= "Yeften"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	431.1.1 = {
+		birth = yes
+	}
+	499.1.1 = {
+		death = yes
+	}
+}
+garamantian_04 = { 
+	name= "Masgaba"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	427.1.1 = {
+		birth = yes
+	}
+	489.1.1 = {
+		death = yes
+	}
+}
+garamantian_05 = { 
+	name= "Thakiya"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	501.1.1 = {
+		birth = yes
+	}
+	559.1.1 = {
+		death = yes
+	}
+}
+garamantian_06 = { 
+	name= "Khenchela"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	489.1.1 = {
+		birth = yes
+	}
+	543.1.1 = {
+		death = yes
+	}
+}
+garamantian_07 = {
+	name= "Sifal"
+	religion="chalcedonian"
+	culture="garamantian"
+	600.1.1 = {
+		birth = yes
+	}
+	668.1.1 = {
+		death = yes
+	}
+}
+garamantian_08 = {
+	name= "Beddis"
+	religion="chalcedonian"
+	culture="garamantian"
+	607.1.1 = {
+		birth = yes
+	}
+	668.1.1 = {
+		death = yes
+	}
+}

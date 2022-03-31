@@ -1,0 +1,198 @@
+﻿become_king_of_cantabria = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	desc = become_king_of_cantabria_desc
+	major = yes
+	ai_goal = yes
+	ai_will_do = {
+		base = 100
+	}
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOT = { exists = global_var:cantabria_exists }
+		culture = culture:cantabrian
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		completely_controls_region = custom_cantabria
+	}
+
+	is_valid_showing_failures_only = {
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		set_global_variable = {
+			name = cantabria_exists
+			value = yes
+		}
+		custom_tooltip = become_king_of_cantabria_tooltip
+		
+
+		trigger_event = {
+			id = cantabria.0001
+			days = 5
+		}
+		
+		hidden_effect = {
+			title:c_ipuskoa = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_viscaya = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_asturias_de_santillana = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_asturias_de_oviedo = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_pravia = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_coruna = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_santiago = {
+				set_de_jure_liege_title = title:d_south_cantabria
+			}
+			title:c_labourd = {
+				set_de_jure_liege_title = title:d_east_cantabria
+			}
+			title:c_albret = {
+				set_de_jure_liege_title = title:d_east_cantabria
+			}
+			title:c_bordeaux = {
+				set_de_jure_liege_title = title:d_east_cantabria
+			}
+			title:c_albret = {
+				set_de_jure_liege_title = title:d_east_cantabria
+			}
+			title:k_cantabria = {
+				set_de_jure_liege_title = title:e_western_roman_empire
+			}
+			title:d_east_cantabria = {
+				set_de_jure_liege_title = title:k_cantabria
+			}
+			title:d_south_cantabria = {
+				set_de_jure_liege_title = title:k_cantabria
+			}
+			title:d_aragon = {
+				set_de_jure_liege_title = title:k_cantabria
+			}
+			
+		}
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_cantabria = {
+			save_scope_as = title_k_cantabria
+		}
+		title:k_cantabria = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = title_k_cantabria
+		}
+		resolve_title_and_vassal_change = scope:title_change
+	}
+
+	cost = { gold = { value = 500 } }
+}
+
+form_portugal_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = form_portugal_decision_desc
+
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_iberian }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_portugal_decision
+			}
+		}
+		current_date >= 800.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes 
+		
+		culture = { has_cultural_pillar = heritage_iberian }
+
+		trigger_if = {
+			limit = { title:d_porto = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:d_porto
+		}
+		trigger_if = {
+			limit = { title:d_coimbra = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:d_coimbra
+		}
+		trigger_if = {
+			limit = { title:d_beja = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:d_beja
+		}
+		trigger_if = {
+			limit = { title:d_algarve = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:d_algarve
+		}
+	}
+
+	effect = {
+		save_scope_as = portugal_former
+
+		show_as_tooltip = { form_portugal_decision_effects = yes } #Actually applied in iberia_north_africa.0001 - title changes, prestige, culture swap etc.
+
+		#Events
+		trigger_event = iberia_north_africa.0001
+		every_player = {
+			limit = {
+				NOT = { this = scope:portugal_former }
+				is_within_diplo_range = { CHARACTER = scope:portugal_former }
+			}
+			trigger_event = iberia_north_africa.0002
+		}
+		every_vassal_or_below = {
+			limit = {
+				is_ai = yes
+				exists = capital_province
+				capital_province = {
+					county = {
+						any_this_title_or_de_jure_above = {
+							this = title:k_portugal
+						}
+					}
+				}	
+			}
+			trigger_event = iberia_north_africa.0002 #So they can convert
+		}
+
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:form_portugal_decision
+		}
+		set_global_variable = {
+			name = form_portugal_decision
+			value = scope:portugal_former
+		}
+	}
+
+	cost = { gold = { value = 300 } }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

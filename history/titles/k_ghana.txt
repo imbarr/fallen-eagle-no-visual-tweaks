@@ -1,0 +1,271 @@
+k_ghana = {
+	361.1.1 = { change_development_level = 2 }
+	476.1.1 = { change_development_level = 3 }
+	867.1.1 = {	change_development_level = 5 }
+}
+
+d_wagadu = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	867.1.1 = {	change_development_level = 8 }
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+	695.1.1 = {
+		government = tribal_government
+		holder = 184010
+	}
+	745.1.1 = {
+		holder = 184011
+	}
+	770.1.1 = {
+		holder = 184012
+	}
+}
+
+
+c_awkar = {
+	361.1.1 = { change_development_level = 6 }
+	476.1.1 = { change_development_level = 7 }
+	768.1.1 = {	change_development_level = 10 }
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+	695.1.1 = {
+		holder = 184010
+		liege = d_wagadu
+		government = tribal_government
+	}
+	745.1.1 = {
+		holder = 184011
+	}
+	770.1.1 = {
+		holder = 184012
+	}
+}
+
+
+c_walata = {
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+	695.1.1 = {
+		holder = 184010
+		liege = d_wagadu
+		government = tribal_government
+	}
+	745.1.1 = {
+		holder = 184011
+	}
+	770.1.1 = {
+		holder = 184012
+	}
+}
+
+
+c_masin = {
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+	695.1.1 = {
+		holder = 184010
+		liege = d_wagadu
+		government = tribal_government
+	}
+	745.1.1 = {
+		holder = 184011
+	}
+	770.1.1 = {
+		holder = 184012
+	}
+}
+
+
+c_mema = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	867.1.1 = {	change_development_level = 8 }
+	351.1.1 = {
+		holder = awkar_02
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_07
+		liege = d_wagadu
+	}
+}
+
+
+c_kouga = {
+	351.1.1 = {
+		holder = awkar_02
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_07
+		liege = d_wagadu
+	}
+}
+
+
+c_massina = {
+	476.1.1 = { change_development_level = 3 }
+	867.1.1 = {	change_development_level = 8 }
+	351.1.1 = {
+		holder = awkar_02
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_07
+		liege = d_wagadu
+	}
+}
+
+
+c_hodh = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	867.1.1 = {	change_development_level = 10 }
+	351.1.1 = {
+		holder = awkar_03
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_08
+	}
+}
+
+
+c_tichitt = {
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+}
+
+
+c_tagant = {
+	351.1.1 = {
+		holder = awkar_03
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_08
+	}
+	760.1.1 = {
+		holder = 251138
+		government = tribal_government
+	}
+}
+
+
+c_guidimaka = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	351.1.1 = {
+		holder = awkar_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_09
+	}
+}
+
+
+c_yelimane = {
+	351.1.1 = {
+		holder = awkar_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_09
+	}
+}
+
+
+c_kingui = {
+	476.1.1 = { change_development_level = 3 }
+	867.1.1 = {	change_development_level = 8 }
+	351.1.1 = {
+		holder = awkar_04
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_09
+	}
+}
+
+
+c_kaniaga = {
+	361.1.1 = { change_development_level = 4 }
+	476.1.1 = { change_development_level = 5 }
+	867.1.1 = {	change_development_level = 8 }
+	351.1.1 = {
+		holder = awkar_05
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_10
+	}
+	695.1.1 = {
+		holder = 184010
+		liege = d_wagadu
+		government = tribal_government
+	}
+	745.1.1 = {
+		holder = 184011
+	}
+}
+
+
+c_kaarta = {
+	351.1.1 = {
+		holder = awkar_05
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_10
+	}
+}
+
+
+c_kita = {
+	351.1.1 = {
+		holder = awkar_05
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_10
+	}
+}
+
+
+c_soso = {
+	351.1.1 = {
+		holder = awkar_01
+		government = tribal_government
+	}
+	460.1.1 = {
+		holder = awkar_06
+	}
+}
+

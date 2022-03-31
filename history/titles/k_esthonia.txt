@@ -1,0 +1,152 @@
+k_esthonia = {
+	361.1.1 = { change_development_level = 1 }
+}
+
+d_esthonia = {
+	# Mark for v1.102
+	766.1.1 = {
+		holder = 170347
+		government = tribal_government
+	}
+}
+
+
+c_reval = {
+	361.1.1 = { change_development_level = 1 }
+	361.1.1 = {
+		holder = esthonia_01
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_02
+	}
+	450.1.1 = {
+		holder = esthonia_03
+	}
+	766.1.1 = {
+		liege = "d_esthonia"
+		holder = 170347
+		government = tribal_government
+	}
+}
+
+
+c_narva = {
+	361.1.1 = {
+		holder = esthonia_01
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_02
+	}
+	450.1.1 = {
+		holder = esthonia_03
+	}
+	767.1.1 = {
+		liege = "d_esthonia"
+		holder = 170348
+		government = tribal_government
+	}
+}
+
+
+c_osel = {
+	361.1.1 = {
+		holder = esthonia_04
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_05
+	}
+	450.1.1 = {
+		holder = esthonia_06
+	}
+	763.1.1 = {
+		holder = 170350
+		liege = "d_livonia"
+		government = tribal_government
+	}
+}
+
+c_wiek = {
+	361.1.1 = {
+		holder = esthonia_04
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_05
+	}
+	450.1.1 = {
+		holder = esthonia_06
+	}
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+}
+
+
+d_livonia = {
+	765.1.1 = {
+		holder = 170349
+		government = tribal_government
+	}
+}
+
+
+c_vidzeme = {
+	361.1.1 = {
+		holder = esthonia_07
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_08
+	}
+	450.1.1 = {
+		holder = esthonia_09
+	}
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+}
+
+
+c_livs = {
+	361.1.1 = {
+		holder = esthonia_07
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_08
+	}
+	450.1.1 = {
+		holder = esthonia_09
+	}
+	765.1.1 = {
+		holder = 170349
+		liege = "d_livonia"
+		government = tribal_government
+	}
+}
+
+
+c_dorpat = {
+	361.1.1 = {
+		holder = esthonia_07
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = esthonia_08
+	}
+	450.1.1 = {
+		holder = esthonia_09
+	}
+	761.1.1 = {
+		liege = "d_livonia"
+		holder = 170352
+		government = tribal_government
+	}
+}

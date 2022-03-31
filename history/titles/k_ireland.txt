@@ -1,0 +1,374 @@
+k_ireland = {
+	200.1.1 = {
+		name = cn_eire
+	}
+}
+d_ulster = {
+	380.1.1 = {
+		succession_laws = { gaelic_elective_succession_law }
+		holder = Ulaid_01 # Lugaid
+		government = tribal_government
+	}
+}
+c_ulster = {
+	380.1.1 = {
+		holder = Ulaid_01 # Lugaid
+		government = tribal_government
+		change_development_level = 3
+	}
+}
+c_athlone = {
+	380.1.1 = {
+		holder = Ulaid_01 # Lugaid
+		government = tribal_government
+		change_development_level = 1
+	}
+}
+c_oriel = {
+	380.1.1 = {
+		holder = Ulaid_01 # Lugaid
+		government = tribal_government
+		change_development_level = 2
+	}
+}
+d_meath = {
+	380.1.1 = {
+		succession_laws = { gaelic_elective_succession_law }
+		holder = Breagh_01 # Fictional Breagh
+		government = tribal_government
+	}
+}
+c_dublin = {
+	162.1.1 = {
+		change_development_level = 4
+		holder = Techtmar_01 #Tuathal, father of Fedlimid
+	}
+	182.1.1 = {
+		holder = Techtmar_02 #Fedlimid, father of Conn
+	}
+	194.1.1 = {
+		holder = Techtmar_03 #Conn, father of Art
+	}
+	380.1.1 = {
+		holder = Breagh_01 # Fictional Breagh
+	}
+}
+
+
+c_athlone = {
+	380.1.1 = {
+		holder = Breagh_01 # Fictional Breagh
+		change_development_level = 1
+	}
+}
+
+d_connacht = {
+	162.1.1 = {
+		holder = Techtmar_01 #Tuathal, father of Fedlimid
+		succession_laws = { gaelic_elective_succession_law }
+		government = tribal_government
+	}
+	182.1.1 = {
+		holder = Techtmar_02 #Fedlimid, father of Conn
+	}
+	194.1.1 = {
+		holder = Techtmar_03 #Conn, father of Art
+	}
+	221.1.1 = {
+		holder = Connachta_001 #Art, father of Cormac
+	}
+	281.1.1 = {
+		holder = Connachta_002 #Cormac, father of Coirpre
+	}
+	324.1.1 = {
+		holder = Connachta_003 #Coirpre, father of Fiachu
+	}
+	342.1.1 = {
+		holder = Connachta_004 #Fiachu, father of Muiredach
+	}
+	379.1.1 = {
+		holder = Connachta_005 #Muiredach, father of Eochaid
+	}
+	387.1.1 = {
+		holder = Erainn_02 #Crimthann, Murdered Muiredach for the Throne
+	}
+	390.1.1 = {
+		holder = Connachta_006 #Eochaid, father of Niall
+	}
+	439.1.1 = {
+		holder = Connachta_010 #Niall of the nine hostages
+	}
+}
+c_connacht = {
+	162.1.1 = {
+		holder = Techtmar_01 #Tuathal, father of Fedlimid
+		change_development_level = 2
+	}
+	182.1.1 = {
+		holder = Techtmar_02 #Fedlimid, father of Conn
+	}
+	194.1.1 = {
+		holder = Techtmar_03 #Conn, father of Art
+	}
+	221.1.1 = {
+		holder = Connachta_001 #Art, father of Cormac
+	}
+	281.1.1 = {
+		holder = Connachta_002 #Cormac, father of Coirpre
+	}
+	324.1.1 = {
+		holder = Connachta_003 #Coirpre, father of Fiachu
+	}
+	342.1.1 = {
+		holder = Connachta_004 #Fiachu, father of Muiredach
+	}
+	379.1.1 = {
+		holder = Connachta_005 #Muiredach, father of Eochaid
+	}
+	387.1.1 = {
+		holder = Erainn_02 #Crimthann, Murdered Muiredach for the Throne
+	}
+	390.1.1 = {
+		holder = Connachta_006 #Eochaid, father of Niall
+	}
+	439.1.1 = {
+		holder = Connachta_010 #Niall of the nine hostages
+	}
+}
+
+c_mayo = {
+	162.1.1 = {
+		holder = Techtmar_01 #Tuathal, father of Fedlimid
+		change_development_level = 1
+	}
+	182.1.1 = {
+		holder = Techtmar_02 #Fedlimid, father of Conn
+	}
+	194.1.1 = {
+		holder = Techtmar_03 #Conn, father of Art
+	}
+	221.1.1 = {
+		holder = Connachta_001 #Art, father of Cormac
+	}
+	281.1.1 = {
+		holder = Connachta_002 #Cormac, father of Coirpre
+	}
+	324.1.1 = {
+		holder = Connachta_003 #Coirpre, father of Fiachu
+	}
+	342.1.1 = {
+		holder = Connachta_004 #Fiachu, father of Muiredach
+	}
+	379.1.1 = {
+		holder = Connachta_005 #Muiredach, father of Eochaid
+	}
+	387.1.1 = {
+		holder = Erainn_02 #Crimthann, Murdered Muiredach for the Throne
+	}
+	390.1.1 = {
+		holder = Connachta_006 #Eochaid, father of Niall
+	}
+	439.1.1 = {
+		holder = Connachta_010 #Niall of the nine hostages
+	}
+}
+
+c_breifne = {
+	162.1.1 = {
+		holder = Techtmar_01 #Tuathal, father of Fedlimid
+		change_development_level = 1
+	}
+	182.1.1 = {
+		holder = Techtmar_02 #Fedlimid, father of Conn
+	}
+	194.1.1 = {
+		holder = Techtmar_03 #Conn, father of Art
+	}
+	221.1.1 = {
+		holder = Connachta_001 #Art, father of Cormac
+	}
+	281.1.1 = {
+		holder = Connachta_002 #Cormac, father of Coirpre
+	}
+	324.1.1 = {
+		holder = Connachta_003 #Coirpre, father of Fiachu
+	}
+	342.1.1 = {
+		holder = Connachta_004 #Fiachu, father of Muiredach
+	}
+	379.1.1 = {
+		holder = Connachta_005 #Muiredach, father of Eochaid
+	}
+	387.1.1 = {
+		holder = Erainn_02 #Crimthann, Murdered Muiredach for the Throne
+	}
+	390.1.1 = {
+		holder = Connachta_006 #Eochaid, father of Niall
+	}
+	439.1.1 = {
+		holder = Connachta_010 #Niall of the nine hostages
+	}
+}
+
+
+d_leinster = {
+	
+	289.1.1 = {
+		succession_laws = { gaelic_elective_succession_law }
+		government = tribal_government
+		holder = Laigin_001 # Cú Corb
+	}
+	315.1.1 = {
+		holder = Laigin_002 # Nia Corb
+	}
+	350.1.1 = {
+		holder = Laigin_003 # Fedelmid
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+}
+
+
+c_leinster = {
+	289.1.1 = {
+		holder = Laigin_001 # Cú Corb
+		change_development_level = 3
+	}
+	315.1.1 = {
+		holder = Laigin_002 # Nia Corb
+	}
+	350.1.1 = {
+		holder = Laigin_003 # Fedelmid
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+
+}
+
+
+c_ossory = {
+	289.1.1 = {
+		holder = Laigin_001 # Cú Corb
+		change_development_level = 1
+	}
+	315.1.1 = {
+		holder = Laigin_002 # Nia Corb
+	}
+	350.1.1 = {
+		holder = Laigin_003 # Fedelmid
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+	372.1.1 = {
+		holder = Laigin_004 # Cathaír
+	}
+
+}
+
+
+d_munster = {
+	
+	302.1.1 = {
+		holder = Eoganachta_001 # Eógan
+		succession_laws = { gaelic_elective_succession_law }
+		government = tribal_government
+	}
+	342.1.1 = {
+		holder = Eoganachta_002 # Fiachu
+	}
+	361.1.1 = {
+		holder = Eoganachta_003 # Aillil
+	}
+	389.1.1 = {
+		holder = Eoganachta_004 # Lugaid
+	}
+	400.1.1 = {
+		holder = Eoganachta_005 # Conall Corc
+	}
+}
+
+c_ennis = {
+	302.1.1 = {
+		holder = Eoganachta_001 # Eógan
+		change_development_level = 1
+	}
+	342.1.1 = {
+		holder = Eoganachta_002 # Fiachu
+	}
+	361.1.1 = {
+		holder = Eoganachta_003 # Aillil
+	}
+	389.1.1 = {
+		holder = Eoganachta_004 # Lugaid
+	}
+	400.1.1 = {
+		holder = Eoganachta_005 # Conall Corc
+	}
+}
+c_thomond = {
+	302.1.1 = {
+		holder = Eoganachta_001 # Eógan
+		change_development_level = 2
+	}
+	342.1.1 = {
+		holder = Eoganachta_002 # Fiachu
+	}
+	361.1.1 = {
+		holder = Eoganachta_003 # Aillil
+	}
+	389.1.1 = {
+		holder = Eoganachta_004 # Lugaid
+	}
+	400.1.1 = {
+		holder = Eoganachta_005 # Conall Corc
+	}
+}
+
+
+c_ormond = {
+	302.1.1 = {
+		holder = Eoganachta_001 # Eógan
+		change_development_level = 2
+	}
+	342.1.1 = {
+		holder = Eoganachta_002 # Fiachu
+	}
+	361.1.1 = {
+		holder = Eoganachta_003 # Aillil
+	}
+	389.1.1 = {
+		holder = Eoganachta_004 # Lugaid
+	}
+	400.1.1 = {
+		holder = Eoganachta_005 # Conall Corc
+	}
+}
+
+
+c_desmond = {
+	200.1.1 = {
+		change_development_level = 1
+	}
+	342.1.1 = {
+		holder = Erainn_01 # Fiachu
+	}
+	368.1.1 = {
+		holder = Erainn_02 # Crimthann
+	}
+	389.1.1 = {
+		holder = Eoganachta_004 # Lugaid
+	}
+	400.1.1 = {
+		holder = Eoganachta_005 # Conall Corc
+	}
+}
+

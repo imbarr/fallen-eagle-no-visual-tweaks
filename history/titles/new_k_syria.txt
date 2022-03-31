@@ -1,0 +1,128 @@
+k_orientis = {
+	20.1.1 = {
+		change_development_level = 5
+	}
+    361.1.1 = {
+	    holder = byzplaceholder_02
+		government = imperial_government
+		de_jure_liege = e_byzantium
+    }   
+	395.1.17 = {
+		liege = "e_byzantium" 
+	}
+}
+d_antioch = {
+	20.1.1 = {
+		change_development_level = 6
+		de_jure_liege = k_orientis
+	}
+	370.1.1 = {
+		holder = byzplaceholder_02
+		government = imperial_government
+	}
+}
+d_cyprus = {
+	395.1.1 = {
+		holder = 9319200 
+		de_jure_liege = k_orientis
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_diyarmudar = {
+	20.1.1 = {
+		change_development_level = 2
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319210 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_diyarbakr = {
+	20.1.1 = {
+		change_development_level = 2
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319210 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_palestine = {
+	20.1.1 = {
+		change_development_level = 6
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319220 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_palmyra = {
+	20.1.1 = {
+		change_development_level = 4
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319230 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_oultrejourdain = {
+	20.1.1 = {
+		change_development_level = 3
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319220 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_aleppo = {
+	
+	395.1.1 = {
+		holder = 9319240 
+		de_jure_liege = k_orientis
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_homs = {
+	20.1.1 = {
+		change_development_level = 2
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319240 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_lebanon = {
+	20.1.1 = {
+		change_development_level = 6
+		de_jure_liege = k_orientis
+	}
+	395.1.1 = {
+		holder = 9319250 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}
+d_urdunn = {
+	20.1.1 = {
+		de_jure_liege = k_orientis
+		change_development_level = 2
+	}
+	395.1.1 = {
+		holder = 9319250 
+		liege = "k_orientis"
+		government = imperial_government
+	}
+}

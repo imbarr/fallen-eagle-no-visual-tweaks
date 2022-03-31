@@ -2,50 +2,58 @@
 ##d_bavaria ###################################
 ###c_regensburg
 2964 = {	#REGENSBURG
-	culture = bavarian
-	religion = chalcedonian
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		culture = old_suebi
+		religion = central_pagan
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
 }
 2965 = {	#TEGERNHEIM
 	holding = none
-	900.1.1 = {
-		holding = church_holding
-	}
 }
 2941 = {	#ABENSBERG
 	holding = none
-	1135.1.1 = {
-		holding = castle_holding
-	}
 }
 2963 = {	#LEONSBERG
 	holding = none
-	1230.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_munchen
 2945 = {	#MUNCHEN
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	532.1.1 = {
+		culture = bavarian
+		religion = chalcedonian
+	}
 }
 2946 = {	#AHEIM
 	holding = none
 }
 2947 = {	#WOLFRATSHAUSEN
 	holding = none
-	1000.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_eschenlohe
 2949 = {	#ESCHENLOHE
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		culture = bavarian
+	}
 }
 2948 = {	#TOLZ
 	holding = none
@@ -54,9 +62,19 @@
 
 ###c_rothenburg
 2942 = {	#ROTHENBURG
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+
+	451.1.1 = {
+		religion = central_pagan
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	632.1.1 = {
+		religion = chalcedonian
+	}
 }
 2943 = {	#FREISING
 	holding = city_holding
@@ -67,9 +85,15 @@
 
 ###c_geisenhausen
 2957 = {	#GEISENHAUSEN
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 2958 = {	#ERDING
 	holding = church_holding
@@ -77,77 +101,79 @@
 
 ###c_frontenhausen
 2959 = {	#FRONTENHAUSEN
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 2961 = {	#DORNBERG
 	holding = none
 }
 2962 = {	#ORTENBURG
 	holding = none
-	1120.1.1 = {
-		holding = city_holding
-	}
 }
 2981 = {	#BURGHAUSEN
 	holding = none
-	1020.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_falkenstein
 2956 = {	#FALKENSTEIN
-	culture = bavarian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-}
-2984 = {	#MARQUARTSTEIN
-	holding = none
-	1066.1.1 = {
-		holding = city_holding
+	451.1.1 = {
+		religion = arianism
+	}
+	532.1.1 = {
+		culture = bavarian
+		religion = central_pagan
+	}
+	632.1.1 = {
+		religion = chalcedonian
 	}
 }
-
-###c_ingolstadt
-2883 = {	#INGOLSTADT
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
-}
-2940 = {	#MUNCHSMUNSTER
-	holding = church_holding
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
-}
-2938 = {	#NIEDERSCHONENFELD
+2984 = {	#MARQUARTSTEIN
 	holding = none
 }
 
 ###c_passau
 2960 = {	#PASSAU
-	culture = bavarian
-	religion = chalcedonian
+	culture = noric
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
-}
-2969 = {	#WALDKIRCHEN
-	holding = none
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 2970 = {	#SCHARDING
 	holding = church_holding
 }
-2968 = {	#DEGGENDORF
-	holding = city_holding
-}
+
 
 ##d_nordgau ###################################
 ###c_eichstadt
 2878 = {	#EICHTSTAD
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = alamannic
+	}
+	632.1.1 = {
+		holding = castle_holding
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = bavarian
+	}
 }
 2879 = {	#HIRSCHBERG
 	holding = none
@@ -156,24 +182,85 @@
 	holding = none
 }
 
+###c_ingolstadt
+2883 = {	#INGOLSTADT
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = alamannic
+	}
+	632.1.1 = {
+		holding = castle_holding
+		culture = bavarian
+		religion = chalcedonian
+	}
+}
+2940 = {	#MUNCHSMUNSTER
+	holding = none
+}
+2938 = {	#NIEDERSCHONENFELD
+	holding = none
+}
 ###c_leuchtenburg
 2990 = {	#LEUCHTENBURG
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = alamannic
+	}
+	632.1.1 = {
+		holding = castle_holding
+	}
+	768.1.1 = {
+		culture = bavarian
+		religion = chalcedonian
+	}
 }
 2994 = {	#KULMBACH
 	holding = none
 }
 2993 = {	#BAYREUTH
-	holding = city_holding
+	holding = none
 }
-
+###c_waldkirchen
+2969 = {	#WALDKIRCHEN
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = marcomannic
+		religion = arianism
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	632.1.1 = {
+		holding = castle_holding
+	}
+	768.1.1 = {
+		religion = chalcedonian
+	}
+}
+2968 = {	#DEGGENDORF
+	holding = none
+}
 ###c_parsberg
 2987 = {	#PARSBERG
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = alamannic
+	}
+	632.1.1 = {
+		holding = castle_holding
+		culture = bavarian
+	}
+	768.1.1 = {
+		religion = chalcedonian
+	}
 }
 2986 = {	#LENGENFELD
 	holding = none
@@ -182,34 +269,50 @@
 	holding = none
 }
 2991 = {	#NEUMARKT
-	holding = city_holding
+	holding = none
 }
 
 ###c_hohenburg
 2989 = {	#HOHENBURG
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = alamannic
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		culture = old_suebi
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	632.1.1 = {
+		religion = chalcedonian
+		holding = castle_holding
+	}
 }
 2967 = {	#CHAM
-	holding = church_holding
+	holding = none
 }
 2966 = {	#WENZENBACH
-	holding = city_holding
+	holding = none
 }
 
 ##d_salzburg ###################################
 ###c_salzburg
 2975 = {	#SALZBURG
-	culture = noric
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = arianism
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	768.1.1 = {
+		religion = chalcedonian
+	}
 }
 2973 = {	#BRAUNAU
 	holding = none
-	1120.1.1 = {
-		holding = city_holding
-	}
 }
 2983 = {	#TRAUNSTEIN
 	holding = city_holding
@@ -223,9 +326,14 @@
 
 ###c_berchtesgaden
 2977 = {	#BERCHTESGADEN
-	culture = noric
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+
+	500.1.1 = {
+		culture = bavarian
+		religion = chalcedonian
+	}
 }
 2985 = {	#LAUKENTAL
 	holding = none
@@ -237,14 +345,18 @@
 ###c_hallstatt
 3135 = {	#HALLSTATT
 	culture = noric
-	religion = druidism
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = rhaetio_roman
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 3130 = {	#LIEZEN
 	holding = none
-	1125.1.1 = {
-		holding = church_holding
-	}
 }
 3133 = {	#WELS
 	holding = city_holding
@@ -253,41 +365,56 @@
 ###c_linz
 3131 = {	#LINZ
 	culture = noric
-	religion = chalcedonian
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = rhaetio_roman
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 3132 = {	#STEYR
 	holding = castle_holding
 }
 3072 = {	#LEONFELDEN
 	holding = none
-	1000.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_schaumberg
 2971 = {	#SCHAUMBERG
 	culture = noric
-	religion = chalcedonian
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 2979 = {	#STRASSWALCHEN
 	holding = none
 }
 2972 = {	#RIED
 	holding = none
-	1000.1.1 = {
-		holding = city_holding
-	}
 }
 
 ##d_augsburg ###################################
 ###c_augsburg
 2778 = {	#AUGSBURG
-	culture = swabian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = central_pagan
+		culture = alamannic
+	}
+	768.1.1 = {
+		religion = chalcedonian
+		culture = bavarian
+	}
 }
 2779 = {	#FRIEDBERG
 	holding = none
@@ -302,9 +429,17 @@
 
 ###c_alpsee
 2782 = {	#SCHONGAU
-	culture = swabian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	532.1.1 = {
+		religion = central_pagan
+		culture = alamannic
+	}
+	768.1.1 = {
+		religion = chalcedonian
+		culture = bavarian
+	}
 }
 2781 = {	#PEITING
 	holding = city_holding
@@ -315,9 +450,17 @@
 
 ###c_kempten
 2783 = {	#KEMPTEN
-	culture = swabian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = central_pagan
+		culture = alamannic
+	}
+	768.1.1 = {
+		religion = chalcedonian
+		culture = bavarian
+	}
 }
 2776 = {	#MARSETTEN
 	holding = church_holding
@@ -328,9 +471,17 @@
 
 ###c_ravensburg
 2786 = {	#RAVENSBURG
-	culture = swabian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	451.1.1 = {
+		religion = central_pagan
+		culture = alamannic
+	}
+	768.1.1 = {
+		culture = swabian
+		religion = chalcedonian
+	}
 }
 2787 = {	#BREGENZ
 	holding = none
@@ -338,41 +489,51 @@
 
 ###c_burgau
 2777 = {	#BURGAU
-	culture = swabian
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = central_pagan
+		culture = alamannic
+	}
+	768.1.1 = {
+		religion = chalcedonian
+		culture = bavarian
+	}
 }
 2775 = {	#KIRCHBERG
 	holding = none
-	1000.1.1 = {
-		holding = church_holding
-	}
 }
 
 ##d_steyermark ###################################
 ###c_graz
 3117 = {	#GRAZ
-	culture = noric
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = chalcedonian
+	}
 }
 3111 = {	#KOFLACH
 	holding = none
-	1066.1.1 = {
-		holding = church_holding
-	}
+
 }
 3118 = {	#KAPFENBERG
 	holding = none
-	1050.1.1 = {
-		holding = church_holding
-	}
+
 }
 3110 = {	#LEOBEN
 	holding = none
-	900.1.1 = {
-		holding = city_holding
-	}
+
 }
 3116 = {	#FELDBACH
 	holding = none
@@ -381,28 +542,47 @@
 
 ###c_pitten
 3092 = {	#PITTEN
-	culture = noric
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		religion = arianism
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = slavic_pagan
+	}
 }
 3120 = {	#OBERWART
 	holding = none
-	1050.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_liebnitz
 3109 = {	#LIEBNITZ
-	culture = noric
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = slavic_pagan
+	}
 }
 3103 = {	#MARIBOR
 	holding = none
-	1164.1.1 = {
-		holding = castle_holding
-	}
 }
 3106 = {	#WINDISCHE BUHEL
 	holding = none
@@ -410,9 +590,19 @@
 
 ###c_murzzuschlag
 3121 = {	#MURZZUSCHLAG
-	culture = noric
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		religion = arianism
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = chalcedonian
+	}
 }
 3119 = {	#OSTFURSTENFELD
 	holding = none
@@ -422,78 +612,120 @@
 ###c_vienna
 3086 = {	#VIENNA
 	culture = noric
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
-}
-3085 = {	#ERNSTBRUNN
-	holding = none
-	1045.1.1 = {
-		holding = city_holding
+	451.1.1 = {
+		religion = arianism
+		culture = rugian
+	}
+	532.1.1 = {
+		culture = lombard
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = bavarian
+		religion = chalcedonian
 	}
 }
-3084 = {	#FLORIDSDORF
+3087 = {	#BRUCK
 	holding = none
-	1014.1.1 = {
-		holding = castle_holding
-	}
 }
 3091 = {	#PADUN
 	holding = none
 }
-3087 = {	#BRUCK
-	holding = none
-	1000.1.1 = {
-		holding = church_holding
-	}
-}
 
 ###c_hohenau
 3081 = {	#HOHENAU
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = old_suebi
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		religion = arianism
+		culture = rugian
+	}
+	532.1.1 = {
+		culture = lombard
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		holding = castle_holding
+		religion = chalcedonian
+		culture = croatian
+	}
 }
 3079 = {	#LAA
 	holding = none
-	1125.1.1 = {
-		holding = city_holding
-	}
 }
 3082 = {	#MISTELBACH
 	holding = none
 	#1130
 }
+3085 = {	#ERNSTBRUNN
+	holding = none
+}
+3084 = {	#FLORIDSDORF
+	holding = none
+}
 
 ###c_sankt_polten
 3089 = {	#SANKT POLTEN
 	culture = noric
-	religion = chalcedonian
-	holding = church_holding
+	religion = nicene
+	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	532.1.1 = {
+		culture = lombard
+		religion = arianism
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = bavarian
+		religion = chalcedonian
+	}
 }
 3122 = {	#MARIAZELL
 	holding = none
 }
 3094 = {	#WIESELBURG
 	holding = none
-	976.1.1 = {
-		holding = church_holding
-	}
 }
 
 ###c_freistadt
 3073 = {	#FREISTADT
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = old_suebi
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		religion = arianism
+		culture = marcomannic
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
+	632.1.1 = {
+		holding = castle_holding
+	}
+	768.1.1 = {
+		religion = chalcedonian
+	}
+	
 }
 3090 = {	#SPITZ
-	holding = city_holding
+	holding = none
 }
 3076 = {	#ZWETTL
 	holding = none
-	1137.1.1 = {
-		holding = church_holding
-	}
 }
 3074 = {	#GMUND
 	holding = none
@@ -503,8 +735,15 @@
 ###c_amstetten
 3093 = {	#AMSTETTEN
 	culture = noric
-	religion = chalcedonian
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+		culture = rhaetio_roman
+	}
+	500.1.1 = {
+		culture = bavarian
+	}
 }
 3124 = {	#WAIDHOFEN
 	holding = none
@@ -512,9 +751,25 @@
 
 ###c_krems
 3088 = {	#KREMS
-	culture = bavarian
-	religion = druidism
-	holding = castle_holding
+	culture = old_suebi
+	religion = central_pagan
+	holding = tribal_holding
+	451.1.1 = {
+		religion = arianism
+		culture = rugian
+	}
+	532.1.1 = {
+		culture = lombard
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		holding = castle_holding
+		religion = chalcedonian
+		culture = bavarian
+	}
 }
 3075 = {	#WILD
 	holding = none
@@ -535,10 +790,16 @@
 ##d_tyrol ###################################
 ###c_innsbruck
 2950 = {	#INNSBRUCK
-	culture = cisalpine
+	culture = rhaetio_roman
 	religion = hellenic_pagan
 	holding = castle_holding
 	special_building_slot = schwaz_mines_01
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = bavarian
+	}
 }
 2954 = {	#BOZEN = Bolzano
 	holding = city_holding
@@ -549,9 +810,18 @@
 
 ###c_brixen
 2955 = {	#BRIXEN
-	culture = cisalpine
+	culture = rhaetio_roman
 	religion = hellenic_pagan
 	holding = castle_holding
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = bavarian
+	}
 }
 2952 = {	#BRUNECK
 	holding = none
@@ -560,45 +830,62 @@
 
 ###c_lienz
 3134 = {	#LIENZ
-	culture = cisalpine
-	religion = hellenic_pagan
+	culture = rhaetio_roman
+	religion = nicene
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = bavarian
+	}
 }
 3137 = {	#OBERVALLACH
 	holding = none
-	995.1.1 = {
-		holding = church_holding
-	}
 }
 2951 = {	#MATREI
 	holding = none
-	1170.1.1 = {
-		holding = city_holding
-	}
 }
 
 ##d_carinthia ###################################
 ###c_karnten
 3105 = {	#KLAGENFURT
-	culture = noric
-	religion = chalcedonian
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = chalcedonian
+	}
 }
 3113 = {	#SANKT VEIT
 	holding = church_holding
 }
 3108 = {	#WOLFSBERG
 	holding = none
-	1000.1.1 = {
-		holding = city_holding
-	}
+
 }
 
 ###c_kammersberg
 3128 = {	#KAMMERSBERG
-	culture = noric
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3114 = {	#MURAU
 	holding = none
@@ -606,41 +893,41 @@
 }
 3129 = {	#IRDNING
 	holding = none
-	1140.1.1 = {
-		holding = city_holding
-	}
 }
 3115 = {	#TAMSWEG
 	holding = none
-	1165.1.1 = {
-		holding = church_holding
-	}
 }
 
 ###c_knittelfeld
 3125 = {	#KNITTELFELD
-	culture = noric
-	religion = druidism
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+	}
 }
 3112 = {	#JUDENBURG
 	holding = none
-	1066.1.1 = {	#1st mention in 1074
-		holding = city_holding
-	}
 }
 3126 = {	#ADMONT
 	holding = none
-	1066.1.1 = {	#founded in 1074
-		holding = church_holding
-	}
 }
 
 ###c_villach
 3099 = {	#VILLACH
-	culture = noric
-	religion = chalcedonian
+	culture = rhaetio_roman
+	religion = celto_hellenic_syncretism
 	holding = castle_holding
+	
+	768.1.1 = {
+		culture = croatian
+		religion = slavic_pagan
+	}
+
 }
 3127 = {	#FELDKIRCHEN
 	holding = church_holding
@@ -653,25 +940,40 @@
 ##d_krain ###################################
 ###c_kranj
 3100 = {	#KRANJ
-	culture = noric
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	632.1.1 = {
+		culture = venedian
+		religion = slavic_pagan
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = chalcedonian
+	}
 }
 3102 = {	#KRSKO
 	holding = none
 }
 3101 = {	#KAMNIK
 	holding = none
-	1050.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_ljubljana
 3096 = {	#LJUBLJANA
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = croatian
+		religion = chalcedonian
+	}
 }
 3097 = {	#DOBOVEC
 	holding = none
@@ -686,18 +988,24 @@
 ##d_istria ###################################
 ###c_pula
 2518 = {	#PULA
-	culture = romano_illyrian
-	religion = chalcedonian
+	culture = illyro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	395.1.1 = {
+		religion = nicene
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		culture = greek
+	}
 }
 2519 = {	#PIRAN
 	holding = city_holding
 }
 2520 = {	#PAZIN
 	holding = none
-	980.1.1 = {
-		holding = castle_holding
-	}
 }
 2522 = {	#LABIN
 	holding = none

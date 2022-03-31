@@ -1,0 +1,209 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+comitatenses = {
+	type = heavy_infantry
+	
+	damage = 60
+	toughness = 30
+	pursuit = 0
+	screen = 20
+	
+	counters = {
+		pikemen = 1
+		
+	}
+	
+	terrain_bonus = {
+		wetlands = { damage = -50 toughness = -15 pursuit = -30 }
+		plains = { damage = 20 }
+		drylands = { damage = 20 }
+		hills = { damage = 10 }
+		
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_comitatenses }
+	}
+	buy_cost = { gold = 90 }
+	low_maintenance_cost = { gold = 1 }
+	high_maintenance_cost = { gold = 4 }
+	
+	stack = 200
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = comitatenses
+}
+
+palatinae = {
+	type = heavy_infantry
+	
+	damage = 50
+	toughness = 44
+	pursuit = 4
+	screen = 20
+	
+	terrain_bonus = {
+		jungle = { damage = 10 toughness = 6 }
+		hills = { damage = 8 toughness = 4 }
+		wetlands = { damage = -30 toughness = -5 pursuit = -20 }
+		plains = { damage = 30 }
+		drylands = { damage = 30 }
+		hills = { damage = 15 }
+	}
+	
+	counters = {
+		pikemen = 2
+		light_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_palatinae }
+	}
+
+	buy_cost = { gold = 120 }
+	low_maintenance_cost = { 3 }
+	high_maintenance_cost = { 8 }
+	
+	stack = 90
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = palatinae
+}
+
+cymbrogi = {
+	type = light_footmen
+	
+	damage = 25
+	toughness = 28
+	pursuit = 4
+	screen = 15
+	
+	terrain_bonus = {
+		plains = { damage = 20 }
+		hills = { damage = 10}
+		farmlands = { damage = 10 toughness = 4 }
+	}
+	
+	counters = {
+		heavy_infantry = 1
+		heavy_cavalry = 1
+	}
+	
+	buy_cost = { gold = 50 }
+	low_maintenance_cost = { gold = 0.5 }
+	high_maintenance_cost = { gold = 1.5 }
+	
+	stack = 100 
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = light_footmen
+}
+
+brythonic_warband = {
+	type = skirmishers
+	
+	damage = 30
+	toughness = 12
+	pursuit = 5
+	screen = 0
+	
+	terrain_bonus = {
+		forest = { damage = 12 toughness = 4 }
+		hills = { damage = 8 toughness = 4 }
+		farmlands = { damage = 8 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = 45 }
+	low_maintenance_cost = { gold = 0.2 }
+	high_maintenance_cost = { gold = 1.0 }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skirmishers
+}
+
+gaelic_warband = {
+	type = skirmishers
+	
+	damage = 25
+	toughness = 17
+	pursuit = 5
+	screen = 0
+	
+	terrain_bonus = {
+		forest = { damage = 8 }
+		hills = { damage = 8 toughness = 4 }
+		wetlands = { damage = 10 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = 45 }
+	low_maintenance_cost = { gold = 0.2 }
+	high_maintenance_cost = { gold = 1.0 }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skirmishers
+}
+
+pictish_warband = {
+	type = skirmishers
+	
+	damage = 25
+	toughness = 17
+	pursuit = 5
+	screen = 0
+	
+	terrain_bonus = {
+		forest = { damage = 8 }
+		taiga = { damage = 8 toughness = 4 }
+		hills = { damage = 10 toughness = 4 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = 45 }
+	low_maintenance_cost = { gold = 0.2 }
+	high_maintenance_cost = { gold = 1.0 }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skirmishers
+}
+
+cantabrian_warband = {
+	type = skirmishers
+	
+	damage = 17
+	toughness = 20
+	pursuit = 5
+	screen = 5
+	
+	terrain_bonus = {
+		forest = { damage = 8 }
+		plains = { damage = 8 toughness = 4 }
+		hills = { damage = 10 toughness = 4 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = 45 }
+	low_maintenance_cost = { gold = 0.2 }
+	high_maintenance_cost = { gold = 1.0 }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skirmishers
+}

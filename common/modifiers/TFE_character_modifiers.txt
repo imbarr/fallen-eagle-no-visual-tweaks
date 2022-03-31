@@ -1,0 +1,99 @@
+﻿##################################################
+#General Character Modifiers
+
+red_king_modifier = { # - Hróðvitnir
+	icon = martial_positive
+	levy_size = 0.05
+	same_culture_opinion = 20
+	tax_mult = 0.05
+	vassal_opinion = 15
+}
+red_queen_modifier = { # - Hróðvitnir
+	icon = martial_positive
+	levy_size = 0.05
+	same_culture_opinion = 20
+	tax_mult = 0.05
+	vassal_opinion = 15
+}
+caliph_auth = {
+	icon = piety_positive
+
+	monthly_piety = 0.2
+	same_faith_opinion = 0.5
+	levy_reinforcement_rate_same_faith = 0.01
+	tolerance_advantage_mod = 1
+	stacking = yes
+}
+
+mil_collapse = {
+	icon = martial_negative
+	levy_size = -0.5
+	men_at_arms_limit = -3
+	siege_phase_time = 0.3
+}
+
+civic_collapse = {
+	icon = stewardship_negative
+	stewardship = -5
+	vassal_tax_mult = -0.4
+	domain_tax_mult = -0.3
+	domain_limit = -2
+}
+
+statue_char_gold = {
+	diplomacy = 2
+	monthly_income_mult = 0.1
+	vassal_limit = 10
+	knight_limit = 2
+	title_creation_cost_mult = -0.05
+}
+
+statue_char_marble = {
+	learning = 1
+	monthly_piety_gain_mult = 0.05
+	opinion_of_vassal = 10
+	vassal_limit = 5
+	title_creation_cost_mult = -0.1
+	
+}
+
+statue_char_limestone = {
+	stewardship = 1
+	monthly_prestige_gain_mult = 0.05
+	army_maintenance_mult = -0.05
+	levy_reinforcement_rate_same_faith = 0.1
+	opinion_of_vassal = 5
+}
+
+statue_char_stone = {
+	martial = 1
+	monthly_prestige_gain_mult = 0.02
+	dread_baseline_add = 10
+	scheme_resistance = 0.1
+	scheme_power = 0.1
+}
+
+statue_char_copper = {
+	diplomacy = 1
+	monthly_income_mult = 0.01
+	vassal_limit = 5
+	knight_limit = 1
+	title_creation_cost_mult = -0.02
+	opinion_of_vassal = 5
+}
+
+monument_gardens_char = {
+	monthly_prestige_gain_mult = 0.01
+}
+
+monument_fences_char = {
+	dread_baseline_add = 10
+}
+
+TFE_refused_to_give_up_dunhuang = {
+	icon = diplomacy_negative
+	monthly_prestige = -0.2
+	vassal_opinion = -10
+	vassal_limit = -1
+	county_opinion_add = -5
+}

@@ -1,0 +1,70 @@
+sabir_01 = {
+	name = "Balaq"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	450.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		add_spouse = sabir_03
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+sabir_02 = {
+	name = "Tingiz"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	430.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+sabir_03 = {
+	name = "Boareks"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	female = yes
+	460.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+sabir_04 = {
+	name = "Balmaq"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	510.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+sabir_05 = {
+	name = "Kutilzis"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	500.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+sabir_06 = {
+	name = "Iliger"
+	religion = "tengri_pagan"
+	culture = "sabir"
+	515.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,258 @@
+k_galicia-volhynia = {
+	361.1.1 = { change_development_level = 0 }
+	532.1.1 = { change_develompent_level = 1 }
+	768.1.1 = { change_development_level = 2 }
+}
+
+d_volhynia = {
+	###Wends
+	340.1.1 = {
+		holder = volynhia_02
+		government = tribal_government
+	}
+	395.1.1 = {
+		holder = anteans_01
+		liege = k_antes
+	}
+	430.1.1 = {
+		holder = anteans_03
+	}
+	450.1.1 = {
+		holder = anteans_04
+	}
+}
+
+
+c_volodymyr = {
+	768.1.1 = { change_development_level = 2 }
+	###Wends
+	340.1.1 = {
+		holder = volynhia_02
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_01
+	}
+	430.1.1 = {
+		holder = anteans_03
+	}
+	450.1.1 = {
+		holder = anteans_04
+	}
+}
+
+
+c_peresopnytsia = {
+	###Wends
+	340.1.1 = {
+		holder = volynhia_02
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_01
+	}
+	430.1.1 = {
+		holder = anteans_03
+	}
+	450.1.1 = {
+		holder = anteans_04
+	}
+}
+
+
+c_berestye = {
+	###Wends
+	340.1.1 = {
+		holder = volynhia_01
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = volynhia_03
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_dorohychyn = {
+	###Wends
+	340.1.1 = {
+		holder = volynhia_01
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = volynhia_03
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_halych = {
+	768.1.1 = { change_development_level = 2 }
+	###Dacian leftovers
+	340.1.1 = {
+		holder = cosotoboci_01
+		government = tribal_government
+	}
+	##Huns Invade
+	395.1.1 = {
+		liege = e_hunnic_empire
+	}
+	#Antean Federation
+	476.1.1 = {
+		holder = anteans_06
+		liege = d_volhynia
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_lviv = {
+	###Sclavenian
+	340.1.1 = {
+		holder = volynhia_04
+		liege = d_volhynia
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_02
+		liege = d_volhynia
+	}
+	476.1.1 = {
+		holder = anteans_06
+		liege = d_volhynia
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_terebovl = {
+	###Sclavenian
+	340.1.1 = {
+		holder = volynhia_04
+		liege = d_volhynia
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_02
+		liege = d_volhynia
+	}
+	476.1.1 = {
+		holder = anteans_06
+		liege = d_volhynia
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_zaslavl = {
+	###Sclavenian
+	340.1.1 = {
+		holder = volynhia_04
+		liege = d_volhynia
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_02
+		liege = d_volhynia
+	}
+	#Antean Federation
+	476.1.1 = {
+		holder = anteans_06
+		liege = d_volhynia
+	}
+}
+
+
+c_cherven = {
+	###Wends
+	340.1.1 = {
+		holder = volynhia_02
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_01
+	}
+	#Antean Federation
+	476.1.1 = {
+		holder = anteans_07
+		liege = d_volhynia
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_belz = {
+	###Sclavenian
+	340.1.1 = {
+		holder = volynhia_04
+		liege = d_volhynia
+		government = tribal_government
+	}
+	#Anteans Penetrate into Volyshnia and Galicia
+	395.1.1 = {
+		holder = anteans_02
+		liege = d_volhynia
+	}
+	#Antean Federation
+	476.1.1 = {
+		holder = anteans_07
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_peremyshl = {
+	###Dacian leftovers
+	340.1.1 = {
+		holder = cosotoboci_01
+		government = tribal_government
+	}
+	##Huns Invade
+	395.1.1 = {
+		liege = e_hunnic_empire
+	}
+	#Antean Federation
+	476.1.1 = {
+		holder = anteans_07
+		liege = d_volhynia
+	}
+	###Pre-Kievan Rus'
+	500.1.1 = {
+		liege = 0
+	}
+}
+

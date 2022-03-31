@@ -1,0 +1,187 @@
+﻿ArRasool = {
+	type = character
+	text = {
+		trigger = {
+			OR = {
+				this = character:33922
+				has_character_flag = islam_prophet	
+				trigger_if = {
+					limit = {
+						exists = global_var:prophet
+					}
+					THIS = global_var:prophet
+				}
+				trigger_else = {
+					always = no
+				}
+			}
+		}
+		localization_key = islam_arrasool
+	}
+	text = {
+		localization_key = islam_caliph
+		fallback = yes
+	}
+}
+
+GetStatueEnvironment = {
+	type = landed_title 
+	log_loc_errors = no
+	text = {
+		trigger = {
+			var:statue = flag:gold
+		}
+		localization_key = environment_statue_gold
+	}
+	text = {
+		trigger = {
+			var:statue = flag:marble
+		}
+		localization_key = environment_statue_marble
+	}
+	text = {
+		trigger = {
+			var:statue = flag:limestone
+		}
+		localization_key = environment_statue_limestone
+	}
+	text = {
+		trigger = {
+			var:statue = flag:stone
+		}
+		localization_key = environment_statue_stone
+	}
+	text = {
+		trigger = {
+			var:statue = flag:copper
+		}
+		localization_key = environment_statue_copper
+	}
+	text = {
+		fallback = yes
+		localization_key = environment_statue_stone
+	}
+}
+
+GetMonumentEnvironment = {
+	type = landed_title 
+	log_loc_errors = no
+	text = {
+		trigger = {
+			var:monument_material = flag:gold
+		}
+		localization_key = environment_statue_gold
+	}
+	text = {
+		trigger = {
+			var:monument_material = flag:marble
+		}
+		localization_key = environment_statue_marble
+	}
+	text = {
+		trigger = {
+			var:monument_material = flag:limestone
+		}
+		localization_key = environment_statue_limestone
+	}
+	text = {
+		trigger = {
+			var:monument_material = flag:stone
+		}
+		localization_key = environment_statue_stone
+	}
+	text = {
+		trigger = {
+			var:monument_material = flag:copper
+		}
+		localization_key = environment_statue_copper
+	}
+	text = {
+		trigger = {
+			var:monument_material = flag:copper_rust
+		}
+		localization_key = environment_statue_copper_rust
+	}
+	text = {
+		fallback = yes
+		localization_key = environment_statue_stone
+	}
+}
+
+GetStatuePose = {
+	type = landed_title 
+	log_loc_errors = no
+	text = {
+		trigger = {
+			var:statue_pose = flag:proud
+		}
+		localization_key = personality_honorable
+	}
+	text = {
+		trigger = {
+			var:statue_pose = flag:diplo
+		}
+		localization_key = chancellor
+	}
+	text = {
+		trigger = {
+			var:statue_pose = flag:marshal
+		}
+		localization_key = marshal
+	}
+	text = {
+		trigger = {
+			var:statue_pose = flag:sword
+		}
+		localization_key = aggressive_sword
+	}
+	text = {
+		trigger = {
+			var:statue_pose = flag:idle
+		}
+		localization_key = idle
+	}
+	text = {
+		fallback = yes
+		localization_key = personality_honorable
+	}
+}
+
+GetMonumentPose = {
+	type = landed_title 
+	log_loc_errors = no
+	text = {
+		trigger = {
+			var:monument_pose = flag:proud
+		}
+		localization_key = personality_honorable
+	}
+	text = {
+		trigger = {
+			var:monument_pose = flag:diplo
+		}
+		localization_key = chancellor
+	}
+	text = {
+		trigger = {
+			var:monument_pose = flag:marshal
+		}
+		localization_key = marshal
+	}
+	text = {
+		trigger = {
+			var:monument_pose = flag:sword
+		}
+		localization_key = aggressive_sword
+	}
+	text = {
+		trigger = {
+			var:monument_pose = flag:idle
+		}
+		localization_key = idle
+	}
+	text = {
+		fallback = yes
+		localization_key = personality_honorable
+	}
+}

@@ -1,0 +1,141 @@
+name_list_frankish = {
+
+	cadet_dynasty_names = {
+		"dynn_Meroving"
+		{ "dynnp_d_" "dynn_Aubergine" }
+		"dynn_Castlemount"
+		"dynn_Karling"
+		"dynn_Hetanid"
+		"dynn_Emichid"
+		{ "dynnp_von" "dynn_Argengau" }
+		"dynn_Nibelunging"
+		"dynn_Erenolding"
+		"dynn_Hugonid"
+		"dynn_Dodonid"
+		"dynn_Theodnid"
+		"dynn_Cheribertid"
+		"dynn_Ricufling"
+		"dynn_Bouvinid"
+		{ "dynnp_de" "dynn_Landen" }
+		"dynn_Adalberts"
+		"dynn_Laidrati"
+		"dynn_Chiemgaudson"
+		"dynn_Hildegars"
+		"dynn_Leudoni"
+		"dynn_Adelards"
+		"dynn_Australdling"
+		"dynn_Baugulfson"
+		"dynn_Berengling"
+		"dynn_Hildradson"
+		"dynn_Drogling"
+		"dynn_Engelgerson"
+		{ "dynnp_de" "dynn_Transjuranie" }
+		"dynn_Galimani"
+		{ "dynnp_de" "dynn_Betoricas" }
+		"dynn_Herluins"
+		"dynn_Hermenelds"
+		"dynn_Roding"
+		"dynn_Ringling"
+		"dynn_Gunberts"
+		"dynn_Wulfardson"
+		"dynn_Vuodi"
+		"dynn_Walthars"
+		"dynn_Warins"
+		"dynn_Wegelenzi"
+		"dynn_Welenti"
+		"dynn_Widling"
+		"dynn_Morgannid"
+		"dynn_Hucberting"
+	}
+
+	dynasty_names = {
+		"dynn_Meroving"
+		{ "dynnp_d_" "dynn_Aubergine" }
+		"dynn_Castlemount"
+		"dynn_Karling"
+		"dynn_Hetanid"
+		"dynn_Emichid"
+		{ "dynnp_von" "dynn_Argengau" }
+		"dynn_Nibelunging"
+		"dynn_Erenolding"
+		"dynn_Hugonid"
+		"dynn_Dodonid"
+		"dynn_Theodnid"
+		"dynn_Cheribertid"
+		"dynn_Ricufling"
+		"dynn_Bouvinid"
+		{ "dynnp_de" "dynn_Landen" }
+		"dynn_Adalberts"
+		"dynn_Laidrati"
+		"dynn_Chiemgaudson"
+		"dynn_Hildegars"
+		"dynn_Leudoni"
+		"dynn_Adelards"
+		"dynn_Australdling"
+		"dynn_Baugulfson"
+		"dynn_Berengling"
+		"dynn_Hildradson"
+		"dynn_Drogling"
+		"dynn_Engelgerson"
+		{ "dynnp_de" "dynn_Transjuranie" }
+		"dynn_Galimani"
+		{ "dynnp_de" "dynn_Betoricas" }
+		"dynn_Herluins"
+		"dynn_Hermenelds"
+		"dynn_Roding"
+		"dynn_Ringling"
+		"dynn_Gunberts"
+		"dynn_Wulfardson"
+		"dynn_Vuodi"
+		"dynn_Walthars"
+		"dynn_Warins"
+		"dynn_Wegelenzi"
+		"dynn_Welenti"
+		"dynn_Widling"
+		"dynn_Morgannid"
+		"dynn_Hucberting"
+	}
+
+	male_names = {
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn
+		Andica Ansovald Arcambald Aregisel Arnegisel Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Hartmut Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Magneric Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Merogais Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Ragambald Ragena Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Sunno Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert
+		Theoderic Theoric Theudebald Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari
+		Waltgaud Werinbert Wilbert Willichar Wolfari
+	}
+	female_names = {
+		Adalgardis Adallinda Adaltrude Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aldegonde Aliberta Alitrudis Ansegudis Ansegundis
+		Anstrude Arsindis Audofleda Audovera Austreberta Austrechild Balthild Begga Beretrude Bernegildis Bertenildis Berthefled Berthefried
+		Berthegund Berthildis Bertilla Bertrada Bladovildis Brunhild Burgundofara Celsa Celsovildis Cesaria Chlodosind Chlothsinda Clotild Creada
+		Dagena Eldesendis Ermengardis Ermengildis Ermensindis Eustadiola Faileuba Faregildis Fastrada Framberta Fredegunde Frolaica Frotberga
+		Frotlildis Frotlina Galswinth Gaudildis Gautlindis Genovefa Gersvinda Gertrude Gisela Glodesind Goiswinth Gotberga Gundrada Halderudis
+		Harildis Hildegarde Hildegardis Hildesendis Hiltrude Illegardis Ingitrude Ingohildis Ingunde Itta Landina Lanthechilde Lantsida Leubast Leubovera
+		Leutberga Leutgardis Liutgarde Madelgarde Magnatrude Marcatrude Marcovefa Martinga Monegund Morberga Radegund Rictrude Rigunth
+		Rosamund Rothaide Rotrude Ruothilde Rusticula Sadalberga Siclehildis Sigalsis Theodelinda Theoderada Ultrogotha Vuldretrada Waltrude
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}

@@ -1,0 +1,9 @@
+object={
+	name="new_mapobject_12"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="special_building_punic_cothon_mesh"
+	count=0
+}

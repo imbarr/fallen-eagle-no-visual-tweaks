@@ -1,0 +1,59 @@
+﻿artifact_scutum_modifier = {
+	levy_size = 0.05
+	same_culture_opinion = 5
+	vassal_opinion = 5
+	advantage = 3
+	court_grandeur_baseline_add = 1
+}
+
+artifact_obelisk_modifier = {
+	vassal_opinion = 15
+	guest_opinion = 20
+	diplomacy_per_prestige_level = 1
+	monthly_prestige = 0.3
+	court_grandeur_baseline_add = 3
+}
+
+artifact_obeliskbroken_modifier = {
+	vassal_opinion = 5
+	guest_opinion = 10
+	monthly_prestige = 0.2
+	court_grandeur_baseline_add = 2
+}
+
+artifact_marcusbust_modifier = {
+	guest_opinion = 10
+	monthly_prestige = 0.1
+	court_grandeur_baseline_add = 2
+}
+
+artifact_aurelianhelmet_modifier = {
+	vassal_opinion = 15
+	monthly_prestige = 2
+	prowess = 5
+}
+
+artifact_galeahelmet_modifier = {
+	vassal_opinion = 2
+	monthly_prestige = 0.01
+	prowess = 1
+}
+
+artifact_westregalia_modifier = {
+	vassal_opinion = 2
+	monthly_prestige = 0.01
+	court_grandeur_baseline_add = 2
+	diplomacy_per_prestige_level = 1
+}
+
+artifact_spatha_modifier = {
+	monthly_prestige = 0.5
+	prowess = 4
+}
+
+artifact_romanregalia_modifier = {
+	vassal_opinion = 6
+	monthly_prestige = 0.05
+	court_grandeur_baseline_add = 4
+	diplomacy_per_prestige_level = 2
+}

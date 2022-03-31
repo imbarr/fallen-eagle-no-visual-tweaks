@@ -1,0 +1,558 @@
+﻿#PLACEHOLDERS#
+#placeholder characters, will be replaced someday
+byzplaceholder_01 = {
+	name= "Marcellinus"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+byzplaceholder_02 = {
+	name= "Gratianus"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900070 = { #Lugdunensis
+	name= "Phillippos"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900066 = { #Lugdunensis
+	name= "Themistocles"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900067 = { #Lugdunensis
+	name= "Theodosius"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900068 = { #Lugdunensis
+	name= "Anastasius"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900082 = { #Hellas
+	name= "Leonidas"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900083 = { #Nikaea
+	name= "Nikephoros"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900084 = { #Moesia
+	name= "Demetrios"
+	religion="macedonianism"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900085 = { #Anatolia
+	name= "Antiochos"
+	religion="nicene"
+	culture="greek"
+	350.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+900086 = { #Pontus
+	name= "Mithradates"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901900 = { #Styrmon
+	name= "Phokas"
+	religion="macedonianism"
+	culture="greek"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901901 = { #Adrianopolis
+	name= "Michael"
+	religion="nicene"
+	culture="greek"
+	330.1.1 = {
+		birth = yes
+	}
+	397.1.1 = {
+		death = yes
+	}
+}
+901902 = { #Philippopolis
+	name= "Theodoros"
+	religion="macedonianism"
+	culture="greek"
+	330.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+901903 = { #Achaia
+	name= "Ioannes"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901904 = { #Thessaly
+	name= "Thomas"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901905 = { #Epirus
+	name= "Leo"
+	religion="nicene"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901906 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901907 = { #Cyrenaica
+	name= "Theodosius"
+	religion="nicene"
+	culture="roman"
+	345.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901908 = { #Tobruk
+	name= "Michael"
+	religion="nicene"
+	culture="roman"
+	351.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+901909 = { #Sinai
+	name= "Georgios"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901910 = { #Delta
+	name= "Valerian"
+	religion="nicene"
+	culture="roman"
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901911 = { #Al-Wahat
+	name= "Junius"
+	religion="nicene"
+	culture="roman"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901912 = { #Al-Said
+	name= "Philippos"
+	religion="nicene"
+	culture="roman"
+	330.1.1 = {
+		birth = yes
+	}
+	396.1.1 = {
+		death = yes
+	}
+}
+901913 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901914 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901915 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901916 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901917 = { #Krete
+	name= "Philip"
+	religion="hellenic_pagan"
+	culture="greek"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+#### Orientis Vassals #####
+
+9319180 = { #Kilikia
+	name= "Konstantios"
+	religion="nicene"
+	culture="greek"
+	373.1.1 = {
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+9319190 = { #Isauria
+	name= "Ioannes"
+	religion="nicene"
+	culture="greek"
+	371.1.1 = {
+		birth = yes
+	}
+	421.1.1 = {
+		death = yes
+	}
+}
+9319200 = { #Cyrpus
+	name= "Alexios"
+	religion="nicene"
+	culture="greek"
+	369.1.1 = {
+		birth = yes
+	}
+	434.1.1 = {
+		death = yes
+	}
+}
+9319210 = { #Diyarmudar
+	name= "Antiochos"
+	religion="nicene"
+	culture="greek"
+	354.1.1 = {
+		birth = yes
+	}
+	419.1.1 = {
+		death = yes
+	}
+}
+9319220 = { #Krete
+	name= "Demetrios"
+	religion="nicene"
+	culture="greek"
+	371.1.1 = {
+		birth = yes
+	}
+	402.1.1 = {
+		death = yes
+	}
+}
+9319230 = { #Krete
+	name= "Thomas"
+	religion="nicene"
+	culture="greek"
+	353.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+9319240 = { #Krete
+	name= "Michael"
+	religion="nicene"
+	culture="greek"
+	342.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+9319250 = { #Krete
+	name= "Leo"
+	religion="nicene"
+	culture="greek"
+	339.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+
+#Asia
+
+1000000 = { #Hellespontus
+	name= "Alexios"
+	religion="macedonianism"
+	culture="greek"
+	345.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000001 = { #Aegean Islands
+	name= "Georgios"
+	religion="nicene"
+	culture="greek"
+	349.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000002 = { #Opsikion
+	name= "Phillip"
+	religion="nicene"
+	culture="greek"
+	352.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000003 = { #Pisidia
+	name= "Janus"
+	religion="nicene"
+	culture="greek"
+	353.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000004 = { #Frigia Pacatania
+	name= "Theodoros"
+	religion="nicene"
+	culture="greek"
+	351.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000005 = { #Thracesia
+	name= "Georgios"
+	religion="nicene"
+	culture="greek"
+	347.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000006 = { #Ephesos
+	name= "Anastasius"
+	religion="nicene"
+	culture="greek"
+	347.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000007 = { #Caria
+	name= "Demetrios"
+	religion="nicene"
+	culture="greek"
+	345.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000008 = { #Lycia
+	name= "Leonidas"
+	religion="nicene"
+	culture="greek"
+	347.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000009 = { #Cybirrhaeot
+	name= "Ioannes"
+	religion="nicene"
+	culture="greek"
+	351.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000010 = { #Anatolia
+	name= "Michael"
+	religion="nicene"
+	culture="greek"
+	353.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000011 = { #Cappadocia
+	name= "Michael"
+	religion="nicene"
+	culture="greek"
+	353.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}
+1000012 = { #Charsianon
+	name= "Mithradates"
+	religion="nicene"
+	culture="greek"
+	343.1.1 = {
+		birth = yes
+	}
+	496.1.1 = {
+		death = yes
+	}
+}

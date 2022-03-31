@@ -1,0 +1,128 @@
+﻿#new_official_imperial_faith
+
+### A New Imperial Faith
+# Each Empire can have an offical faith
+# This official faith is easier to spread within the Empire
+# The official faith can be switched should the Emperor change their faith
+new_official_imperial_faith_decision = { 
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = new_official_imperial_faith_decision_desc
+	
+	ai_check_interval = 36
+	
+	is_shown = {
+		# Obviously only Emperors can declare their faith to be the official faith of the Empire
+		primary_title.tier >= tier_empire
+		
+		OR = {
+			# Either the Empire has no official faith...
+			NOT = { exists = primary_title.var:official_imperial_faith }
+			# ... or you don't have it
+			NOT = { faith = primary_title.var:official_imperial_faith }
+		}
+	}
+	
+	is_valid = {
+		piety_level >= 3
+		
+		# Maybe make it more difficult if it's unreformed?
+		custom_description = {
+			text = faith_is_reformed
+			subject = root
+			faith = { NOT = { has_doctrine_parameter = unreformed } }
+		}
+	}
+	
+	cost = {
+		piety = 1000
+	}
+	
+	effect = {
+		save_scope_as = emperor
+		faith = { save_scope_as = new_faith }
+		primary_title = { save_scope_as = empire }
+		if = {
+			limit = { exists = primary_title.var:official_imperial_faith }
+			primary_title.var:official_imperial_faith = { save_scope_as = old_faith }
+		}
+		
+		show_as_tooltip = { new_official_imperial_faith_effect = yes }
+		
+		trigger_event = TFE_major_decisions.0001
+		
+		# every_player = {
+			# # limit = { NOT = { this = root } }
+			# trigger_event = TFE_major_decisions.0002
+		# }
+	}
+	
+	ai_potential = {
+		#always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+### Reopen the Catechetical School of Alexandria
+# Swaps tenet_alexandrian_catechism for tenet_alexandrian_catechism_reformed
+reopen_catechetical_school_alexandria = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = reopen_catechetical_school_alexandria_desc
+	
+	ai_check_interval = 36
+	
+	is_shown = {
+		primary_title.tier >= tier_kingdom
+		
+		# Obviously your faith needs to have tenet_alexandrian_catechism
+		faith = { has_doctrine = tenet_alexandrian_catechism }
+		
+		NOT = {  #Can only do it once. Also used in the tenet selection, in case you wanna create a new faith with the tenet
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reopen_catechetical_school_alexandria
+			}
+		}
+	}
+	
+	is_valid = {
+		# piety_level >= 3
+		
+		# # Control all your holy sites
+		# num_realm_holy_sites_faithful_holders = {
+			# CHARACTER = root
+			# COUNT = 4
+		# }
+		
+		# title:b_alexandria = { title_province = { has_building = holy_site_cathedral_01 } }
+	}
+	
+	cost = {
+		piety = 1000
+	}
+	
+	effect = {
+		show_as_tooltip = { reopen_catechetical_school_alexandria_effect = { MAIN_FAITH = root.faith } }
+		
+		trigger_event = TFE_major_decisions.0010
+		
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reopen_catechetical_school_alexandria
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}

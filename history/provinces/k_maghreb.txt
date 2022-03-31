@@ -2,8 +2,8 @@
 ##d_marrakesh ###################################
 ###c_marrakesh
 4718 = {	#MARRAKESH
-	culture = baranis
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4713 = {	#AITIYAT
@@ -21,8 +21,8 @@
 
 ###c_tadla
 4709 = {	#TADLA
-	culture = baranis
-	religion = ashari
+	culture = maurian
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 4710 = {	#DAI
@@ -43,12 +43,14 @@
 
 ###c_fazaz
 4706 = {	#MRIRA
-	culture = baranis
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4746 = {	#EL_BOROUJ
-	#holding = none
+	holding = tribal_holding
+	culture = maurian
+	religion = amazigh_pagan
 }
 4747 = {	#TIT-AN-WAGURRAMT
 	holding = none
@@ -56,11 +58,11 @@
 
 ###c_tamasna
 4703 = {	#ANFA
-	culture = baranis
-	religion = najdat
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 	1070.1.1 = {
-		religion = ashari
+		religion = sunni
 	}
 }
 4702 = {	#FADALA		#modern Mohammedia
@@ -75,11 +77,18 @@
 
 ###c_asfi
 4720 = {	# 4720 - ASFI
-	culture = baranis
-	religion = najdat
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			plantations_01
+			camel_farms_01
+			pastures_01
+		}
+	}
 	1070.1.1 = {
-		religion = ashari
+		religion = sunni
 	}
 }
 4721 = {	#AGHUZ
@@ -91,8 +100,8 @@
 
 ###tinmallal
 4716 = {	#TINMALLAL
-	culture = baranis
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 	1139.1.1 = {
 		religion = masmudi
@@ -108,8 +117,8 @@
 ##d_sous ###################################
 ###c_sous
 4724 = {	#TARUDANT
-	culture = baranis
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
@@ -124,9 +133,8 @@
 
 ###c_agadir
 4723 = {	#AGADIR
-	culture = baranis
-	#culture = masmuda
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
@@ -138,9 +146,8 @@
 
 ###c_ifni
 4727 = {	#IFNI
-	culture = butr
-	#culture = tagelmust
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = tribal_holding
 }
 4728 = {	#NUL_LAMTA
@@ -160,9 +167,8 @@
 }
 ###c_draa
 4735 = {	#TAZAGOURT
-	culture = butr
-	#culture = tagelmust
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = tribal_holding
 }
 4740 = {	#AL-TALHA
@@ -181,11 +187,17 @@
 ##d_tafilalt ###################################
 ###c_sijilmasa
 4737 = {	#SIJILMASA
-	culture = butr
-	religion = sufri
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 	1055.1.1 = {
-		religion = ashari
+		religion = sunni
+	}
+	1066.1.1 = {
+		buildings = {
+			plantations_02
+			camel_farms_01
+		}
 	}
 }
 4738 = {	#TAFILALT
@@ -197,8 +209,8 @@
 
 ###c_tudgha
 4736 = {	#TUDGHA
-	culture = butr
-	religion = ashari
+	culture = maurian
+	religion = amazigh_pagan
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
@@ -212,11 +224,11 @@
 }
 ###c_ziz
 4739 = {	# 4739 - ZIZ
-	culture = butr
-	religion = sufri
+	culture = maurian
+	religion = amazigh_pagan
 	holding = castle_holding
 	1055.1.1 = {
-		religion = ashari
+		religion = sunni
 	}
 }
 4742 = {	#GHAZWAN
@@ -226,9 +238,23 @@
 ##d_fes ###################################
 ###c_fes
 4694 = {	#FES
-	culture = baranis
-	religion = chalcedonian
+	culture = afro_roman
+	religion = amazigh_pagan
 	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			pastures_01
+			plantations_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			pastures_01
+			plantations_01
+			watchtowers_01
+			hunting_grounds_01
+		}
+	}
 }
 4688 = {	#WARGHA
 	#holding = none
@@ -240,17 +266,19 @@
 	#holding = none
 }
 4696 = {	#SUBU
-	#holding = none
+	holding = church_holding
 }
 
 ###c_muluya
 4745 = {	#MISSOUR
-	culture = butr
-	religion = ashari
+	culture = afro_roman
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4743 = {	#TIKOUTAMINE
-	#holding = none
+	holding = tribal_holding
+	culture = maurian
+	religion = amazigh_pagan
 }
 4744 = {	#EL_KSABI
 	#holding = none
@@ -258,8 +286,8 @@
 
 ###c_taza
 4677 = {	#TAZA
-	culture = baranis
-	religion = chalcedonian
+	culture = afro_roman
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4748 = {	#NADOR
@@ -268,8 +296,8 @@
 
 ###c_meknes
 4699 = {	#MEKNES
-	culture = baranis
-	religion = ashari
+	culture = afro_roman
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4693 = {	#BAHT
@@ -284,8 +312,8 @@
 
 ###c_gharb
 4700 = {	#SALA
-	culture = baranis
-	religion = chalcedonian
+	culture = afro_roman
+	religion = amazigh_pagan
 	holding = castle_holding
 }
 4687 = {	#AL-BASRA
@@ -307,9 +335,21 @@
 ##d_rif ###################################
 ###c_tangiers
 4683 = {	#TANGIERS
-	culture = baranis
-	religion = chalcedonian
+	culture = afro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			plantations_01
+			military_camps_01
+		}
+	}
 }
 4684 = {	#ASILA
 	holding = city_holding
@@ -323,9 +363,16 @@
 
 ###c_ceuta
 4682 = {	#SABTA
-	culture = baranis
-	religion = chalcedonian
+	culture = afro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			watchtowers_01
+			pastures_01
+			common_tradeport_01
+		}
+	}
 }
 4681 = {	#TITTAWAN
 	holding = none
@@ -336,9 +383,8 @@
 
 ###c_melilla
 4678 = {	#MELILLA
-	culture = baranis
-	#culture = sanhaja
-	religion = chalcedonian
+	culture = afro_roman
+	religion = hellenic_pagan
 	holding = castle_holding
 }
 4679 = {	#NAKUR
@@ -348,8 +394,8 @@
 ##d_canarias ###################################
 ###c_canarias
 849 = {		#GRAN CANARIA
-	culture = baranis
-	religion = west_african_pagan
+	culture = maurian
+	religion = guanche_pagan
 	holding = tribal_holding
 }
 8713 = {	#TENERIFE
@@ -357,8 +403,8 @@
 }
 ###c_fuerteventura
 8714 = {	#FUERTEVENTURA	
-	culture = baranis
-	religion = west_african_pagan
+	culture = maurian
+	religion = guanche_pagan
 	holding = tribal_holding
 }
 8715 = {	#LANZAROTE
@@ -366,7 +412,7 @@
 }
 ###c_madeira
 8716 = {	#MADEIRA
-	culture = baranis
-	religion = west_african_pagan
+	culture = maurian
+	religion = guanche_pagan
 	holding = tribal_holding
 }

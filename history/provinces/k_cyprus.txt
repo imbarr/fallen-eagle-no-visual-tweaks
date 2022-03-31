@@ -3,11 +3,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -16,11 +22,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -29,11 +41,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = city_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -42,11 +60,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -55,11 +79,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = castle_holding
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 
@@ -68,11 +98,17 @@
 	
 	# Misc
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	
 	holding = none
 	
 	# History
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	768.1.1 = {
+		religion = orthodox
+	}
 
 }
 

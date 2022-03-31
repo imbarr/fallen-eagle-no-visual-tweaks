@@ -1,0 +1,189 @@
+#k_galicia-volhynia
+##d_volhynia ###################################
+###c_volodymyr
+535 = {		#Volodymyr
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5047 = {	#Lutsk
+	holding = none}
+}
+5048 = {	#Luboml
+	holding = none
+}
+5049 = {	#Kovel
+	holding = none
+}
+5050 = {	#Rozhyshche
+	holding = none
+}
+
+###c_peresopnytsia
+5051 = {	#Peresopnytsia
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+	476.1.1 = {
+		culture = antean
+	}
+}
+5052 = {	# Rivne
+	holding = none
+}
+5053 = {	#Klevan
+	holding = none
+}
+
+###c_berestye
+549 = {		#Berestye
+	culture = venedian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5054 = {	#Bielsk
+	holding = none
+
+}
+5055 = {	#Kamyanyets
+	holding = none
+}
+5056 = {	#Simiatychi
+	holding = none
+}
+
+###c_dorohychyn
+5057 = {	#Dorohychyn
+	culture = venedian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5058 = {	#Kobryn
+	holding = none
+}
+5059 = {	#Blotkowo
+	holding = none
+}
+
+##d_halych ###################################
+###c_halych
+536 = {		#Halych
+	culture = dacian
+	religion = dacian_pagan
+	holding = tribal_holding
+	476.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+}
+5060 = {	#Sambir
+	holding = none
+	1150.1.1 = {
+		holding = city_holding
+	}
+}
+5061 = {	#Kolomyia
+	holding = none
+}
+
+5062 = {	#Spas
+	holding = none
+}
+
+###c_lviv
+5063 = {	#Lviv
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5064 = {	#Zvenyhorod
+	holding = none
+}
+
+5065 = {	#Busk
+	holding = none
+}
+5066 = {	#Buchach
+	holding = none
+}
+5067 = {	#Moklekov
+	holding = none
+}
+
+###c_terebovl
+546 = {		#Terebovl
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+	476.1.1 = {
+		culture = antean
+	}
+}
+5068 = {	#Horodok
+	holding = none
+}
+5069 = {	#Chortkiv
+	holding = none
+}
+
+###c_zaslavl
+5070 = {	#Zaslavl
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+	476.1.1 = {
+		culture = antean
+	}
+}
+5071 = {	#Dubno
+	holding = none
+}
+5072 = {	#Ostroh
+	holding = none
+}
+
+##d_cherven_cities ###################################
+###c_cherven
+5073 = {	#Cherven
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5074 = {	#Volin
+	holding = none
+}
+5075 = {	#Kholm
+	holding = none
+}
+5076 = {	#Suteysk
+	holding = none
+}
+###c_belz
+5077 = {	#Belz
+	culture = sclavenian
+	religion = slavic_pagan
+	holding = tribal_holding
+}
+5078 = {	#Liubachev
+	holding = none
+}
+
+###c_peremyshl
+534 = {		#Peremyshl	
+	culture = dacian
+	religion = dacian_pagan
+	holding = tribal_holding
+	476.1.1 = {
+		culture = sclavenian
+		religion = slavic_pagan
+	}
+}
+5079 = {	#Yaroslav = b_yaroslav_VOL
+	holding = none
+}
+5080 = {	#Sanok
+	holding = none
+}
+5081 = {	#Lizhensk
+	holding = none
+}

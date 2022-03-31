@@ -1,0 +1,692 @@
+
+k_kamarupa = {
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	685.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+d_kamarupanagara = {
+	350.1.1 = {
+		holder = 190054 #Pusyavarman
+		liege = k_kamarupa
+	}
+	374.1.1 = {
+		holder = 190055 #Samudravarman
+	}
+	398.1.1 = {
+		holder = 190056 #Balavarman
+	}
+	422.1.1 = {
+		holder = 190057 #Kalyanavarman
+	}
+	446.1.1 = {
+		holder = 190058 #Ganapativarman
+	}
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_kamarupanagara = {
+	350.1.1 = {
+		holder = 190054 #Pusyavarman
+		liege = d_kamarupanagara
+	}
+	374.1.1 = {
+		holder = 190055 #Samudravarman
+	}
+	398.1.1 = {
+		holder = 190056 #Balavarman
+	}
+	422.1.1 = {
+		holder = 190057 #Kalyanavarman
+	}
+	446.1.1 = {
+		holder = 190058 #Ganapativarman
+	}
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_kamatapur = {
+	350.1.1 = {
+		holder = 190054 #Pusyavarman
+		liege = d_kamarupanagara
+	}
+	374.1.1 = {
+		holder = 190055 #Samudravarman
+	}
+	398.1.1 = {
+		holder = 190056 #Balavarman
+	}
+	422.1.1 = {
+		holder = 190057 #Kalyanavarman
+	}
+	446.1.1 = {
+		holder = 190058 #Ganapativarman
+	}
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+
+}
+
+
+d_sutiya = {
+	
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_haruppeswara = {
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+
+}
+
+
+c_charaideo = {
+	350.1.1 = {
+		holder = 190054 #Pusyavarman
+		liege = d_sutiya
+	}
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+}
+
+
+c_kundina = {
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+
+}
+
+
+d_para_lauhitya = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_goalpara = {
+	350.1.1 = {
+		holder = 190054 #Pusyavarman
+		liege = d_para_lauhitya
+	}
+	374.1.1 = {
+		holder = 190055 #Samudravarman
+	}
+	398.1.1 = {
+		holder = 190056 #Balavarman
+	}
+	422.1.1 = {
+		holder = 190057 #Kalyanavarman
+	}
+	446.1.1 = {
+		holder = 190058 #Ganapativarman
+	}
+	470.1.1 = {
+		holder = 190059 #Mahendravarman
+	}
+	494.1.1 = {
+		holder = 190060 #Narayanavarman
+	}
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_dimapur = {
+	518.1.1 = {
+		holder = 190061 #Bhutivarman
+	}
+	542.1.1 = {
+		holder = 190062 #Candramukhavarman
+	}
+	566.1.1 = {
+		holder = 190063 #Sthitavarman
+	}
+	590.1.1 = {
+		holder = 190064 #Susthitavarman
+	}
+	595.1.1 = {
+		holder = 190065 #Supratisthitavarman
+	}
+	600.1.1 = {
+		holder = 190066 #Bhaskaravarman
+	}
+	650.1.1 = {
+		holder = 190039 #Salastambha
+	}
+	670.1.1 = {
+		holder = 190040 #Vijayastambha
+	}
+	680.1.1 = {
+		holder = 191557 #Palakastambha
+	}
+	690.1.1 = {
+		holder = 191558 #Kumarastambha
+	}
+	700.1.1 = {
+		holder = 191559 #Vajradeva
+	}
+	710.1.1 = {
+		holder = 190041 #Harshadeva
+	}
+	750.1.1 = {
+		holder = 190042 #Balavarman
+	}
+	770.1.1 = {
+		holder = 190043 #Salambha
+	}
+}
+
+
+c_srihatta = {
+	645.1.1 = {
+		holder = 191100 #Khadgodyama
+		liege = d_vanga
+	}
+	675.1.1 = {
+		holder = 191101 #Jatakhadga
+	}
+	700.1.1 = {
+		holder = 191102 #Devakhadga
+	}
+	725.1.1 = {
+		holder = 190084 #Shantideva Shantideva
+	}
+	750.1.1 = {
+		holder = 190085 #Viradeva Shantideva
+	}
+}
+
+
+c_manipur = {
+	100.1.1 = {
+		holder = manipur001 #Ningthouja
+	}
+	154.1.1 = {
+		holder = manipur002 #Ningthouja
+	}
+	264.1.1 = {
+		holder = manipur003 #Ningthouja
+	}
+	364.1.1 = {
+		holder = manipur004 #Ningthouja
+	}
+	379.1.1 = {
+		holder = manipur005 #Ningthouja
+	}
+	394.1.1 = {
+		holder = manipur006 #Ningthouja
+	}
+	411.1.1 = {
+		holder = manipur007 #Ningthouja
+	}
+	428.1.1 = {
+		holder = manipur008 #Ningthouja
+	}
+	518.1.1 = {
+		holder = manipur009 #Ningthouja
+	}
+	568.1.1 = {
+		holder = manipur010 #Ningthouja
+	}
+	658.1.1 = {
+		holder = manipur011 #Ningthouja
+	}
+	763.1.1 = {
+		holder = manipur012 #Ningthouja
+	}
+}
+

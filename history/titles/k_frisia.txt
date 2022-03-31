@@ -1,0 +1,219 @@
+k_frisia = {
+	361.1.1 = { change_development_level = -1 }
+	768.1.1 = { change_development_level = 5 }
+
+	646.1.1 = {
+		holder = 131727 #Aldgisl
+	}
+	680.1.1 = {
+		holder = 131725 #Radbod
+	}
+	719.1.1 = {
+		holder = 131726 #Poppo
+	}
+	734.1.1 = {
+		holder = 131728 # Aldgisl II
+	}
+	741.1.1 = {
+		holder = 131729 # Gundebold
+	}
+	748.1.1 = {
+		holder = 131730 # Radbod II
+	}
+	760.1.1 = {
+		holder = 0 # Death of last Frisian King
+	}
+}
+
+c_westfriesland = {
+	#Frisii
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+	760.1.1 = {
+		holder = 194170
+		liege = d_holland
+	}
+}
+
+
+c_zeeland = {
+	# Roman Province
+	300.1.1 = {
+		de_jure_liege = d_julich
+		government = imperial_government
+		change_development_level = 1
+	}
+	361.1.1 = {
+		holder = zeeland_01
+		liege = d_julich
+	}
+	476.1.1 = {
+		holder = faramund_04
+		government = tribal_government
+		liege = d_utrecht
+		de_jure_liege = d_holland
+	}
+	760.1.1 = {
+		holder = 194170
+		liege = d_holland
+	}
+}
+
+c_guelders = {
+	# Roman Province
+	300.1.1 = {
+		de_jure_liege = d_julich
+		government = imperial_government
+		change_development_level = 1
+	}
+	361.1.1 = {
+		holder = zeeland_02
+		liege = d_julich
+	}
+	476.1.1 = {
+		holder = faramund_04
+		government = tribal_government
+		liege = d_utrecht
+	}
+}
+
+
+c_arnhem = {
+	## Chamavi
+	361.1.1 = {
+		holder = chamavi_01
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = faramund_03
+		liege = 0
+		government = tribal_government
+	}
+}
+
+
+c_zutphen = {
+	## Chamavi
+	361.1.1 = {
+		holder = chamavi_01
+		government = tribal_government
+	}
+	476.1.1 = {
+		holder = faramund_03
+		liege = 0
+		government = tribal_government
+	}
+}
+
+d_utrecht = {	
+	476.1.1 = {
+		holder = faramund_03
+		liege = 0
+		government = tribal_government
+	}
+}
+
+c_oversticht = {
+	768.1.1 = {	change_development_level = 8 }
+	## Batavi
+	361.1.1 = {
+		holder = batavi_01
+		government = tribal_government
+	}
+	476.1.1 ={
+		holder = old_saxon_01
+		liege = k_saxony
+	}
+	760.1.1 = {
+		holder = 194170
+	}
+}
+
+
+c_groningen = {
+	## Batavi
+	361.1.1 = {
+		holder = batavi_01
+		government = tribal_government
+	}
+	476.1.1 ={
+		holder = old_saxon_01
+		liege = k_saxony
+	}
+	760.1.1 = {
+		holder = 194170
+	}
+}
+
+d_frisia = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+}
+
+c_holland = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+}
+
+c_nedersticht = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+}
+
+c_dokkum = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+}
+
+
+c_ostfriesland = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	430.1.1 = {
+		holder = chauci_03
+		liege = k_saxony
+	}
+	469.1.1 = {
+		holder = chauci_04
+		liege = k_saxony
+	}
+}
+
+
+c_frisia = {
+	361.1.1 = {
+		holder = frisi_01
+		government = tribal_government
+	}
+	451.1.1 = {
+		holder = frisi_02
+	}
+}
+

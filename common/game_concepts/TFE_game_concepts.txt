@@ -1,0 +1,69 @@
+﻿legions = {
+	alias = {
+		legion
+	}
+	texture = "gfx/interface/icons/raise_legion.dds"
+}
+
+available_counties = {
+	parent = legions
+	texture = "gfx/interface/icons/create_legion.dds"
+}
+
+caliph_autho = {
+	alias = {
+		caliphate_authority
+	}
+}
+
+zakah_bank = {
+	alias = {
+		bayt_al_maal
+	}
+}
+
+official_imperial_faith = {
+	alias = { official_faith imperial_faith }
+	texture = "gfx/interface/icons/message_feed/religious.dds"
+	parent = faith
+}
+
+trade_power = {
+	alias = {
+		trade_strength
+	}
+}
+
+global_trade_power = {
+	alias = {
+		global_trade_strength
+	}
+	parent = trade_power
+}
+
+competence = {
+	alias = {
+		imperial_competence
+	}
+}
+
+military_comp = {
+	alias = {
+		imperial_military_competence
+	}
+	parent = competence
+}
+
+civic_comp = {
+	alias = {
+		imperial_civic_competence
+	}
+	parent = competence
+}
+
+diplo_comp = {
+	alias = {
+		imperial_diplo_competence
+	}
+	parent = competence
+}

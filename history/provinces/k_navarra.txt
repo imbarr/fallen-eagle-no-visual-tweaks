@@ -2,7 +2,7 @@
 1806 = {	# PAMPLONA
 	# Misc
 	culture = basque
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 }
@@ -10,14 +10,14 @@
 	holding = city_holding
 }
 1809 = {	# LIZARRA
-	holding = church_holding
+	holding = none
 }
 
 ###c_najera
 1811 = {	# NAJERA
 	# Misc
 	culture = basque
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 }
@@ -31,8 +31,8 @@
 ###c_tudela
 1902 = {	# TUDELA
 	#Misc
-	culture = celtiberian
-	religion = chalcedonian
+	culture = basque
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 	
@@ -47,7 +47,7 @@
 1803 = {	# BILIBIO/Vizcaya
 	# Misc
 	culture = basque
-	religion = druidism
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 }
@@ -59,7 +59,7 @@
 1805 = {	#  IRUN
 	# Misc
 	culture = basque
-	religion = chalcedonian
+	religion = hellenic_pagan
 	
 	holding = castle_holding
 }

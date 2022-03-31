@@ -1,0 +1,53 @@
+﻿##################################################################
+# 
+# STEPPE EVENTS
+# 
+# For nomads and stuff
+# 
+##################################################################
+
+
+
+namespace = steppe
+
+
+##################################################################
+# 
+# LI LING DECISION
+# steppe.0001-steppe.0009
+# 
+##################################################################
+
+
+# Descent claimed from Li Ling
+steppe.0001 = {
+	type = character_event
+	title = steppe.0001.t
+	desc = steppe.0001.desc
+	theme = hunt_activity
+	override_icon = { reference = "gfx/interface/icons/event_types/type_family.dds" }
+	
+	right_portrait = {
+		character = scope:li_ling_claimant
+		animation = personality_honorable
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		scope:li_ling_claimant = {
+			show_as_tooltip = {
+				claim_li_ling_descent_effect = yes
+			}
+		}
+	}
+
+	option = {
+		name = steppe.0001.a
+		trigger = { dynasty = scope:li_ling_claimant.dynasty }
+	}
+	option = {
+		name = steppe.0001.b
+		trigger = { NOT = { dynasty = scope:li_ling_claimant.dynasty } }
+	}
+}
+

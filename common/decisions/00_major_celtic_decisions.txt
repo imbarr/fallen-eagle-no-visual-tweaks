@@ -1,0 +1,637 @@
+﻿restore_the_druids_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = restore_the_druids_decision_desc
+	selection_tooltip = restore_the_druids_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOR = {  #Can be redone if somehow the High Priest title is destroyed
+			exists = faith.religious_head
+			
+		}
+		OR = {
+			faith = faith:brythonic_druidism
+			faith = faith:druidism
+		}
+	}
+
+	is_valid = {
+		piety_level >= high_piety_level
+		custom_description = {
+			text = "restore_high_priesthood_holy_sites"
+			faith = {
+				any_holy_site = {
+					OR = {
+						county.holder = root
+						county.holder.top_liege = { this = root }
+					}
+					count >= 3
+				}
+			}
+		}
+		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = restore_high_priesthood_decision_effect_tooltip
+		trigger_event = {
+			id = celtic.0001
+		}
+	}
+	
+	ai_potential = {
+	#	always = yes #TO_DO_FLAVIO: Reactivate once the trigger has been implemented.
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+restore_kingdom_of_galatia = {
+
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = restore_kingdom_of_galatia_decision_desc
+	selection_tooltip = restore_kingdom_of_galatia_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_culture = culture:galatian
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restore_galatia
+			}
+		}
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		completely_controls_region = custom_core_galatia
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = restore_kingdom_of_galatia_tooltip
+		trigger_event = {
+			id = celtic.0003
+		}
+		
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restore_galatia
+			}
+		}
+	}
+	
+	ai_potential = {
+	#	always = yes #TO_DO_FLAVIO: Reactivate once the trigger has been implemented.
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+
+}
+
+become_king_of_briton = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	desc = become_king_of_briton_desc
+	major = yes
+	ai_goal = yes
+	ai_will_do = {
+		base = 100
+	}
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOT = { exists = global_var:briton_exists }
+		culture = culture:briton
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		custom_description = {
+			text = "hold_briton_land"
+			any_sub_realm_county = {
+				count >= 15
+				culture = culture:briton
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		set_global_variable = {
+			name = briton_exists
+			value = yes
+		}
+		custom_tooltip = become_king_of_briton_tooltip
+		add_prestige = 1000
+
+		trigger_event = {
+			id = briton.0001
+			days = 5
+		}
+		hidden_effect = {
+			title:k_england = {
+				set_de_jure_liege_title = title:e_britannia
+			}
+			title:c_cardiganshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_merioneth = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_caernarfonshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_anglesey = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_denbighshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+
+
+			title:c_maldwyn = {
+				set_de_jure_liege_title = title:d_powys
+			}
+			title:c_sir_faesyfed = {
+				set_de_jure_liege_title = title:d_powys
+			}
+			title:c_hereford = {
+				set_de_jure_liege_title = title:d_powys
+			}
+
+
+			title:c_carmarthenshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_pembrokeshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_glamorgan = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_monmouthshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_brecknockshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+
+			title:d_deheubarth = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_powys = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_gwynedd = {
+				set_de_jure_liege_title = title:k_england
+			}
+
+			title:c_lancashire = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_westmorland = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_cheshire = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_derby = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+
+			title:c_norfolk = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+			title:c_suffolk = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+			title:c_cambridgeshire = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+
+			title:c_kent = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_surrey = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_surrey = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_sussex = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+
+			title:c_hampton = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_isle_of_wight = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_dorset = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_somerset = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+
+			title:c_devon = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+			title:c_cornwall = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+			title:c_cornwall = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+
+			title:c_durham = {
+				set_de_jure_liege_title = title:d_northumberland
+			}
+			title:c_cumberland = {
+				set_de_jure_liege_title = title:d_northumberland
+			}
+			title:c_lincolnshire = {
+				set_de_jure_liege_title = title:d_york
+			}
+			title:c_nottinghamshire = {
+				set_de_jure_liege_title = title:d_hereford
+			}
+
+			title:d_york = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_northumberland = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_hereford = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_bedford = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_gloucester = {
+				set_de_jure_liege_title = title:k_england
+			}
+		}
+		
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_britannia = {
+			save_scope_as = title_k_britannia
+		}
+		title:k_england = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = title_k_britannia
+		}
+		resolve_title_and_vassal_change = scope:title_change
+	}
+
+	cost = { gold = { value = 500 } }
+}
+
+bend_swords = {
+	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+	desc = bend_swords_desc
+	major = yes
+	ai_goal = yes
+	ai_will_do = {
+		base = 100
+	}
+	ai_check_interval = 120
+	cooldown = { years = 10 }
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = { has_cultural_pillar = heritage_celtic }
+		any_realm_province = {
+			terrain = wetlands
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = "can_bend_swords"
+			has_character_flag = can_bend
+		}
+	}
+
+	effect = {
+		add_prestige = 150
+		add_prestige_experience = 50
+		trigger_event = {
+			id = briton.0003
+		}
+		remove_character_flag = can_bend
+	}
+
+	cost = { piety = { value = 100 } }
+}
+
+#Become King of the Gauls
+become_king_of_gaul_decision = {
+	picture = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
+
+	desc = become_king_of_gaul_decision_desc
+	selection_tooltip = become_king_of_gaul_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			religion = religion:druidism_religion
+			culture = culture:gaul
+			culture = culture:gallo_roman
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:became_king_of_gaul
+			}
+		}
+		
+	}
+
+	is_valid = {
+		highest_held_title_tier = tier_duchy
+		prestige_level >= high_prestige_level
+		is_independent_ruler = yes
+
+		
+		completely_controls_region = custom_gaul
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_gaull = {
+			save_scope_as = title_k_gaull
+		}
+		title:k_gaull = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = title_k_gaull
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		
+		trigger_event = {
+			id = province_events.0004
+			days = 2
+		}
+		add_prestige = 1500
+		
+		hidden_effect = {
+			title:d_normandy = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_valois = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_berry = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_anjou = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_orleans = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_champagne = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_burgundy = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_bar = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_toulouse = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_languedoc = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_armagnac = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_auvergne = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_bourbon = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_upper_burgundy = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_provence = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_savoie = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_dauphine = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_transjurania = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_flanders = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_julich = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_luxembourg = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_upper_lorraine = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			title:d_alsace = {
+				set_de_jure_liege_title = title:k_gaull
+			}
+			
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:became_king_of_gaul
+			}
+		}
+	}
+
+	cost = {
+		gold = 500
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+##################################################
+#Found Brittany by Malte! Update Deadline soon!!!
+##################################################
+
+found_brittany_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+
+	desc = found_brittany_decision_desc
+	selection_tooltip = found_brittany_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			religion = religion:druidism_religion
+			culture = culture:briton
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:founded_brittany
+			}
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier <= tier_duchy
+		prestige_level >= high_prestige_level
+		is_independent_ruler = yes
+
+		
+		completely_controls_region = custom_brittany
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_brittany = {
+			save_scope_as = title_k_brittany
+		}
+		title:k_brittany = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = title_k_brittany
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		
+		trigger_event = {
+			id = province_events.0005
+			days = 1
+		}
+		add_prestige = 750
+		
+		hidden_effect = {
+			title:c_vannes = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:c_nantes = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:c_cornouaille = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:c_french_leon = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:c_penthievre = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:c_rennes = {
+				set_de_jure_liege_title = title:d_brittany
+			}
+			title:d_brittany = {
+				set_de_jure_liege_title = title:k_britanny
+			}
+			
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:founded_brittany
+			}
+		}
+	}
+
+	cost = {
+		gold = 250
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

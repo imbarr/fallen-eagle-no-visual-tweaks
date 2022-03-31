@@ -1,0 +1,139 @@
+﻿# Wodensings Angles, Jutes and Saxons 
+900382 = {
+	name = "Woden"
+	dna = theodosius_the_great
+	dynasty = 900002
+	religion = "central_pagan"
+	culture = norse
+	trait = one_eyed
+	320.1.1 = {
+		birth = "320.1.1"
+	}
+	382.1.1 = {
+		death = "382.1.1"
+	}
+}
+
+#Frisians
+
+900003 = {
+	name = "Folcwald"
+	dynasty = 900002
+	religion = "central_pagan"
+	culture = frisian
+	father = 900382
+	373.1.1 = {
+		birth = "373.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+900415 = {
+	name = "Goswin"
+	religion = "central_pagan"
+	culture = frisian
+	365.1.1 = {
+		birth = "365.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+
+#frankishs
+
+900651 = {
+	name = "Haldemar"
+	dynasty = 900013
+	religion = "central_pagan"
+	culture = frankish
+	359.1.1 = {
+		birth = "359.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+900652 = {
+	name = "Arcambald"
+	dynasty = 900014
+	religion = "central_pagan"
+	culture = frankish
+	348.1.1 = {
+		birth = "348.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+900653 = {
+	name = "Seguin"
+	dynasty = 900015
+	religion = "central_pagan"
+	culture = frankish
+	356.1.1 = {
+		birth = "356.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+900654 = {
+	name = "Vulframn"
+	dynasty = 900016
+	religion = "central_pagan"
+	culture = frankish
+	356.1.1 = {
+		birth = "356.1.1"
+	}
+	400.1.1 = {
+		death = "400.1.1"
+	}
+}
+903002 = { # Fiallar
+	name="Fiallar"
+	religion="central_pagan"
+	culture="norse"
+	349.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+geats_leader = {
+	name = "Thuriserand"
+	religion = "norse_pagan"
+	culture = "gautish"
+	373.1.1 = {
+		birth = "373.1.1"
+	}
+	401.1.1 = {
+		death = "401.1.1"
+	}
+}
+swedes_leader = {
+	name = "StyrbjO_rn"
+	religion = "norse_pagan"
+	culture = "swedish"
+	375.1.1 = {
+		birth = "375.1.1"
+	}
+	401.1.1 = {
+		death = "401.1.1"
+	}
+}
+sitones_leader = {
+	name = "Elisabet"
+	female = yes
+	religion = "norse_pagan"
+	culture = "sitonian"
+	360.1.1 = {
+		birth = "360.1.1"
+	}
+	401.1.1 = {
+		death = "401.1.1"
+	}
+}

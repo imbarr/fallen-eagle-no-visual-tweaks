@@ -1,265 +1,1834 @@
-e_italy = {
-	20.1.1 = {
-		change_development_level = 6
+## Western Roman Empire ##########
+e_roman_empire = {
+	364.1.1 = {
+		holder = valentianic_01 #Valentian I
 	}
-	
-	1000.1.1 = {
+	375.11.17 = {
+		holder = valentianic_04 #Valentian II
+	}
+	392.5.15 = {
+		holder = 70534 #Theodosius I
+	}
+	395.1.17 = {
+		holder = 0
+	}
+}
+e_western_roman_empire = {
+	364.1.1 = {
+		holder = valentianic_01 #Valentian I
+	}
+	375.11.17 = {
+		holder = valentianic_05 #Gratian
+	}
+	384.1.1 = {
+		holder = Wleding_001 # Magnus Maximus the Usurper
+	}
+	388.1.1 = {
+		holder = valentianic_04 #Valentian II
+	}
+	392.5.15 = {
+		holder = 70534 #Theodosius I
+	}
+	395.1.17 = {
+		holder = 145227 #Honrrius
+		government = imperial_government
+		succession_laws = { imperial_elective_succession_law }
+	}
+}
+
+## Titular Kingdoms ############
+
+k_franks = {
+	395.1.1 = {
+		holder = 900016
+		liege = "e_western_roman_empire"
+		government = tribal_government
+	}
+}
+
+k_italia_suburbicariae = {
+	395.1.1 = {
+		holder = 900062
+		liege = "e_western_roman_empire"
+		government = imperial_government
+		change_development_level = 7
+		de_jure_liege = e_western_roman_empire
+	}
+}
+
+## Pannonia/Carpathia ##########
+
+d_visegrad = {
+	395.1.1 = {
+		holder = 900625
+		liege = "k_pannonia"
+		government = imperial_government
+	}
+	475.1.1 = {
+		holder = 992016 
+		change_development_level = 3
+		government = feudal_government
+	}
+}
+c_baranya = {
+	395.1.1 = {
+		change_development_level = 7
+	}
+}
+c_esztergom = {
+	395.1.1 = {
+		holder = 900626
+		liege = d_visegrad
+		government = imperial_government
+	}
+}
+c_szekesfehervar = {
+	395.1.1 = {
+		holder = 900626
+		liege = d_visegrad
+		government = imperial_government
+	}
+}
+c_visegrad = {
+	395.1.1 = {
+		holder = 900626
+		liege = d_visegrad
+		government = imperial_government
+	}
+}
+
+## Northern Italy ##########
+
+
+d_lombardia = {
+	395.1.1 = {
+		holder = 145227
+		government = imperial_government
+	}
+}
+c_lombardia = {
+	395.1.1 = {
+		change_development_level = 12
+	}
+}
+c_cremona = {
+	395.1.1 = {
+		holder = 145227
+		government = imperial_government
+	}
+}
+c_brescia = {
+	395.1.1 = {
+		holder = 145227
+		government = imperial_government
+	}
+}
+
+d_genoa = {
+	395.1.1 = {
+		holder = 900080
+		liege = k_italia_annonariae
+		government = imperial_government
+	}
+}
+c_genoa = {
+	395.1.1 = {
 		change_development_level = 9
 	}
-	
-	1100.1.1 = {
-		change_development_level = 17
+}
+c_luni = {
+	395.1.1 = {
+		change_development_level = 7
 	}
+}
+c_cuneo = {
+	395.1.1 = {
+		holder = 900601
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+c_monferrato = {
+	395.1.1 = {
+		holder = 900601
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+c_tortona = {
+	395.1.1 = {
+		holder = 900601
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+c_turin = {
+	395.1.1 = {
+		holder = 900602
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+c_canavese = {
+	395.1.1 = {
+		holder = 900602
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+c_novara = {
+	395.1.1 = {
+		holder = 900602
+		liege = d_genoa
+		government = imperial_government
+	}
+}
+d_friuli = {
+	360.1.1 = {
+		holder = 900614
+		liege = "k_italia_annonariae"
+		government = imperial_government
+		change_development_level = 5
+	}
+}
+c_trent = {
+	395.1.1 = {
+		holder = 900614
+	}
+}
+c_aquileia = {
+	395.1.1 = {
+		change_development_level = 9
+	}
+}
+c_pula = {
+	395.1.1 = {
+		change_development_level = 7
+	}
+}
+c_friuli = {
+	395.1.1 = {
+		change_development_level = 7
+	}
+}
+c_venezia = {
+	395.1.1 = {
+		holder = 900616
+		liege = "d_friuli"
+		government = imperial_government
+		change_development_level = 2
+	}
+}
+c_polesine = {
+	395.1.1 = {
+		holder = 900616
+		liege = "d_friuli"
+		government = imperial_government
+		change_development_level = 7
+	}
+}
+c_veneto = {
+	395.1.1 = {
+		holder = 900616
+		liege = "d_friuli"
+		government = imperial_government
+		change_development_level = 7
+	}
+}
+c_treviso = {
+	395.1.1 = {
+		holder = 900617
+		liege = "d_friuli"
+		government = imperial_government
+	}
+}
+c_padua = {
+	395.1.1 = {
+		holder = 900617
+		liege = "d_friuli"
+		government = imperial_government
+	}
+}
+c_verona = {
+	395.1.1 = {
+		holder = 900617
+		liege = "d_friuli"
+		government = imperial_government
+	}
+}
 
+d_emilia = {
 	395.1.1 = {
-		holder = 145227
+		holder = 900618
+		liege = "k_italia_annonariae"
+		government = imperial_government
+	}
+}
+c_modena = {
+	395.1.1 = {
+		change_development_level = 8
 	}
 }
 
-k_aquitaine = {
+d_romagna = {
 	395.1.1 = {
-		holder = 145227
-	}	
-}
-
-k_navarra = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-
-k_valencia = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_andalusia = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_badajoz = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_castille = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_leon = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_spanish_galicia = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_croatia = {
-	395.1.1 = {
-		holder = 145227
+		holder = 900619
+		liege = "k_italia_annonariae"
+		government = imperial_government
 	}
 }
-k_portugal = {
+c_ravenna = {
 	395.1.1 = {
-		holder = 145227
+		change_development_level = 9
 	}
 }
-k_wales = {
+c_ferrara = {
 	395.1.1 = {
-		holder = 145227
+		change_development_level = 7
 	}
 }
-k_england = {
+c_casentino = {
 	395.1.1 = {
-		holder = 145227
+		holder = 900620
+		liege = "d_romagna"
+		government = imperial_government
+	}
+}
+c_urbino = {
+	395.1.1 = {
+		holder = 900620
+		liege = "d_romagna"
+		government = imperial_government
+		change_development_level = 7
 	}
 }
 
-k_burgundy = {
-	395.1.1 = {
-		holder = 145227
-	}	
-}
-k_sicily = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
+## Italy/Latium ############
 
-k_france = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-k_aragon = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-k_brittany = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
 d_latium = {
 	395.1.1 = {
-		holder = 145227
-	}
-}
-d_lower_lorraine = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-
-d_upper_lorraine = {
-	395.1.1 = {
-		holder = 145227
+		holder = 900062
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 8
 	}
 }
 
-d_luxembourg = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_brabant = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_tyrol = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_istria = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_krain = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_carinthia = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_steyermark = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_somogy = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_gyor = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_alsace = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_salzburg = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-k_africa = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-
-k_tahert = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-k_maghreb = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
-d_latium = {
-	395.1.1 = {
-		holder = 145227
-	}
-}
 c_roma = {
 	395.1.1 = {
-		holder = 145227
-	}
-}
-c_viterbo = {
-	395.1.1 = {
-		holder = 145227
+		holder = 900062
+		liege = "k_italia_suburbicariae"
+		change_development_level = 12 
 	}
 }
 c_tivoli = {
 	395.1.1 = {
-		holder = 145227
+		holder = 900062
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 12 
 	}
 }
-c_cleves = {
+d_toscana = {
 	395.1.1 = {
-		holder = 145227
+		holder = 900621
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+}
+
+c_pisa = {
+	395.1.1 = { change_development_level = 8 }
+}
+c_siena = {
+	395.1.1 = {
+		holder = 900622
+		liege = "d_toscana"
+		government = imperial_government
+	}
+}
+c_arezzo = {
+	395.1.1 = {
+		holder = 900622
+		liege = "d_toscana"
+		government = imperial_government
+	}
+}
+c_orbetello = {
+	395.1.1 = {
+		holder = 900622
+		liege = "d_toscana"
+		government = imperial_government
+		change_development_level = 8
+	}
+}
+c_viterbo = {
+	395.1.1 = {
+		holder = 900623
+		liege = "d_toscana"
+		government = imperial_government
+		change_development_level = 8
+	}
+}
+c_orvieto = {
+	395.1.1 = {
+		holder = 900623
+		liege = "d_toscana"
+		government = imperial_government
+	}
+}
+
+d_ancona = {
+	395.1.1 = {
+		holder = 900624
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+		change_development_level = 8
+	}
+}
+c_ancona = {
+	395.1.1 = { change_development_level = 9 }
+}
+
+d_spoleto = {
+	395.1.1 = {
+		holder = 900625
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+}
+c_spoleto = {
+	395.1.1 = { change_development_level = 9 }
+}
+
+d_benevento = {
+	395.1.1 = {
+		holder = 900626
+		liege = "k_italia_suburbicariae"
+		government = imperial_government
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 8
+	}
+}
+c_apulia = {
+	395.1.1 = { change_development_level = 9 }
+}
+
+d_apulia = {
+	395.1.1 = {
+		holder = 900627
+		liege = "k_italia_suburbicariae"
+		government = imperial_government
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 8
+	}
+}
+c_apulia = {
+	395.1.1 = { change_development_level = 9 }
+}
+
+d_calabria = {
+	395.1.1 = {
+		holder = 900628
+		liege = "k_italia_suburbicariae"
+		government = imperial_government
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 8
+	}
+}
+c_reggio_calabria = {
+	395.1.1 = { change_development_level = 9 }
+}
+c_camarda = {
+	395.1.1 = {
+		holder = 900629
+		liege = "d_calabria"
+		government = imperial_government
+	}
+}
+c_salerno = {
+	395.1.1 = {
+		holder = 900629
+		liege = "d_calabria"
+		government = imperial_government
+	}
+}
+
+d_sicily = {
+	395.1.1 = {
+		holder = 900630
+		liege = "k_italia_suburbicariae"
+		government = imperial_government
+		de_jure_liege = "k_italia_suburbicariae"
+		change_development_level = 8
+	}
+}
+c_palermo = {
+	395.1.1 = { change_development_level = 9 }
+}
+
+d_corsica = {
+	395.1.1 = {
+		holder = 900631
+		liege = "k_italia_suburbicariae"
+		government = imperial_government
+		change_development_level = 5
+	}
+}
+
+d_sardinia = {
+	395.1.1 = {
+		holder = 900632
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+		change_development_level = 5
+	}
+}
+
+d_toscana = {
+	395.1.1 = {
+		holder = 900400
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_spoleto = {
+	395.1.1 = {
+		holder = 900402
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_corsica = {
+	395.1.1 = {
+		holder = 900403
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_sardinia = {
+	395.1.1 = {
+		holder = 900404
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_sicily = {
+	395.1.1 = {
+		holder = 900405
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_salerno = {
+	395.1.1 = {
+		holder = 900406
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_calabria = {
+	395.1.1 = {
+		holder = 900406
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_apulia = {
+	395.1.1 = {
+		holder = 900407
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_benevento = {
+	395.1.1 = {
+		holder = 900408
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+d_ancona = {
+	395.1.1 = {
+		holder = 900409
+		liege = "k_italia_suburbicariae"
+		de_jure_liege = "k_italia_suburbicariae"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+}
+
+## Aquatine/Septum Provinciae ############
+c_namur = {
+	395.1.1 = {
+		holder = 900509
+		liege = "d_champagne"
+		government = imperial_government
+	}
+}
+d_upper_lorraine = {
+	395.1.1 = {
+		holder = 900514
+		liege = "k_gallia"
+		government = imperial_government
+	}
+}
+c_nancy = {
+	395.1.1 = {
+		holder = 900515
+		liege = "d_upper_lorraine"
+		government = imperial_government
+	}
+}
+c_neufchateau = {
+	395.1.1 = {
+		holder = 900515
+		liege = "d_upper_lorraine"
+		government = imperial_government
+	}
+}
+c_puttlingen = {
+	395.1.1 = {
+		holder = 900515
+		liege = "d_upper_lorraine"
+		government = imperial_government
+	}
+}
+c_strassburg = {
+	395.1.1 = {
+		holder = 900518
+		liege = "d_germania_prima"
+		government = imperial_government
+	}
+}
+c_colmar = {
+	395.1.1 = {
+		holder = 900518
+		liege = "d_germania_prima"
+		government = imperial_government
+	}
+}
+
+d_julich = {
+	395.1.1 = {
+		holder = 900520
+		liege = k_gallia
+		government = imperial_government
+	}
+}
+c_luxembourg = {
+	395.1.1 = {
+		holder = 900519
+		liege = "d_julich"
+		government = imperial_government
+	}
+}
+c_bouillon = {
+	395.1.1 = {
+		holder = 900519
+		liege = "d_julich"
+		government = imperial_government
+	}
+}
+c_liege = {
+	395.1.1 = {
+		holder = 900519
+		liege = "d_julich"
+		government = imperial_government
+	}
+}
+
+c_brabant = {
+	395.1.1 = {
+		holder = 900016
+		liege = "k_gallia"
+		government = tribal_government
+	}
+}
+c_maastricht = {
+	395.1.1 = {
+		holder = 900016
+		liege = "k_gallia"
+		government = tribal_government
+	}
+}
+c_guelders = {
+	395.1.1 = {
+		holder = 900016
+		liege = "k_gallia"
+		government = tribal_government
+	}
+}
+c_antwerpen = {
+	395.1.1 = {
+		holder = 900016
+		liege = "k_gallia"
+		government = tribal_government
+	}
+}
+c_zeeland = {
+	395.1.1 = {
+		holder = 900520
+		liege = "d_julich"
+		government = tribal_government
+	}
+}
+c_cologne = {
+	395.1.1 = {
+		change_development_level = 6
 	}
 }
 c_aachen = {
 	395.1.1 = {
-		holder = 145227
-}
-}
-c_maastricht = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-
-d_bavaria = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-d_currezia = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-
-d_augsburg = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-
-c_amstetten = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-
-c_sankt_polten = {
-	395.1.1 = {
-		holder = 145227
-}
-}
-
-c_vienna = {
-	395.1.1 = {
-		holder = 145227
+		change_development_level = 4
 	}
+}
+
+## Africa ############
+
+d_tlemcen = {
+	395.1.1 = {
+		holder = 900800 
+		liege = "k_africae"
+		government = imperial_government
+	}
+}
+
+d_bejaia = {
+	395.1.1 = {
+		holder = 900801 
+		liege = "k_africae"
+		government = imperial_government
+	}
+}
+c_tanas = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_tahert = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_yalala = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_tlemcen = {
+	
+	395.1.1 = {
+		change_development_level = 6
+	}
+}
+c_wajda = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_orania = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+
+c_hunyan = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_ashir = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_algier = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_bejaia = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_satif = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+c_hodna = {
+	
+	395.1.1 = {
+		change_development_level = 4
+	}
+}
+
+
+## Hispania ############
+
+d_leon = {
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+}
+c_leon = {
+	
+	395.1.1 = {
+		holder = 900325
+		liege = "d_galicia"
+		government = tribal_government
+	}
+	395.1.1 = {liege = "d_galicia"}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+		liege = k_asturias
+	}
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
+	}
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+}
+c_benavente = {
+	
+	395.1.1 = {
+		holder = 900325
+		liege = "d_galicia"
+		government = tribal_government
+		change_development_level = 4
+	}
+	395.1.1 = {liege = "d_galicia"}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+		liege = k_asturias
+	}
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
+	}
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	773.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+	}
+}
+c_zamora = {
+	
+	395.1.1 = {
+		holder = 900325
+		liege = "d_galicia"
+		government = tribal_government
+	}
+	395.1.1 = {liege = "d_galicia"}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+	760.1.1 = {
+		holder = 200031 # Musa Musavid
+		liege = k_andalusia
+	}
+}
+c_salamanca = {	
+	
+	395.1.1 = {
+		holder = 900319
+		liege = "d_badajoz"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	758.1.1 = {
+		holder = 200032 # Suleyman Suleymanid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+c_avila = {
+	395.1.1 = {
+		holder = 900319
+		liege = "d_badajoz"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	758.1.1 = {
+		holder = 200032 # Suleyman Suleymanid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+
+d_asturias = {
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+}
+c_asturias_de_oviedo = {
+	
+	395.1.1 = {
+		holder = 900325
+		government = tribal_government
+		
+		change_development_level = 2
+	}
+	395.1.2 = {liege = "d_galicia"}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	718.1.1 = {
+		holder = 70000 # Pelayo Fafilaz de Asturias
+		liege = k_asturias
+	}
+	737.1.1 = {
+		holder = 70115 # Favila Páez de Asturias
+	}
+	739.6.15 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
+	}
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	773.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+	}
+}
+c_pravia = {
+	
+	395.1.1 = {
+		holder = 900324
+		government = imperial_government
+		liege = d_galicia
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+
+	754.1.1 = {
+		holder = 70116 # Mauregato Alfónsez de Cantabria
+		liege = k_asturias
+	}
+}
+
+d_galicia = {
+	
+	395.1.1 = {
+		holder = 900072
+		government = imperial_government
+		liege = k_hispania
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+}
+c_coruna = {
+	
+	395.1.1 = {
+		holder = 900324
+		government = imperial_government
+		liege = d_galicia
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+	769.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+		liege = k_asturias
+	}
+}
+c_santiago = {
+	
+	395.1.1 = {
+		holder = 900324
+		government = imperial_government
+		liege = d_galicia
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+	
+	745.1.1 = {
+		holder = 200058 # Luifredo de Suevonia
+		liege = k_asturias
+	}
+	770.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+}
+c_tui = {
+	
+	395.1.1 = { change_development_level = 4 }
+	410.1.1 = { change_development_level = 3 }
+	
+	745.1.1 = {
+		holder = 200058 # Luifredo de Suevonia
+		liege = k_asturias
+	}
+	770.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+}
+c_astorga = {
+	
+	395.1.1 = {
+		holder = 900324
+		government = imperial_government
+		liege = d_galicia
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	754.1.1 = {
+		holder = 70116 # Mauregato Alfónsez de Cantabria
+		liege = k_asturias
+	}
+}
+c_monterrei = {
+	
+	395.1.1 = { change_development_level = 4 }
+	410.1.1 = { change_development_level = 3 }
+	
+	754.1.1 = {
+		holder = 70116 # Mauregato Alfónsez de Cantabria
+		liege = k_asturias
+	}
+}
+
+d_coimbra = {
+	711.1.1 = {
+		de_jure_liege = k_spanish_galicia
+	}
+}
+c_coimbra = {
+	
+	395.1.1 = {
+		holder = 900320
+		liege = "d_badajoz"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 4
+	}
+	
+	761.1.1 = {
+		holder = 200035 # Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+}
+c_viseu = {
+	
+	395.1.1 = {
+		holder = 900319
+		liege = "d_badajoz"
+		government = imperial_government
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+	}
+	
+	761.1.1 = {
+		holder = 200035 # Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+}
+c_aveiro = {
+	
+	395.1.1 = {
+		holder = 900320
+		liege = "d_badajoz"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	761.1.1 = {
+		holder = 200035 # Abdallah Aslamid
+		liege = d_beja
+		government = clan_government
+	}
+}
+c_castelo_branco = {
+	
+	395.1.1 = {
+		holder = 900320
+		liege = "d_badajoz"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		holder = 0
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	758.1.1 = {
+		holder = 200032 # Suleyman Suleymanid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+
+d_porto = {
+	711.1.1 = {
+		de_jure_liege = k_spanish_galicia
+	}
+}
+c_porto = {
+	
+	395.1.1 = { change_development_level = 5 }
+	410.1.1 = { change_development_level = 3 }
+	
+	765.1.1 = {
+		holder = 200045 # Abd al-Rahman Abdalramanid
+		liege = k_andalusia
+	}
+}
+c_braganza = {
+	
+	395.1.1 = { change_development_level = 4 }
+	410.1.1 = { change_development_level = 3 }
+	760.1.1 = {
+		holder = 200031 # Musa Musavid
+		liege = k_andalusia
+	}
+}
+
+d_valencia = {
+	711.1.1 = {
+		government = clan_government
+	}
+}
+c_valencia = {
+	395.1.1 = {
+		holder = 900330
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	758.1.1 = {
+		holder = 200226 # Hisham Petrid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+c_castellon = {
+	
+	395.1.2 = {
+		holder = 900332
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	
+	758.1.1 = {
+		holder = 200226 # Hisham Petrid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+c_teruel = {
+	395.1.2 = {
+		holder = 900332
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	758.1.1 = {
+		holder = 200226 # Hisham Petrid
+		liege = k_andalusia
+		government = clan_government
+	}
+
+}
+c_denia = {
+	395.1.1 = {
+		holder = 900330
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	758.1.1 = {
+		holder = 200226 # Hisham Petrid
+		liege = k_andalusia
+		government = clan_government
+	}
+}
+c_alicante = {
+	395.1.1 = {
+		holder = 900329
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	695.1.1 = {
+		holder = 73901 # Teodomiro de Orihuela
+		liege = d_murcia
+		government = clan_government
+	}
+	743.1.1 = {
+		holder = 200064 # Atanagildo de Orihuela
+	}
+	745.1.1 = {
+		holder = 73903 # Ali Nadirid
+	}
+}
+
+d_murcia = {
+	395.1.1 = {
+		holder = 900329
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 5
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	695.1.1 = {
+		holder = 73901 # Teodomiro de Orihuela
+		government = clan_government
+	}
+	711.1.1 = {
+		liege = k_andalusia
+	}
+	743.1.1 = {
+		holder = 200064 # Atanagildo de Orihuela
+	}
+	745.1.1 = {
+		holder = 73903 # Ali Nadirid
+	}
+}
+c_murcia = {
+	395.1.1 = {
+		holder = 900329
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	695.1.1 = {
+		holder = 73901 # Teodomiro de Orihuela
+		liege = d_murcia
+		government = clan_government
+	}
+	743.1.1 = {
+		holder = 200064 # Atanagildo de Orihuela
+	}
+	745.1.1 = {
+		holder = 73903 # Ali Nadirid
+	}
+}
+c_alcaraz = {
+
+	695.1.1 = {
+		holder = 73901 # Teodomiro de Orihuela
+		liege = d_murcia
+		government = clan_government
+	}
+	743.1.1 = {
+		holder = 200064 # Atanagildo de Orihuela
+	}
+	745.1.1 = {
+		holder = 73903 # Ali Nadirid
+	}
+	
+}
+c_alarcon = {
+	395.1.1 = {
+		holder = 900330
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	695.1.1 = {
+		holder = 73901 # Teodomiro de Orihuela
+		liege = d_murcia
+		government = clan_government
+	}
+	743.1.1 = {
+		holder = 200064 # Atanagildo de Orihuela
+	}
+	745.1.1 = {
+		holder = 73903 # Ali Nadirid
+	}
+}
+
+d_mallorca = {
+	395.1.1 = {
+		holder = 900342
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	711.1.1 = {
+		de_jure_liege = k_valencia
+	}
+}
+c_mallorca = {
+	744.1.1 = {
+		holder = 200223 # Theodoros Spanikos
+		liege = e_byzantium
+	}
+	779.1.1 = {
+		holder = 6392 # Charlemagne Karling
+		liege = k_septem_provinciae
+	}
+
+}
+c_menorca = {
+	744.1.1 = {
+		holder = 200223 # Theodoros Spanikos
+		liege = e_byzantium
+	}
+	779.1.1 = {
+		holder = 6392 # Charlemagne Karling
+		liege = k_septem_provinciae
+	}
+}
+c_iviza = {
+	744.1.1 = {
+		holder = 200223 # Theodoros Spanikos
+		liege = e_byzantium
+	}
+}
+
+c_navarra = {
+	395.1.1 = {
+		holder = 900340
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	766.1.1 = {
+		holder = 200042 # Hakam Hakamid
+		liege = k_andalusia
+	}
+}
+c_najera = {
+	395.1.1 = {
+		holder = 900340
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	705.1.1 = {
+		holder = 73808 # Qasi banu Qasi
+		liege = k_andalusia
+		government = clan_government
+	}
+	723.1.1 = {
+		holder = 73809 # Fortun ibn Qasi banu Qasi
+	}
+	768.1.1 = {
+		holder = 73810 # Musa ibn Fortun banu Qasi
+	}
+}
+c_tudela = {
+	395.1.1 = {
+		holder = 900334
+		liege = "d_murcia"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	766.1.1 = {
+		holder = 200042 # Hakam Hakamid
+		liege = k_andalusia
+	}
+
+}
+c_viscaya = {
+	395.1.1 = {
+		holder = 900340
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	745.1.1 = {
+		holder = 200061 # Obeko de Alava
+		liege = k_asturias
+	}
+	770.1.1 = {
+		holder = 70006 # Alfonso II de Asturias
+	}
+
+}
+c_ipuskoa = {
+	395.1.1 = {
+		holder = 900340
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	766.1.1 = {
+		holder = 200042 # Hakam Hakamid
+		liege = k_andalusia
+	}
+}
+
+d_cantabria = {
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+}
+c_asturias_de_santillana = {
+	395.1.1 = {
+		holder = 900341
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+}
+c_amaya = {
+	395.1.1 = {
+		holder = 900341
+		liege = "d_aragon"
+		government = tribal_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+}
+d_rif = {
+	340.1.1 = {
+		holder = nuvelan_01
+		liege = "k_hispania"
+	}
+	395.1.1 = {
+		holder = 900343
+		liege = "k_hispania"
+		government = imperial_government
+	}
+	410.1.1 = {
+		government = feudal_government
+	}
+}
+c_fes = {
+	340.1.1 = {
+		holder = nuvelan_01
+	}
+	363.1.1 = {
+		holder = nuvelan_04
+		liege = "d_rif"
+	}
+	369.1.1 = {
+		holder = nuvelan_03
+		liege = "d_rif"
+	}
+	375.1.1 = {
+		holder = nuvelan_11
+		liege = "d_rif"
+	}
+	386.1.1 = {
+		holder = nuvelan_09
+		liege = "d_rif"
+	}
+	395.1.1 = {
+		liege = "d_rif"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	767.1.1 = {
+		holder = 210037
+	}
+
+}
+c_muluya = {
+	340.1.1 = {
+		holder = nuvelan_01
+	}
+	363.1.1 = {
+		holder = nuvelan_04
+		liege = "d_rif"
+	}
+	369.1.1 = {
+		holder = nuvelan_03
+		liege = "d_rif"
+	}
+	375.1.1 = {
+		holder = nuvelan_11
+		liege = "d_rif"
+	}
+	386.1.1 = {
+		holder = 900345
+		liege = "d_rif"
+	}
+	395.1.1 = {
+		liege = "d_rif"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	767.1.1 = {
+		holder = 210037
+	}
+}
+c_taza = {
+	340.1.1 = {
+		holder = nuvelan_01
+	}
+	363.1.1 = {
+		holder = nuvelan_04
+		liege = "d_rif"
+	}
+	369.1.1 = {
+		holder = nuvelan_03
+		liege = "d_rif"
+	}
+	375.1.1 = {
+		holder = nuvelan_11
+		liege = "d_rif"
+	}
+	386.1.1 = {
+		holder = 900345
+		liege = "d_rif"
+	}
+	395.1.1 = {
+		liege = "d_rif"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	767.1.1 = {
+		holder = 210037
+	}
+}
+c_meknes = {
+	340.1.1 = {
+		holder = nuvelan_01
+	}
+	363.1.1 = {
+		holder = nuvelan_04
+		liege = "d_rif"
+	}
+	369.1.1 = {
+		holder = nuvelan_03
+		liege = "d_rif"
+	}
+	375.1.1 = {
+		holder = nuvelan_11
+		liege = "d_rif"
+	}
+	386.1.1 = {
+		holder = nuvelan_08
+		liege = "d_rif"
+	}
+	395.1.1 = {
+		liege = "d_rif"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	767.1.1 = {
+		holder = 210037
+	}
+	
+
+}
+c_gharb = {
+	340.1.1 = {
+		holder = nuvelan_01
+	}
+	363.1.1 = {
+		holder = nuvelan_04
+		liege = "d_rif"
+	}
+	369.1.1 = {
+		holder = nuvelan_03
+		liege = "d_rif"
+	}
+	375.1.1 = {
+		holder = nuvelan_11
+		liege = "d_rif"
+	}
+	386.1.1 = {
+		holder = nuvelan_07
+		liege = "d_rif"
+	}
+	395.1.1 = {
+		liege = "d_rif"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+
+	767.1.1 = {
+		holder = 210038
+	}
+}
+c_tangiers = {
+	395.1.1 = {
+		holder = 900343
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	766.1.1 = {
+		holder = 73981
+		government = clan_government
+	}
+}
+c_ceuta = {
+	395.1.1 = {
+		holder = 900343
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	690.1.1 = {
+		holder = 73980 # Conde Don Julián
+		government = clan_government
+	}
+}
+c_melilla = {
+	395.1.1 = {
+		holder = 900343
+		liege = "k_hispania"
+		government = imperial_government
+		change_development_level = 4
+	}
+	410.1.1 = {
+		government = feudal_government
+		change_development_level = 3
+	}
+	710.1.1 = {
+		government = clan_government
+		holder = 168254
+	}
+	749.1.1 = {
+		holder = 168255
+	}
+	755.1.1 = {
+		holder = 168256
+	}
+	760.1.1 = {
+		holder = 168257
+
 }

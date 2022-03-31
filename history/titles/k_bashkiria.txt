@@ -1,0 +1,213 @@
+k_bashkiria = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+
+d_bashkiria = {
+	360.1.1 = {
+		holder = baskir_01
+	}
+	465.1.1 = {
+		holder = baskir_04
+	}
+	528.1.1 = {
+		holder = baskir_07
+	}
+	624.1.1 = {
+		holder = baskir_12
+		liege = k_volga_bulgaria
+	}
+	768.1.1 = {
+		holder = baskir_13
+	}
+}
+c_ufa = {
+	360.1.1 = {
+		holder = baskir_01
+	}
+	465.1.1 = {
+		holder = baskir_04
+	}
+	528.1.1 = {
+		holder = baskir_07
+	}
+	624.1.1 = {
+		holder = baskir_12
+	}
+	768.1.1 = {
+		holder = baskir_13
+	}
+}
+c_yanokul = {
+	360.1.1 = {
+		holder = baskir_01
+	}
+	465.1.1 = {
+		holder = baskir_04
+	}
+	528.1.1 = {
+		holder = baskir_07
+	}
+	624.1.1 = {
+		holder = baskir_12
+	}
+	768.1.1 = {
+		holder = baskir_13
+	}
+}
+c_sakmara = {
+	360.1.1 = {
+		holder = baskir_01
+	}
+	465.1.1 = {
+		holder = baskir_04
+	}
+	528.1.1 = {
+		holder = baskir_07
+	}
+	624.1.1 = {
+		holder = baskir_12
+	}
+	768.1.1 = {
+		holder = baskir_13
+	}
+}
+
+d_uraltau = {
+	360.1.1 = {
+		holder = baskir_02
+	}
+	465.1.1 = {
+		holder = baskir_05
+	}
+	528.1.1 = {
+		holder = baskir_08
+	}
+	624.1.1 = {
+		holder = baskir_11
+	}
+	768.1.1 = {
+		holder = baskir_14
+	}
+}
+c_uraltau = {
+	360.1.1 = {
+		holder = baskir_02
+	}
+	465.1.1 = {
+		holder = baskir_05
+	}
+	528.1.1 = {
+		holder = baskir_08
+	}
+	624.1.1 = {
+		holder = baskir_11
+	}
+	768.1.1 = {
+		holder = baskir_14
+	}
+}
+c_karabash = {
+	360.1.1 = {
+		holder = baskir_02
+	}
+	465.1.1 = {
+		holder = baskir_05
+	}
+	528.1.1 = {
+		holder = baskir_08
+	}
+	624.1.1 = {
+		holder = baskir_11
+	}
+	768.1.1 = {
+		holder = baskir_14
+	}
+}
+c_uiska = {
+	360.1.1 = {
+		holder = baskir_02
+	}
+	465.1.1 = {
+		holder = baskir_05
+	}
+	528.1.1 = {
+		holder = baskir_08
+	}
+	624.1.1 = {
+		holder = baskir_11
+	}
+	768.1.1 = {
+		holder = baskir_14
+	}
+}
+
+d_vogulia = {
+	360.1.1 = {
+		holder = baskir_03
+	}
+	465.1.1 = {
+		holder = baskir_06
+	}
+	528.1.1 = {
+		holder = baskir_09
+	}
+	624.1.1 = {
+		holder = baskir_10
+	}
+	768.1.1 = {
+		holder = baskir_15
+	}
+}
+c_yekaterinburg = {
+	360.1.1 = {
+		holder = baskir_03
+	}
+	465.1.1 = {
+		holder = baskir_06
+	}
+	528.1.1 = {
+		holder = baskir_09
+	}
+	624.1.1 = {
+		holder = baskir_10
+	}
+	768.1.1 = {
+		holder = baskir_15
+	}
+}
+c_chadrinsk = {
+	360.1.1 = {
+		holder = baskir_03
+	}
+	465.1.1 = {
+		holder = baskir_06
+	}
+	528.1.1 = {
+		holder = baskir_09
+	}
+	624.1.1 = {
+		holder = baskir_10
+	}
+	768.1.1 = {
+		holder = baskir_15
+	}
+}
+c_chelabinsk = {
+	360.1.1 = {
+		holder = baskir_03
+	}
+	465.1.1 = {
+		holder = baskir_06
+	}
+	528.1.1 = {
+		holder = baskir_09
+	}
+	624.1.1 = {
+		holder = baskir_10
+	}
+	768.1.1 = {
+		holder = baskir_15
+	}
+}
+

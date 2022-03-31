@@ -1,0 +1,24 @@
+﻿namespace = germanic_events
+
+germanic_events.0001 = {
+	title = germanic_events.0001.t
+	desc =  germanic_events.0001.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		event_background = battlefield
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = germanic_events.0001.option
+		custom_tooltip = germanic_events.0001.option.tooltip
+	}
+}

@@ -1,0 +1,305 @@
+﻿#############################################################
+# 
+# KIDARITES AND VASSALS/NEIGHBORS
+# 
+# Done by Cybrxkhan
+# 
+#############################################################
+
+# Cybr: Wikipedia lists him as c. 350-390 CE, but I am basing this off the chronology proposed by Xiang Wan
+# which is based on integrating Chinese Buddhist pilgrim, Roman, Persian sources, and numismatics.
+# He suggests Kidara already held sway over Tocharistan in the 370s, which means Kidara needs to have been an adult by then
+xionite_001 = { # Possible founder of the Kidarites
+	name= "Kidara"
+	dynasty = dynasty_kidarite
+	religion="khurmazta" # Religious pluralism in reality
+	culture="xionite"
+	trait = ambitious
+	trait = education_martial_4
+	340.1.1 = {
+		birth = yes
+	}
+	366.1.1 = {
+		effect = {
+			spawn_army = {
+				name = "Hunnic Invaders"
+				levies = 2000
+				men_at_arms = {
+					type = bowmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 10
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = horse_archers
+					stacks = 5
+				}
+				location = province:1186 # Chah
+			}
+		}
+	}
+	377.1.1 = {
+		add_spouse = xionite_004
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+# Kidara's son is mentioned as existing, but name is not given
+# Was ruling area around Peshawar (Puruṣapura) under his father's name in c. 410s
+# I decide to use the name Yosada, an attested name of another Kidarite chieftain (possibly under Kidara)
+xionite_002 = {
+	name= "Yosada"
+	dynasty = dynasty_kidarite
+	religion="khurmazta"
+	culture="xionite"
+	father = xionite_001
+	mother = xionite_004
+	379.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		death = yes
+	}
+}
+
+# Kunkhas is attested as a Kidarite king in 460s CE
+# Sassanid king tricked him into thinking he offered him his daughter for marriage
+# Suggesting Kunkhas probably wasn't *that* old
+# I could have made Kidara's son Kunkhas, but that would have made him too old by 460s
+# Therefore, I decided to make Kunkhas Kidara's grandson. This may not be accurate.
+xionite_003 = {
+	name= "Kunkhas"
+	dynasty = dynasty_kidarite
+	religion="khurmazta"
+	culture="xionite"
+	father = xionite_003
+	420.1.1 = {
+		birth = yes
+	}
+	471.1.1 = {
+		death = yes
+	}
+}
+
+# Fictional
+xionite_004 = {
+	name= "Nanda"
+	female = yes
+	religion="khurmazta"
+	culture="xionite"
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+
+# Person is fictional, dynasty is not
+# Wanwan is name given to petty Yuezhi kings around Argen valley who used "wanwan" meaning "victorious" a lot on their coins
+# They may have retreated further into the Chirchik Valley after the Chionite conquest
+xionite_005 = {
+	name= "Sadashkana"
+	dynasty = dynasty_wanwan
+	religion="khurmazta"
+	culture="saka"
+	336.1.1 = {
+		birth = yes
+	}
+	393.1.1 = {
+		death = yes
+	}
+}
+xionite_006 = {
+	name= "Arsal"
+	dynasty = dynasty_wanwan
+	religion="khurmazta"
+	culture="saka"
+	father = xionite_005
+	360.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+
+# Real rulers of Chach, however exact dates are unknown as they are only known from coins
+xionite_007 = {
+	name= "Zirt"
+	dynasty = dynasty_yuni
+	religion="khurmazta"
+	culture="xionite"
+	335.1.1 = {
+		birth = yes
+	}
+	414.1.1 = {
+		death = yes
+	}
+}
+xionite_008 = {
+	name= "Chirt"
+	dynasty = dynasty_yuni
+	religion="khurmazta"
+	culture="xionite"
+	father = xionite_007
+	375.1.1 = {
+		birth = yes
+	}
+	442.1.1 = {
+		death = yes
+	}
+}
+
+# Fictitious
+xionite_009 = {
+	name= "Kubrat"
+	dynasty = dynasty_uar
+	religion="tengri_pagan"
+	culture="avar"
+	342.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+xionite_010 = {
+	name= "Toktu"
+	dynasty = dynasty_uar
+	religion="tengri_pagan"
+	culture="avar"
+	father = xionite_009
+	360.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+
+# Xionite/Kidarite kings/chiefs attested in coinage found in Kashmir and Gandhara (NW India) in the late 4th century
+# These included Kirada (not to be confused with Kidara), Hanaka, Yasada, and Perosa (or Peroz)
+# I placed them as vassals of Kidarites in East Afghanistan/NW India and made them different religions to show Huns' religious plurality
+# Yosada was used above for Kidara's son, whose name is uncertain IRL
+
+# Gandhara
+xionite_011 = {
+	name= "Kirada"
+	religion="shaivism"
+	culture="xionite"
+	364.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+#Theravada Buddhist in Pamir
+xionite_012 = {
+	name= "Hanaka"
+	religion="theravada"
+	culture="xionite"
+	371.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+
+# Vassal under Gandhara
+xionite_013 = {
+	name= "Peroz"
+	religion="theravada"
+	culture="xionite"
+	362.1.1 = {
+		birth = yes
+	}
+	419.1.1 = {
+		death = yes
+	}
+}
+
+# ALCHON HUNS
+# Names of Alchon leaders before Khilinga (c. 430-490 CE) are not known
+# There is a theory proposed by Joe Cribb, which Xiang Wan seems to lean toward agreeing with # that the term "Alakha" found on some coins from around
+# Kidara's era points to an actual person who founded # a clan/faction within the Kidarites and gave the Alchonids their name. Although I am not 100% sure
+# of this, it makes sense to just make the Alchon founder Alakha for game purposes. 
+xionite_014 = {
+	name= "Alakha" 
+	dynasty = dynasty_alchonid
+	religion="shaivism" # Possibly Surya worshippers who clashed with Zunists (!)
+	culture="xionite"
+	trait = education_martial_4
+	339.1.1 = {
+		birth = yes
+	}
+	419.1.1 = {
+		death = yes
+	}
+}
+
+#Fictitious son to keep the dynasty going
+xionite_015 = {
+	name= "Toramana"
+	dynasty = dynasty_alchonid
+	religion="shaivism"
+	culture="xionite"
+	trait = education_martial_4
+	father = xionite_014
+	366.1.1 = {
+		birth = yes
+	}
+	431.1.1 = {
+		death = yes
+	}
+}
+
+# Local ruler of Bukhara attested in coinage
+xionite_016 = {
+	name= "Mawak"
+	religion="manichean"
+	culture="sogdian"
+	371.1.1 = {
+		birth = yes
+	}
+	422.1.1 = {
+		death = yes
+	}
+}
+
+# Fictitious local ruler of Samarkand
+xionite_017 = {
+	name= "Kanakk"
+	religion="mahayana"
+	culture="sogdian"
+	368.1.1 = {
+		birth = yes
+	}
+	431.1.1 = {
+		death = yes
+	}
+}
+
+# Fictitious Nezak ancestor
+xionite_018 = {
+	name= "Nezak"
+	dynasty = dynasty_nezakid
+	religion="zun_pagan"
+	culture="xionite"
+	370.1.1 = {
+		birth = yes
+	}
+	437.1.1 = {
+		death = yes
+	}
+}

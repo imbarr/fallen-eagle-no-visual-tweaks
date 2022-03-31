@@ -1,0 +1,588 @@
+﻿
+168316 = {
+	name = "Halfdan"
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	705.1.1 = {
+		birth = "705.1.1"
+	}
+	755.1.1 = {
+		death = "755.1.1"
+	}
+}
+
+168317 = {
+	name = "O_ysteinn"
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168316
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	790.1.1 = {
+		death = "790.1.1"
+	}
+}
+
+168318 = {
+	name = "GuT_rO_T_r"
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168316
+	745.1.1 = {
+		birth = "745.1.1"
+	}
+	795.1.1 = {
+		death = "795.1.1"
+	}
+}
+
+168647 = {
+	name = "Haraldr"
+	dynasty = 9552
+	religion = "norse_pagan"
+	culture = "norse"
+	710.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+194004 = {
+	name = Sigurdr  # Sigurd Ring
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	father = 194028
+	religion = norse_pagan
+	culture = norse
+	trait = intellect_good_1
+	trait = brave
+	trait = education_martial_3
+	730.12.12 = {
+		birth = yes
+	}
+	750.1.1 = {
+		give_nickname = nick_ring
+	}
+	766.1.1 = {
+		add_spouse = 194056 # Alfhild
+	}
+	800.2.5 = {
+		death = yes
+	}
+}
+194005 = {
+	name = HjO_rvardr
+	dynasty = 821 # Ulfing
+	religion = norse_pagan
+	culture = norse
+	722.10.1 = {
+		birth = "722.10.1"
+	}
+	788.12.1 = {
+		death = "788.12.1"
+	}
+}
+194007 = {
+	name = "T_orfinn"
+	dynasty = 825 # Gute
+	religion = "norse_pagan"
+	culture = norse
+	731.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+194008 = {
+	name = "Geir"
+	dynasty = 1045010
+	religion = "norse_pagan"
+	culture = norse
+	735.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+194009 = {
+	name = "Alfr"
+	dynasty = 1045022
+	religion = norse_pagan
+	culture = norse
+	730.1.1 = {
+		birth = yes
+	}
+	749.1.1 = {
+		add_spouse = 194057
+		capital = c_vingulmork
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+194010 = {
+	name = "Oddr"
+	dynasty = 822
+	religion = norse_pagan
+	culture = norse
+	731.1.1 = {
+		birth = yes
+	}
+	798.1.1 = {
+		death = yes
+	}
+}
+194011 = {
+	name = "Haukr"
+	dynasty = 1045019
+	religion = norse_pagan
+	culture = norse
+	741.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+194012 = {
+	name = "Hrafn"
+	dynasty = 1045011
+	religion = norse_pagan
+	culture = norse
+	744.1.1 = {
+		birth = yes
+	}
+	788.1.1 = {
+		death = yes
+	}
+}
+194013 = {
+	name = "Grimr"
+	dynasty = 1045012
+	religion = norse_pagan
+	culture = norse
+	733.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+194014 = {
+	name = "T_orsteinn"
+	dynasty = 836
+	religion = norse_pagan
+	culture = norse
+	740.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+194015 = {
+	name = "T_orbjO_rn"
+	dynasty = 1045016
+	religion = norse_pagan
+	culture = norse
+	735.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+194016 = {
+	name = "O_rvar"
+	dynasty = 1045013
+	religion = norse_pagan
+	culture = norse
+	733.1.1 = {
+		birth = yes
+	}
+	791.1.1 = {
+		death = yes
+	}
+}
+194017 = {
+	name = "Ulfr"
+	dynasty = 1045014
+	religion = norse_pagan
+	culture = norse
+	739.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+194018 = {
+	name = "Ormr"
+	dynasty = 1045015
+	religion = norse_pagan
+	culture = norse
+	740.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+194019 = {
+	name = "Sigtrygg"
+	dynasty = 1045018
+	religion = norse_pagan
+	culture = norse
+	737.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+194020 = {
+	name = "Ragnarr"
+	dynasty = 1180
+	religion = norse_pagan
+	culture = norse
+	750.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+194021 = {
+	name = "Steinn"
+	dynasty = 1045017
+	religion = norse_pagan
+	culture = norse
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+194022 = {
+	name = "Tryggve"
+	dynasty = 1183
+	religion = norse_pagan
+	culture = norse
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+194023 = {
+	name = "Tjudmund"
+	dynasty = 1175
+	religion = norse_pagan
+	culture = norse
+	739.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+194028 = {
+	name = "Randver"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	father = 194029
+	700.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
+		death = yes
+	}
+}
+
+194029 = {
+	name = "Valdar"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	father = 194030
+	668.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		death = yes
+	}
+}
+
+194030 = {
+	name = "Olafr"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	father = 194031
+	640.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+194031 = {
+	name = "Ingjald"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	father = 194032
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+194032 = {
+	name = "Anundr"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	570.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+194033 = {
+	name = "Ingild"
+	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
+	religion = norse_pagan
+	culture = norse
+	female = yes
+	father = 194029
+	700.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		add_spouse = 194003
+	}
+	776.1.1 = {
+		death = yes
+	}
+}
+180770 = {
+	name = "Grip"
+	dynasty = 1043504
+	religion = "norse_pagan"
+	culture = "norse"
+	725.1.1 = {
+		birth = "725.1.1"
+	}
+	775.1.1 = {
+		death = "775.1.1"
+	}
+}
+180771 = {
+	name = "HrO_mundar"
+	dynasty = 1043504
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 180770
+	750.1.1 = {
+		birth = "750.1.1"
+	}
+	800.1.1 = {
+		death = "800.1.1"
+	}
+}
+194044 = {
+	name = "Eirikr"
+	dynasty = 1045008
+	religion = norse_pagan
+	culture = norse
+	745.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+194045 = {
+	name = "FroT_i"
+	dynasty = 1045009
+	religion = norse_pagan
+	culture = norse
+	742.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+194046 = {
+	name = "Oddr"
+	dynasty = 825 # Gute
+	religion = "norse_pagan"
+	culture = norse
+	father = 194007
+	761.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+194050 = {
+	name = "Hrafn"
+	dynasty = 822
+	religion = norse_pagan
+	culture = norse
+	father = 194010
+	750.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+194051 = {
+	name = "HO_gne"
+	dynasty = 821
+	religion = norse_pagan
+	culture = norse
+	father = 194005
+	760.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		death = yes
+	}
+}
+194053 = {
+	name = "Tjudmund"
+	dynasty = 822
+	religion = norse_pagan
+	culture = norse
+	father = 194010
+	755.1.1 = {
+		birth = yes
+	}
+	825.1.1 = {
+		death = yes
+	}
+}
+194054 = {
+	name = "Alfr"
+	dynasty = 1045021
+	religion = norse_pagan
+	culture = norse
+	730.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194055 = {
+	name = "Eirikr"
+	dynasty = 1045021
+	religion = norse_pagan
+	culture = norse
+	father = 194054
+	mother = 194059
+	750.1.1 = {
+		birth = yes
+	}
+	812.1.1 = {
+		death = yes
+	}
+}
+194056 = {
+	name = "Alfhildr"
+	female = yes
+	dynasty = 1045022
+	religion = norse_pagan
+	culture = norse
+	father = 194009
+	mother = 194057
+	760.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+194057 = {
+	name = "RO_gnfriT_"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	730.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+194058 = {
+	name = "Alfsol"
+	female = yes
+	dynasty = 1045021
+	religion = norse_pagan
+	culture = norse
+	father = 194054
+	mother = 194059
+	768.12.12 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194059 = {
+	name = "GerT_r"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	728.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194060 = {
+	name = "Sverker"
+	dynasty = 1045023
+	religion = norse_pagan
+	culture = norse
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194061 = {
+	name = "Tryggve"
+	dynasty = 1045020
+	religion = norse_pagan
+	culture = norse
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}

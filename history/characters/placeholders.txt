@@ -1,0 +1,388 @@
+﻿#PLACEHOLDERS#
+#placeholder characters, will be replaced someday
+
+900001 = { #Alemanni placeholder
+	name="Macrian"
+	dna = ruler_designer_1314808305
+	dynasty=5678
+	religion="norse_pagan"
+	culture="swabian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900002 = { #Lazika placeholder
+	name="Sergius"
+	religion="nicene"
+	culture="georgian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900010 = { #Marcomanni placeholder
+	name="Enaredus"
+	dynasty=99996001
+	religion="norse_pagan"
+	culture="old_suebi"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900011 = { #Alans placeholder
+	name="Respendial"
+	dynasty=99995001
+	religion="norse_pagan"
+	culture="german"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900012 = { #Vandal placeholder
+	name="Godigisel"
+	dynasty=99980000
+	religion="arianism"
+	culture="german"
+	359.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+900017 = { #venedic placeholder
+	name="Palteskja"
+	religion="slavic_pagan"
+	culture="venedian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900019 = { #suebi placeholder
+	name= "Hermeneric"
+	religion="norse_pagan"
+	culture="suebi"
+	362.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+900030 = { #ostrogothic placeholder
+	name= "Vitherigus"
+	dynasty=99920001
+	religion="arianism"
+	culture="german"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+#Polish tribes
+900022 = { #polan placeholder
+	name= "Dobromir"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900023 = { #vistulian placeholder
+	name= "Jaksa"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900024 = { #kuyavian placeholder
+	name= "Arheimar"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900025 = { #mazovian placeholder
+	name= "Trojden"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900026 = { #lendian placeholder
+	name= "Pavel"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900027 = { #vistulian placeholder 2
+	name= "Rostislav"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900028 = { #maozvian placeholder 2
+	name= "Odon"
+	religion="slavic_pagan"
+	culture="wendish"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900029 = { #antes placeholder
+	name= "Arheimar"
+	religion="slavic_pagan"
+	culture="antean"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+### placeholders for slavic lands
+900031 = { #pomerania placeholder
+	name= "pmPlaceholder"
+	religion="norse_pagan"
+	culture="pomeranian"
+}
+900032 = { #pogesania placeholder
+	name= "pgsPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900033 = { #mecklemburj placeholder
+	name= "obPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900034 = { #veleti placeholder
+	name= "wlPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900035 = { #lusatians placeholder
+	name= "lstPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900036 = { #sorbs placeholder
+	name= "atPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900037 = { #anhalt placeholder
+	name= "ahtPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900038 = { #lsil placeholder
+	name= "lsilPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900039 = { #usil placeholder
+	name= "usilPlaceholder"
+	religion="norse_pagan"
+	culture="venedian"
+}
+900040 = { #czech placeholder
+	name= "czechPlaceholder"
+	religion="norse_pagan"
+	culture="czech"
+}
+900041 = { #moravian placeholder
+	name= "mrvPlaceholder"
+	religion="norse_pagan"
+	culture="czech"
+}
+#Africa
+900042 = { #gaetulian placeholder
+	name= "Salomon"
+	religion="amazigh_pagan"
+	culture="gaetulian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900043 = { #mauri placeholder
+	name= "Mennad"
+	religion="amazigh_pagan"
+	culture="maurian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900044 = { #garamantian placeholder
+	name= "Yeften"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	377.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900144 = { #musulami placeholder
+	name= "Iken"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	377.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+pharusii_placeholder = { #mauri placeholder
+	name= "Keraja"
+	religion="amazigh_pagan"
+	culture="maurian"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900145 = { #musulami placeholder
+	name= "Thakiya"
+	religion="amazigh_pagan"
+	culture="garamantian"
+	377.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900047 = { #nobatia placeholder
+	name= "Aburni"
+	religion="coptic"
+	culture="nubian"
+	380.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900049 = { #tanukihds placeholder
+	name= "Tubbakarib"
+	religion="orthodox"
+	culture="butr"
+	380.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900051 = { #alodia placeholder
+	name= "Georgios"
+	religion="coptic"
+	culture="nubian"
+	380.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900052 = { #himyar placeholder
+	name= "Abu"
+	dynasty = 99991003 
+	religion="rabbinism"
+	culture="himyarite"
+	365.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+900053 = { #Courland
+	name= "Vingoldas"
+	religion="baltic_pagan"
+	culture="latgalian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900054 = { #Livonia
+	name= "Treniota"
+	religion="baltic_pagan"
+	culture="estonian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900055 = { #Skalvians
+	name= "Alvydas"
+	religion="baltic_pagan"
+	culture="lithuanian"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}

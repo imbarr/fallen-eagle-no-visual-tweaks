@@ -1,0 +1,630 @@
+﻿189058 = {
+	name = "Katunkon" # Kadungon
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	521.1.1 = {
+		birth = "521.1.1"
+	}
+	590.1.1 = {
+		death = "590.1.1"
+	}
+}
+189059 = {
+	name = "MA_ravarman" # Maravarman Avani Culamani
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189058
+	553.1.1 = {
+		birth = "553.1.1"
+	}
+	620.1.1 = {
+		death = "620.1.1"
+	}
+}
+189060 = {
+	name = "Celiyancentan" # Cezhiyan Cendan
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189059
+	582.1.1 = {
+		birth = "582.1.1"
+	}
+	640.1.1 = {
+		death = "640.1.1"
+	}
+}
+189061 = {
+	name = "Cayantavarman" # Jayantavarman
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189060
+	607.1.1 = {
+		birth = "607.1.1"
+	}
+	670.1.1 = {
+		death = "670.1.1"
+	}
+}
+189062 = {
+	name = "ArikE_cari" # Arikesari Maravarman Nindraseer Nedumaaran
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189061
+	643.1.1 = {
+		birth = "643.1.1"
+	}
+	710.1.1 = {
+		death = "710.1.1"
+	}
+}
+189063 = {
+	name = "RanatI_ran" # Kochadaiyan Ranadhiran
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189062
+	666.1.1 = {
+		birth = "666.1.1"
+	}
+	735.1.1 = {
+		death = "735.1.1"
+	}
+}
+189064 = {
+	name = "IrA_cacimman" # Arikesari Parankusa Maravarman Rajasimha I
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189063
+	701.1.1 = {
+		birth = "701.1.1"
+	}
+	765.1.1 = {
+		death = "765.1.1"
+	}
+}
+189065 = {
+	name = "ParA_ntaka" # Parantaka Nedunjadaiyan
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189064
+	733.1.1 = {
+		birth = "733.1.1"
+	}
+	790.1.1 = {
+		death = "790.1.1"
+	}
+}
+189066 = {
+	name = "IrA_cacimman" # Rajasimha II
+	dynasty = 1043009
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189065
+	750.1.1 = {
+		birth = "750.1.1"
+	}
+	800.1.1 = {
+		death = "800.1.1"
+	}
+}
+189072 = {
+	name = "Tantivarman"
+	dynasty = 1043007
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189073
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	825.1.1 = {
+		death = "825.1.1"
+	}
+}
+189073 = {
+	name = "Nantivarman"  #Nandivarman II
+	dynasty = 1043007
+	religion = "vaishnavism"
+	culture = "tamil"
+	720.1.1 = {
+		birth = "720.1.1"
+	}
+	796.1.1 = {
+		death = "796.1.1"
+	}
+}
+
+189420 = {
+	name = "Paluvettaraiyar" #
+	dynasty = 10290901
+	religion = "vaishnavism"
+	culture = "tamil"
+	700.1.1 = {
+		birth = "700.1.1"
+	}
+	745.1.1 = {
+		death = "745.1.1"
+	}
+}
+189421 = {
+	name = "Vilupperadiaraican" #
+	dynasty = 10290901
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189420
+	730.1.1 = {
+		birth = "730.1.1"
+	}
+	806.1.1 = {
+		death = "806.1.1"
+	}
+}
+189422 = {
+	name = "Amudanar" #
+	dynasty = 10290902
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189420
+	731.1.1 = {
+		birth = "731.1.1"
+	}
+	809.1.1 = {
+		death = "809.1.1"
+	}
+}
+189423 = {
+	name = "ParA_nkucan" #
+	dynasty = 10290903
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189420
+	732.1.1 = {
+		birth = "732.1.1"
+	}
+	815.1.1 = {
+		death = "815.1.1"
+	}
+}
+189424 = {
+	name = "Peradiaraiyan" #
+	dynasty = 10290901
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189421
+	760.1.1 = {
+		birth = "760.1.1"
+	}
+	816.1.1 = {
+		death = "816.1.1"
+	}
+}
+189425 = {
+	name = "Atitta" #
+	dynasty = 10290902
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189422
+	761.1.1 = {
+		birth = "761.1.1"
+	}
+	819.1.1 = {
+		death = "819.1.1"
+	}
+}
+189426 = {
+	name = "VikramA_tittA_" #
+	dynasty = 10290903
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189423
+	762.1.1 = {
+		birth = "762.1.1"
+	}
+	818.1.1 = {
+		death = "818.1.1"
+	}
+}
+189427 = {
+	name = "Muttaraiyan" #
+	dynasty = 10290901
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189421
+	761.1.1 = {
+		birth = "761.1.1"
+	}
+	829.1.1 = {
+		death = "829.1.1"
+	}
+}
+189428 = {
+	name = "PaN_cavan" #
+	dynasty = 10290902
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189422
+	762.1.1 = {
+		birth = "762.1.1"
+	}
+	825.1.1 = {
+		death = "825.1.1"
+	}
+}
+189429 = {
+	name = "MA_rapanmar" #
+	dynasty = 10290903
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189423
+	763.1.1 = {
+		birth = "763.1.1"
+	}
+	828.1.1 = {
+		death = "828.1.1"
+	}
+}
+189400 = {
+	name = "IrA_cA_cekara" #
+	dynasty = 1043008
+	religion = "vaishnavism"
+	culture = "tamil"
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	801.1.1 = {
+		death = "801.1.1"
+	}
+}
+189401 = {
+	name = "ParA_ntaka" #
+	dynasty = 1043008
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189400
+	mother = 189404
+	760.1.1 = {
+		birth = "760.1.1"
+	}
+	831.1.1 = {
+		death = "831.1.1"
+	}
+}
+189403 = {
+	name = "VicayA_laya" #
+	dynasty = 1043008
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189400
+	mother = 189404
+	761.1.1 = {
+		birth = "761.1.1"
+	}
+	831.1.1 = {
+		death = "831.1.1"
+	}
+}
+189404 = {
+	name = "KA_raikkA_l" #
+	female = yes
+	dynasty = 10290901
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189420
+	744.1.1 = {
+		birth = "744.1.1"
+	}
+	800.1.1 = {
+		death = "800.1.1"
+	}
+}
+189405 = {
+	name = "Cadayan" #
+	dynasty = 10290900
+	religion = "vaishnavism"
+	culture = "tamil"
+	739.1.1 = {
+		birth = "739.1.1"
+	}
+	788.1.1 = {
+		death = "788.1.1"
+	}
+}
+189406 = {
+	name = "Karunandan" #
+	dynasty = 10290900
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189405
+	768.1.1 = {
+		birth = "768.1.1"
+	}
+	857.1.1 = {
+		death = "857.1.1"
+	}
+}
+189410 = {
+	name = "VicayA_raka" #
+	dynasty = 1043010
+	religion = "vaishnavism"
+	culture = "tamil"
+	740.1.1 = {
+		birth = "740.1.1"
+	}
+	804.1.1 = {
+		death = "804.1.1"
+	}
+}
+189411 = {
+	name = "KulacE_kara" #
+	dynasty = 1043010
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189410
+	760.1.1 = {
+		birth = "760.1.1"
+	}
+	804.1.1 = {
+		death = "804.1.1"
+	}
+}
+189412 = {
+	name = "Manukuladilya" #
+	dynasty = 1043010
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = 189410
+	765.1.1 = {
+		birth = "765.1.1"
+	}
+	804.1.1 = {
+		death = "804.1.1"
+	}
+}
+
+### Ananda Gotrikas
+gotrika_01 = {
+	name = "Kandara" #
+	dynasty_house = gotrika
+	religion = "vaishnavism"
+	culture = "tamil"
+	302.1.1 = {
+		birth = yes
+	}
+	379.1.1 = {
+		death = yes
+	}
+}
+gotrika_02 = {
+	name = "Attivarman" #
+	dynasty_house = gotrika
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = gotrika_01 #Kandara
+	trait = zealous
+	349.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+gotrika_03 = {
+	name = "Damadoravarman" #
+	dynasty_house = gotrika
+	religion = "mahayana"
+	culture = "tamil"
+	father = gotrika_02 #Attivarman
+	382.1.1 = {
+		birth = yes
+	}
+	421.1.1 = {
+		death = yes
+	}
+}
+### Salankayana 
+salankayana_01 = {
+	name = "Hastiverma" #
+	dynasty = salankayana
+	religion = "vaishnavism"
+	culture = "tamil"
+	302.1.1 = {
+		birth = yes
+	}
+	365.1.1 = {
+		death = yes
+	}
+}
+salankayana_02 = {
+	name = "Nandiverma" #
+	dynasty = salankayana
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = salankayana_01 #Hastiverma
+	339.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+salankayana_03 = {
+	name = "Vijayadevaverma" #
+	dynasty = salankayana
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = salankayana_02 #Nandiverma
+	375.1.1 = {
+		birth = yes
+	}
+	433.1.1 = {
+		death = yes
+	}
+}
+salankayana_04 = {
+	name = "Vijayanandiverma" #
+	dynasty = salankayana
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = salankayana_03 #Vijayadevaverma
+	401.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+##Vishnukundina 
+vishnukundina_01  = {
+	name = "Govindavarma" #
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	375.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_02  = {
+	name = "Madhavavarma" #
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_01 #Govindavarma
+	394.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_03  = {
+	name = "Madhavavarma" # II
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_02 #Madhavavarma I
+	415.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_04  = {
+	name = "Devavarma" # II
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_03 #Madhavavarma II
+	432.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_05  = {
+	name = "Madhavavarma" # III
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_04 #Devavarma
+	451.1.1 = {
+		birth = yes
+	}
+	508.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_06  = {
+	name = "Vikramendravarma" #
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_05 #Madhavavarma III
+	488.1.1 = {
+		birth = yes
+	}
+	528.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_07  = {
+	name = "Indrabhattarakavarma" #
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_06 #Madhavavarma III
+	502.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+vishnukundina_08  = {
+	name = "Vikramendravarma" # II
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_07 #Indrabhattarakavarma
+	521.1.1 = {
+		birth = yes
+	}
+	569.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_09  = {
+	name = "Govindavarma" # II
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_08 #Vikramendravarma
+	544.1.1 = {
+		birth = yes
+	}
+	573.1.1 = {
+		death = yes
+	}
+}
+vishnukundina_10  = {
+	name = "Madhavavarma" # IV
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_08 # Vikramendravarma II
+	552.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+vishnukundina_11  = {
+	name = "Indrabhattarakavarma" # II
+	dynasty = vishnukundina
+	religion = "vaishnavism"
+	culture = "tamil"
+	father = vishnukundina_10 # Madhavavarma IV
+	579.1.1 = {
+		birth = yes
+	}
+	624.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

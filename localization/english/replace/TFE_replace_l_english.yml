@@ -1,0 +1,41 @@
+﻿l_english:
+ #core_l_english.yml
+ LOADSCREEN_INITIALIZING_GAME:0 "Sacking the Eternal City . . ."
+ #holdings_l_english.yml
+ castle_holding:0 "City"
+ city_holding:0 "Town"
+ 
+ tradition_roman_legacy_name:0 "Roman Legacy"
+ language_iranian_name:0 "West Iranian"
+ language_scythian_name:0 "East Iranian"
+ tenet_sacred_childbirth_alternate_name:0 "Kudikis Lemti" # The ū character is not supported by the font used for TFE
+
+ heritage_arabic_name:0 "Semitic"
+ heritage_arabic_collective_noun:0 "Semites"
+ # Endonyms
+ greek:1 "Hellenic"
+ greek_prefix:1 "Helleno"
+ greek_collective_noun:1 "Hellenes"
+ suebi:0 "Suevi"
+ suebi_prefix:0 "Suevo"
+ suebi_collective_noun:0 "Suevi"
+ polish:0 "Polanian"
+ polish_prefix:0 "Polano"
+ polish_collective_noun:0 "Polanes"
+ prussian:0 "Pruthenian"
+ prussian_prefix:0 "Prutheno"
+ prussian_collective_noun:0 "Pruthenians"
+ assyrian:0 "Assyrian"
+ assyrian_prefix:0 "Assyro"
+ assyrian_collective_noun:0 "Assyrians"
+
+
+ language_qiangic_name:1 "Qiangic"
+ language_wallachian_name:0 "Vlach"
+
+ cn_gaochan:0 "Gaochang"
+ cn_gaochan_adj:0 "Gaochang"
+
+ dynn_Kuci:0 "Bai"
+
+ artifact_arms_of_alex_description:0 "This ancient set of laminated linen armor is said to have once belonged to Alexander the Great. The armor itself carries the legacy of the great conqueror, known from the Mediterranean to the edges of India."

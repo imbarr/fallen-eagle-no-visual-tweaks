@@ -1,0 +1,12 @@
+﻿set_obligation_if_changed_effect = {
+	if = {
+		limit = {
+			exists = local_var:$OBLIGATION_TYPE$
+			local_var:$OBLIGATION_TYPE$ != vassal_contract_obligation_level:$OBLIGATION_TYPE$
+		}
+		vassal_contract_set_obligation_level = {
+			type = $OBLIGATION_TYPE$
+			level = local_var:$OBLIGATION_TYPE$
+		}
+	}
+}

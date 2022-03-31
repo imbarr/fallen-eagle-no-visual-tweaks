@@ -1,0 +1,242 @@
+﻿blemmyes_01 = {
+	name = "Tamal" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	332.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+blemmyes_02 = {
+	name = "Isenme" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	337.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+blemmyes_03 = {
+	name = "Degou" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+blemmyes_04 = {
+	name = "Sheib" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	330.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+blemmyes_05 = {
+	name = "Qol" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+blemmyes_06 = {
+	name = "Poketme" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+blemmyes_07 = {
+	name = "Adara" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	444.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+blemmyes_08 = {
+	name = "Bishara" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	439.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+blemmyes_09 = {
+	name = "Hassai" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	449.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+blemmyes_10 = {
+	name = "Phonen" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	432.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+blemmyes_11 = {
+	name = "Nur" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	501.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+blemmyes_12 = {
+	name = "Olbab" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	506.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+blemmyes_13 = {
+	name = "Barik" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	506.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+blemmyes_14 = {
+	name = "Kuka" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	509.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+blemmyes_15 = {
+	name = "Barakhia" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	482.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+blemmyes_16 = {
+	name = "Kharakhen" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	604.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+blemmyes_17 = {
+	name = "Barakhia" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	592.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+blemmyes_18 = {
+	name = "Fadil" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	589.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+blemmyes_19 = {
+	name = "Elagai" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	610.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+blemmyes_20 = {
+	name = "Wailali" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+blemmyes_21 = {
+	name = "Elagai" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	745.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+blemmyes_22 = {
+	name = "Wailali" #placeholder
+	religion = "kushitism_pagan"
+	culture = "beja"
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

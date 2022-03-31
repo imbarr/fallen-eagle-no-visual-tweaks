@@ -1,0 +1,189 @@
+﻿namespace = religion
+
+religion.0001 = {
+	title = religion.0001.t
+	desc = religion.0001.desc
+	scope = character
+	theme = faith
+	immediate = {
+		save_scope_as = misson_sender
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = religion.0001.option.a
+		remove_long_term_gold = 100
+		random_ruler = {
+			limit = {
+				OR = {
+					has_faith = faith:nicene
+					has_faith = norse_pagan
+				}
+				highest_held_title_tier = tier_county
+			}
+			trigger_event = {
+				id = religion.0002
+				days = {5 10}
+			}
+		}
+	}
+	option = {
+		name = religion.0001.option.b
+		remove_long_term_gold = 300
+		random_ruler = {
+			limit = {
+				OR = {
+					has_faith = faith:nicene
+					has_faith = norse_pagan
+				}
+				highest_held_title_tier = tier_duchy
+			}
+			trigger_event = {
+				id = religion.0002
+				days = {5 10}
+			}
+		}
+	}
+	option = {
+		name = religion.0001.option.c
+		remove_long_term_gold = 500
+		random_ruler = {
+			limit = {
+				OR = {
+					has_faith = faith:nicene
+					has_faith = norse_pagan
+				}
+				highest_held_title_tier = tier_kingdom
+			}
+			trigger_event = {
+				id = religion.0002
+				days = {5 10}
+			}
+		}
+	}
+	option = {
+		name = religion.0001.option.d
+		hidden_effect = {
+			add_prestige = 100
+		}
+	}
+}
+
+religion.0002 = {
+	title = religion.0002.t
+	desc = religion.0002.desc
+	scope = character
+	theme = faith
+	immediate = {
+		save_scope_as = misson_recieve
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:misson_sender
+		animation = personality_honorable
+	}
+
+	option = {
+		name = religion.0002.option.a
+		faith = {
+			change_fervor = -1
+		}
+		set_character_faith = faith:arianism
+		faith:arianism = {
+			change_fervor = 1
+		}
+		scope:misson_sender = {
+			trigger_event = {
+				id = religion.0004
+				days = {10 15}
+			}
+		}
+		scope:misson_sender = {
+			add_opinion = {
+				target = root
+				opinion = 150
+				years = 30
+				modifier = grateful_opinion	
+			}
+		}
+		ai_chance = { base = 5 }
+	}
+	option = {
+		name = religion.0002.option.b
+		faith = {
+			change_fervor = 2
+		}
+		add_piety = 100
+		scope:misson_sender = {
+			trigger_event = {
+				id = religion.0003
+				days = {10 15}
+			}
+		}
+		scope:misson_sender = {
+			add_opinion = {
+				target = root
+				opinion = -150
+				years = 30
+				modifier = hate_opinion	
+			}
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+religion.0003 = {
+	title = religion.0003.t
+	desc = religion.0003.desc
+	scope = character
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:misson_recieve
+		animation = personality_honorable
+	}
+
+	option = {
+		name = religion.0003.option.a
+	}
+}
+
+religion.0004 = {
+	title = religion.0004.t
+	desc = religion.0004.desc
+	scope = character
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:misson_recieve
+		animation = personality_honorable
+	}
+
+	option = {
+		name = religion.0004.option.a
+	}
+}

@@ -1,0 +1,29 @@
+﻿briton = {
+		
+	color = hsv { 0.72 0.6 0.76 }
+
+	ethos = ethos_communal
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_briton
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		25 = caucasian_blond
+		25 = caucasian_ginger
+		25 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

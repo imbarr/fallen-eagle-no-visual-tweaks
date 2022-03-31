@@ -1,0 +1,277 @@
+﻿#Pictish
+
+causeaway = {
+	county = c_inner_hebrides
+	barony = b_arran
+	
+	character_modifier = {
+		name = holy_site_fortriu_effect_name
+		dread_baseline_add = 5
+		embarkation_cost_mult = -0.75
+		naval_movement_speed_mult = 0.25
+		effect = {
+			custom = unlocks_naval_raiding
+		}
+	}
+}
+
+fortriu = {
+	county = c_moray
+	barony = b_moray
+	
+	character_modifier = {
+		name = holy_site_fortriu_effect_name
+		monthly_county_control_change_factor = 0.1
+		dread_baseline_add = 5
+		same_faith_opinion = 10
+	}
+}
+
+#Brythonic
+
+stonehenge = {
+	county = c_wiltshire
+	barony = b_salisbury
+	
+	character_modifier = {
+		name = holy_site_stonehenge_effect_name
+		monthly_piety_gain_mult = 0.2
+		dread_baseline_add = 5
+	}
+}
+
+anglesey = {
+	county = c_anglesey
+	barony = b_anglesey
+	
+	character_modifier = {
+		name = holy_site_ynis_mon_effect_name
+		fertility = 0.1
+	}
+}
+
+hexham = {
+	county = c_durham
+	barony = b_hexham
+	
+	character_modifier = {
+		name = holy_site_hadrians_wall_effect_name
+		defender_advantage = 5
+		diplomacy = 1
+	}
+}
+
+tara = {
+	county = c_dublin
+	barony = b_dublin
+	
+	character_modifier = {
+		name = holy_site_tara_effect_name
+		monthly_county_control_change_factor = 0.1
+		dread_baseline_add = 5
+		same_faith_opinion = 10
+	}
+}
+
+#Berber
+
+jerba = {
+	county = c_djerba
+	barony = b_jerba
+	
+	character_modifier = {
+		name = holy_site_sligo_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+carthage = {
+	county = c_tunis
+	barony = b_tunis
+	
+	character_modifier = {
+		name = holy_site_sligo_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+souf = {
+	county = c_souf
+	barony = b_souf
+	
+	character_modifier = {
+		name = holy_site_sligo_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+septum = {
+	county = c_sabta
+	barony = b_sabta
+	
+	character_modifier = {
+		name = holy_site_sligo_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+agadir = {
+	county = c_agadir 
+	barony = b_agadir 
+	
+	character_modifier = {
+		name = holy_site_sligo_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+
+
+harran = {
+	county = c_harran
+	character_modifier = {
+		name = holy_site_harran_effect_name
+		monthly_lifestyle_xp_gain_mult = 0.05
+		learning = 1
+	}
+}
+giza = {
+	county = c_giza
+	character_modifier = {
+		name = holy_site_giza_effect_name
+		build_gold_cost = -0.15
+	}
+}
+#baalbek = {
+#	county = c_baalbek
+#	character_modifier = {
+#		name = holy_site_baalbek_effect_name
+#		martial = 1
+#		learning = 1
+#	}
+#}
+petra = {
+	county = c_negev
+	barony = b_baidha-petra
+	character_modifier = {
+		name = holy_site_petra_effect_name
+		domain_tax_mult = 0.01
+		development_growth_factor = 0.1
+	}
+}
+
+fuerteventura = {
+	county = c_fuerteventura
+
+	character_modifier = {
+		name = holy_site_fuerteventura_effect_name
+		tolerance_advantage_mod = 3
+	}
+}
+
+canarias = {
+	county = c_canarias
+
+	character_modifier = {
+		name = holy_site_canarias_effect_name
+		stewardship = 1
+	}
+}
+
+bilizma = {
+	county = c_bilizma
+
+	character_modifier = {
+		name = holy_site_bilizma_effect_name
+		learning = 1
+		different_faith_opinion = 5
+	}
+}
+
+ahaggar = {
+	county = c_djanet
+
+	character_modifier = {
+		name = holy_site_ahaggar_effect_name
+		tolerance_advantage_mod = 3
+		same_culture_opinion = 5
+	}
+}
+
+tanas = {
+	county = c_tanas 
+
+	character_modifier = {
+		name = holy_site_tanas_effect_name
+		monthly_prestige_gain_mult = 0.1
+	}
+}
+
+
+thebes = {
+	county = c_qus
+	
+	character_modifier = {
+		name = holy_site_thebes_effect_name
+		monthly_piety_gain_mult = 0.05
+	}
+}
+#### Central Germanic
+baduhena = {
+	county = c_oldenburg
+	barony = b_leer
+	
+	character_modifier = {
+		name = holy_site_baduhena_effect_name
+		diplomacy_per_piety_level = 1
+	}
+}
+nerthus = {
+	county = c_sjaelland
+	barony = b_roskilde
+	
+	character_modifier = {
+		name = holy_site_nerthus_effect_name
+		fertility = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
+semnones = {
+	county = c_luneburg
+	barony = b_celle
+	
+	character_modifier = {
+		name = holy_site_semnones_effect_name
+		dread_baseline_add = 5
+	}
+}
+irminsul = {
+	county = c_waldeck
+	barony = b_wittenberg
+	
+	character_modifier = {
+		name = holy_site_irminsul_effect_name
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
+	}
+}
+oium = {
+	county = c_oleshye
+	barony = b_oleshye
+	
+	character_modifier = {
+		name = holy_site_oium_effect_name
+		levy_size = 0.05
+		monthly_county_control_change_factor = 0.1
+	}
+}
+gotland = {
+	county = c_gutland
+	barony = b_wisbu
+	
+	character_modifier = {
+		name = holy_site_gotland_effect_name
+		different_culture_opinion = 10
+		cultural_head_acceptance_gain_mult = 0.15
+	}
+}

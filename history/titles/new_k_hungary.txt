@@ -1,0 +1,10 @@
+k_hasding_vandals = {
+	380.1.1 = {
+		holder = 900012
+	}
+}
+d_bacs = {
+	359.1.1 = {
+		holder = 900012
+	}
+}

@@ -1,0 +1,109 @@
+﻿996000 = {
+	name = "Tufa"
+	dna = 996000_tufa
+	dynasty = 99960000
+	religion = "arianism"
+	culture = "scirian"
+	370.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+996001 = {
+	name = "Malgirda"
+	female = yes
+	dynasty = 99960000
+	religion = "arianism"
+	culture = "scirian"
+	father = 996000
+	395.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+996002 = {
+	name = "Odovacar"
+	dynasty = 99960000
+	religion = "arianism"
+	culture = "scirian"
+	father = 990012
+	mother = 996001
+	431.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		add_spouse = 995004
+	}
+	493.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 992016
+		}
+	}
+}
+996003 = {
+	name = "Hunulf"
+	dynasty = 99960000
+	religion = "arianism"
+	culture = "scirian"
+	father = 990012
+	mother = 996001
+	435.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 992016
+		}
+	}
+}
+996004 = {
+	name = "Sunigilda"
+	female = yes
+	religion = "arianism"
+	culture = "scirian"
+	435.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 992016
+		}
+	}
+}
+996005 = {
+	name = "Thela"
+	dynasty = 99960000
+	religion = "arianism"
+	culture = "scirian"
+	father = 996002
+	mother = 996004
+	471.1.1 = {
+		birth = yes
+	}
+	495.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 992016
+		}
+	}
+}
+
+#Fictional Vasal
+1100007 = { #Fictional
+	name = "Genobald"
+	religion = "norse_pagan"
+	culture = "bastarnian"
+	363.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}

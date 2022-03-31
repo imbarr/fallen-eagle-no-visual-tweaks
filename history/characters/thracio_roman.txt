@@ -1,0 +1,251 @@
+#Constantian
+
+constantian_01 = {
+	name = "Constantius"
+	dynasty = constantian
+	religion = "nicene"
+	culture = "thracio_roman"
+	356.1.1 = {
+		birth = yes
+	}
+	417.1.1 = {
+		add_spouse = 145229 #Galla Placidia
+	}
+	421.1.25 = {
+		death = yes
+	}
+}
+
+##Spania
+spania_03 = {
+	name = "Comentiolus"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	541.1.1 = {
+		birth = yes
+	}
+	602.1.1 = {
+		death = yes
+	}
+}
+daciae_03 = {
+	name = "Comentiolus"
+	culture = "thracio_roman"
+	religion = "arianism"
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+daciae_04 = {
+	name = "Theodoros"
+	culture = "thracio_roman"
+	religion = "arianism"
+	338.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+daciae_10 = {
+	name = "Bardas"
+	culture = "thracio_roman"
+	religion = "messalian"
+	334.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+daciae_11 = {
+	name = "Hieron"
+	culture = "thracio_roman"
+	religion = "hellenic_pagan"
+	334.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+daciae_20 = {
+	name = "Procopius"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	439.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_21 = {
+	name = "Zoilus"
+	culture = "thracio_roman"
+	religion = "messalian"
+	442.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_22 = {
+	name = "Phocas"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	446.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+daciae_32 = {
+	name = "Avienus"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	501.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+daciae_33 = {
+	name = "Dalmatius"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	503.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+daciae_35 = {
+	name = "Dalmatius"
+	culture = "thracio_roman"
+	religion = "chalcedonian"
+	503.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+
+#Leo
+leo_01 = {
+	name= "Flavius"
+	religion= "nicene"
+	culture= "thracio_roman"
+	dynasty = leo_dynasty
+	370.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+leo_02 = {
+	name= "Leo"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_01
+	dynasty = leo_dynasty
+	382.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+leo_05 = {
+	name= "Leo"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_02
+	dynasty = leo_dynasty
+	401.1.1 = {
+		birth = yes
+	}
+	474.1.1 = {
+		death = yes
+	}
+}
+leo_06 = {
+	name= "Ariadna"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_05
+	female = yes
+	dynasty = leo_dynasty
+	440.1.1 = {
+		birth = yes
+	}
+	515.1.1 = {
+		death = yes
+	}
+}
+leo_07 = {
+	name= "Leo"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_05
+	dynasty = leo_dynasty
+	465.1.1 = {
+		birth = yes
+	}
+	479.1.1 = {
+		death = yes
+	}
+}
+leo_08 = {
+	name= "Leontia"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_05
+	female = yes
+	dynasty = leo_dynasty
+	442.1.1 = {
+		birth = yes
+	}
+	479.1.1 = {
+		death = yes
+	}
+}
+leo_03 = {
+	name= "Theodosius"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_02
+	dynasty = leo_dynasty
+	418.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+leo_04 = {
+	name= "Aelia"
+	religion= "nicene"
+	culture= "thracio_roman"
+	father = leo_03
+	female = yes
+	dynasty = leo_dynasty
+	442.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = "chalcedonian"
+	}
+	500.1.1 = {
+		death = yes
+	}
+}

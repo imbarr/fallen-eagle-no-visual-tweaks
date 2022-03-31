@@ -1,0 +1,782 @@
+
+k_denmark = {
+	21.1.1 = { change_development_level = 2 }
+	476.1.1 = { change_development_level = 3 }
+	632.1.1 = { change_development_level = 4 }
+}
+
+
+d_sjaelland = {
+	476.1.1 = { change_development_level = 1 }
+	632.1.1 = { change_development_level = 2 }
+	768.1.1 = {	change_development_level = 3 }
+	
+	361.1.1 = {
+		holder = skjolding_15
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = skjolding_09
+	}
+	437.1.1 = {
+		holder = skjolding_08
+	}
+	471.1.1 = {
+		holder = skjolding_07
+	}
+	502.1.1 = {
+		holder = skjolding_06
+	}
+	538.1.1 = {
+		holder = skjolding_05
+	}
+	568.1.1 = {
+		holder = skjolding_04
+	}
+	600.1.1 = {
+		holder = skjolding_03
+	}
+	630.1.1 = {
+		holder = skjolding_02
+	}
+	667.1.1 = {
+		holder = skjolding_01
+	}
+	688.1.1 = {
+		holder = skjolding_13
+	}
+	691.1.1 = {
+		holder = skjolding_14
+	}
+	693.1.1 = {
+		holder = skjolding_12
+	}
+	700.1.1 = {
+		holder = 194035
+	}
+	733.1.1 = {
+		holder = 194003
+	}
+}
+
+
+c_sjaelland = {
+	361.1.1 = {
+		holder = skjolding_15
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = skjolding_09
+	}
+	437.1.1 = {
+		holder = skjolding_08
+	}
+	471.1.1 = {
+		holder = skjolding_07
+	}
+	502.1.1 = {
+		holder = skjolding_06
+	}
+	538.1.1 = {
+		holder = skjolding_05
+	}
+	568.1.1 = {
+		holder = skjolding_04
+	}
+	600.1.1 = {
+		holder = skjolding_03
+	}
+	630.1.1 = {
+		holder = skjolding_02
+	}
+	667.1.1 = {
+		holder = skjolding_01
+	}
+	688.1.1 = {
+		holder = skjolding_13
+	}
+	691.1.1 = {
+		holder = skjolding_14
+	}
+	693.1.1 = {
+		holder = skjolding_12
+	}
+	700.1.1 = {
+		holder = 194035
+		government = tribal_government
+	}
+	729.1.1 = {
+		holder = 194003
+	}
+}
+
+
+c_fyn = {
+	361.1.1 = {
+		holder = skjolding_15
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = skjolding_09
+	}
+	437.1.1 = {
+		holder = skjolding_08
+	}
+	471.1.1 = {
+		holder = skjolding_07
+	}
+	502.1.1 = {
+		holder = skjolding_06
+	}
+	538.1.1 = {
+		holder = skjolding_05
+	}
+	568.1.1 = {
+		holder = skjolding_04
+	}
+	600.1.1 = {
+		holder = skjolding_03
+	}
+	630.1.1 = {
+		holder = skjolding_02
+	}
+	667.1.1 = {
+		holder = skjolding_01
+	}
+	688.1.1 = {
+		holder = skjolding_13
+	}
+	691.1.1 = {
+		holder = skjolding_14
+	}
+	693.1.1 = {
+		holder = skjolding_12
+	}
+	700.1.1 = {
+		holder = 194035
+		government = tribal_government
+	}
+	729.1.1 = {
+		holder = 194003
+	}
+}
+
+
+c_lolland_falster = {
+	361.1.1 = {
+		holder = skjolding_15
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = skjolding_09
+	}
+	437.1.1 = {
+		holder = skjolding_08
+	}
+	471.1.1 = {
+		holder = skjolding_07
+	}
+	502.1.1 = {
+		holder = skjolding_06
+	}
+	538.1.1 = {
+		holder = skjolding_05
+	}
+	568.1.1 = {
+		holder = skjolding_04
+	}
+	600.1.1 = {
+		holder = skjolding_03
+	}
+	630.1.1 = {
+		holder = skjolding_02
+	}
+	667.1.1 = {
+		holder = skjolding_01
+	}
+	688.1.1 = {
+		holder = skjolding_13
+	}
+	691.1.1 = {
+		holder = skjolding_14
+	}
+	693.1.1 = {
+		holder = skjolding_12
+	}
+	700.1.1 = {
+		holder = 194035
+		government = tribal_government
+	}
+	729.1.1 = {
+		holder = 194003
+	}
+}
+
+
+d_skane = {
+	361.1.1 = { change_development_level = 1 }
+	476.1.1 = { change_development_level = 2 }
+	632.1.1 = { change_development_level = 3 }
+	768.1.1 = {	change_development_level = 4 }
+
+	689.1.1 = {
+		holder = 194027
+	}
+	720.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_skane = {
+	361.1.1 = {
+		holder = jutland_10
+	}
+	475.1.1 = {
+		holder = jutland_08
+	}
+	502.1.1 = {
+		holder = jutland_05
+	}
+	571.1.1 = {
+		holder = vidfamne_05
+	}
+	601.1.1 = {
+		holder = vidfamne_04
+	}
+	631.1.1 = {
+		holder = vidfamne_03
+	}
+	656.1.1 = {
+		holder = vidfamne_01
+	}
+	689.1.1 = {
+		holder = 194027
+	}
+	740.1.1 = {
+		holder = 194037
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+
+c_halland = {
+	361.1.1 = {
+		holder = jutland_10
+	}
+	475.1.1 = {
+		holder = jutland_08
+	}
+	502.1.1 = {
+		holder = jutland_05
+	}
+	571.1.1 = {
+		holder = vidfamne_05
+	}
+	601.1.1 = {
+		holder = vidfamne_04
+	}
+	631.1.1 = {
+		holder = vidfamne_03
+	}
+	656.1.1 = {
+		holder = vidfamne_01
+	}
+	689.1.1 = {
+		holder = 194027
+	}
+	768.1.1 = {
+		holder = 194050
+		liege = d_vastergotland
+		government = tribal_government
+	}
+}
+
+
+c_bornholm = {
+	361.1.1 = {
+		holder = jutland_09
+	}
+	475.1.1 = {
+		holder = jutland_07
+	}
+	502.1.1 = {
+		holder = jutland_06
+	}
+	571.1.1 = {
+		holder = vidfamne_05
+	}
+	601.1.1 = {
+		holder = vidfamne_04
+	}
+	631.1.1 = {
+		holder = vidfamne_03
+	}
+	656.1.1 = {
+		holder = vidfamne_02
+	}
+	689.1.1 = {
+		holder = 194027
+	}
+	761.1.1 = {
+		holder = 194061
+		liege = d_svealand
+		government = tribal_government
+	}
+}
+
+
+c_blekinge = {
+	361.1.1 = {
+		holder = jutland_10
+	}
+	475.1.1 = {
+		holder = jutland_08
+	}
+	502.1.1 = {
+		holder = jutland_05
+	}
+	571.1.1 = {
+		holder = vidfamne_05
+	}
+	601.1.1 = {
+		holder = vidfamne_04
+	}
+	631.1.1 = {
+		holder = vidfamne_03
+	}
+	656.1.1 = {
+		holder = vidfamne_02
+	}
+	689.1.1 = {
+		holder = 194027
+	}
+	740.1.1 = {
+		holder = 194037
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+
+d_jylland = {
+	360.1.1 = {
+		holder = vigg_01
+		government = tribal_government
+	}
+	401.1.1 = {
+		holder = vigg_02
+	}
+}
+
+
+c_aarhus = {
+	360.1.1 = {
+		holder = vigg_01
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = skjolding_09
+	}
+	437.1.1 = {
+		holder = skjolding_08
+	}
+	471.1.1 = {
+		holder = skjolding_07
+	}
+	502.1.1 = {
+		holder = skjolding_06
+	}
+	538.1.1 = {
+		holder = skjolding_05
+	}
+	568.1.1 = {
+		holder = skjolding_04
+	}
+	600.1.1 = {
+		holder = skjolding_03
+	}
+	630.1.1 = {
+		holder = skjolding_02
+	}
+	667.1.1 = {
+		holder = skjolding_01
+	}
+	688.1.1 = {
+		holder = skjolding_13
+	}
+	691.1.1 = {
+		holder = skjolding_14
+	}
+	693.1.1 = {
+		holder = skjolding_12
+	}
+	700.1.1 = {
+		holder = 194035
+		government = tribal_government
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+
+c_viborg = {
+	360.1.1 = {
+		holder = vigg_01
+		government = tribal_government
+	}
+	401.1.1 = {
+		holder = vigg_02
+	}
+	432.1.1 = {
+		holder = vigg_03
+		liege = d_sjaelland
+	}
+	458.1.1 = {
+		holder = jutland_20
+	}
+	502.1.1 = {
+		holder = skjolding_05
+	}
+	632.1.1 = {
+		holder = skjolding_17
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+
+c_ringkobing = {
+	360.1.1 = {
+		holder = vigg_01
+		government = tribal_government
+	}
+	401.1.1 = {
+		holder = vigg_02
+	}
+	432.1.1 = {
+		holder = vigg_03
+		liege = d_sjaelland
+	}
+	458.1.1 = {
+		holder = jutland_20
+	}
+	502.1.1 = {
+		holder = skjolding_05
+	}
+	632.1.1 = {
+		holder = skjolding_17
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+
+c_aalborg = {
+	360.1.1 = {
+		holder = vigg_01
+		government = tribal_government
+	}
+	401.1.1 = {
+		holder = vigg_02
+	}
+	432.1.1 = {
+		holder = vigg_03
+		liege = d_sjaelland
+	}
+	458.1.1 = {
+		holder = jutland_20
+	}
+	502.1.1 = {
+		holder = skjolding_05
+	}
+	632.1.1 = {
+		holder = skjolding_17
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+		government = tribal_government
+	}
+}
+
+d_slesvig = {
+	360.1.1 = {
+		holder = iceling_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = iceling_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+}
+c_slesvig = {
+	361.1.1 = { change_development_level = 1 }
+	476.1.1 = { change_development_level = 2 }
+	768.1.1 = {	change_development_level = 3 }
+	
+	360.1.1 = {
+		holder = slesvig_01
+		liege = d_slesvig
+		government = tribal_government
+	}
+	380.1.1 = {
+		holder = slesvig_02
+	}
+	400.1.1 = {
+		holder = slesvig_03
+	}
+	454.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = jutland_01
+		liege = d_sjaelland
+	}
+	632.1.1 = {
+		holder = jutland_02
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+	}
+}
+
+
+c_vorbasse = {
+	360.1.1 = {
+		holder = iceling_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = iceling_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = skjolding_05
+	}
+	632.1.1 = {
+		holder = jutland_02
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+	}
+}
+
+
+c_ribe = {
+	361.1.1 = { change_development_level = 1 }
+	476.1.1 = { change_development_level = 2 }
+	768.1.1 = {	change_development_level = 3 }
+	
+	360.1.1 = {
+		holder = iceling_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = iceling_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = jutland_01
+		liege = d_sjaelland
+	}
+	632.1.1 = {
+		holder = jutland_02
+		liege = d_sjaelland
+	}
+	750.1.1 = {
+		holder = 194036
+		liege = d_sjaelland
+	}
+}
+
+
+d_holstein = {
+	361.1.1 = {
+		holder = myrgings_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = myrgings_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	515.1.1 = {
+		holder = 0
+	}
+	632.1.1 = {
+		holder = jutland_03
+	}
+	700.1.1 = {
+		de_jure_liege = k_saxony
+		liege = k_saxony
+	}
+	761.1.1 = {
+		holder = 190474 #Hesso
+	}
+}
+
+
+c_lubeck = {
+	361.1.1 = {
+		holder = myrgings_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = myrgings_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = jutland_04
+		liege = k_saxony
+	}
+	632.1.1 = {
+		holder = jutland_03
+	}
+}
+c_ditmarschen = {
+	361.1.1 = {
+		holder = myrgings_01
+		government = tribal_government
+	}
+	389.1.1 = {
+		holder = myrgings_02
+	}
+	423.1.1 = {
+		holder = iceling_03
+	}
+	456.1.1 = {
+		holder = iceling_04
+	}
+	478.1.1 = {
+		holder = iceling_05
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = jutland_04
+		liege = k_saxony
+	}
+	632.1.1 = {
+		holder = jutland_03
+	}
+}
+
+c_stade = {
+	361.1.1 = {
+		holder = chauci_01
+		liege = k_saxony
+		government = tribal_government
+	}
+	400.1.1 = {
+		holder = chauci_02
+		liege = k_saxony
+	}
+	430.1.1 = {
+		holder = chauci_03
+		liege = k_saxony
+	}
+	469.1.1 = {
+		holder = chauci_04
+		liege = k_saxony
+	}
+	489.1.1 = {
+		holder = iceling_06
+	}
+	502.1.1 = {
+		holder = jutland_04
+		liege = k_saxony
+	}
+	632.1.1 = {
+		holder = jutland_03
+	}
+	761.1.1 = {
+		liege = d_holstein
+	}
+	761.1.1 = {
+		holder = 190468 #Richfrid
+	}
+	
+}
+
+
+
+

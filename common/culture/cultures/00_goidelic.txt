@@ -1,0 +1,29 @@
+﻿gaelic = {
+		
+	color = hsv { 0.50 0.90 0.57 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_goidelic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_polygamous
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_gaelic
+	
+	coa_gfx = { scottish_coa_gfx }
+	building_gfx = { tribal_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

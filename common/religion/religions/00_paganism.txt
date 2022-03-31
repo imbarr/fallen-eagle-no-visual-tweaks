@@ -205,9 +205,11 @@
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
 		}
-
-		druidism = {
-			color = { 0.3 0.6 0.3 }
+		
+		# TFE pagan faiths
+		vasconian_paganism = {
+			color = { 0.6 0.0 0.0 }
+			icon = vasconian_pagan
 			reformed_icon = pagan_reformed
 
 			doctrine = unreformed_faith_doctrine
@@ -219,9 +221,82 @@
 			holy_site = haridwar
 
 			#Generic pagan tenets
-			doctrine = tenet_astrology
-			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sacred_witchcraft
 			doctrine = tenet_sanctity_of_nature
+			
+			# Needs a third one
+			doctrine = tenet_ancestor_worship
+		}
+		
+		scythian_pagan = {
+			color = { 0.6 0.0 0.2 }
+			icon = scythian_pagan
+			reformed_icon = pagan_reformed
+
+			doctrine = unreformed_faith_doctrine
+
+			holy_site = oium
+			holy_site = hiiumaa
+			holy_site = khotan
+			holy_site = sinai
+			holy_site = haridwar
+
+			doctrine = tenet_divine_marriage
+			doctrine = tenet_aniconism
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_gruesome_festivals
+				fallback_doctrine = tenet_human_sacrifice
+			}
+		}
+		
+		iranian_pagan = {
+			color = { 0.6 0.0 0.6 }
+			icon = pagan
+			reformed_icon = pagan_reformed
+
+			doctrine = unreformed_faith_doctrine
+
+			holy_site = paderborn
+			holy_site = hiiumaa
+			holy_site = khotan
+			holy_site = sinai
+			holy_site = haridwar
+
+			# Proposed tenets:
+			doctrine = tenet_aniconism # In sharp contrast to other people of the Middle East, the Iranians neither made images of their deities or built temples to house them.
+			doctrine = tenet_ritual_celebrations # The Iranians celebrated various festivals throughout the year. These were mostly related to agricultural and herding cycles. The most important of these was that of New Year, which is still celebrated by Iranian peoples.
+			doctrine = tenet_ritual_hospitality # The Yazna, a ritual where a guest would play a part in a ritual sacrifice where they would be the deity and receive numerous gifts and feasts
+		}
+	
+		dacian_pagan = {
+			color = { 0.45 0.55 0.1 }
+			icon = pagan
+			reformed_icon = pagan_reformed
+
+			doctrine = unreformed_faith_doctrine
+
+			# holy_site = paderborn
+			# holy_site = hiiumaa
+			# holy_site = khotan
+			# holy_site = sinai
+			# holy_site = haridwar
+			
+			#Main Group
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_theocracy_temporal
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_taxation # Dacian religion was considered by the classic sources as a key source of authority, suggesting to some that Dacia was a predominantly theocratic state led by priest-kings
+			doctrine = doctrine_clerical_marriage_disallowed
+			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+			# Proposed tenets:
+			doctrine = tenet_reincarnation # According to Herodotus' account of the story of Zalmoxis or Zamolxis,[9] the Getae (speaking the same language as the Dacians and the Thracians, according to Strabo) believed in the immortality of the soul, and regarded death as merely a change of country
+			doctrine = tenet_legalism # According to Iamblichus (280-333 AD), "for instructing the Getae in these things, and for having written laws for them, Zalmoxis was by them considered as the greatest of the gods
+			doctrine = tenet_esotericism # Decaeneus taught the Getae philosophy, physics, ethics, logic, and astronomy. In particular he introduced them to the secrets of astrology, planetary revolutions, phases of the moon, measurement of the sun's size, and cosmic revolutions
 		}
 	}
 }

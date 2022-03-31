@@ -1,418 +1,348 @@
-main_theme_track = {
-	music = "file:/music/Downfall.ogg"
-	can_be_interrupted = yes
-}
-mx_cue_war_declared = {
-	music = "file:/music/War.ogg"
-	weight = 35
-	# play every time
-}
-
-mx_mood_call_01 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_01/mx_mood_call_01"
-	weight = 15
+﻿##### MUSIC CUES
+mood_Constantinople1 = {
+	music = "file:/music/TFE/TFE_Constantinople_One.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_02 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_02/mx_mood_call_02"
-	weight = 15
+mood_Imperium = {
+	music = "file:/music/TFE/TFE_Imperium.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_03 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_03/mx_mood_call_03"
-	weight = 15
+
+mood_Augustus = {
+	music = "file:/music/TFE/TFE_Augustus.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_04 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_04/mx_mood_call_04"
-	weight = 15
+
+mood_Theodosius = {
+	music = "file:/music/TFE/TFE_Theodosius1.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_05 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_05/mx_mood_call_05"
-	weight = 14
+mood_BornInThePurple = {
+	music = "file:/music/TFE/TFE_BornInThePurple.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_06 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_06/mx_mood_call_06"
-	weight = 8
+mood_WarCry = {
+	music = "file:/music/TFE/TFE_WarCry.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_07 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_07/mx_mood_call_07"
-	weight = 10
+mood_ConstantinopleTwo = {
+	music = "file:/music/TFE/TFE_ConstantinopleTwo.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_chants_08 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_chants_08/mx_mood_call_chants_08"
-	weight = 11
+mood_TheDarkAge = {
+	music = "file:/music/TFE/TFE_TheDarkAge.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
-
-
-mx_mood_call_10_dusk = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_10_dusk/mx_mood_call_10_dusk"
-	weight = 21
+ 
+mood_ConstantinopleTwo = {
+	music = "file:/music/TFE/TFE_SIEGEofTIME.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_11_dawn_part1 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_11_dawn_part1/mx_mood_call_11_dawn_part1"
-	weight = 22
+mood_Huns1 = {
+	music = "file:/music/TFE/TFE_Huns1.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_12_dawn_part2 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_12_dawn_part2/mx_mood_call_12_dawn_part2"
-	weight = 20
+mood_Huns2 = {
+	music = "file:/music/TFE/TFE_Huns2.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_13_dawn_part3 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_13_dawn_part3/mx_mood_call_13_dawn_part3"
-	weight = 17
+mood_Huns3 = {
+	music = "file:/music/TFE/TFE_Huns3.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_14_dawn_part4 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_14_dawn_part4/mx_mood_call_14_dawn_part4"
-	weight = 16
+mood_Huns4 = {
+	music = "file:/music/TFE/TFE_Huns4.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_15_dawn_part5 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_15_dawn_part5/mx_mood_call_15_dawn_part5"
-	weight = 13
+mood_Norsemen = {
+	music = "file:/music/TFE/TFE_Norsemen.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_16_duskingsky = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_16_duskingsky/mx_mood_call_16_duskingsky"
-	weight = 12
+mood_Plague = {
+	music = "file:/music/TFE/TFE_Plague.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
-
-mx_mood_call_17_murkiness = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_17_murkiness/mx_mood_call_17_murkiness"
-	weight = 15
+mood_Rome1 = {
+	music = "file:/music/TFE/TFE_Rome.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_balik_part1 = {
-	music = "event:/MUSIC/Moods/General/mx_mood_balik/mx_mood_balik_part1"
-	weight = 14
+mood_Picts = {
+	music = "file:/music/TFE/TFE_The_Picts.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_balik_part2 = {
-	music = "event:/MUSIC/Moods/General/mx_mood_balik/mx_mood_balik_part2"
-	weight = 12
+mood_TItTW = {
+	music = "file:/music/TFE/TFE_TItTW.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_18_mysterious_part1 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_18_mysterious_part1/mx_mood_call_18_mysterious_part1"
-	weight = 18
+mood_Atlas = {
+	music = "file:/music/TFE/TFE_Atlas.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_19_mysterious_part2 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_19_mysterious_part2/mx_mood_call_19_mysterious_part2"
-	weight = 20
+mood_Attila = {
+	music = "file:/music/TFE/TFE_TEOT_Attila.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call__21_mysterious_part4 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_21_mysterious_part4/mx_mood_call_21_mysterious_part4"
-	weight = 10
+mood_Rome2 = {
+	music = "file:/music/TFE/TFE_ROME2.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-
-mx_mood_call_22_veni_part2 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_22_veni_part2/mx_mood_call_22_veni_part2"
-	weight = 7
+mood_Pendragon = {
+	music = "file:/music/TFE/TFE_Pendragon.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
 }
 
-mx_mood_call_23_veni_part3 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_23_veni_part3/mx_mood_call_23_veni_part3"
-	weight = 18
+mood_TCOR = {
+	music = "file:/music/TFE/TFE_The_Churches_Of_Rome.ogg"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+	is_valid = { religion = religion:christianity_religion }
 }
 
-mx_mood_call_resurrection_part1 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_resurrection_part1/mx_mood_call_resurrection_part1"
-	weight = 15
+
+#Update Music
+
+mood_TROTS = {
+	music = "file:/music/TFE/TFEUM_The_Raising_of_The_Standard.wav"
+	pause_factor = 20
 	mood = yes
 	can_be_interrupted = yes
-}
-
-mx_mood_call_resurrection_part2 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_resurrection_part2/mx_mood_call_resurrection_part2"
-	weight = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-
-mx_mood_call_resurrection_part3 = {
-	music = "event:/MUSIC/Moods/Calls/mx_mood_call_resurrection_part3/mx_mood_call_resurrection_part3"
-	weight = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-##### MENA MOOD
-
-mx_mood_call__20_mysterious_part3 = {
-	music = "event:/MUSIC/Moods/Calls/Mena/mx_mood_call_20_mysterious_part3/mx_mood_call_20_mysterious_part3"
-	weight = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-
-mx_mood_call_mena_01 = {
-	music = "event:/MUSIC/Moods/Calls/Mena/mx_mood_call_mena_01/mx_mood_call_mena_01"
-	weight = 36
-	mood = yes
-	can_be_interrupted = yes
-}
-
-mx_mood_call_mena_04 = {
-	music = "event:/MUSIC/Moods/Calls/Mena/mx_mood_call_mena_04/mx_mood_call_mena_04"
-	weight = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-
-##### MUSIC CUES
-
-mx_cue_general_crusade_event_1 = {
-	music = "event:/MUSIC/Cues/Events/General Crusade Event/mx_cue_general_crusade_event_1"
-	weight = 25
-	# play every time
-
-}
-
-mx_cue_general_crusade_event_2 = {
-	music = "event:/MUSIC/Cues/Events/General Crusade Event/mx_cue_general_crusade_event_2"
-	weight = 25
-	# play every time
-
-}
-
-mx_cue_general_crusade_event_3 = {
-	music = "event:/MUSIC/Cues/Events/General Crusade Event/mx_cue_general_crusade_event_3"
-	weight = 25
-	# play every time
-
-}
-  
-mx_cue_touching_moment = {
-	music = "event:/MUSIC/Cues/Events/Touching Moment/mx_cue_touching_moment"
-	weight = 25
-	# Cooldown
-	years = 1
-
-}
-
-mx_cue_meadandwine = {
-	music = "event:/MUSIC/Cues/Events/Tavern/mx_cue_meadandwine"
-	weight = 25
-	# play every time
-	calls = 2
-
+	is_prioritized_mood = yes
 }
 
 
-mx_cue_in_taberna_instrumental = {
-	music = "event:/MUSIC/Cues/Events/Tavern/mx_cue_in_taberna_instrumental"
-	weight = 25
-	# play every time
-
-}
-
-mx_cue_epic_sacral_moment = {
-	music = "event:/MUSIC/Cues/Events/Sacral Happening/mx_cue_epic_sacral_moment"
-	weight = 25
-	# Cooldown
-	years = 2
-
-}
-
-mx_cue_prison = {
-	music = "event:/MUSIC/Cues/Events/Prison/mx_cue_prison"
-	weight = 25
-	# play every time
-	calls = 2
-
-}
-
-mx_cue_sacredrite = {
-	music = "event:/MUSIC/Cues/Events/Pagan Rite/mx_cue_sacredrite"
-	weight = 25
-	# play every time
-}
-
+#### cues
 
 mx_cue_death = {
-	music = "event:/MUSIC/Cues/Events/Death/mx_cue_death"
-	weight = 25
+	music = "file:/music/TFE/TFE_Death.ogg"
+	pause_factor = 25
 	# play every time
 }
 
 mx_cue_combat_3 = {
-	music = "event:/MUSIC/Cues/Events/Combat/mx_cue_combat_3"
-	weight = 25
+	music = "file:/music/TFE/TFE_WarCry.ogg"
+	pause_factor = 25
 	# Cooldown
 	years = 1
 }
 
 mx_cue_combat_2 = {
-	music = "event:/MUSIC/Cues/Events/Combat/mx_cue_combat_2"
-	weight = 25
+	music = "file:/music/TFE/TFE_Combat1.ogg"
+	pause_factor = 25
 	# Cooldown
 	years = 1
 }
 
 mx_cue_ck3_vocal_maintheme = {
 	music = "event:/MUSIC/Cues/Events/CK3 Vocal Main Theme/mx_cue_ck3_vocal_maintheme"
-	weight = 25
+	pause_factor = 25
 	# play every time
 
 }
 
 mx_cue_banquet = {
 	music = "event:/MUSIC/Cues/Events/Banquet/mx_cue_banquet"
-	weight = 25
+	pause_factor = 25
 	# play every time
 	calls = 2
 
 }
 
 mx_cue_crusade_starts = {
-	music = "event:/MUSIC/Cues/Events/Crusade Starts/mx_cue_crusade_starts"
-	weight = 25
+	music = "file:/music/TFE/TFE_WARDECLARED.ogg"
+	pause_factor = 25
 	# play every time
 
 }
 
+mx_cue_war_declared = {
+	music = "file:/music/TFE/TFE_WARDECLARED.ogg"
+	pause_factor = 35
+	# play every time
+}
+
 mx_cue_combat_stinger = {
-	music = "event:/MUSIC/Cues/Events/Combat/mx_cue_combat_stinger"
-	weight = 25
+	music = "file:/music/TFE/TFE_Combat2.ogg"
+	pause_factor = 25
 	# Cooldown
 	#years = 1
 }
 
 mx_cue_positive_effect = {
 	music = "event:/MUSIC/Cues/Events/Positive/mx_cue_postive_effect"
-	weight = 25
+	pause_factor = 25
 	# Cooldown
 	#months = 3
 }
 
  mx_cue_peace_ensues = {
-	music = "event:/MUSIC/Cues/Events/peace_ensues/mx_cue_peace_ensues"
-	weight = 25
+	music = "file:/music/TFE/TFE_Champion.ogg"
+	pause_factor = 25
 	# play every time
 }
 
  mx_cue_faith_conversion = {
 	music = "event:/MUSIC/Cues/Events/faith_conversion/mx_cue_faith_conversion"
-	weight = 25
+	pause_factor = 25
 	# Cooldown
 	calls = 2
 }
 
  mx_cue_birth = {
-	music = "event:/MUSIC/Cues/Events/Birth/mx_cue_birth"
-	weight = 25
+	music = "file:/music/TFE/TFE_A_New_Heir.ogg"
+	pause_factor = 25
 	# play only once
 }
 
  mx_cue_stress = {
-	music = "event:/MUSIC/Cues/Events/High Stress/mx_cue_stress"
-	weight = 25
+	music = "file:/music/TFE/TFE_Stress.ogg"
+	pause_factor = 25
 	# Cooldown
 	calls = 3
 }
 
 mx_cue_illness = {
-	music = "event:/MUSIC/Cues/Events/Illness/mx_cue_illness"
-	weight = 25
+	music = "file:/music/TFE/TFE_Illness.ogg"
+	pause_factor = 25
 	# Cooldown
 	calls = 3
 }
 
 mx_cue_murder = {
-	music = "event:/MUSIC/Cues/Events/Murder/mx_cue_murder"
-	weight = 25
+	music = "file:/music/TFE/TFE_Murder.ogg"
+	pause_factor = 25
 	# Cooldown
 	years = 1
 }
 
 mx_cue_succession = {
-	music = "event:/MUSIC/Cues/Events/Succession/mx_cue_succession"
-	weight = 25
+	music = "file:/music/TFE/TFE_Death.ogg"
+	pause_factor = 25
 	# play every time
 }
 
 mx_cue_succession_instrumental = {
-	music = "event:/MUSIC/Cues/Events/Succession/mx_cue_succession_instrumental"
-	weight = 25
+	music = "file:/music/TFE/TFE_Death.ogg"
+	pause_factor = 25
 	# play every time
 }
 
 mx_cue_seduction = {
 	music = "event:/MUSIC/Cues/Events/Seduction/mx_cue_seduction"
-	weight = 25
+	pause_factor = 25
 	# Cooldown
 	calls = 3
 }
 
 mx_cue_marriage = {
 	music = "event:/MUSIC/Cues/Events/Marriage/mx_cue_marriage"
-	weight = 25
+	pause_factor = 25
 	# play only once
 }
 mx_cue_negative = {
 	music = "event:/MUSIC/Cues/Events/Combat/mx_cue_combat_stinger"
-	weight = 25
+	pause_factor = 25
 }
 mx_cue_low_key_positive = {
 	music = "event:/MUSIC/Cues/Events/Low Key Positive/mx_cue_low_key_postive"
-	weight = 25
+	pause_factor = 25
 }
 mx_cue_secret = {
 	music = "event:/MUSIC/Cues/Events/Secret/mx_cue_secret"
-	weight = 25
+	pause_factor = 25
 }
+
+
+##### MAINTHEME
+
+main_theme_track = {
+	music = "file:/music/TFE/TFE_Main.ogg"
+	can_be_interrupted = yes
+}
+

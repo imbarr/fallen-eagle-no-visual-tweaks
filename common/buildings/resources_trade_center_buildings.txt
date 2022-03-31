@@ -1,0 +1,792 @@
+﻿@holding_illustration_western = "gfx/interface/illustrations/holding_types/trade_center_western.dds"
+@holding_illustration_india = "gfx/interface/illustrations/holding_types/trade_center_india.dds"
+@holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/trade_center_mediterranean.dds"
+@holding_illustration_mena = "gfx/interface/illustrations/holding_types/trade_center_mena.dds"
+
+trade_center_01 = { # trade_center I
+	construction_time = slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mediterranean }
+	}
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+	}
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		culture = {
+			has_innovation = innovation_development_04
+		}
+		county = { development_level >= 10 }
+	}
+	cost_gold = main_building_tier_4_cost
+	next_building = trade_center_02
+	
+	levy = 175
+	max_garrison = 250
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
+	province_modifier = {
+		monthly_income = 0.5
+		fort_level = 1
+	}
+	
+	county_modifier = {
+		development_growth = 0.1
+	}
+
+	flag = castle
+	ai_value = {
+		base = 5		
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+trade_center_02 = { # trade_center II
+	construction_time = slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mediterranean }
+	}
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+	}
+
+
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+		county = { development_level >= 20 }
+	}
+	cost_gold = main_building_tier_4_cost
+	next_building = trade_center_03
+	
+	levy = 325
+	max_garrison = 750
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
+	province_modifier = {
+		monthly_income = 1.5
+		fort_level = 3
+		build_gold_cost = 0.05
+	}
+	
+	county_modifier = {
+		development_growth = 0.2
+	}
+	
+	flag = castle
+	ai_value = {
+		base = 5		
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+trade_center_03 = { # trade_center III
+	construction_time = slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mediterranean }
+	}
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+	}
+
+
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		culture = {
+			has_innovation = innovation_windmills
+		}
+		county = { development_level >= 25 }
+	}
+	cost_gold = main_building_tier_4_cost
+	next_building = trade_center_04
+	
+	levy = 475
+	max_garrison = 1250
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_6
+	province_modifier = {
+		monthly_income = 2
+		fort_level = 5
+		build_gold_cost = 0.1
+	}
+	
+	county_modifier = {
+		development_growth = 0.5
+	}
+	
+	flag = castle
+	ai_value = {
+		base = 5		
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+trade_center_04 = { # Megalopolis
+	construction_time = slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { graphical_mediterranean }
+	}
+	
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mena_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { indian_building_gfx }		
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_western_mesh"
+		}
+		illustration = @holding_illustration_western
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mena_mesh"
+		}
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_indian_mesh"
+		}
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mediterranean_city_02_mesh"
+		}
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }		
+	}
+	
+	
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		culture = {
+			has_innovation = innovation_cranes
+		}
+		county = { development_level >= 30 }
+	}
+	cost_gold = main_building_tier_4_cost
+	
+	levy = 625
+	max_garrison = 1750
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_8
+	province_modifier = {
+		monthly_income = 2.5
+		fort_level = 10
+		build_gold_cost = 0.2
+	}
+	
+	county_modifier = {
+		development_growth = 1
+	}
+	
+	flag = castle
+	ai_value = {
+		base = 4		
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}

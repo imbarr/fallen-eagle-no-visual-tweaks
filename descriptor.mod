@@ -1,10 +1,10 @@
-version="1.0.3"
+version="1.5.1"
 tags={
-	"Total Conversion"
 	"Bookmarks"
 	"Historical"
+	"Total Conversion"
 }
-name="The Fallen Eagle: The Dawn of the Dark Ages"
-supported_version="1.2.1"
-path="C:/Users/asl17/Documents/Paradox Interactive/Crusader Kings III/mod/TFE395"
+name="The Fallen Eagle - 'The Ides of March Update'"
+picture="thumbnail.png"
+supported_version="1.5.1.1"
 remote_file_id="2243307127"

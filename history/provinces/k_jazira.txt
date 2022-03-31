@@ -2,11 +2,11 @@
 4810 = {	# 4810 - Bartulla
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -15,11 +15,11 @@
 4811 = {	# 4811 - Ninawa, Ninive
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -28,11 +28,11 @@
 4812 = {	# 4812 - Fishabur
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -41,8 +41,8 @@
 4813 = {	# 4813 - Baqirda
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -52,8 +52,8 @@
 4814 = {	# 4814 - Tamanin
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = median
+	religion = messalian
 	
 	# History
 
@@ -61,8 +61,8 @@
 
 # 4815 - HAKKARI
 4815 = {	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = median
+	religion = messalian
 	
 	# History
 	
@@ -73,8 +73,8 @@
 4816 = {	# 4816 - Sa'ird
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = median
+	religion = messalian
 	
 	# History
 
@@ -85,7 +85,7 @@
 	
 	# Misc
 	culture = kurdish
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 
@@ -96,10 +96,10 @@
 	
 	# Misc
 	culture = kurdish
-	religion = chalcedonian
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -108,11 +108,11 @@
 4837 = {	# 4837 - Al-Hadr
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -121,11 +121,11 @@
 4838 = {	# 4838 - Juhaina
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -134,11 +134,11 @@
 4839 = {	# 4839 - Tall Afar
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -147,11 +147,18 @@
 4840 = {	# 4840 - Mosul
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
-	
+	culture = assyrian
+	religion = messalian
+	holding = castle_holding
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
+	1066.1.1 = {
+		buildings = {
+			camel_farms_01
+			regimental_grounds_01
+			pastures_01
+		}
+	}
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -161,10 +168,10 @@
 	
 	# Misc
 	culture = kurdish
-	religion = chalcedonian
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -174,7 +181,7 @@
 	
 	# Misc
 	culture = kurdish
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 
@@ -184,18 +191,18 @@
 4843 = {	# 4843 - Bashazza
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
 # 4845 - NASIBIN
 4845 = {	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 	
@@ -206,8 +213,8 @@
 4846 = {	# 4846 - Dara
 	
 	# Misc
-	culture = kurdish
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -215,11 +222,11 @@
 
 # 4848 - SINJAR
 4848 = {	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -227,11 +234,11 @@
 4849 = {	# 4849 - Al-Hayyal
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -239,11 +246,11 @@
 4850 = {	# 4850 - Al-Jibal
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -251,11 +258,11 @@
 4851 = {	# 4851 - Tunamir
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nestorian
 	
 	# History
-	867.1.1 = { religion = chalcedonian }
+	867.1.1 = { religion = sunni }
 
 }
 
@@ -263,8 +270,8 @@
 4852 = {	# 4852 - Mijdal
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -274,8 +281,8 @@
 4853 = {	# 4853 - Ras al-ain, Upper Khabur
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = nicene
 	
 	# History
 
@@ -285,8 +292,8 @@
 4854 = {	# 4854 - Mardin
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -294,13 +301,13 @@
 
 # 4855 - TALL_BASMA
 4855 = {	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = assyrian
+	religion = nicene
 	
 	# History
 	1086.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -309,8 +316,8 @@
 4856 = {	# 4856 - Kafartutha
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = sunni
 	
 	# History
 
@@ -319,12 +326,12 @@
 # 4859 - MAYYAFARIQIN
 4859 = {	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1086.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -334,13 +341,13 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	873.1.1 = { religion = paulician }
-	970.1.1 = { religion = chalcedonian }
+	970.1.1 = { religion = nicene }
 	1097.8.26 = {
-		religion = chalcedonian
+		religion = sunni
 		culture = kurdish
 	}
 
@@ -351,12 +358,12 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -366,12 +373,12 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -381,12 +388,12 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -395,27 +402,27 @@
 4869 = {	# 4869 - Edessa
 	
 	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
 
 # 4870 - HARRAN
 4870 = {	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
 	1098.1.1 = { culture = armenian }
 	1170.1.1 = {
-		culture = levantine
-		religion = chalcedonian
+		culture = bedouin
+		religion = sunni
 	}
 
 }
@@ -425,12 +432,12 @@
 	
 	# Misc
 	culture = armenian
-	religion = chalcedonian
+	religion = nicene
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -439,13 +446,13 @@
 4872 = {	# 4872 - Al-Bira
 	
 	# Misc
-	culture = armenian
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		religion = chalcedonian
+		religion = sunni
 	}
 
 }
@@ -454,11 +461,11 @@
 4873 = {	# 4873 - Tall_Ammar
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = orthodox
 	
 	# History
-	1270.1.1 = { religion = chalcedonian }
+	1270.1.1 = { religion = sunni }
 
 }
 
@@ -466,14 +473,14 @@
 4874 = {	# 4874 - Saruj
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nicene
 	
 	# History
 	1098.1.1 = { culture = armenian }
 	1170.1.1 = {
-		culture = levantine
-		religion = chalcedonian
+		culture = bedouin
+		religion = sunni
 	}
 
 }
@@ -482,11 +489,11 @@
 4875 = {	# 4875 - Dausar
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = nicene
 	
 	# History
-	1270.1.1 = { religion = chalcedonian }
+	1270.1.1 = { religion = sunni }
 
 }
 
@@ -494,8 +501,8 @@
 4876 = {	# 4876 - Raqqa
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = harranian_pagan
 	
 	# History
 
@@ -505,8 +512,8 @@
 4877 = {	# 4877 - Bajarwan
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = sunni
 	
 	# History
 
@@ -516,14 +523,14 @@
 4878 = {	# 4878 - Tall_Mahra
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = bedouin
+	religion = nicene
 	
 	# History
 	1098.1.1 = { culture = armenian }
 	1170.1.1 = {
-		culture = levantine
-		religion = chalcedonian
+		culture = bedouin
+		religion = sunni
 	}
 
 }
@@ -532,8 +539,8 @@
 4879 = {	# 4879 - Araban
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -543,8 +550,8 @@
 4880 = {	# 4880 - Al-Khanuqa
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -554,8 +561,8 @@
 4881 = {	# 4881 - Ash-Shamsaniya
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -565,8 +572,8 @@
 4882 = {	# 4882 - Qarqisiya
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -576,8 +583,8 @@
 4883 = {	# 4883 - Makisin, Khabur
 	
 	#Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = assyrian
+	religion = messalian
 	
 	# History
 
@@ -587,8 +594,8 @@
 4884 = {	# 4884 - Sukayr Al-Abbas
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 	
@@ -597,8 +604,8 @@
 
 # 4885 - HADITHAT-ANA
 4885 = {	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 	
@@ -607,8 +614,8 @@
 
 # 4886 - AL-HADITHA-FURAT
 4886 = {	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 
@@ -618,8 +625,8 @@
 4887 = {	# 4887 - Ana
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 
@@ -629,8 +636,8 @@
 4888 = {	# 4888 - Al-Daliya
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 	
@@ -639,8 +646,8 @@
 
 # 4889 - AL-RAHBA
 4889 = {	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 	
@@ -651,8 +658,8 @@
 5943 = {	# 5943 - Ratla
 	
 	# Misc
-	culture = levantine
-	religion = chalcedonian
+	culture = aramean
+	religion = messalian
 	
 	# History
 

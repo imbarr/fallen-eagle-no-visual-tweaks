@@ -1,0 +1,686 @@
+britannia_01 = {
+	name = "Lucius"
+	religion = celto_hellenic_syncretism
+	culture = "britano_roman"
+	dynasty = dynasty_Pacatianus
+	300.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+britannia_02 = {
+	name = "Flavius"
+	religion = "hellenic_pagan"
+	culture = "britano_roman"
+	dynasty = dynasty_Martinus
+	323.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+britannia_04 = {
+	name = "Civilis"
+	religion = "hellenic_pagan"
+	culture = "britano_roman"
+	333.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+magnetius_03 = {
+	name = "Magnus"
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty = dynasty_Magnetius
+	father = magnetius_01
+	mother = magnetius_02
+	303.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		add_spouse = constantinian_01
+	}
+	353.8.11 = {
+		death = yes
+	}
+}
+magnetius_04 = {
+	name = "Galla"
+	dynasty = dynasty_Magnetius
+	religion = "arianism"
+	culture = "britano_roman"
+	female = yes
+	mother = constantinian_01
+	351.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+valentia_01 = {
+	name = "Lucianus"
+	religion = "celto_hellenic_syncretism"
+	culture = "britano_roman"
+	303.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+britannia_secunda_01 = {
+	name = "Romulus"
+	religion = "celto_hellenic_syncretism"
+	culture = "britano_roman"
+	323.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+constantinus_01 = {
+	name = "Claudius" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty = constantinus_dynasty
+	trait = education_martial_4
+	trait = strategist
+	trait = brave 
+	trait = arrogant
+	374.1.1 = {
+		birth = yes
+	}
+	411.9.18 = {
+		death = yes
+	}
+}
+constantinus_02 = {
+	name = "Constantinus" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty = constantinus_dynasty
+	father = constantinus_01
+	395.1.1 = {
+		birth = yes
+	}
+	438.1.1 = {
+		death = yes
+	}
+}
+constantinus_03 = {
+	name = "Iulianus" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty = constantinus_dynasty
+	father = constantinus_01
+	398.1.1 = {
+		birth = yes
+	}
+	449.1.1 = {
+		death = yes
+	}
+}
+constantinus_04 = {
+	name = "Ambrosius" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty = constantinus_dynasty
+	father = constantinus_01
+	421.1.1 = {
+		birth = yes
+	}
+	458.1.1 = {
+		death = yes
+	}
+}
+constantinus_05 = {
+	name = "Ambrosius" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty_house = house_Aurelianus
+	father = constantinus_04
+	trait = education_martial_4
+	trait = callous
+	trait = brave
+	trait = ambitious
+	448.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	492.1.1 = {
+		death = yes
+	}
+}
+constantinus_06 = {
+	name = "Iulianus" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty_house = house_Aurelianus
+	father = constantinus_05
+	478.1.1 = {
+		birth = yes
+	}
+	523.1.1 = {
+		death = yes
+	}
+}
+constantinus_07 = {
+	name = "Caninus" # Constantinus the usurper
+	religion = "nicene"
+	culture = "britano_roman"
+	dynasty_house = house_Aurelianus
+	father = constantinus_06
+	499.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+####Romanized Britons
+Durotriges_02 = { # Durotriges
+	name= "Caurantin" 
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900069
+	333.1.1 = {
+		birth = yes
+	}
+	381.1.1 = {
+		death = yes
+	}
+}
+Durotriges_01 = { # Durotriges
+	name= "Caurantin" 
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900069
+	father = Durotriges_02
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Durotriges_03 = { # Durotriges
+	name= "Ceneu" 
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900069
+	father = Durotriges_01
+	391.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+Durotriges_04 = { # Durotriges
+	name= "Gwrwst" 
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900069
+	father = Durotriges_03
+	423.1.1 = {
+		birth = yes
+	}
+	487.1.1 = {
+		death = yes
+	}
+}
+Regnenses_02 = { #Regnenses
+	name= "Camulos"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900076 # Regnenses
+	342.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+Regnenses_01 = { #Regnenses
+	name= "Conogan"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900076 # Regnenses
+	father = Regnenses_02
+	371.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Regnenses_03 = { #Regnenses
+	name= "Eudaf"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900076 # Regnenses
+	father = Regnenses_01
+	399.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+Regnenses_04 = { #Regnenses
+	name= "Caninus"
+	religion="nicene"
+	culture="britano_roman"
+	dynasty = 900076 # Regnenses
+	father = Regnenses_03
+	423.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		religion = chalcedonian
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+Atrebates_02 = { #Ambrosius
+	name= "Caninus"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900071 #Atrebates
+	331.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		death = yes
+	}
+}
+Atrebates_01 = { #Ambrosius
+	name= "Ambrosius"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900071 #Atrebates
+	father = Atrebates_02
+	389.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+Atrebates_03 = { #Ambrosius
+	name= "Cynfarch"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900071 #Atrebates
+	father = Atrebates_01
+	425.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+Belgae_02 = { #Belgae
+	name= "Conogan"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty =  900070 #Beglae
+	321.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+Belgae_01 = { #Belgae
+	name= "Marcus"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty =  900070 #Beglae
+	father = Belgae_02
+	352.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Belgae_03 = { #Belgae
+	name= "Owain"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty =  900070 #Beglae
+	father = Belgae_01
+	398.1.1 = {
+		birth = yes
+	}
+	443.1.1 = {
+		death = yes
+	}
+}
+Belgae_04 = { #Belgae
+	name= "Rhun"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty =  900070 #Beglae
+	father = Belgae_03
+	423.1.1 = {
+		birth = yes
+	}
+	478.1.1 = {
+		death = yes
+	}
+}
+Trinovantes_02 = { #Trinovantes
+	name= "Gallus"
+	religion="pelagianism"
+	culture="britano_roman"
+	dynasty = 900078
+	320.1.1 = {
+		birth = yes
+	}
+	378.1.1 = {
+		death = yes
+	}
+}
+Trinovantes_01 = { #Trinovantes
+	name= "Gracianus"
+	religion="pelagianism"
+	culture="britano_roman"
+	dynasty = 900078
+	father = Trinovantes_02
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Catuvellauni_02 = { #Catuvelluni
+	name= "Maguno"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900077
+	333.1.1 = {
+		birth = yes
+	}
+	388.1.1 = {
+		death = yes
+	}
+}
+Catuvellauni_01 = { #Catuvelluni
+	name= "Maguno"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900077
+	father = Catuvellauni_02
+	363.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+Catuvellauni_03 = { #Catuvelluni
+	name= "Cornelius"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900077
+	father = Catuvellauni_01
+	398.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+Catuvellauni_04 = { #Catuvelluni
+	name= "Urien"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900077
+	father = Catuvellauni_03
+	423.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+londinium_01 = {
+	name= "Riothamus"
+	religion="pelagianism"
+	culture="britano_roman"
+	dynasty = riothamus_dynasty
+	439.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+Coretani_02 = { #Coreatni
+	name= "Esvios"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900081 #Coretani
+	332.1.1 = {
+		birth = yes
+	}
+	388.1.1 = {
+		death = yes
+	}
+}
+Coretani_01 = { #Coreatni
+	name= "Hincomhal"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900081 #Coretani
+	father = Coretani_02
+	372.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Parisi_02 = { #Esvios
+	name= "Riothamus"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900082 #Parisi
+	322.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+Parisi_01 = { #Esvios
+	name= "Esvios"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = 900082 #Parisi
+	father = Parisi_02
+	367.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+Iceni_02 = { #Iceni
+	name= "Morhaetho"
+	religion="brythonic_druidism"
+	culture="britano_roman"
+	dynasty = 900079
+	323.1.1 = {
+		birth = yes
+	}
+	387.1.1 = {
+		death = yes
+	}
+}
+Iceni_01 = { #Iceni
+	name= "Morhaetho"
+	religion="brythonic_druidism"
+	culture="britano_roman"
+	dynasty = 900079
+	father = Iceni_02
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+Iceni_03 = { #Iceni
+	name= "Morgan"
+	religion="brythonic_druidism"
+	culture="britano_roman"
+	dynasty = 900079
+	father = Iceni_01
+	400.1.1 = {
+		birth = yes
+	}
+	461.1.1 = {
+		death = yes
+	}
+}
+Iceni_04 = { #Iceni
+	name= "Caraddog"
+	religion="brythonic_druidism"
+	culture="britano_roman"
+	dynasty = 900079
+	father = Iceni_03
+	423.1.1 = {
+		birth = yes
+	}
+	478.1.1 = {
+		death = yes
+	}
+}
+Abrivantes_02 = { #Abrivantes
+	name= "Marcus"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	dynasty = abrivantes_dynsaty
+	323.1.1 = {
+		birth = yes
+	}
+	388.1.1 = {
+		death = yes
+	}
+}
+Abrivantes_01 = { #Abrivantes
+	name= "Guihomarch"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	father = Abrivantes_02
+	dynasty = abrivantes_dynsaty
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+#Fictional Roman Dux
+BDux_01 = { #Valentia
+	name= "Cornelius"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+guotepauc_02 = {
+	name = "Coil" # guotepauc
+	dynasty = 99850006
+	dna = coel_henn
+	religion = "celto_hellenic_syncretism"
+	culture = "britano_roman"
+	father = guotepauc_01 #Tegfan
+	trait = ambitious 
+	trait = brave 
+	trait = calm
+	trait = intellect_good_1
+	trait = education_martial_4
+	361.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	395.1.1 = {
+		add_spouse = Dyfnaint_002
+		give_nickname = nick_the_old
+		effect = {
+				spawn_army = {
+					name = event_troop_default_name
+					levies = 700
+					men_at_arms = {
+						type = light_footmen
+						stacks = 3
+					}
+					location = 2157
+					inheritable = no
+				}
+		}
+		name = Coillus
+	}
+	440.1.1 = {
+		death = yes
+		name = Coil
+		culture = briton
+	}
+}
+
+# Fictional Roman Comes 
+BComes_01 = { #Administrator
+	name= "Caius"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	331.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+BComes_02 = { #Leo
+	name= "Leo"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	342.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+BComes_03 = { #Marianus
+	name= "Marianus"
+	religion="celto_hellenic_syncretism"
+	culture="britano_roman"
+	319.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

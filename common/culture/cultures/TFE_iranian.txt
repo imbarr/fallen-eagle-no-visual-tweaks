@@ -1,0 +1,299 @@
+﻿median = {
+	color = { 0.8 0.9 0.4 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_philosopher_culture
+		tradition_gardening
+		tradition_mountain_homes # Cybr: Switched from Dryland Dwellers due to mountainous region of Media
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+parthian = {
+	color = { 0.75 0.45 0.95  }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_horse_lords # Cybr: Famous for their cavalry
+		tradition_caravaneers # Cybr: Increase in Silk Road trade
+		tradition_mystical_ancestors # Cybr: Something to represent the 7 Noble Parthian clans, maybe a custom tradition in the future
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+pactyan = {
+	color = { 0.65 0.95 0.55 }
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		# Cybr: Since they are basically Proto-Afghans I just copypasta'd the Afghan traditions
+		tradition_loyal_soldiers
+		tradition_esteemed_hospitality
+		tradition_mountain_homes
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_afghan # Proto-Afghans
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+cadusian = {
+	color = { 0.8 0.6 0.0 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome # Cybr: Xenophon said they were very warlike, and they often rebelled against Achaemenid central authority
+		tradition_mountain_homes # Cybr: Lived in mountainous region
+		tradition_mountaineers # Cybr: Mountain warriors
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+hephthalite = {
+	color = { 0.20 0.08 0.25 }
+
+	parents = { saka tiele }
+
+	created = 350.1.1 # First mentioned in 361 CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
+	history_loc_override = iranian_hun_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Warriors from the steppes
+		tradition_mountain_homes # Cybr: May have originated from the Pamir region
+		tradition_sacred_mountains # Cybr: Zun was a solar mountain god
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+	}
+
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_saka # Might be part Saka in origin
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+aorsi = {
+	color = { 233 145 77 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_caravaneers # Cybr: Controlled northern Silk Road
+		tradition_metal_craftsmanship # Cybr: Famous for gold ornaments
+	}
+	
+	name_list = name_list_alan # Sarmatian group
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		8 = asian
+		5 = mediterranean
+	}
+}
+bactrian = {
+	color = { 248 138 71 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers # Cybr: Silk Road
+		tradition_parochialism # Cybr: Silk Road cities
+		tradition_mountain_homes # Cybr: Mostly in Afghanistan and Tajikistan
+		tradition_futuwaa
+	}
+
+	dlc_tradition = { # Many cultures came through here
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_sogdian # Not a good match but closest we have for now until we can get a proper Bactrian namelist
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+wusun = {
+	color = { 1.0 0.3 0.3 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_pastoralists # Cybr: Pastoral based economy
+		tradition_hereditary_hierarchy # Cybr: Highly stratified society
+	}
+	
+	name_list = name_list_saka # Fought the Scythians but closest we have for now
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+# Xionites were at least part Iranian in origin and influence, though likely mixed with Turkic and Proto-Mongolic elements
+# See https://iranicaonline.org/articles/chionites-lat for more info
+xionite = {
+	color = { 147 124 93 }
+
+	parents = { saka tiele }
+
+	created = 350.1.1 # First mentioned around the 350s CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
+	history_loc_override = iranian_hun_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian 
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		# Cybr: Will need to do more reading for the future, this is just a rough outline for now
+	}
+	
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_saka
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		8 = arab
+		5 = mediterranean
+	}
+}
+
+
+shaka = {
+	color = { 0.4 0.1 0.75  }
+	
+	parents = { saka rajput }
+	created = 150.1.1
+	history_loc_override = iranian_shaka_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_warrior_culture
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_rajput 
+	
+	coa_gfx = { iranian_group_coa_gfx indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		7 = arab
+		5 = mediterranean
+		5 = indian
+	}
+}

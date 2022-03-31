@@ -1,0 +1,368 @@
+﻿900319 = { #Lusitania vassal 1
+	name= "Symmachus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900320 = { #Lusitania vassal 2
+	name= "Gallienus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900321 = { #Lusitania vassal 3
+	name= "Nerva"
+	religion="nicene"
+	culture="hispano_roman"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900322 = { #Lusitania vassal 4
+	name= "Vigilius"
+	religion="nicene"
+	culture="hispano_roman"
+	372.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900323 = { #Lusitania vassal 5
+	name= "Crassus"
+	religion="nicene"
+	culture="hispano_roman"
+	378.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900324 = { #Gallaecia vassal 1
+	name= "Paulus"
+	religion="celto_hellenic_syncretism"
+	culture="castran"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900325 = { #Gallaecia vassal 1
+	name= "Obeko"
+	religion="celto_hellenic_syncretism"
+	culture="hispano_roman"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900326 = { #Baetica vassal 1
+	name= "Sextus"
+	religion="nicene"
+	culture="hispano_roman"
+	364.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900327 = { #Biggus Dickus
+	name= "Biggus"
+	dynasty = 900022
+	religion="manichean"
+	culture="roman"
+	352.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		add_spouse = 900749
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900749 = { #Incontinentia Buttocks
+	name= "Incontinentia"
+	dynasty = 900023
+	religion="nicene"
+	female = yes
+	culture="roman"
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900328 = { #Baetica vassal 3
+	name= "Hadrian"
+	religion="nicene"
+	culture="hispano_roman"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900329 = { #Carthaginensis
+	name= "Severinus"
+	religion="nicene"
+	culture="roman"
+	375.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900330 = { #Carthaginensis  Vassal 1
+	name= "Nebridius"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "nebridian"
+	341.1.1 = {
+		birth = yes
+	}
+	367.1.1 = {
+		add_spouse = nebridian_02
+	}
+	399.1.1 = {
+		death = yes
+	}
+}
+nebridian_01 = {
+	name= "Gaius"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "oretum"
+	312.1.1 = {
+		birth = yes
+	}
+	358.1.1 = {
+		death = yes
+	}
+}
+nebridian_02 = {
+	name= "Flavia"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "oretum"
+	father = nebridian_01
+	female = yes
+	347.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+nebridian_03 = {
+	name= "Nebridius"
+	religion="nicene"
+	culture="hispano_roman"
+	dynasty = "nebridian"
+	father = 900330
+	mother = nebridian_02
+	369.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		add_spouse = nuvelan_05
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900331 = { #Carthaginensis Vassal 2
+	name= "Constantinus"
+	religion="nicene"
+	culture="hispano_roman"
+	father = nebridian_01
+	dynasty = "oretum"
+	349.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900332 = { #Carthaginensis Vassal 3
+	name= "Cassius"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900333 = { #Carthaginensis Vassal 4
+	name= "Martinus"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	356.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900334 = { #Carthaginensis Vassal 5
+	name= "Claudius"
+	religion="nicene"
+	culture="hispano_roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900337 = { #Tarraconensis
+	name= "Junius"
+	religion="nicene"
+	culture="roman"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900338 = { #Tarraconensis V1
+	name= "Fabianus"
+	religion="nicene"
+	culture="hispano_roman"
+	370.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900339 = { #Tarraconensis V2
+	name= "Urbanus"
+	religion="nicene"
+	culture="hispano_roman"
+	343.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900340 = { #Tarraconensis V3
+	name= "Manrike"
+	religion="hellenic_pagan"
+	culture="aquitanian"
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900341 = { #Tarraconensis V4
+	name= "Aznar"
+	religion="celto_hellenic_syncretism"
+	culture="cantabrian"
+	357.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900342 = { #Balearica
+	name= "Leo"
+	religion="hellenic_pagan"
+	culture="hispano_roman"
+	371.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900343 = { #Mauretania
+	name= "Quintus"
+	religion="nicene"
+	culture="roman"
+	367.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900344 = { #Mauretania V1
+	name= "Octavius"
+	religion="nicene"
+	culture="roman"
+	348.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900345 = { #Mauretania V2
+	name= "Publius"
+	religion="nicene"
+	culture="roman"
+	359.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+900346 = { #Mauretania V3
+	name= "Sempronius"
+	dynasty=410
+	religion="nicene"
+	culture="roman"
+	363.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+985026 = {
+	name = "Aurelianus" # Aurelianus
+	dynasty = 99850005
+	religion = "nicene"
+	culture = "hispano_roman"
+	375.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		add_spouse = 985020
+	}
+	442.1.1 = {
+		death = yes
+	}
+}

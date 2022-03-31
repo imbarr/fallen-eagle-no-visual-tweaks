@@ -1,0 +1,183 @@
+﻿999500 = {
+	name = "Digor"
+	dna = 999500_digor
+	dynasty = 99995000
+	religion = "tengri_pagan"
+	culture = "alan"
+	325.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+999501 = {
+	name = "Kuluk"
+	dynasty = 99995000
+	religion = "tengri_pagan"
+	culture = "alan"
+	father = 999500
+	355.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+999502 = {
+	name = "Mada"
+	female = yes
+	dynasty = 99995000
+	religion = "tengri_pagan"
+	culture = "alan"
+	father = 999500
+	360.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		religion = "arianism"
+	}
+	418.1.1 = {
+		death = yes
+	}
+}
+999505 = {
+	name = "Gokar"
+	dynasty = 99995001
+	religion = "tengri_pagan"
+	culture = "alan"
+	father = 999503
+	mother = 999502
+	387.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		religion = "arianism"
+	}
+	446.1.1 = {
+		death = yes
+	}
+}
+999506 = {
+	name = "Sangipan"
+	dynasty = 99995001
+	religion = "arianism"
+	culture = "alan"
+	father = 999505
+	406.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+999507 = {
+	name = "Sambida"
+	dynasty = 99995001
+	religion = "arianism"
+	culture = "alan"
+	father = 999505
+	410.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+999508 = {
+	name = "Buurgur"
+	dynasty = 99995001
+	religion = "arianism"
+	culture = "alan"
+	father = 999507
+	427.1.1 = {
+		birth = yes
+	}
+	464.1.1 = {
+		death = yes
+	}
+}
+999509 = {
+	name = "Nikanur"
+	dynasty = 99995000
+	religion = "tengri_pagan"
+	culture = "alan"
+	father = 999501
+	385.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+999510 = {
+	name = "Beler"
+	dynasty = 99995000
+	religion = "tengri_pagan"
+	culture = "alan"
+	father = 999509
+	435.1.1 = {
+		birth = yes
+	}
+	495.1.1 = {
+		death = yes
+	}
+}
+999511 = {
+	name = "Ardabur"
+	dna = 999511_ardaburius
+	religion = "arianism"
+	culture = "alan"
+	380.1.1 = {
+		birth = yes
+	}
+	395.1.1 = {
+		culture = "roman"
+		name = "Ardaburius"
+	}
+	445.1.1 = {
+		death = yes
+	}
+}
+999512 = {
+	name = "Aspar"
+	religion = "arianism"
+	culture = "roman"
+	father = 999511
+	405.1.1 = {
+		birth = yes
+	}
+	471.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 980052
+		}
+	}
+}
+999513 = {
+	name = "Ardaburius"
+	religion = "arianism"
+	culture = "alan"
+	father = 999512
+	425.1.1 = {
+		birth = yes
+	}
+	471.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 980052
+		}
+	}
+}
+999514 = {
+	name = "Patriciolus"
+	religion = "arianism"
+	culture = "alan"
+	father = 999512
+	430.1.1 = {
+		birth = yes
+	}
+	477.1.1 = {
+		death = yes
+	}
+}

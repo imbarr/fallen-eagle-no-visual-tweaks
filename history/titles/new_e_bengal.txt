@@ -1,0 +1,58 @@
+e_rajastan = {
+	360.1.1 = {
+		change_development_level = 6
+	}
+}
+e_deccan = {
+	361.1.1 = {
+		change_development_level = 6
+	}
+}
+k_delhi = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+k_punjab = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_ajmer = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_jangladesh = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_maru = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_medapata = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_multan = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+
+d_bhakkar = {
+	380.1.1 = {
+		holder = 2020123 # Chandragupta II
+	}
+}
+

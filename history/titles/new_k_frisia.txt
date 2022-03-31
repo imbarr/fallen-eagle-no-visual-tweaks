@@ -1,0 +1,13 @@
+
+d_lower_lorraine = {
+	395.1.1 = {
+		government = tribal_government
+		holder = genobaud_01
+	}
+}
+c_arnsberg = {
+	395.1.1 = {
+		government = tribal_government
+		holder = chattauri_01
+	}
+}

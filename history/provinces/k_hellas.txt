@@ -5,9 +5,23 @@
 	culture = greek
 	religion = hellenic_pagan
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3730 = {	#Thebes
 	holding = city_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3731 = {	#Megara
 	holding = church_holding
@@ -19,6 +33,13 @@
 	culture = greek
 	religion = hellenic_pagan
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3727 = {	#Boudounitsa AKA Mendenitsa
 	holding = none
@@ -32,6 +53,13 @@
 	culture = greek
 	religion = hellenic_pagan
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3725 = {	#Skopelos
 	holding = none
@@ -49,9 +77,17 @@
 ###c_achaia
 476 = {		#Achaia
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
+
 3801 = {	#Vostitsa AKA Aigio
 	holding = city_holding
 }
@@ -71,14 +107,28 @@
 ###c_korinthos
 481 = {		#Korinthos
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3732 = {	#Nikli AKA Tegea
 	holding = city_holding
 }
 3798 = {	#Argos
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3799 = {	#Damala AKA Troezen
 	holding = church_holding
@@ -88,8 +138,15 @@
 ###c_messenia
 3733 = {	#Karytaina
 	culture = greek
-	religion = chalcedonian
+	religion = nicene
 	holding = castle_holding
+
+	250.1.1 = {
+		buildings = {
+			farm_estates_01
+			curtain_walls_01
+		}
+	}
 }
 3734 = {	#Arcadia
 	holding = city_holding
@@ -108,7 +165,7 @@
 ###c_laconia
 3736 = {	#Mistra
 	culture = greek
-	religion = hellenic_pagan
+	religion = nicene
 	holding = castle_holding
 }
 478 = {		#Monemvasia

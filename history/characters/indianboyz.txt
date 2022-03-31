@@ -1,0 +1,1332 @@
+
+2020124  = {
+	name = "Barnaby"
+	# Placeholder Pagan King
+	dna = mundzuk_portrait
+	dynasty = 7
+	religion = "pagan"
+	culture = "bengali"
+	368.1.1 = {
+		birth = 368.1.1
+	}
+	415.1.1 = {
+		death = 415.1.1
+	}
+}
+
+#Vakatakas
+900900  = {
+	name = "Vindhyashakti"
+	# Vindhyashakti Founder of house Vakataka
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	223.1.1 = {
+		birth = 223.1.1
+	}
+	270.1.1 = {
+		death = 270.1.1
+	}
+}
+900901  = {
+	name = "Pravasena"
+	# Pravasena I The sole emperor of the dynasty
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900900
+	251.1.1 = {
+		birth = 251.1.1
+	}
+	330.1.1 = {
+		death = 330.1.1
+	}
+}
+900902  = {
+	name = "Gautamiputra"
+	# Gautamiputra First Born, died before Pravasena
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900901
+	285.1.1 = {
+		birth = 285.1.1
+	}
+	327.1.1 = {
+		death = 327.1.1
+	}
+}
+900903  = {
+	name = "Rudrasena"
+	# Rudrasena I 
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900902
+	300.1.1 = {
+		birth = 300.1.1
+	}
+	355.1.1 = {
+		death = 355.1.1
+	}
+}
+900904  = {
+	name = "Prithivishena"
+	# Prithivishena I 
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900903
+	323.1.1 = {
+		birth = 323.1.1
+	}
+	380.1.1 = {
+		death = 380.1.1
+	}
+}
+900905  = {
+	name = "Rudrasena"
+	# Rudrasena II Ded
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900904
+	323.1.1 = {
+		birth = 323.1.1
+	}
+	382.1.1 = {
+		add_spouse = 900907
+	}
+	385.1.1 = {
+		death = 385.1.1
+	}
+}
+900906  = {
+	name = "Divakarasena"
+	# Divakarasena Ded
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900905
+	mother = 900907
+	384.1.1 = {
+		birth = 384.1.1
+	}
+	400.1.1 = {
+		death = 400.1.1
+	}
+}
+900908  = {
+	name = "Damodarasena"
+	# Damodarasena  I
+	dynasty = 900024
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900905
+	mother = 900907
+	385.1.1 = {
+		birth = 385.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+#Vakataka Vatsagulma
+
+900910  = {
+	name = "Sarvasena"
+	# Sarvasena Second Born, founder of house Vatsagulma
+	dynasty_house = house_Vatsagulma
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900901
+	299.1.1 = {
+		birth = 299.1.1
+	}
+	355.1.1 = {
+		death = 355.1.1
+	}
+}
+900911  = {
+	name = "Vindhyasena"
+	# Son of Sarvasena
+	dynasty_house = house_Vatsagulma
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900910
+	330.1.1 = {
+		birth = 330.1.1
+	}
+	400.1.1 = {
+		death = 400.1.1
+	}
+}
+900912  = {
+	name = "Pravarasena"
+	# Son of Vindhyasena
+	dynasty_house = house_Vatsagulma
+	religion = "vaishnavism"
+	culture = "marathi"
+	father = 900911
+	369.1.1 = {
+		birth = 369.1.1
+	}
+	415.1.1 = {
+		death = 415.1.1
+	}
+}
+
+#Fictional Placeholders
+900909  = {
+	name = "Mahindranarayan"
+	# Fictional Konkana
+	religion = "vaishnavism"
+	culture = "kannada"
+	365.1.1 = {
+		birth = 365.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+900913  = {
+	name = "Rajadinaj"
+	# Fictional Vakataka Vassal
+	religion = "vaishnavism"
+	culture = "marathi"
+	359.1.1 = {
+		birth = 365.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+900914  = {
+	name = "Krishnaroy"
+	# Fictional Vakataka Vassal
+	religion = "vaishnavism"
+	culture = "marathi"
+	370.1.1 = {
+		birth = 370.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+900915  = {
+	name = "Govindachandra"
+	# Fictional Vakataka Vassal
+	religion = "vaishnavism"
+	culture = "marathi"
+	359.1.1 = {
+		birth = 365.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+900916  = {
+	name = "Raghudev"
+	# Fictional Vakataka Vassal
+	religion = "vaishnavism"
+	culture = "marathi"
+	369.1.1 = {
+		birth = 369.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+900917  = {
+	name = "Upendranayaran"
+	# Fictional Vakataka Vassal
+	religion = "vaishnavism"
+	culture = "marathi"
+	349.1.1 = {
+		birth = 349.1.1
+	}
+	440.1.1 = {
+		death = 440.1.1
+	}
+}
+#SriLanka
+
+901000 = {
+	name = "Vasabha"
+	# Founder of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	48.1.1 = {
+		birth = yes
+	}
+	111.1.1 = {
+		death = yes
+	}
+}
+901001 = {
+	name = "Vankanasika"
+	# Vankanasika second King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901000 #Vasabha
+	65.1.1 = {
+		birth = yes
+	}
+	117.1.1 = {
+		death = yes
+	}
+}
+901002 = {
+	name = "Gajabahu"
+	# Third King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901001 # Vankanasika
+	83.1.1 = {
+		birth = yes
+	}
+	135.1.1 = {
+		death = yes
+	}
+}
+901003 = {
+	name = "Mahallaka"
+	# Fourth King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901002 #Gajabahu
+	104.1.1 = {
+		birth = yes
+	}
+	141.1.1 = {
+		death = yes
+	}
+}
+901004 = {
+	name = "Bhatika"
+	# Fifth King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901003 #Mahallaka
+	121.1.1 = {
+		birth = yes
+	}
+	165.1.1 = {
+		death = yes
+	}
+}
+901005 = {
+	name = "Kanittha"
+	# Sixth King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901004 #Bhatika
+	139.1.1 = {
+		birth = yes
+	}
+	193.1.1 = {
+		death = yes
+	}
+}
+901006 = {
+	name = "Cula"
+	# Seventh King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901005 #Kanittha
+	164.1.1 = {
+		birth = yes
+	}
+	195.1.1 = {
+		death = yes
+	}
+}
+901007 = {
+	name = "Kuda"
+	# Eigth King of the Lambakanna Dynasty and younger brother of Cula
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901005 #Kanittha
+	167.1.1 = {
+		birth = yes
+	}
+	196.1.1 = {
+		death = yes
+	}
+}
+901008 = {
+	name = "Siri"
+	# Ninth King of the Lambakanna Dynasty and son in law of Kanittha
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901005 #Kanittha
+	167.1.1 = {
+		birth = yes
+	}
+	215.1.1 = {
+		death = yes
+	}
+}
+901009 = {
+	name = "Voharika"
+	# Ninth King of the Lambakanna Dynasty
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901008 #Siri
+	188.1.1 = {
+		birth = yes
+	}
+	237.1.1 = {
+		death = yes
+	}
+}
+901010 = {
+	name = "Abhaya"
+	# Thenth King of the Lambakanna Dynasty, younger brother of Voharika
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901008 #Siri
+	196.1.1 = {
+		birth = yes
+	}
+	245.1.1 = {
+		death = yes
+	}
+}
+901011 = {
+	name = "Siri"
+	# Siri II,Eleventh King of the Lambakanna Dynasty, son of Voharika
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901009 #Voharika
+	213.1.1 = {
+		birth = yes
+	}
+	247.1.1 = {
+		death = yes
+	}
+}
+901012 = {
+	name = "Vijaya"
+	# Thirteenth King of the Lambakanna Dynasty, son of Siri II
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901011 #Siri
+	230.1.1 = {
+		birth = yes
+	}
+	248.1.1 = {
+		death = yes
+	}
+}
+901013 = {
+	name = "Sangha"
+	# Fourteenth King of the Lambakanna Dynasty,
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	201.1.1 = {
+		birth = yes
+	}
+	252.1.1 = {
+		death = yes
+	}
+}
+901014 = {
+	name = "Sanghabodi"
+	# Sixteenth King of the Lambakanna Dynasty,
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	210.1.1 = {
+		birth = yes
+	}
+	254.1.1 = {
+		death = yes
+	}
+}
+901015 = {
+	name = "Gothabhaya"
+	# Seventeenth King of the Lambakanna Dynasty,
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	202.1.1 = {
+		birth = yes
+	}
+	267.1.1 = {
+		death = yes
+	}
+}
+901016 = {
+	name = "Jettha"
+	# Eighteenth King of the Lambakanna Dynasty,son of Gothabhaya
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901015 #Gothabhaya
+	247.1.1 = {
+		birth = yes
+	}
+	277.1.1 = {
+		death = yes
+	}
+}
+901017 = {
+	name = "Mahasena"
+	# Nineteenth King of the Lambakanna Dynasty,son of Gothabhaya
+	dynasty = 1043001
+	religion = "mahayana"
+	culture = "sinhala"
+	father = 901015 #Gothabhaya
+	258.1.1 = {
+		birth = yes
+	}
+	304.1.1 = {
+		death = yes
+	}
+}
+901018 = {
+	name = "Sirimeghavanna"
+	# Twentieth King of the Lambakanna Dynasty,son of Mahasena
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901017 #Mahasena
+	289.1.1 = {
+		birth = yes
+	}
+	332.1.1 = {
+		death = yes
+	}
+}
+901019 = {
+	name = "Jetta"
+	# Twenty First King of the Lambakanna Dynasty,son of Sirimeghavanna
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901018 #Sirimeghavanna
+	305.1.1 = {
+		birth = yes
+	}
+	341.1.1 = {
+		death = yes
+	}
+}
+901020 = {
+	name = "Buddhadasa"
+	# Twenty Second King of the Lambakanna Dynasty,son of Jetta II
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901019 #Jetta II
+	327.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+901021 = {
+	name = "Upatissa"
+	# Twenty Third King of the Lambakanna Dynasty,son of Buddhadasa
+	dynasty = 1043001
+	religion = "theravada"
+	culture = "sinhala"
+	father = 901020 #Buddhadasa
+	358.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+	}
+}
+
+#Kalabhra
+
+901022 = {
+	name = "Karunandan"
+	# Fictional Kalabhra ruler
+	dynasty = 900026
+	religion = "svetambara"
+	culture = "tamil"
+	350.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+	}
+}
+901023 = {
+	name = "Thoma"
+	# Fictional Kalabhra vassal
+	dynasty = 900026
+	religion = "svetambara"
+	culture = "tamil"
+	father = 901022
+	367.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+	}
+}
+
+#Kadamba
+901024 = {
+	name = "Mayurasharma"
+	# Mayurasharma Founder of the Kadamba dynasty
+	dynasty = 900027
+	religion = "shaivism"
+	culture = "kannada"
+	312.1.1 = {
+		birth = yes
+	}
+	365.1.1 = {
+		death = yes
+	}
+}
+901025 = {
+	name = "Kangavarma"
+	# Kangavarma son of Mayurasharma
+	dynasty = 900027
+	religion = "shaivism"
+	culture = "kannada"
+	father = 901024
+	341.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+901026 = {
+	name = "Bhageerath"
+	# Bhageerath son of Kangavarma
+	dynasty = 900027
+	religion = "shaivism"
+	culture = "kannada"
+	father = 901025
+	371.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+901027 = {
+	name = "Hakka"
+	# Fictional vassal
+	religion = "shaivism"
+	culture = "kannada"
+	362.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+#Pallavas
+901028 = {
+	name = "Simhavarman"
+	# Founder of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	230.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+901029 = {
+	name = "Skandavarman"
+	# Son of Simhavarman of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901028
+	281.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+901030 = {
+	name = "Visnugopa"
+	# Son of Skandavarman of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901029
+	323.1.1 = {
+		birth = yes
+	}
+	355.1.1 = {
+		death = yes
+	}
+}
+901031 = {
+	name = "Kumaravishnu"
+	# Son of Skandavarman of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901029
+	325.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+901032 = {
+	name = "Skandavarman"
+	# Son of Kumaravishnu of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901031
+	343.1.1 = {
+		birth = yes
+	}
+	385.1.1 = {
+		death = yes
+	}
+}
+901033 = {
+	name = "Viravarman"
+	# Son of Skandavarman of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901032
+	364.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901034 = {
+	name = "Skandavarman"
+	# Son of Viravarman of the Pallavas
+	dynasty = 1043007
+	religion = "shaivism"
+	culture = "tamil"
+	father = 901033
+	383.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+#Avamukta
+901035 = {
+	name = "Nilaraja"
+	# Nilaraja Avamukta
+	dynasty = 900029
+	religion = "shaivism"
+	culture = "tamil"
+	373.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Pithikapuram
+901036 = {
+	name = "Mahendra"
+	# Mahendra Pithikapuram
+	dynasty = 900028
+	religion = "shaivism"
+	culture = "tamil"
+	368.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Devarashtra
+901037 = {
+	name = "Kubera"
+	# Kubera Devarashtra
+	dynasty = 900030
+	religion = "shaivism"
+	culture = "oriya"
+	354.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Erandapalla
+901038 = {
+	name = "Damana"
+	# Damana Erandapalla
+	dynasty = 900031
+	religion = "shaivism"
+	culture = "oriya"
+	364.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Kottura
+901039 = {
+	name = "Svamidatta"
+	# Svamidatta Kottura
+	dynasty = 900032
+	religion = "shaivism"
+	culture = "oriya"
+	372.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Shalnkyana
+901040 = {
+	name = "Hastivarman"
+	# Founder of Shalnkyana
+	dynasty = 900033
+	religion = "shaivism"
+	culture = "oriya"
+	356.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Payala
+901041 = {
+	name = "Anavema"
+	# Fictional Payala
+	dynasty = 900034
+	religion = "shaivism"
+	culture = "telugu"
+	362.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+#Trikutaka
+901042 = {
+	name = "Indradatta"
+	# Fictional Payala
+	dynasty = 900035
+	religion = "shaivism"
+	culture = "marathi"
+	369.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901043 = {
+	name = "Dahrasena"
+	# Fictional Payala
+	dynasty = 900035
+	religion = "shaivism"
+	culture = "marathi"
+	father = 901042
+	392.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901044 = {
+	name = "Mahendra" # Mahendra of Kosala
+	dynasty = 900038 #Kosala
+	religion = "vaishnavism"
+	culture = "hindustani"
+	357.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901045 = {
+	name = "Skandavarman"
+	# Fictional
+	religion = "vaishnavism"
+	culture = "hindustani"
+	365.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901046 = {
+	name = "Vyaghra" # Vyaghra of Mahakantara
+	dynasty = 900039 #Mahakantara
+	religion = "vaishnavism"
+	culture = "oriya"
+	361.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901047 = {
+	name = "Achyuta" # Achyuta of Ahichchhatra
+	dynasty = 900040
+	religion = "vaishnavism"
+	culture = "hindustani"
+	337.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+901048 = {
+	name = "Mahakala"
+	# Fictinal
+	religion = "vaishnavism"
+	culture = "hindustani"
+	father = 901047
+	353.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+901062 = {
+	name = "Nagasena" #Nagasena of Malwa
+	dynasty = 1044330
+	religion = "vaishnavism"
+	culture = "hindustani"
+	351.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+901063 = {
+	name = "Balavarman"
+	dynasty = 900037
+	religion = "vaishnavism"
+	culture = "hindustani"
+	352.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+901066 = {
+	name = "Somaditya" #Fictional vassal
+	religion = "vaishnavism"
+	culture = "hindustani"
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901067 = {
+	name = "Jatavarman" #Fictional king of Samatata
+	dynasty = 1044006
+	religion = "mahayana"
+	culture = "bengali"
+	347.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901068 = {
+	name = "Vilasdevi" #Fictional Vassal of Samatata
+	religion = "mahayana"
+	culture = "bengali"
+	356.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901069 = {
+	name = "Vasuraja" #Vasurāja
+	dynasty = 105817 #Licchavi
+	religion = "shaivism"
+	culture = "nepali"
+	351.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901070 = {
+	name = "Pasna" #Fictional Davaka king
+	dynasty = 900041 #Davaka
+	religion = "vaishnavism"
+	culture = "assamese"
+	367.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901071 = {
+	name = "Vrsadeva" #Son of Vasurāja
+	dynasty = 105817 #Licchavi
+	religion = "shaivism"
+	culture = "nepali"
+	father = 901069
+	372.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901072 = {
+	name = "Ashok" #Ruler of the Karttripura Kingdom
+	dynasty = 900042 #Karttripura
+	religion = "vaishnavism"
+	culture = "assamese"
+	326.1.1 = {
+		birth = yes
+	}
+	398.1.1 = {
+		death = yes
+	}
+}
+901073 = {
+	name = "Mallapa" #Fictional placeholder
+	religion = "vaishnavism"
+	culture = "assamese"
+	378.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901074 = {
+	name = "Rangraja" #Fictional Malwa ruler
+	dynasty = 1042078
+	religion = "vaishnavism"
+	culture = "punjabi"
+	365.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901075 = {
+	name = "Sulakshanpal" #Fictional Arjunayana ruler
+	dynasty = 900043
+	religion = "vaishnavism"
+	culture = "hindustani"
+	371.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901077 = {
+	name = "Achalraja" #Fictional Madrakas ruler
+	dynasty = 900045 #Madrakas
+	religion = "vaishnavism"
+	culture = "punjabi"
+	359.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901078 = {
+	name = "Tolpal" #Fictional Abhira ruler
+	dynasty = 1042075 #Abhira
+	religion = "vaishnavism"
+	culture = "rajput"
+	365.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901079 = {
+	name = "Govinda" #Fictional Prarjuna ruler
+	dynasty = 900046 #Prarjuna
+	religion = "vaishnavism"
+	culture = "rajput"
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901080 = {
+	name = "Govinda" #Fictional Sanakanika ruler
+	dynasty = 900047 #Sanakanika
+	religion = "vaishnavism"
+	culture = "rajput"
+	372.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901081 = {
+	name = "Bala" #Fictional Nepali
+	religion = "shaivism"
+	culture = "nepali"
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901082 = {
+	name = "Harsha" #Fictional Nepali
+	religion = "shaivism"
+	culture = "nepali"
+	358.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901083 = {
+	name = "Pusya" #Fictional Nepali
+	religion = "shaivism"
+	culture = "nepali"
+	358.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901084 = {
+	name = "Vigraharaja" #Fictional Kaka
+	dynasty = 900049 #Kaka
+	religion = "shaivism"
+	culture = "punjabi"
+	359.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901085 = {
+	name = "Vigraharaja" #Fictional Kharaparika
+	dynasty = 900050 #Kharaparika
+	religion = "shaivism"
+	culture = "punjabi"
+	364.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901086 = {
+	name = "Hariraja" #Fictional Marunda
+	dynasty = 900051 #Marunda
+	religion = "shaivism"
+	culture = "punjabi"
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901087 = {
+	name = "Narpal" #Fictional Bulandshahr
+	dynasty = 900052 #Bulandshahr
+	religion = "shaivism"
+	culture = "punjabi"
+	359.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901088 = {
+	name = "Kshemraja" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	367.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901089 = {
+	name = "Sultanpala" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	361.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901090 = {
+	name = "Baliraja" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	363.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901091 = {
+	name = "Kunwar" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	354.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901092 = {
+	name = "Uddharandeva" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	363.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901093 = {
+	name = "Anavema" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+901094 = {
+	name = "Govinda" #Fictional Gupta Administrator
+	religion = "shaivism"
+	culture = "bengali"
+	351.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+9090901 = {
+	name = "Thurein" #Fictional Burmese tribe
+	religion = "theravada"
+	culture = "burmese"
+	369.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+9090902 = {
+	name = "Minkhaung" #Fictional Burmese tribe
+	religion = "ari"
+	culture = "burmese"
+	373.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+9090903 = {
+	name = "Narapati" #Fictional Burmese tribe
+	religion = "ari"
+	culture = "burmese"
+	354.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+9090904 = {
+	name = "Htin" #Fictional Burmese tribe
+	religion = "ari"
+	culture = "burmese"
+	359.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+9090905 = {
+	name = "Attatha" #Fictional Burmese tribe
+	religion = "theravada"
+	culture = "mon"
+	359.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,489 @@
+986000 = {
+	name = "Khosrow" # Koshrowid
+	dynasty = 99860000
+	religion = "mazdayasna"
+	culture = "parthian"
+	245.1.1 = {
+		birth = yes
+	}
+	301.1.1 = {
+		death = yes
+	}
+}
+986001 = {
+	name = "Mirian" # Koshrowid
+	dynasty = 99860000
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986000
+	277.1.1 = {
+		birth = yes
+	}
+	295.11.1 = {
+		add_spouse = 987026
+	}
+	305.11.1 = {
+		add_spouse = 999225
+	}
+	320.1.1 = {
+		religion = "chalcedonian"
+	}
+	361.1.1 = {
+		death = yes
+	}
+}
+986002 = {
+	name = "Rev" # Koshrowid
+	dynasty = 99860000
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986001
+	mother = 999225
+	306.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		religion = "chalcedonian"
+	}
+	325.1.1 = {
+		add_spouse = 987042
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+986003 = {
+	name = "Varaz-Bakur" # Koshrowid
+	dynasty = 99860000
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986001
+	mother = 999225
+	307.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		religion = "chalcedonian"
+	}
+	362.1.1 = {
+		religion = "mazdayasna"
+	}
+	365.1.1 = {
+		death = yes
+	}
+}
+986004 = {
+	name = "Saurmag" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986002
+	mother = 987042
+	324.1.1 = {
+		birth = yes
+	}
+	378.1.1 = {
+		death = yes
+	}
+}
+986005 = {
+	name = "Mihrdat" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986003
+	327.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+986006 = {
+	name = "Varaz-Bakur" # Koshrowid, died in the battle of Frigidus
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986005
+	344.1.1 = {
+		birth = yes
+	}
+	366.1.1 = {
+		add_spouse = 986008
+	}
+	394.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+986007 = {
+	name = "Trdat" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986002
+	mother = 987042
+	335.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		death = yes
+	}
+}
+986008 = {
+	name = "Ghadana" # Koshrowid
+	female = yes
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986007
+	352.1.1 = {
+		birth = yes
+	}
+	408.1.1 = {
+		death = yes
+	}
+}
+986009 = {
+	name = "Parsman" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986006
+	mother = 986008
+	370.1.1 = {
+		birth = yes
+	}
+	409.1.1 = {
+		death = yes
+	}
+}
+986010 = {
+	name = "Mihrdat" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986006
+	mother = 986008
+	371.1.1 = {
+		birth = yes
+	}
+	394.1.1 = {
+		death = yes
+	}
+}
+986011 = {
+	name = "Osdukhtia" # Koshrowid
+	female = yes
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986006
+	mother = 986008
+	375.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+986012 = {
+	name = "Archil" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986010
+	390.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+986013 = {
+	name = "Mihrdat" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986012
+	405.1.1 = {
+		birth = yes
+	}
+	447.1.1 = {
+		death = yes
+	}
+}
+986014 = {
+	name = "Vakhtang" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986013
+	443.1.1 = {
+		birth = yes
+	}
+	522.1.1 = {
+		death = yes
+	}
+}
+986015 = {
+	name = "Dachi" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986014
+	473.1.1 = {
+		birth = yes
+	}
+	534.1.1 = {
+		death = yes
+	}
+}
+986016 = {
+	name = "Bakur" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986015
+	495.1.1 = {
+		birth = yes
+	}
+	547.1.1 = {
+		death = yes
+	}
+}
+986017 = {
+	name = "Parsman" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986016
+	513.1.1 = {
+		birth = yes
+	}
+	461.1.1 = {
+		death = yes
+	}
+}
+986018 = {
+	name = "Murvan" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986016
+	514.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+986019 = {
+	name = "Parsman" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986018
+	530.1.1 = {
+		birth = yes
+	}
+	571.1.1 = {
+		death = yes
+	}
+}
+986020 = {
+	name = "Bakur" # Koshrowid
+	dynasty = 99860000
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986019
+	545.1.1 = {
+		birth = yes
+	}
+	595.1.1 = {
+		death = yes
+	}
+}
+986021 = {
+	name = "Buzmar" # Buzmarid
+	dynasty = 99860001
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	374.1.1 = {
+		birth = yes
+	}
+	394.1.1 = {
+		add_spouse = 986011
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+986022 = {
+	name = "Buzmar" # Buzmarid
+	dynasty = 99860001
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986021
+	mother = 986011
+	396.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+986023 = {
+	name = "Murvan" # Buzmarid
+	dynasty = 99860001
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986022
+	417.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		name = "Petrus"
+	}
+	455.1.1 = {
+		religion = "hellenic_pagan"
+	}
+	491.1.1 = {
+		death = yes
+	}
+}
+986024 = {
+	name = "Gubaz" # Gubazid
+	dynasty = 99860002
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	370.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+986025 = {
+	name = "Pakur" # Gubazid
+	dynasty = 99860002
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986024
+	395.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+986026 = {
+	name = "Gubaz" # Gubazid
+	dynasty = 99860002
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986025
+	415.1.1 = {
+		birth = yes
+	}
+	468.1.1 = {
+		death = yes
+	}
+}
+986027 = {
+	name = "Damnaz" # Gubazid
+	dynasty = 99860002
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986026
+	454.1.1 = {
+		birth = yes
+	}
+	522.1.1 = {
+		death = yes
+	}
+}
+986028 = {
+	name = "Tzath" # Gubazid
+	dynasty = 99860002
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	father = 986027
+	480.1.1 = {
+		birth = yes
+	}
+	522.1.1 = {
+		religion = "chalcedonian"
+		add_spouse = 986029
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+986029 = {
+	name = "Valeriana"
+	religion = "chalcedonian"
+	culture = "roman"
+	father = 986027
+	492.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+986030 = {
+	name = "Gubaz" # Gubazid
+	dynasty = 99860002
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986028
+	mother = 986029
+	523.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+986031 = {
+	name = "Tzath" # Gubazid
+	dynasty = 99860002
+	religion = "chalcedonian"
+	culture = "kartvelian"
+	father = 986028
+	mother = 986029
+	530.1.1 = {
+		birth = yes
+	}
+	585.1.1 = {
+		death = yes
+	}
+}
+
+kartvelian_01 = {
+	name = "Tzath" # Gubazid
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	334.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+kartvelian_02 = {
+	name = "Artashes" # Gubazid
+	religion = "mazdayasna"
+	culture = "kartvelian"
+	433.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+
+
+

@@ -1,0 +1,168 @@
+﻿alan = {
+	color = { 0.6 0.0 0.3 }
+	
+	ethos = ethos_communal
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_mountaineers
+		tradition_steppe_tolerance
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+			8 = asian
+			5 = mediterranean
+	}
+}
+thyssagataen = {
+	color = { 248 138 71 }
+	
+	ethos = ethos_communal
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		# Cybr: Quick search reveals literally nothing about these guys
+		tradition_horse_lords
+		tradition_mountaineers
+		tradition_steppe_tolerance
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+			8 = asian
+			5 = mediterranean
+	}
+}
+ciscaucasian = {
+	color = { 1.0 0.08 0.30 }
+	
+	ethos = ethos_communal
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_mountaineers
+		tradition_mountain_homes # Cybr: Since they live in mountainous regions... I guess?
+		#tradition_steppe_tolerance
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+			8 = asian
+			5 = mediterranean
+	}
+}
+roxolan = {
+	color = { 0.88 0.0 0.55 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_mountaineers
+		tradition_steppe_tolerance
+		tradition_warrior_culture # Cybr: Eh, something to set them apart from the Alans
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+			8 = asian
+			5 = mediterranean
+	}
+}
+yazige = {
+	color = { 0.88 0.0 0.33 }
+	
+	ethos = ethos_communal
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_pastoralists # Cybr: Cattle grazing between the towns they settled in
+		tradition_steppe_tolerance
+	}
+
+	dlc_tradition = { # Cybr: Lived near Romans for a long time
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+			8 = asian
+			5 = mediterranean
+	}
+}
+taifal = {
+	color = { 0.7 0.0 0.33 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_sarmatian
+	language = language_vandalic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_warrior_culture # Cybr: Taking stuff I see in Germanic culture to emphasize their blend
+		tradition_tribe_unity # Cybr: Taking stuff I see in Germanic culture to emphasize their blend
+	}
+
+	dlc_tradition = { # Cybr: Living in different parts of the Roman Empire?
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		25 = asian
+		25 = mediterranean
+		25 = caucasian_northern_dark_hair
+		25 = caucasian_northern_brown_hair
+	}
+}
